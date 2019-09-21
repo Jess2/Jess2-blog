@@ -79,4 +79,9 @@ body.dark {
       color: $navigator-text-color;
     }
   }
+  
+  :not(pre) > code[class*='language-'] {
+    background: $dark-inline-dimmed-color;
+    color: $dark-inline-text-color;
+  }
 }
