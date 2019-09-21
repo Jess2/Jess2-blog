@@ -1,0 +1,3794 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/jess2/study/Jess2.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/jess2/study/Jess2.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2470704e832b45ddc5de820d2c45d499",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "42118bf7a826560891d7c35a5d9ee34c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a52f105a1d25209bd6af7aff7f11ab94",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a455eeec84890ef79eb19b88213b4458",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3ad0aa53db300bd144501a3b6ebd45a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e795112bf37f1912d24af0883cc550da",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f912d80beab7a567364f39692042f7cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "066f8295-9b2a-5d5c-a319-3fdc3a03f332": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "id": "066f8295-9b2a-5d5c-a319-3fdc3a03f332",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/Jess2.io/content/blog",
+        "name": "blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0a2eb0562b95fd8a01ee3ca650e0f5a8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4f87a0f0-90ce-5d69-a5ed-c54f4f436133": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "id": "4f87a0f0-90ce-5d69-a5ed-c54f4f436133",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/Jess2.io/content/__about",
+        "name": "about"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "453a7df94f4e207ee8d3bb3f7a515516",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ba4366c6-ae00-5ca6-af68-a411d0d917ab": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "id": "ba4366c6-ae00-5ca6-af68-a411d0d917ab",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/Jess2.io/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "60a957c99d9121fdd838ff42781bac88",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7c9a07a4-ba0a-59d7-8e71-d2cc624461f0": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-transformer-remark",
+      "id": "7c9a07a4-ba0a-59d7-8e71-d2cc624461f0",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images",
+            "id": "6d72660d-d259-5ce7-8f5d-60a6bbc00710",
+            "name": "gatsby-remark-images",
+            "version": "3.0.10",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false,
+              "tracedSVG": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images-medium-zoom",
+            "id": "00766cce-5d2c-53cd-bcc0-287866d4b798",
+            "name": "gatsby-remark-images-medium-zoom",
+            "version": "1.2.1",
+            "pluginOptions": {
+              "plugins": [],
+              "margin": 36,
+              "scrollOffset": 0
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images-medium-zoom"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.1.1",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-prismjs",
+            "id": "340074bd-609b-5299-8d1d-d9eb4b78ba7a",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.6",
+            "pluginOptions": {
+              "plugins": [],
+              "inlineCodeMarker": "%"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.11",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-smartypants"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-autolink-headers",
+            "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
+            "name": "gatsby-remark-autolink-headers",
+            "version": "2.0.16",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onInitialClientRender",
+              "shouldUpdateScroll"
+            ],
+            "ssrAPIs": [
+              "onRenderBody"
+            ],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-autolink-headers"
+          },
+          {
+            "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-emoji",
+            "id": "ba2276fa-55a5-5588-8e63-60d28f74dce4",
+            "name": "gatsby-remark-emoji",
+            "version": "0.0.2",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-emoji"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "082c968dfdaa596207cbb902f76272df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6d72660d-d259-5ce7-8f5d-60a6bbc00710": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images",
+      "id": "6d72660d-d259-5ce7-8f5d-60a6bbc00710",
+      "name": "gatsby-remark-images",
+      "version": "3.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "linkImagesToOriginal": false,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false,
+        "tracedSVG": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "query-string",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "df7feec7f425dcc0f7157ee89119441e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "00766cce-5d2c-53cd-bcc0-287866d4b798": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images-medium-zoom",
+      "id": "00766cce-5d2c-53cd-bcc0-287866d4b798",
+      "name": "gatsby-remark-images-medium-zoom",
+      "version": "1.2.1",
+      "pluginOptions": {
+        "plugins": [],
+        "margin": 36,
+        "scrollOffset": 0
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-images-medium-zoom",
+      "packageJson": {
+        "name": "gatsby-remark-images-medium-zoom",
+        "description": "medium-zoom plugin for gatsby",
+        "version": "1.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "remark",
+          "medium-zoom"
+        ],
+        "author": {
+          "name": "JaeYeopHan",
+          "url": "Jbee"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "medium-zoom",
+            "version": "^1.0.4"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ad5770205c069e0324f45aa7c6b3393e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d8a404ae76799ddbce2ff7d65ecbc559",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "340074bd-609b-5299-8d1d-d9eb4b78ba7a": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-prismjs",
+      "id": "340074bd-609b-5299-8d1d-d9eb4b78ba7a",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.6",
+      "pluginOptions": {
+        "plugins": [],
+        "inlineCodeMarker": "%"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "39c0aa3b425adee2ed0e033a1c1319ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "690b959a4727a1658618d4e24b745fde",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "84ac7f25f899865635ff1e988dae18f1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "df380aaa-460e-51a2-8830-e6712dc1f436": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-autolink-headers",
+      "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
+      "name": "gatsby-remark-autolink-headers",
+      "version": "2.0.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onInitialClientRender",
+        "shouldUpdateScroll"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-autolink-headers",
+      "packageJson": {
+        "name": "gatsby-remark-autolink-headers",
+        "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
+        "version": "2.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "github-slugger",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.11"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9ecbcefab96f96bdcc82e9c51497fe44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ba2276fa-55a5-5588-8e63-60d28f74dce4": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-emoji",
+      "id": "ba2276fa-55a5-5588-8e63-60d28f74dce4",
+      "name": "gatsby-remark-emoji",
+      "version": "0.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-remark-emoji",
+      "packageJson": {
+        "name": "gatsby-remark-emoji",
+        "description": "Add slack-style emoji to gatsby's markdown :thumbs_up:.",
+        "version": "0.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "emoji",
+          "markdown"
+        ],
+        "author": {
+          "name": "Rustem Mustafin",
+          "email": "mustafin.rustem@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "emojione",
+            "version": "^3.1.2"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "823837bceedc7bc4b5bda7251a0b82d3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "40ce8422-5643-56a1-bd08-9f8fcb6023d4": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-google-analytics",
+      "id": "40ce8422-5643-56a1-bd08-9f8fcb6023d4",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fe19ee2755f1f0c5cb7c6809fc3b0a15",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9d2e33ed-3e4d-5ee8-b570-2bd64a655253": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-manifest",
+      "id": "9d2e33ed-3e4d-5ee8-b570-2bd64a655253",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.24",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Jess2.io",
+        "short_name": "Jess2.io",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#FFD500",
+        "display": "minimal-ui",
+        "icon": "content/assets/jessieImg.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8713a34798d950120d860c4126a75a6a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody",
+        "onPreRenderHTML"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5c0aa64ae2acfa084e22e68cbef3ee3a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3b628de8094f7fa3c1d7accf94136f38",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.30",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.30",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "690485fa202f720033ca32928ee5065f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.1.0",
+      "pluginOptions": {},
+      "nodeAPIs": [
+        "onPreBootstrap",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.1.0",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "402e668b117f5f43e88ebaaa5680e224",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1c1a15f7c1955c655509c27484a0c025",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "928eaa09791cab1059462ee6289da3d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4e954b03bed8a76381f658b2423e3ced",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-lodash",
+      "id": "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2",
+      "name": "gatsby-plugin-lodash",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-lodash",
+      "packageJson": {
+        "name": "gatsby-plugin-lodash",
+        "description": "Easy modular Lodash builds. Adds the Lodash webpack & Babel plugins to your Gatsby build",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-lodash",
+            "version": "^3.2.11"
+          },
+          {
+            "name": "lodash-webpack-plugin",
+            "version": "^0.11.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ce87c324798f4d5531af718be128f5fe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "356419503437215c979abe67db4767d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/jess2/study/Jess2.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e995f68ee5d0e8a1effdae2c340187be",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io",
+      "packageJson": {
+        "name": "gatsby-starter-bee",
+        "description": "Gatsby blog starter template",
+        "version": "0.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Jess2[SoyeonJung]<jess2.jsy@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.2.8"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.34"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-lodash",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.10"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.30"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.10"
+          },
+          {
+            "name": "gatsby-remark-autolink-headers",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-remark-emoji",
+            "version": "0.0.2"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.10"
+          },
+          {
+            "name": "gatsby-remark-images-medium-zoom",
+            "version": "^1.2.1"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.6"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "intersection-observer",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.11"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.1"
+          },
+          {
+            "name": "react-disqus-comments",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-switch",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "smooth-scroll",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "typeface-catamaran",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.72"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-noto-sans-kr",
+            "version": "0.0.63"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-github",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "date-fns",
+            "version": "^1.30.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.14.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.1"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "inquirer",
+            "version": "^6.2.2"
+          },
+          {
+            "name": "lighthousebot",
+            "version": "git+https://github.com/GoogleChromeLabs/lighthousebot.git"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          },
+          {
+            "name": "recursive-readdir",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "signale",
+            "version": "^1.3.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fcdc17688e19e27b2f6a37287356f1d2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "711afaed-abd0-537e-82db-d75de2e850f7": {
+      "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-page-creator",
+      "id": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/Jess2.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ae62fbba8f2f6db2b7fd71d919ea8e85",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Jess2.io",
+        "description": "Blog posted about ...",
+        "author": "Jess2",
+        "introduction": "[Frontend Developer] ",
+        "siteUrl": "https://jess2.io",
+        "social": {
+          "twitter": "",
+          "github": "jess2",
+          "facebook": "jesssss2",
+          "medium": ""
+        },
+        "icon": "content/assets/jessieImg.png",
+        "keywords": [
+          "blog"
+        ],
+        "comment": {
+          "disqusShortName": "",
+          "utterances": ""
+        },
+        "configs": {
+          "countOfInitialPost": 10
+        },
+        "sponsor": {
+          "buyMeACoffeeId": "Jess2"
+        },
+        "share": {
+          "facebookAppId": ""
+        },
+        "ga": ""
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-09-21T03:56:42.492Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c9f3a38371d8fa9c7392e20aa9fd3821",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "aa99711f-1647-51c0-97d8-a5d4fcb40c3e": {
+      "id": "aa99711f-1647-51c0-97d8-a5d4fcb40c3e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6cb40920caf45ec6a8c9b8c4f3ee3568",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2019-09-07T04:26:01.158Z",
+      "accessTime": "2019-09-21T03:56:48.619Z",
+      "changeTime": "2019-09-21T03:28:26.648Z",
+      "birthTime": "2019-09-07T02:56:09.622Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265981,
+      "blocks": 0,
+      "atimeMs": 1569038208618.8015,
+      "mtimeMs": 1567830361158.4395,
+      "ctimeMs": 1569036506647.6013,
+      "birthtimeMs": 1567824969621.551,
+      "atime": "2019-09-21T03:56:48.619Z",
+      "mtime": "2019-09-07T04:26:01.158Z",
+      "ctime": "2019-09-21T03:28:26.648Z",
+      "birthtime": "2019-09-07T02:56:09.622Z"
+    },
+    "68f0a62d-421b-5414-9e72-a953af95caf7": {
+      "id": "68f0a62d-421b-5414-9e72-a953af95caf7",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "61816f89a165e78dd8c4a79237954323",
+        "type": "Directory",
+        "description": "Directory \"content/blog/JavaScript\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
+      "relativePath": "JavaScript",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-09-21T03:52:37.638Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:52:37.638Z",
+      "birthTime": "2019-09-07T03:12:05.813Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "JavaScript",
+      "ext": "",
+      "name": "JavaScript",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265997,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1216,
+      "mtimeMs": 1569037957638.0166,
+      "ctimeMs": 1569037957638.0166,
+      "birthtimeMs": 1567825925813.1514,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-21T03:52:37.638Z",
+      "ctime": "2019-09-21T03:52:37.638Z",
+      "birthtime": "2019-09-07T03:12:05.813Z"
+    },
+    "7c998aca-0e17-5c6b-ae7e-7f1b5e303307": {
+      "id": "7c998aca-0e17-5c6b-ae7e-7f1b5e303307",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "13af2ce516edc7334e93f1b3c25d5bbc",
+        "type": "Directory",
+        "description": "Directory \"content/blog/Web\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/Web",
+      "relativePath": "Web",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-09-21T03:52:43.375Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:52:43.375Z",
+      "birthTime": "2019-09-07T04:24:23.400Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "Web",
+      "ext": "",
+      "name": "Web",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265990,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1067,
+      "mtimeMs": 1569037963375.0093,
+      "ctimeMs": 1569037963375.0093,
+      "birthtimeMs": 1567830263399.8022,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-21T03:52:43.375Z",
+      "ctime": "2019-09-21T03:52:43.375Z",
+      "birthtime": "2019-09-07T04:24:23.400Z"
+    },
+    "1ad5652a-7318-5bbb-b7f7-defbc2794e3a": {
+      "id": "1ad5652a-7318-5bbb-b7f7-defbc2794e3a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5750e2d918acc181c0a10469145ceba0",
+        "type": "Directory",
+        "description": "Directory \"content/blog/Vue\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/Vue",
+      "relativePath": "Vue",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-09-07T03:12:13.002Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:28:26.645Z",
+      "birthTime": "2019-09-07T03:12:13.002Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "Vue",
+      "ext": "",
+      "name": "Vue",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265992,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1824,
+      "mtimeMs": 1567825933001.736,
+      "ctimeMs": 1569036506644.6523,
+      "birthtimeMs": 1567825933001.736,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-07T03:12:13.002Z",
+      "ctime": "2019-09-21T03:28:26.645Z",
+      "birthtime": "2019-09-07T03:12:13.002Z"
+    },
+    "be2cecda-47e3-5882-bc7b-96249236b82d": {
+      "id": "be2cecda-47e3-5882-bc7b-96249236b82d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "92b26360f32a849464b4c935b2ea2114",
+        "type": "Directory",
+        "description": "Directory \"content/blog/WebGL\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/WebGL",
+      "relativePath": "WebGL",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-09-07T04:26:01.954Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:28:26.645Z",
+      "birthTime": "2019-09-07T04:26:01.158Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "WebGL",
+      "ext": "",
+      "name": "WebGL",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265993,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1387,
+      "mtimeMs": 1567830361954.015,
+      "ctimeMs": 1569036506645.4282,
+      "birthtimeMs": 1567830361158.413,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-07T04:26:01.954Z",
+      "ctime": "2019-09-21T03:28:26.645Z",
+      "birthtime": "2019-09-07T04:26:01.158Z"
+    },
+    "e07d52db-8c6f-54d5-b138-cda14534ef6c": {
+      "id": "e07d52db-8c6f-54d5-b138-cda14534ef6c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f2307d999e630e45d75472aca5df3ae3",
+        "type": "Directory",
+        "description": "Directory \"content/blog/development\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/development",
+      "relativePath": "development",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-09-21T03:54:57.206Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:54:57.206Z",
+      "birthTime": "2019-09-07T02:56:09.622Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "development",
+      "ext": "",
+      "name": "development",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265982,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1858,
+      "mtimeMs": 1569038097205.5566,
+      "ctimeMs": 1569038097205.5566,
+      "birthtimeMs": 1567824969621.613,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-21T03:54:57.206Z",
+      "ctime": "2019-09-21T03:54:57.206Z",
+      "birthtime": "2019-09-07T02:56:09.622Z"
+    },
+    "c2fba15c-35ef-5601-91cd-d75f8d20e7e2": {
+      "id": "c2fba15c-35ef-5601-91cd-d75f8d20e7e2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f156733dca9f1f8bfb4dcd12599add31",
+        "type": "Directory",
+        "description": "Directory \"content/blog/etc.\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc.",
+      "relativePath": "etc.",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-09-21T03:52:30.380Z",
+      "accessTime": "2019-09-21T03:56:48.621Z",
+      "changeTime": "2019-09-21T03:52:30.380Z",
+      "birthTime": "2019-09-07T04:25:14.296Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog",
+      "base": "etc.",
+      "ext": ".",
+      "name": "etc",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265995,
+      "blocks": 0,
+      "atimeMs": 1569038208621.1562,
+      "mtimeMs": 1569037950379.6396,
+      "ctimeMs": 1569037950379.6396,
+      "birthtimeMs": 1567830314295.9324,
+      "atime": "2019-09-21T03:56:48.621Z",
+      "mtime": "2019-09-21T03:52:30.380Z",
+      "ctime": "2019-09-21T03:52:30.380Z",
+      "birthtime": "2019-09-07T04:25:14.296Z"
+    },
+    "82ed101e-0a78-5c77-8022-7e2c5dc80cf3": {
+      "id": "82ed101e-0a78-5c77-8022-7e2c5dc80cf3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bc20a74c70ce209cdd526ef6e41f2090",
+        "type": "Directory",
+        "description": "Directory \"content/blog/development/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/development/images",
+      "relativePath": "development/images",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-09-21T03:54:44.297Z",
+      "accessTime": "2019-09-21T03:56:48.622Z",
+      "changeTime": "2019-09-21T03:54:44.297Z",
+      "birthTime": "2019-09-07T02:56:09.622Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/development",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "development",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265983,
+      "blocks": 0,
+      "atimeMs": 1569038208621.9531,
+      "mtimeMs": 1569038084297.1096,
+      "ctimeMs": 1569038084297.1096,
+      "birthtimeMs": 1567824969621.9385,
+      "atime": "2019-09-21T03:56:48.622Z",
+      "mtime": "2019-09-21T03:54:44.297Z",
+      "ctime": "2019-09-21T03:54:44.297Z",
+      "birthtime": "2019-09-07T02:56:09.622Z"
+    },
+    "745f5526-8847-5163-9aff-0fac1b66a15c": {
+      "id": "745f5526-8847-5163-9aff-0fac1b66a15c",
+      "children": [
+        "ce54f7ed-9bb4-5180-ad80-1b00ef1dba4b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d0ba1bee33791eaed42dd75bb2e1468b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/WebGL/new-post-title.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/WebGL/new-post-title.md",
+      "relativePath": "WebGL/new-post-title.md",
+      "extension": "md",
+      "size": 73,
+      "prettySize": "73 B",
+      "modifiedTime": "2019-09-07T04:26:01.955Z",
+      "accessTime": "2019-09-21T03:53:45.080Z",
+      "changeTime": "2019-09-21T03:28:26.645Z",
+      "birthTime": "2019-09-07T04:26:01.954Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/WebGL",
+      "base": "new-post-title.md",
+      "ext": ".md",
+      "name": "new-post-title",
+      "relativeDirectory": "WebGL",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265994,
+      "blocks": 8,
+      "atimeMs": 1569038025080.4258,
+      "mtimeMs": 1567830361954.859,
+      "ctimeMs": 1569036506645.342,
+      "birthtimeMs": 1567830361954.001,
+      "atime": "2019-09-21T03:53:45.080Z",
+      "mtime": "2019-09-07T04:26:01.955Z",
+      "ctime": "2019-09-21T03:28:26.645Z",
+      "birthtime": "2019-09-07T04:26:01.954Z"
+    },
+    "ce54f7ed-9bb4-5180-ad80-1b00ef1dba4b": {
+      "id": "ce54f7ed-9bb4-5180-ad80-1b00ef1dba4b",
+      "children": [],
+      "parent": "745f5526-8847-5163-9aff-0fac1b66a15c",
+      "internal": {
+        "content": "\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e50c2c00f5175d24ac9a22024e5b8946",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "New post title",
+        "date": "2019-09-07T13:09:16.000Z",
+        "category": "WebGL"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/WebGL/new-post-title.md",
+      "fields": {
+        "slug": "/WebGL/new-post-title/"
+      }
+    },
+    "6742b73e-875b-54aa-9d41-80781a3d7b9b": {
+      "id": "6742b73e-875b-54aa-9d41-80781a3d7b9b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1162405502d78b623cd8ec897a012998",
+        "type": "Directory",
+        "description": "Directory \"content/__about\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "about",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/__about",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-09-07T03:06:10.676Z",
+      "accessTime": "2019-09-21T03:56:48.644Z",
+      "changeTime": "2019-09-21T03:28:26.650Z",
+      "birthTime": "2019-09-07T02:56:09.621Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content",
+      "base": "__about",
+      "ext": "",
+      "name": "__about",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265999,
+      "blocks": 0,
+      "atimeMs": 1569038208644.471,
+      "mtimeMs": 1567825570676.0103,
+      "ctimeMs": 1569036506649.9487,
+      "birthtimeMs": 1567824969620.8088,
+      "atime": "2019-09-21T03:56:48.644Z",
+      "mtime": "2019-09-07T03:06:10.676Z",
+      "ctime": "2019-09-21T03:28:26.650Z",
+      "birthtime": "2019-09-07T02:56:09.621Z"
+    },
+    "28812dc7-c49a-5a03-888f-ee714c86264a": {
+      "id": "28812dc7-c49a-5a03-888f-ee714c86264a",
+      "children": [
+        "876600f8-a94d-5bd2-98e1-4de375dfe79c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e237802137826756955ecb0fd47e7afb",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/__about/resume-en.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "about",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
+      "relativePath": "resume-en.md",
+      "extension": "md",
+      "size": 200,
+      "prettySize": "200 B",
+      "modifiedTime": "2019-09-07T03:06:10.675Z",
+      "accessTime": "2019-09-21T03:53:45.080Z",
+      "changeTime": "2019-09-21T03:28:26.650Z",
+      "birthTime": "2019-09-07T03:06:10.675Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/__about",
+      "base": "resume-en.md",
+      "ext": ".md",
+      "name": "resume-en",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3266000,
+      "blocks": 8,
+      "atimeMs": 1569038025080.0671,
+      "mtimeMs": 1567825570674.9368,
+      "ctimeMs": 1569036506649.7798,
+      "birthtimeMs": 1567825570674.826,
+      "atime": "2019-09-21T03:53:45.080Z",
+      "mtime": "2019-09-07T03:06:10.675Z",
+      "ctime": "2019-09-21T03:28:26.650Z",
+      "birthtime": "2019-09-07T03:06:10.675Z"
+    },
+    "876600f8-a94d-5bd2-98e1-4de375dfe79c": {
+      "id": "876600f8-a94d-5bd2-98e1-4de375dfe79c",
+      "children": [],
+      "parent": "28812dc7-c49a-5a03-888f-ee714c86264a",
+      "internal": {
+        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "648b15631a7a415a6a7b1fdcfea45311",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "about",
+        "date": "2019-01-27T16:21:13.000Z",
+        "lang": "en"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
+      "fields": {
+        "slug": "/resume-en/"
+      }
+    },
+    "4b10d3f8-d8b2-565e-968d-644f36f52a49": {
+      "id": "4b10d3f8-d8b2-565e-968d-644f36f52a49",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0ea1c7d8c3e8010856cfa3d3d0fb9950",
+        "type": "Directory",
+        "description": "Directory \"content/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/assets",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-09-07T03:49:48.848Z",
+      "accessTime": "2019-09-21T03:56:48.652Z",
+      "changeTime": "2019-09-21T03:28:26.651Z",
+      "birthTime": "2019-09-07T02:56:09.621Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3266001,
+      "blocks": 0,
+      "atimeMs": 1569038208652.2136,
+      "mtimeMs": 1567828188848.3962,
+      "ctimeMs": 1569036506651.0718,
+      "birthtimeMs": 1567824969621.066,
+      "atime": "2019-09-21T03:56:48.652Z",
+      "mtime": "2019-09-07T03:49:48.848Z",
+      "ctime": "2019-09-21T03:28:26.651Z",
+      "birthtime": "2019-09-07T02:56:09.621Z"
+    },
+    "e43be9d8-1f99-51cc-a68b-b08052195286": {
+      "id": "e43be9d8-1f99-51cc-a68b-b08052195286",
+      "children": [
+        "f737b2e2-0fc8-5d8f-a71d-9c7ba6a45476"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6b86f32294559d4fe1193731fc447db0",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/jessieImg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/assets/jessieImg.png",
+      "relativePath": "jessieImg.png",
+      "extension": "png",
+      "size": 412008,
+      "prettySize": "412 kB",
+      "modifiedTime": "2019-09-07T03:23:10.763Z",
+      "accessTime": "2019-09-21T03:53:45.080Z",
+      "changeTime": "2019-09-21T03:28:26.651Z",
+      "birthTime": "2019-09-07T03:23:10.740Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/assets",
+      "base": "jessieImg.png",
+      "ext": ".png",
+      "name": "jessieImg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3266002,
+      "blocks": 808,
+      "atimeMs": 1569038025080.1392,
+      "mtimeMs": 1567826590763.4646,
+      "ctimeMs": 1569036506650.9792,
+      "birthtimeMs": 1567826590740.0664,
+      "atime": "2019-09-21T03:53:45.080Z",
+      "mtime": "2019-09-07T03:23:10.763Z",
+      "ctime": "2019-09-21T03:28:26.651Z",
+      "birthtime": "2019-09-07T03:23:10.740Z"
+    },
+    "f737b2e2-0fc8-5d8f-a71d-9c7ba6a45476": {
+      "id": "f737b2e2-0fc8-5d8f-a71d-9c7ba6a45476",
+      "children": [],
+      "parent": "e43be9d8-1f99-51cc-a68b-b08052195286",
+      "internal": {
+        "contentDigest": "6b86f32294559d4fe1193731fc447db0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /WebGL/new-post-title/": {
+      "jsonName": "web-gl-new-post-title-37b",
+      "internalComponentName": "ComponentWebGlNewPostTitle",
+      "path": "/WebGL/new-post-title/",
+      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/WebGL/new-post-title/",
+        "previous": null,
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "id": "SitePage /WebGL/new-post-title/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e2a84643fc4dd25f05c4f764a6cef3bc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/jess2/study/Jess2.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "pluginCreatorId": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a37ee65cdeee82d563f264659324a73e",
+        "description": "711afaed-abd0-537e-82db-d75de2e850f7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/jess2/study/Jess2.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "pluginCreatorId": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aa6969a235a1a6913124e40488e03229",
+        "description": "711afaed-abd0-537e-82db-d75de2e850f7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jess2/study/Jess2.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "pluginCreatorId": "711afaed-abd0-537e-82db-d75de2e850f7",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b4b7e7e916fb71eebf5f7ef52c24e86",
+        "description": "711afaed-abd0-537e-82db-d75de2e850f7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/jess2/study/Jess2.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fa9f96ea4e0d5033baeb2350ac299ffe",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "52f8236ec7a2f9bb2b59969fa5f7e272"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx",
+        "/404/",
+        "/404.html",
+        "/WebGL/new-post-title/",
+        "/"
+      ],
+      "e43be9d8-1f99-51cc-a68b-b08052195286": [
+        "sq--src-components-bio-index-jsx"
+      ],
+      "f737b2e2-0fc8-5d8f-a71d-9c7ba6a45476": [
+        "sq--src-components-bio-index-jsx"
+      ],
+      "ce54f7ed-9bb4-5180-ad80-1b00ef1dba4b": [
+        "/WebGL/new-post-title/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/about/",
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-head-index-jsx": 1025518380,
+    "404-22d": "985/path---404-22-d-bce-oO6PN6vRoci4su7cOLa279hcpPM",
+    "404-html-516": "17/path---404-html-516-62a-oO6PN6vRoci4su7cOLa279hcpPM",
+    "sq--src-components-bio-index-jsx": 4037432015,
+    "web-gl-new-post-title-37b": "862/path---web-gl-new-post-title-37-b-6b0-tDP0OM8Z3wWetAO25XuYZoN8gM",
+    "about-f34": "593/path---about-f-34-4c2-qeNHYGoRJHhrZxL1DjsVfuxG5Pk",
+    "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
+    "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
+    "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
+    "index": "544/path---index-6a9-WZ90PtX948XRpfTz0vuZ7TavzM",
+    "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8"
+  },
+  "components": {
+    "/Users/jess2/study/Jess2.io/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n      siteUrl\n      comment {\n        disqusShortName\n        utterances\n      }\n      sponsor {\n        buyMeACoffeeId\n      }\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 280)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js"
+    },
+    "/Users/jess2/study/Jess2.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/jess2/study/Jess2.io/.cache/dev-404-page.js"
+    },
+    "/Users/jess2/study/Jess2.io/src/pages/404.js": {
+      "query": "query usersJess2StudyJess2IoSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/404.js"
+    },
+    "/Users/jess2/study/Jess2.io/src/pages/about.js": {
+      "query": "query usersJess2StudyJess2IoSrcPagesAboutJs4185716304 {\n  allMarkdownRemark(filter: {frontmatter: {category: {eq: null}}}) {\n    edges {\n      node {\n        id\n        excerpt(pruneLength: 160)\n        html\n        frontmatter {\n          title\n          date(formatString: \"MMMM DD, YYYY\")\n          lang\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/about.js"
+    },
+    "/Users/jess2/study/Jess2.io/src/pages/index.js": {
+      "query": "query usersJess2StudyJess2IoSrcPagesIndexJs751586297 {\n  site {\n    siteMetadata {\n      title\n      configs {\n        countOfInitialPost\n      }\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: null}}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 200, truncate: true)\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          category\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-bio-index-jsx": {
+      "name": "BioQuery",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/components/bio/index.jsx",
+      "id": "sq--src-components-bio-index-jsx",
+      "jsonName": "sq--src-components-bio-index-jsx",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/jessieImg.png/\"}) {\n    childImageSharp {\n      fixed(width: 72, height: 72) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      introduction\n      social {\n        twitter\n        github\n        medium\n        facebook\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 4037432015
+    },
+    "sq--src-components-head-index-jsx": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/components/head/index.jsx",
+      "id": "sq--src-components-head-index-jsx",
+      "jsonName": "sq--src-components-head-index-jsx",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
