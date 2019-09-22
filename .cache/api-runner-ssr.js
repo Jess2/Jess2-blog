@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[],"trackingId":""},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jess2.io","short_name":"Jess2.io","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/jessieImg.png"},
+      options: {"plugins":[],"name":"Jess2's Devlog","short_name":"Jess2's Devlog","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/jessieImg.png"},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},

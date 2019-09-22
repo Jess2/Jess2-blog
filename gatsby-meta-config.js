@@ -1,14 +1,14 @@
 module.exports = {
-  title: `Jess2.io`,
+  title: `Jess2's Devlog`,
   description: `Blog posted about ...`,
   author: `Jess2`,
-  introduction: `[Frontend Developer] `,
-  siteUrl: `https://jess2.io`, // Your blog site url
+  introduction: `👩🏻‍💻Frontend Developer`,
+  siteUrl: `https://jess2.netlify.com`, // Your blog site url
   social: {
     twitter: ``,
     github: `jess2`, // Your GitHub account
     facebook: `jesssss2`,
-    medium: ``,
+    medium: ``
   },
   icon: `content/assets/jessieImg.png`, // Add your favicon
   keywords: [`blog`],

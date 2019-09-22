@@ -1646,15 +1646,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "9d2e33ed-3e4d-5ee8-b570-2bd64a655253": {
+    "dd9eca96-b263-5e47-bafe-ade1caebde91": {
       "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-manifest",
-      "id": "9d2e33ed-3e4d-5ee8-b570-2bd64a655253",
+      "id": "dd9eca96-b263-5e47-bafe-ade1caebde91",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.24",
       "pluginOptions": {
         "plugins": [],
-        "name": "Jess2.io",
-        "short_name": "Jess2.io",
+        "name": "Jess2's Devlog",
+        "short_name": "Jess2's Devlog",
         "start_url": "/",
         "background_color": "#ffffff",
         "theme_color": "#FFD500",
@@ -1732,7 +1732,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8713a34798d950120d860c4126a75a6a",
+        "contentDigest": "cc56e342db81d2ed430a6b6d8adeaa50",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2567,7 +2567,7 @@
       "resolve": "/Users/jess2/study/Jess2.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "a96daf2f8dad99e2418a5074a1a2133b",
+      "version": "14c6c4fd5a6687e524f23ed3ebe8d54d",
       "pluginOptions": {
         "plugins": []
       },
@@ -2801,7 +2801,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "54d11b6020cd01c7c62dae91d171b3c3",
+        "contentDigest": "08ac857716d01ea4f2bcbff520a50040",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2911,11 +2911,11 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Jess2.io",
+        "title": "Jess2's Devlog",
         "description": "Blog posted about ...",
         "author": "Jess2",
-        "introduction": "[Frontend Developer] ",
-        "siteUrl": "https://jess2.io",
+        "introduction": "👩🏻‍💻Frontend Developer",
+        "siteUrl": "https://jess2.netlify.com",
         "social": {
           "twitter": "",
           "github": "jess2",
@@ -2945,12 +2945,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-09-21T14:31:48.101Z",
+      "buildTime": "2019-09-22T07:20:41.862Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "66ebcafa7d95e26e708a58aa669fce1c",
+        "contentDigest": "d634eb29ef816ed24221083f31d16160",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2960,7 +2960,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e196c174d76ae78238f7ff5dbd07b7f9",
+        "contentDigest": "cbbdc7ffc1603bab2eb16754a3dcfb20",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2972,7 +2972,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T12:13:24.386Z",
-      "accessTime": "2019-09-21T14:31:55.100Z",
+      "accessTime": "2019-09-22T07:20:47.791Z",
       "changeTime": "2019-09-21T12:13:24.386Z",
       "birthTime": "2019-09-07T02:56:09.622Z",
       "root": "/",
@@ -2990,11 +2990,11 @@
       "blksize": 4096,
       "ino": 3265981,
       "blocks": 0,
-      "atimeMs": 1569076315100.4482,
+      "atimeMs": 1569136847791.4543,
       "mtimeMs": 1569068004385.68,
       "ctimeMs": 1569068004385.68,
       "birthtimeMs": 1567824969621.551,
-      "atime": "2019-09-21T14:31:55.100Z",
+      "atime": "2019-09-22T07:20:47.791Z",
       "mtime": "2019-09-21T12:13:24.386Z",
       "ctime": "2019-09-21T12:13:24.386Z",
       "birthtime": "2019-09-07T02:56:09.622Z"
@@ -3004,7 +3004,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8ef7996b343d5e1163769697096cd23d",
+        "contentDigest": "294d24620ba9f02ffe346796b4debadd",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
@@ -3016,7 +3016,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-21T12:13:48.356Z",
-      "accessTime": "2019-09-21T14:31:55.102Z",
+      "accessTime": "2019-09-22T07:20:47.794Z",
       "changeTime": "2019-09-21T12:13:48.356Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
@@ -3034,11 +3034,11 @@
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1569076315102.4412,
+      "atimeMs": 1569136847794.105,
       "mtimeMs": 1569068028356.4558,
       "ctimeMs": 1569068028356.4558,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2019-09-21T14:31:55.102Z",
+      "atime": "2019-09-22T07:20:47.794Z",
       "mtime": "2019-09-21T12:13:48.356Z",
       "ctime": "2019-09-21T12:13:48.356Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
@@ -3048,7 +3048,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c70b251744f987bffe689c8dff84fac2",
+        "contentDigest": "06da89b691e1f769067a1f769864862b",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
@@ -3060,7 +3060,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T09:49:20.124Z",
-      "accessTime": "2019-09-21T14:31:55.102Z",
+      "accessTime": "2019-09-22T07:20:47.794Z",
       "changeTime": "2019-09-21T09:49:20.124Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
@@ -3078,11 +3078,11 @@
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1569076315102.4802,
+      "atimeMs": 1569136847794.0876,
       "mtimeMs": 1569059360123.5098,
       "ctimeMs": 1569059360123.5098,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2019-09-21T14:31:55.102Z",
+      "atime": "2019-09-22T07:20:47.794Z",
       "mtime": "2019-09-21T09:49:20.124Z",
       "ctime": "2019-09-21T09:49:20.124Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
@@ -3092,7 +3092,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0e7d62564ced7307d126d4b5c80d7ea7",
+        "contentDigest": "eb9940736eb66e3f5dad150ccc7e52c3",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
@@ -3104,7 +3104,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-09-21T11:08:50.330Z",
-      "accessTime": "2019-09-21T14:31:55.105Z",
+      "accessTime": "2019-09-22T07:20:47.797Z",
       "changeTime": "2019-09-21T11:08:50.330Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
@@ -3122,11 +3122,11 @@
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1569076315104.6099,
+      "atimeMs": 1569136847796.6465,
       "mtimeMs": 1569064130329.5364,
       "ctimeMs": 1569064130329.5364,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2019-09-21T14:31:55.105Z",
+      "atime": "2019-09-22T07:20:47.797Z",
       "mtime": "2019-09-21T11:08:50.330Z",
       "ctime": "2019-09-21T11:08:50.330Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
@@ -3151,7 +3151,7 @@
       "size": 7889,
       "prettySize": "7.89 kB",
       "modifiedTime": "2019-09-22T06:46:35.235Z",
-      "accessTime": "2019-09-22T06:46:35.233Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-22T06:46:35.235Z",
       "birthTime": "2019-09-21T12:13:48.356Z",
       "root": "/",
@@ -3169,11 +3169,11 @@
       "blksize": 4096,
       "ino": 3591857,
       "blocks": 16,
-      "atimeMs": 1569134795232.855,
+      "atimeMs": 1569136828479.1973,
       "mtimeMs": 1569134795234.5525,
       "ctimeMs": 1569134795234.5525,
       "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-09-22T06:46:35.233Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-22T06:46:35.235Z",
       "ctime": "2019-09-22T06:46:35.235Z",
       "birthtime": "2019-09-21T12:13:48.356Z"
@@ -3198,7 +3198,7 @@
       "size": 1167,
       "prettySize": "1.17 kB",
       "modifiedTime": "2019-09-21T11:41:26.904Z",
-      "accessTime": "2019-09-21T14:10:15.774Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-21T11:41:26.904Z",
       "birthTime": "2019-09-21T09:41:51.163Z",
       "root": "/",
@@ -3216,11 +3216,11 @@
       "blksize": 4096,
       "ino": 3578801,
       "blocks": 8,
-      "atimeMs": 1569075015774.4097,
+      "atimeMs": 1569136828479.2222,
       "mtimeMs": 1569066086904.0698,
       "ctimeMs": 1569066086904.0698,
       "birthtimeMs": 1569058911162.5479,
-      "atime": "2019-09-21T14:10:15.774Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-21T11:41:26.904Z",
       "ctime": "2019-09-21T11:41:26.904Z",
       "birthtime": "2019-09-21T09:41:51.163Z"
@@ -3245,7 +3245,7 @@
       "size": 219080,
       "prettySize": "219 kB",
       "modifiedTime": "2019-09-21T09:49:46.534Z",
-      "accessTime": "2019-09-21T14:04:37.522Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-21T09:49:46.536Z",
       "birthTime": "2019-09-21T09:49:46.530Z",
       "root": "/",
@@ -3263,14 +3263,39 @@
       "blksize": 4096,
       "ino": 3579518,
       "blocks": 432,
-      "atimeMs": 1569074677521.5625,
+      "atimeMs": 1569136828479.2188,
       "mtimeMs": 1569059386533.913,
       "ctimeMs": 1569059386535.9614,
       "birthtimeMs": 1569059386529.755,
-      "atime": "2019-09-21T14:04:37.522Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-21T09:49:46.534Z",
       "ctime": "2019-09-21T09:49:46.536Z",
       "birthtime": "2019-09-21T09:49:46.530Z"
+    },
+    "4230c083-d80e-57ab-99a2-27d9493bd276": {
+      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
+      "children": [],
+      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
+      "internal": {
+        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "type": "MarkdownRemark",
+        "contentDigest": "6e17247bec278d7d319379b84ccc8d4f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "1. var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
+      "fields": {
+        "slug": "/JavaScript/var,-let,-const-비교/"
+      }
     },
     "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": {
       "id": "b487d7da-4d3e-5cb8-a4df-ee0d2673e963",
@@ -3327,7 +3352,7 @@
       "size": 1210780,
       "prettySize": "1.21 MB",
       "modifiedTime": "2019-09-21T11:08:50.357Z",
-      "accessTime": "2019-09-21T14:04:46.014Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-21T11:08:50.361Z",
       "birthTime": "2019-09-21T11:08:50.330Z",
       "root": "/",
@@ -3345,24 +3370,14 @@
       "blksize": 4096,
       "ino": 3583830,
       "blocks": 2368,
-      "atimeMs": 1569074686014.219,
+      "atimeMs": 1569136828479.2146,
       "mtimeMs": 1569064130357.459,
       "ctimeMs": 1569064130360.5417,
       "birthtimeMs": 1569064130329.5183,
-      "atime": "2019-09-21T14:04:46.014Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-21T11:08:50.357Z",
       "ctime": "2019-09-21T11:08:50.361Z",
       "birthtime": "2019-09-21T11:08:50.330Z"
-    },
-    "4cbd2403-a461-5fb5-9a29-29a7d70b48be": {
-      "id": "4cbd2403-a461-5fb5-9a29-29a7d70b48be",
-      "children": [],
-      "parent": "65ede49c-4987-51b7-9b74-cb50075744cd",
-      "internal": {
-        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "63cfe4dd-fd22-537b-bb3d-1a8e2a456f7a": {
       "id": "63cfe4dd-fd22-537b-bb3d-1a8e2a456f7a",
@@ -3382,7 +3397,7 @@
       "size": 1277214,
       "prettySize": "1.28 MB",
       "modifiedTime": "2019-09-21T11:03:03.068Z",
-      "accessTime": "2019-09-21T13:32:27.302Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-21T11:03:03.072Z",
       "birthTime": "2019-09-21T11:03:03.039Z",
       "root": "/",
@@ -3400,21 +3415,31 @@
       "blksize": 4096,
       "ino": 3583565,
       "blocks": 2496,
-      "atimeMs": 1569072747301.7632,
+      "atimeMs": 1569136828479.2102,
       "mtimeMs": 1569063783068.07,
       "ctimeMs": 1569063783072.0247,
       "birthtimeMs": 1569063783039.3079,
-      "atime": "2019-09-21T13:32:27.302Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-21T11:03:03.068Z",
       "ctime": "2019-09-21T11:03:03.072Z",
       "birthtime": "2019-09-21T11:03:03.039Z"
+    },
+    "4cbd2403-a461-5fb5-9a29-29a7d70b48be": {
+      "id": "4cbd2403-a461-5fb5-9a29-29a7d70b48be",
+      "children": [],
+      "parent": "65ede49c-4987-51b7-9b74-cb50075744cd",
+      "internal": {
+        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "6742b73e-875b-54aa-9d41-80781a3d7b9b": {
       "id": "6742b73e-875b-54aa-9d41-80781a3d7b9b",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b565b4dc03a7923c0cff8b1c481b65b5",
+        "contentDigest": "57a0bc89802a34ac1c309ed1b614d3d9",
         "type": "Directory",
         "description": "Directory \"content/__about\"",
         "owner": "gatsby-source-filesystem"
@@ -3426,7 +3451,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:06:10.676Z",
-      "accessTime": "2019-09-21T14:31:55.155Z",
+      "accessTime": "2019-09-22T07:20:47.864Z",
       "changeTime": "2019-09-21T03:28:26.650Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3444,11 +3469,11 @@
       "blksize": 4096,
       "ino": 3265999,
       "blocks": 0,
-      "atimeMs": 1569076315154.525,
+      "atimeMs": 1569136847863.7568,
       "mtimeMs": 1567825570676.0103,
       "ctimeMs": 1569036506649.9487,
       "birthtimeMs": 1567824969620.8088,
-      "atime": "2019-09-21T14:31:55.155Z",
+      "atime": "2019-09-22T07:20:47.864Z",
       "mtime": "2019-09-07T03:06:10.676Z",
       "ctime": "2019-09-21T03:28:26.650Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3472,9 +3497,9 @@
       "extension": "md",
       "size": 200,
       "prettySize": "200 B",
-      "modifiedTime": "2019-09-07T03:06:10.675Z",
-      "accessTime": "2019-09-21T14:29:46.038Z",
-      "changeTime": "2019-09-21T03:28:26.650Z",
+      "modifiedTime": "2019-09-22T07:24:20.090Z",
+      "accessTime": "2019-09-22T07:24:20.089Z",
+      "changeTime": "2019-09-22T07:24:20.090Z",
       "birthTime": "2019-09-07T03:06:10.675Z",
       "root": "/",
       "dir": "/Users/jess2/study/Jess2.io/content/__about",
@@ -3491,46 +3516,21 @@
       "blksize": 4096,
       "ino": 3266000,
       "blocks": 8,
-      "atimeMs": 1569076186038.1584,
-      "mtimeMs": 1567825570674.9368,
-      "ctimeMs": 1569036506649.7798,
+      "atimeMs": 1569137060089.2974,
+      "mtimeMs": 1569137060089.676,
+      "ctimeMs": 1569137060089.676,
       "birthtimeMs": 1567825570674.826,
-      "atime": "2019-09-21T14:29:46.038Z",
-      "mtime": "2019-09-07T03:06:10.675Z",
-      "ctime": "2019-09-21T03:28:26.650Z",
+      "atime": "2019-09-22T07:24:20.089Z",
+      "mtime": "2019-09-22T07:24:20.090Z",
+      "ctime": "2019-09-22T07:24:20.090Z",
       "birthtime": "2019-09-07T03:06:10.675Z"
-    },
-    "876600f8-a94d-5bd2-98e1-4de375dfe79c": {
-      "id": "876600f8-a94d-5bd2-98e1-4de375dfe79c",
-      "children": [],
-      "parent": "28812dc7-c49a-5a03-888f-ee714c86264a",
-      "internal": {
-        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "648b15631a7a415a6a7b1fdcfea45311",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "about",
-        "date": "2019-01-27T16:21:13.000Z",
-        "lang": "en"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
-      "fields": {
-        "slug": "/resume-en/"
-      }
     },
     "4b10d3f8-d8b2-565e-968d-644f36f52a49": {
       "id": "4b10d3f8-d8b2-565e-968d-644f36f52a49",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6e14c4a414811a539d3a6ff73ed4e12c",
+        "contentDigest": "01665ac27fec629801eb788364993c30",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -3542,7 +3542,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:49:48.848Z",
-      "accessTime": "2019-09-21T14:31:55.160Z",
+      "accessTime": "2019-09-22T07:20:47.873Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3560,11 +3560,11 @@
       "blksize": 4096,
       "ino": 3266001,
       "blocks": 0,
-      "atimeMs": 1569076315160.0623,
+      "atimeMs": 1569136847872.714,
       "mtimeMs": 1567828188848.3962,
       "ctimeMs": 1569036506651.0718,
       "birthtimeMs": 1567824969621.066,
-      "atime": "2019-09-21T14:31:55.160Z",
+      "atime": "2019-09-22T07:20:47.873Z",
       "mtime": "2019-09-07T03:49:48.848Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3589,7 +3589,7 @@
       "size": 412008,
       "prettySize": "412 kB",
       "modifiedTime": "2019-09-07T03:23:10.763Z",
-      "accessTime": "2019-09-21T14:29:46.038Z",
+      "accessTime": "2019-09-22T07:20:28.479Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T03:23:10.740Z",
       "root": "/",
@@ -3607,11 +3607,11 @@
       "blksize": 4096,
       "ino": 3266002,
       "blocks": 808,
-      "atimeMs": 1569076186038.1614,
+      "atimeMs": 1569136828479.1846,
       "mtimeMs": 1567826590763.4646,
       "ctimeMs": 1569036506650.9792,
       "birthtimeMs": 1567826590740.0664,
-      "atime": "2019-09-21T14:29:46.038Z",
+      "atime": "2019-09-22T07:20:28.479Z",
       "mtime": "2019-09-07T03:23:10.763Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T03:23:10.740Z"
@@ -3776,44 +3776,44 @@
         "owner": "internal-data-bridge"
       }
     },
-    "4230c083-d80e-57ab-99a2-27d9493bd276": {
-      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
+    "876600f8-a94d-5bd2-98e1-4de375dfe79c": {
+      "id": "876600f8-a94d-5bd2-98e1-4de375dfe79c",
       "children": [],
-      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
+      "parent": "28812dc7-c49a-5a03-888f-ee714c86264a",
       "internal": {
-        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
         "type": "MarkdownRemark",
-        "contentDigest": "6e17247bec278d7d319379b84ccc8d4f",
+        "contentDigest": "648b15631a7a415a6a7b1fdcfea45311",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "1. var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "JavaScript"
+        "title": "about",
+        "date": "2019-01-27T16:21:13.000Z",
+        "lang": "en"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
+      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
       "fields": {
-        "slug": "/JavaScript/var,-let,-const-비교/"
+        "slug": "/resume-en/"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "95e33799d48236fd669c19dd14176b20"
+    "PLUGINS_HASH": "17959f1fed36dfc8b1e56c9e65d2c558"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/404/",
         "/404.html",
-        "/",
         "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/",
+        "/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx"
       ],
@@ -3832,27 +3832,27 @@
     },
     "connections": {
       "MarkdownRemark": [
-        "/",
-        "/about/"
+        "/about/",
+        "/"
       ]
     }
   },
   "jsonDataPaths": {
     "sq--src-components-head-index-jsx": 1025518380,
-    "404-22d": "985/path---404-22-d-bce-oO6PN6vRoci4su7cOLa279hcpPM",
-    "404-html-516": "17/path---404-html-516-62a-oO6PN6vRoci4su7cOLa279hcpPM",
+    "404-22d": "15/path---404-22-d-bce-eksOckDvyM4FG8ZasYPb6y3wo8",
+    "404-html-516": "725/path---404-html-516-62a-eksOckDvyM4FG8ZasYPb6y3wo8",
     "sq--src-components-bio-index-jsx": 4037432015,
     "web-gl-new-post-title-37b": "862/path---web-gl-new-post-title-37-b-6b0-tDP0OM8Z3wWetAO25XuYZoN8gM",
     "about-f34": "593/path---about-f-34-4c2-qeNHYGoRJHhrZxL1DjsVfuxG5Pk",
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "79/path---index-6a9-TtHRwsWkWWSHHFkZKh2lniluCw",
+    "index": "673/path---index-6a9-QXoAoT3sJwa08BgA877cuCDhAE",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "910/path---etc-notion-for-students-teachers-efd-4f3-Rroo1n3F4dowDMdfPDzEkLSNRfY",
-    "java-script-var-let-const-비교-bb7": "66/path---java-script-var-let-const-비교-bb-7-6bb-FJjWuKWB3mgnwLifDLvnj6d0yEM"
+    "etc-notion-for-students-teachers-efd": "803/path---etc-notion-for-students-teachers-efd-4f3-Tx1Dx0l9TJqMBl6TFyG7ZVolEg",
+    "java-script-var-let-const-비교-bb7": "717/path---java-script-var-let-const-비교-bb-7-6bb-Q9V7rvuGdQxW6KxWU00ZnCXIe4"
   },
   "components": {
     "/Users/jess2/study/Jess2.io/src/templates/blog-post.js": {
@@ -3877,14 +3877,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-bio-index-jsx": {
-      "name": "BioQuery",
-      "componentPath": "/Users/jess2/study/Jess2.io/src/components/bio/index.jsx",
-      "id": "sq--src-components-bio-index-jsx",
-      "jsonName": "sq--src-components-bio-index-jsx",
-      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/jessieImg.png/\"}) {\n    childImageSharp {\n      fixed(width: 72, height: 72) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      introduction\n      social {\n        twitter\n        github\n        medium\n        facebook\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
-      "hash": 4037432015
-    },
     "sq--src-components-head-index-jsx": {
       "name": "DefaultSEOQuery",
       "componentPath": "/Users/jess2/study/Jess2.io/src/components/head/index.jsx",
@@ -3892,6 +3884,14 @@
       "jsonName": "sq--src-components-head-index-jsx",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 1025518380
+    },
+    "sq--src-components-bio-index-jsx": {
+      "name": "BioQuery",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/components/bio/index.jsx",
+      "id": "sq--src-components-bio-index-jsx",
+      "jsonName": "sq--src-components-bio-index-jsx",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/jessieImg.png/\"}) {\n    childImageSharp {\n      fixed(width: 72, height: 72) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      introduction\n      social {\n        twitter\n        github\n        medium\n        facebook\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 4037432015
     }
   }
 }

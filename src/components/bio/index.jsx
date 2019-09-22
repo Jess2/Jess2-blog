@@ -45,6 +45,11 @@ export const Bio = () => (
                       Facebook
                     </a>
                   )}
+                  {(
+                    <a href={`https://www.linkedin.com/in/devsoyeonjung`}>
+                      LinkedIn
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
