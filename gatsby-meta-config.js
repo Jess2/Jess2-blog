@@ -13,7 +13,7 @@ module.exports = {
   icon: `content/assets/jessieImg.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'jess2.io', // Your disqus-short-name. check disqus.com.
     utterances: '', // Your repository for archive comment
   },
   configs: {
