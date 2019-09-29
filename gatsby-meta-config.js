@@ -1,9 +1,9 @@
 module.exports = {
   title: `Jess2's Devlog`,
-  description: `Blog posted about ...`,
+  description: `Blog posted about frontend development`,
   author: `Jess2`,
   introduction: `👩🏻‍💻Frontend Developer`,
-  siteUrl: `https://jess2.netlify.com`, // Your blog site url
+  siteUrl: `https://jess2.io`, // Your blog site url
   social: {
     twitter: ``,
     github: `jess2`, // Your GitHub account
@@ -11,9 +11,17 @@ module.exports = {
     medium: ``
   },
   icon: `content/assets/jessieImg.png`, // Add your favicon
-  keywords: [`blog`],
+  thumbnail: `content/assets/jessieImg.png`,
+  keywords: [
+    `blog`,
+    `javascript`,
+    `web`,
+    `vue`,
+    `frontend`,
+    `development`,
+  ],
   comment: {
-    disqusShortName: 'jess2.io', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'https-jess2-netlify-com', // Your disqus-short-name. check disqus.com.
     utterances: '', // Your repository for archive comment
   },
   configs: {

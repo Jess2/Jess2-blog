@@ -4,6 +4,12 @@ module.exports = {
   siteMetadata: metaConfig,
   plugins: [
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `https-jess2-netlify-com`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,

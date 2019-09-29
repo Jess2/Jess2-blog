@@ -2567,7 +2567,7 @@
       "resolve": "/Users/jess2/study/Jess2.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "14c6c4fd5a6687e524f23ed3ebe8d54d",
+      "version": "21cc329c9c8d45683cd4d5cd5630658b",
       "pluginOptions": {
         "plugins": []
       },
@@ -2801,7 +2801,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "08ac857716d01ea4f2bcbff520a50040",
+        "contentDigest": "2eb9233501090312d6232a56141b802a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2943,68 +2943,22 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-09-22T07:20:41.862Z",
+      "buildTime": "2019-09-29T06:51:44.181Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d634eb29ef816ed24221083f31d16160",
+        "contentDigest": "80c93cd186166b7e21b9d1372d3a5714",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
-    },
-    "aa99711f-1647-51c0-97d8-a5d4fcb40c3e": {
-      "id": "aa99711f-1647-51c0-97d8-a5d4fcb40c3e",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "cbbdc7ffc1603bab2eb16754a3dcfb20",
-        "type": "Directory",
-        "description": "Directory \"content/blog\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog",
-      "relativePath": "",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-09-21T12:13:24.386Z",
-      "accessTime": "2019-09-22T07:20:47.791Z",
-      "changeTime": "2019-09-21T12:13:24.386Z",
-      "birthTime": "2019-09-07T02:56:09.622Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/Jess2.io/content",
-      "base": "blog",
-      "ext": "",
-      "name": "blog",
-      "relativeDirectory": "..",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3265981,
-      "blocks": 0,
-      "atimeMs": 1569136847791.4543,
-      "mtimeMs": 1569068004385.68,
-      "ctimeMs": 1569068004385.68,
-      "birthtimeMs": 1567824969621.551,
-      "atime": "2019-09-22T07:20:47.791Z",
-      "mtime": "2019-09-21T12:13:24.386Z",
-      "ctime": "2019-09-21T12:13:24.386Z",
-      "birthtime": "2019-09-07T02:56:09.622Z"
     },
     "68f0a62d-421b-5414-9e72-a953af95caf7": {
       "id": "68f0a62d-421b-5414-9e72-a953af95caf7",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "294d24620ba9f02ffe346796b4debadd",
+        "contentDigest": "be70ed54e322e081506f9b0928b26c2c",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
@@ -3016,7 +2970,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-21T12:13:48.356Z",
-      "accessTime": "2019-09-22T07:20:47.794Z",
+      "accessTime": "2019-09-29T06:51:50.324Z",
       "changeTime": "2019-09-21T12:13:48.356Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
@@ -3034,21 +2988,65 @@
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1569136847794.105,
+      "atimeMs": 1569739910323.6753,
       "mtimeMs": 1569068028356.4558,
       "ctimeMs": 1569068028356.4558,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2019-09-22T07:20:47.794Z",
+      "atime": "2019-09-29T06:51:50.324Z",
       "mtime": "2019-09-21T12:13:48.356Z",
       "ctime": "2019-09-21T12:13:48.356Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
+    },
+    "aa99711f-1647-51c0-97d8-a5d4fcb40c3e": {
+      "id": "aa99711f-1647-51c0-97d8-a5d4fcb40c3e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "615ba2994f05b414eb7b21ca2fcad8eb",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-09-21T12:13:24.386Z",
+      "accessTime": "2019-09-29T06:51:50.322Z",
+      "changeTime": "2019-09-21T12:13:24.386Z",
+      "birthTime": "2019-09-07T02:56:09.622Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3265981,
+      "blocks": 0,
+      "atimeMs": 1569739910322.145,
+      "mtimeMs": 1569068004385.68,
+      "ctimeMs": 1569068004385.68,
+      "birthtimeMs": 1567824969621.551,
+      "atime": "2019-09-29T06:51:50.322Z",
+      "mtime": "2019-09-21T12:13:24.386Z",
+      "ctime": "2019-09-21T12:13:24.386Z",
+      "birthtime": "2019-09-07T02:56:09.622Z"
     },
     "c2fba15c-35ef-5601-91cd-d75f8d20e7e2": {
       "id": "c2fba15c-35ef-5601-91cd-d75f8d20e7e2",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "06da89b691e1f769067a1f769864862b",
+        "contentDigest": "30ed7f79a717d5fb0fb823efbf43a73c",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
@@ -3060,7 +3058,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T09:49:20.124Z",
-      "accessTime": "2019-09-22T07:20:47.794Z",
+      "accessTime": "2019-09-29T06:51:50.324Z",
       "changeTime": "2019-09-21T09:49:20.124Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
@@ -3078,11 +3076,11 @@
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1569136847794.0876,
+      "atimeMs": 1569739910323.8015,
       "mtimeMs": 1569059360123.5098,
       "ctimeMs": 1569059360123.5098,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2019-09-22T07:20:47.794Z",
+      "atime": "2019-09-29T06:51:50.324Z",
       "mtime": "2019-09-21T09:49:20.124Z",
       "ctime": "2019-09-21T09:49:20.124Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
@@ -3092,7 +3090,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "eb9940736eb66e3f5dad150ccc7e52c3",
+        "contentDigest": "f65fa12f86b2a69e2d690d26d9ba319b",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
@@ -3104,7 +3102,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-09-21T11:08:50.330Z",
-      "accessTime": "2019-09-22T07:20:47.797Z",
+      "accessTime": "2019-09-29T06:51:50.325Z",
       "changeTime": "2019-09-21T11:08:50.330Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
@@ -3122,61 +3120,14 @@
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1569136847796.6465,
+      "atimeMs": 1569739910324.9575,
       "mtimeMs": 1569064130329.5364,
       "ctimeMs": 1569064130329.5364,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2019-09-22T07:20:47.797Z",
+      "atime": "2019-09-29T06:51:50.325Z",
       "mtime": "2019-09-21T11:08:50.330Z",
       "ctime": "2019-09-21T11:08:50.330Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
-    },
-    "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a": {
-      "id": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
-      "children": [
-        "4230c083-d80e-57ab-99a2-27d9493bd276"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "74573bc47539b2719cea27ad83ec3952",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
-      "relativePath": "JavaScript/var,-let,-const-비교.md",
-      "extension": "md",
-      "size": 7889,
-      "prettySize": "7.89 kB",
-      "modifiedTime": "2019-09-22T06:46:35.235Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
-      "changeTime": "2019-09-22T06:46:35.235Z",
-      "birthTime": "2019-09-21T12:13:48.356Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
-      "base": "var,-let,-const-비교.md",
-      "ext": ".md",
-      "name": "var,-let,-const-비교",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3591857,
-      "blocks": 16,
-      "atimeMs": 1569136828479.1973,
-      "mtimeMs": 1569134795234.5525,
-      "ctimeMs": 1569134795234.5525,
-      "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-09-22T07:20:28.479Z",
-      "mtime": "2019-09-22T06:46:35.235Z",
-      "ctime": "2019-09-22T06:46:35.235Z",
-      "birthtime": "2019-09-21T12:13:48.356Z"
     },
     "8003bdf0-1683-5b32-af0b-0abbc016a0d5": {
       "id": "8003bdf0-1683-5b32-af0b-0abbc016a0d5",
@@ -3198,7 +3149,7 @@
       "size": 1167,
       "prettySize": "1.17 kB",
       "modifiedTime": "2019-09-21T11:41:26.904Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
+      "accessTime": "2019-09-29T06:51:50.324Z",
       "changeTime": "2019-09-21T11:41:26.904Z",
       "birthTime": "2019-09-21T09:41:51.163Z",
       "root": "/",
@@ -3216,14 +3167,61 @@
       "blksize": 4096,
       "ino": 3578801,
       "blocks": 8,
-      "atimeMs": 1569136828479.2222,
+      "atimeMs": 1569739910324.3726,
       "mtimeMs": 1569066086904.0698,
       "ctimeMs": 1569066086904.0698,
       "birthtimeMs": 1569058911162.5479,
-      "atime": "2019-09-22T07:20:28.479Z",
+      "atime": "2019-09-29T06:51:50.324Z",
       "mtime": "2019-09-21T11:41:26.904Z",
       "ctime": "2019-09-21T11:41:26.904Z",
       "birthtime": "2019-09-21T09:41:51.163Z"
+    },
+    "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a": {
+      "id": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
+      "children": [
+        "4230c083-d80e-57ab-99a2-27d9493bd276"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "74573bc47539b2719cea27ad83ec3952",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
+      "relativePath": "JavaScript/var,-let,-const-비교.md",
+      "extension": "md",
+      "size": 7889,
+      "prettySize": "7.89 kB",
+      "modifiedTime": "2019-09-22T06:46:35.235Z",
+      "accessTime": "2019-09-29T06:51:50.324Z",
+      "changeTime": "2019-09-22T06:46:35.235Z",
+      "birthTime": "2019-09-21T12:13:48.356Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
+      "base": "var,-let,-const-비교.md",
+      "ext": ".md",
+      "name": "var,-let,-const-비교",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3591857,
+      "blocks": 16,
+      "atimeMs": 1569739910323.7368,
+      "mtimeMs": 1569134795234.5525,
+      "ctimeMs": 1569134795234.5525,
+      "birthtimeMs": 1569068028356.4468,
+      "atime": "2019-09-29T06:51:50.324Z",
+      "mtime": "2019-09-22T06:46:35.235Z",
+      "ctime": "2019-09-22T06:46:35.235Z",
+      "birthtime": "2019-09-21T12:13:48.356Z"
     },
     "d1d9e287-cf33-5b13-b286-13867b88269c": {
       "id": "d1d9e287-cf33-5b13-b286-13867b88269c",
@@ -3245,7 +3243,7 @@
       "size": 219080,
       "prettySize": "219 kB",
       "modifiedTime": "2019-09-21T09:49:46.534Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
+      "accessTime": "2019-09-29T06:51:50.325Z",
       "changeTime": "2019-09-21T09:49:46.536Z",
       "birthTime": "2019-09-21T09:49:46.530Z",
       "root": "/",
@@ -3263,38 +3261,23 @@
       "blksize": 4096,
       "ino": 3579518,
       "blocks": 432,
-      "atimeMs": 1569136828479.2188,
+      "atimeMs": 1569739910325.0627,
       "mtimeMs": 1569059386533.913,
       "ctimeMs": 1569059386535.9614,
       "birthtimeMs": 1569059386529.755,
-      "atime": "2019-09-22T07:20:28.479Z",
+      "atime": "2019-09-29T06:51:50.325Z",
       "mtime": "2019-09-21T09:49:46.534Z",
       "ctime": "2019-09-21T09:49:46.536Z",
       "birthtime": "2019-09-21T09:49:46.530Z"
     },
-    "4230c083-d80e-57ab-99a2-27d9493bd276": {
-      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
+    "75ea7b25-6bd3-5758-858e-93dfb2633cdf": {
+      "id": "75ea7b25-6bd3-5758-858e-93dfb2633cdf",
       "children": [],
-      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
+      "parent": "d1d9e287-cf33-5b13-b286-13867b88269c",
       "internal": {
-        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-        "type": "MarkdownRemark",
-        "contentDigest": "6e17247bec278d7d319379b84ccc8d4f",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "1. var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
-      "fields": {
-        "slug": "/JavaScript/var,-let,-const-비교/"
+        "contentDigest": "64412af9c6cc138b598d9b82839b01bb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": {
@@ -3322,14 +3305,29 @@
         "slug": "/etc./notion-for-students-&-teachers/"
       }
     },
-    "75ea7b25-6bd3-5758-858e-93dfb2633cdf": {
-      "id": "75ea7b25-6bd3-5758-858e-93dfb2633cdf",
+    "4230c083-d80e-57ab-99a2-27d9493bd276": {
+      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
       "children": [],
-      "parent": "d1d9e287-cf33-5b13-b286-13867b88269c",
+      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
       "internal": {
-        "contentDigest": "64412af9c6cc138b598d9b82839b01bb",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
+        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "type": "MarkdownRemark",
+        "contentDigest": "6e17247bec278d7d319379b84ccc8d4f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "1. var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
+      "fields": {
+        "slug": "/JavaScript/var,-let,-const-비교/"
       }
     },
     "65ede49c-4987-51b7-9b74-cb50075744cd": {
@@ -3352,7 +3350,7 @@
       "size": 1210780,
       "prettySize": "1.21 MB",
       "modifiedTime": "2019-09-21T11:08:50.357Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
+      "accessTime": "2019-09-29T06:51:50.325Z",
       "changeTime": "2019-09-21T11:08:50.361Z",
       "birthTime": "2019-09-21T11:08:50.330Z",
       "root": "/",
@@ -3370,14 +3368,24 @@
       "blksize": 4096,
       "ino": 3583830,
       "blocks": 2368,
-      "atimeMs": 1569136828479.2146,
+      "atimeMs": 1569739910325.0479,
       "mtimeMs": 1569064130357.459,
       "ctimeMs": 1569064130360.5417,
       "birthtimeMs": 1569064130329.5183,
-      "atime": "2019-09-22T07:20:28.479Z",
+      "atime": "2019-09-29T06:51:50.325Z",
       "mtime": "2019-09-21T11:08:50.357Z",
       "ctime": "2019-09-21T11:08:50.361Z",
       "birthtime": "2019-09-21T11:08:50.330Z"
+    },
+    "4cbd2403-a461-5fb5-9a29-29a7d70b48be": {
+      "id": "4cbd2403-a461-5fb5-9a29-29a7d70b48be",
+      "children": [],
+      "parent": "65ede49c-4987-51b7-9b74-cb50075744cd",
+      "internal": {
+        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "63cfe4dd-fd22-537b-bb3d-1a8e2a456f7a": {
       "id": "63cfe4dd-fd22-537b-bb3d-1a8e2a456f7a",
@@ -3397,7 +3405,7 @@
       "size": 1277214,
       "prettySize": "1.28 MB",
       "modifiedTime": "2019-09-21T11:03:03.068Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
+      "accessTime": "2019-09-29T06:51:50.325Z",
       "changeTime": "2019-09-21T11:03:03.072Z",
       "birthTime": "2019-09-21T11:03:03.039Z",
       "root": "/",
@@ -3415,31 +3423,21 @@
       "blksize": 4096,
       "ino": 3583565,
       "blocks": 2496,
-      "atimeMs": 1569136828479.2102,
+      "atimeMs": 1569739910325.0469,
       "mtimeMs": 1569063783068.07,
       "ctimeMs": 1569063783072.0247,
       "birthtimeMs": 1569063783039.3079,
-      "atime": "2019-09-22T07:20:28.479Z",
+      "atime": "2019-09-29T06:51:50.325Z",
       "mtime": "2019-09-21T11:03:03.068Z",
       "ctime": "2019-09-21T11:03:03.072Z",
       "birthtime": "2019-09-21T11:03:03.039Z"
-    },
-    "4cbd2403-a461-5fb5-9a29-29a7d70b48be": {
-      "id": "4cbd2403-a461-5fb5-9a29-29a7d70b48be",
-      "children": [],
-      "parent": "65ede49c-4987-51b7-9b74-cb50075744cd",
-      "internal": {
-        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "6742b73e-875b-54aa-9d41-80781a3d7b9b": {
       "id": "6742b73e-875b-54aa-9d41-80781a3d7b9b",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "57a0bc89802a34ac1c309ed1b614d3d9",
+        "contentDigest": "1c9494863aba51e5c456c8d7baa87a58",
         "type": "Directory",
         "description": "Directory \"content/__about\"",
         "owner": "gatsby-source-filesystem"
@@ -3451,7 +3449,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:06:10.676Z",
-      "accessTime": "2019-09-22T07:20:47.864Z",
+      "accessTime": "2019-09-29T06:51:50.359Z",
       "changeTime": "2019-09-21T03:28:26.650Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3469,11 +3467,11 @@
       "blksize": 4096,
       "ino": 3265999,
       "blocks": 0,
-      "atimeMs": 1569136847863.7568,
+      "atimeMs": 1569739910358.9355,
       "mtimeMs": 1567825570676.0103,
       "ctimeMs": 1569036506649.9487,
       "birthtimeMs": 1567824969620.8088,
-      "atime": "2019-09-22T07:20:47.864Z",
+      "atime": "2019-09-29T06:51:50.359Z",
       "mtime": "2019-09-07T03:06:10.676Z",
       "ctime": "2019-09-21T03:28:26.650Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3497,9 +3495,9 @@
       "extension": "md",
       "size": 200,
       "prettySize": "200 B",
-      "modifiedTime": "2019-09-22T07:24:20.090Z",
-      "accessTime": "2019-09-22T07:24:20.089Z",
-      "changeTime": "2019-09-22T07:24:20.090Z",
+      "modifiedTime": "2019-09-22T07:24:20.439Z",
+      "accessTime": "2019-09-29T06:51:50.359Z",
+      "changeTime": "2019-09-22T07:24:20.439Z",
       "birthTime": "2019-09-07T03:06:10.675Z",
       "root": "/",
       "dir": "/Users/jess2/study/Jess2.io/content/__about",
@@ -3516,21 +3514,46 @@
       "blksize": 4096,
       "ino": 3266000,
       "blocks": 8,
-      "atimeMs": 1569137060089.2974,
-      "mtimeMs": 1569137060089.676,
-      "ctimeMs": 1569137060089.676,
+      "atimeMs": 1569739910358.9788,
+      "mtimeMs": 1569137060439.3071,
+      "ctimeMs": 1569137060439.3071,
       "birthtimeMs": 1567825570674.826,
-      "atime": "2019-09-22T07:24:20.089Z",
-      "mtime": "2019-09-22T07:24:20.090Z",
-      "ctime": "2019-09-22T07:24:20.090Z",
+      "atime": "2019-09-29T06:51:50.359Z",
+      "mtime": "2019-09-22T07:24:20.439Z",
+      "ctime": "2019-09-22T07:24:20.439Z",
       "birthtime": "2019-09-07T03:06:10.675Z"
+    },
+    "876600f8-a94d-5bd2-98e1-4de375dfe79c": {
+      "id": "876600f8-a94d-5bd2-98e1-4de375dfe79c",
+      "children": [],
+      "parent": "28812dc7-c49a-5a03-888f-ee714c86264a",
+      "internal": {
+        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "648b15631a7a415a6a7b1fdcfea45311",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "about",
+        "date": "2019-01-27T16:21:13.000Z",
+        "lang": "en"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
+      "fields": {
+        "slug": "/resume-en/"
+      }
     },
     "4b10d3f8-d8b2-565e-968d-644f36f52a49": {
       "id": "4b10d3f8-d8b2-565e-968d-644f36f52a49",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "01665ac27fec629801eb788364993c30",
+        "contentDigest": "91e9346021968b2243928bef34a19942",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -3542,7 +3565,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:49:48.848Z",
-      "accessTime": "2019-09-22T07:20:47.873Z",
+      "accessTime": "2019-09-29T06:51:50.364Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3560,11 +3583,11 @@
       "blksize": 4096,
       "ino": 3266001,
       "blocks": 0,
-      "atimeMs": 1569136847872.714,
+      "atimeMs": 1569739910363.8345,
       "mtimeMs": 1567828188848.3962,
       "ctimeMs": 1569036506651.0718,
       "birthtimeMs": 1567824969621.066,
-      "atime": "2019-09-22T07:20:47.873Z",
+      "atime": "2019-09-29T06:51:50.364Z",
       "mtime": "2019-09-07T03:49:48.848Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3589,7 +3612,7 @@
       "size": 412008,
       "prettySize": "412 kB",
       "modifiedTime": "2019-09-07T03:23:10.763Z",
-      "accessTime": "2019-09-22T07:20:28.479Z",
+      "accessTime": "2019-09-29T06:51:50.364Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T03:23:10.740Z",
       "root": "/",
@@ -3607,11 +3630,11 @@
       "blksize": 4096,
       "ino": 3266002,
       "blocks": 808,
-      "atimeMs": 1569136828479.1846,
+      "atimeMs": 1569739910363.95,
       "mtimeMs": 1567826590763.4646,
       "ctimeMs": 1569036506650.9792,
       "birthtimeMs": 1567826590740.0664,
-      "atime": "2019-09-22T07:20:28.479Z",
+      "atime": "2019-09-29T06:51:50.364Z",
       "mtime": "2019-09-07T03:23:10.763Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T03:23:10.740Z"
@@ -3644,7 +3667,15 @@
             "category": "etc."
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/etc./junior_seminar/"
+          },
+          "frontmatter": {
+            "title": "스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
+            "category": "etc."
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -3654,7 +3685,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c6d063bcacc2245cddbbc14eb762b81d",
+        "contentDigest": "c2c1492203a3fef219105518bf7d1587",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3776,46 +3807,184 @@
         "owner": "internal-data-bridge"
       }
     },
-    "876600f8-a94d-5bd2-98e1-4de375dfe79c": {
-      "id": "876600f8-a94d-5bd2-98e1-4de375dfe79c",
-      "children": [],
-      "parent": "28812dc7-c49a-5a03-888f-ee714c86264a",
+    "86e14afc-3875-5326-a610-c1f3a4236c5f": {
+      "id": "86e14afc-3875-5326-a610-c1f3a4236c5f",
+      "children": [
+        "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00"
+      ],
+      "parent": null,
       "internal": {
-        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
+        "contentDigest": "338d12b4557abc5168d070788ed90b0d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/etc./junior_seminar.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./junior_seminar.md",
+      "relativePath": "etc./junior_seminar.md",
+      "extension": "md",
+      "size": 15273,
+      "prettySize": "15.3 kB",
+      "modifiedTime": "2019-09-29T09:32:18.765Z",
+      "accessTime": "2019-09-29T09:29:46.139Z",
+      "changeTime": "2019-09-29T09:32:18.765Z",
+      "birthTime": "2019-09-29T07:01:44.369Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/etc.",
+      "base": "junior_seminar.md",
+      "ext": ".md",
+      "name": "junior_seminar",
+      "relativeDirectory": "etc.",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4108656,
+      "blocks": 32,
+      "atimeMs": 1569749386138.7402,
+      "mtimeMs": 1569749538764.9385,
+      "ctimeMs": 1569749538764.9385,
+      "birthtimeMs": 1569740504369.1792,
+      "atime": "2019-09-29T09:29:46.139Z",
+      "mtime": "2019-09-29T09:32:18.765Z",
+      "ctime": "2019-09-29T09:32:18.765Z",
+      "birthtime": "2019-09-29T07:01:44.369Z"
+    },
+    "SitePage /etc./junior_seminar/": {
+      "jsonName": "etc-junior-seminar-cdb",
+      "internalComponentName": "ComponentEtcJuniorSeminar",
+      "path": "/etc./junior_seminar/",
+      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/etc./junior_seminar/",
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/var,-let,-const-비교/"
+          },
+          "frontmatter": {
+            "title": "1. var, let, const 비교",
+            "category": "JavaScript"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "id": "SitePage /etc./junior_seminar/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "67f76712962aedd62ef4347b31844f21",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b0f3eacd-3ed3-5c4e-9bcc-21202015cbfa": {
+      "id": "b0f3eacd-3ed3-5c4e-9bcc-21202015cbfa",
+      "children": [
+        "2fe8f723-dd82-5d4e-bd7f-dcff195520af"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3fad73bb6dfa54e29f02eb180909e950",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/startup_junior_seminar.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./images/startup_junior_seminar.png",
+      "relativePath": "etc./images/startup_junior_seminar.png",
+      "extension": "png",
+      "size": 64964,
+      "prettySize": "65 kB",
+      "modifiedTime": "2019-09-29T06:58:06.404Z",
+      "accessTime": "2019-09-29T06:58:34.488Z",
+      "changeTime": "2019-09-29T07:02:03.958Z",
+      "birthTime": "2019-09-29T06:58:06.397Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/etc./images",
+      "base": "startup_junior_seminar.png",
+      "ext": ".png",
+      "name": "startup_junior_seminar",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4108338,
+      "blocks": 128,
+      "atimeMs": 1569740314487.9167,
+      "mtimeMs": 1569740286404.1377,
+      "ctimeMs": 1569740523957.9817,
+      "birthtimeMs": 1569740286397.1536,
+      "atime": "2019-09-29T06:58:34.488Z",
+      "mtime": "2019-09-29T06:58:06.404Z",
+      "ctime": "2019-09-29T07:02:03.958Z",
+      "birthtime": "2019-09-29T06:58:06.397Z"
+    },
+    "2fe8f723-dd82-5d4e-bd7f-dcff195520af": {
+      "id": "2fe8f723-dd82-5d4e-bd7f-dcff195520af",
+      "children": [],
+      "parent": "b0f3eacd-3ed3-5c4e-9bcc-21202015cbfa",
+      "internal": {
+        "contentDigest": "3fad73bb6dfa54e29f02eb180909e950",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00": {
+      "id": "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00",
+      "children": [],
+      "parent": "86e14afc-3875-5326-a610-c1f3a4236c5f",
+      "internal": {
+        "content": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'. 이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다. 이 경험을 공유하고자 한다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각함. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
         "type": "MarkdownRemark",
-        "contentDigest": "648b15631a7a415a6a7b1fdcfea45311",
+        "contentDigest": "bb84ea3d89b8e3a1c410c5a9523d283c",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "about",
-        "date": "2019-01-27T16:21:13.000Z",
-        "lang": "en"
+        "title": "스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
+        "date": "2019-09-29T16:10:16.000Z",
+        "category": "etc."
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/__about/resume-en.md",
+      "rawMarkdownBody": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'. 이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다. 이 경험을 공유하고자 한다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각함. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./junior_seminar.md",
       "fields": {
-        "slug": "/resume-en/"
+        "slug": "/etc./junior_seminar/"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "17959f1fed36dfc8b1e56c9e65d2c558"
+    "PLUGINS_HASH": "48763c38dd0b78fae9e142d62c57af8b"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
         "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/",
         "/",
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx"
+        "/etc./junior_seminar/"
       ],
       "e43be9d8-1f99-51cc-a68b-b08052195286": [
         "sq--src-components-bio-index-jsx"
@@ -3828,6 +3997,9 @@
       ],
       "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": [
         "/etc./notion-for-students-&-teachers/"
+      ],
+      "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00": [
+        "/etc./junior_seminar/"
       ]
     },
     "connections": {
@@ -3847,12 +4019,13 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "673/path---index-6a9-QXoAoT3sJwa08BgA877cuCDhAE",
+    "index": "659/path---index-6a9-8rmxIWVv0FzReVDjyvIMs0TDRc",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
     "etc-notion-for-students-teachers-efd": "803/path---etc-notion-for-students-teachers-efd-4f3-Tx1Dx0l9TJqMBl6TFyG7ZVolEg",
-    "java-script-var-let-const-비교-bb7": "717/path---java-script-var-let-const-비교-bb-7-6bb-Q9V7rvuGdQxW6KxWU00ZnCXIe4"
+    "java-script-var-let-const-비교-bb7": "715/path---java-script-var-let-const-비교-bb-7-6bb-8xPVL9VRID2xXkiPDFAJapUp34",
+    "etc-junior-seminar-cdb": "842/path---etc-junior-seminar-cdb-952-JYzSSCovkloZEfVGNA7kxHUDM"
   },
   "components": {
     "/Users/jess2/study/Jess2.io/src/templates/blog-post.js": {
@@ -3877,14 +4050,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-head-index-jsx": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/Users/jess2/study/Jess2.io/src/components/head/index.jsx",
-      "id": "sq--src-components-head-index-jsx",
-      "jsonName": "sq--src-components-head-index-jsx",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 1025518380
-    },
     "sq--src-components-bio-index-jsx": {
       "name": "BioQuery",
       "componentPath": "/Users/jess2/study/Jess2.io/src/components/bio/index.jsx",
@@ -3892,6 +4057,14 @@
       "jsonName": "sq--src-components-bio-index-jsx",
       "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/jessieImg.png/\"}) {\n    childImageSharp {\n      fixed(width: 72, height: 72) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      introduction\n      social {\n        twitter\n        github\n        medium\n        facebook\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
       "hash": 4037432015
+    },
+    "sq--src-components-head-index-jsx": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/components/head/index.jsx",
+      "id": "sq--src-components-head-index-jsx",
+      "jsonName": "sq--src-components-head-index-jsx",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
     }
   }
 }
