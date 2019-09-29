@@ -3977,14 +3977,14 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
         "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/",
         "/",
-        "/etc./junior_seminar/"
+        "/etc./junior_seminar/",
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx"
       ],
       "e43be9d8-1f99-51cc-a68b-b08052195286": [
         "sq--src-components-bio-index-jsx"
