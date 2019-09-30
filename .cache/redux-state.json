@@ -3247,9 +3247,9 @@
       "extension": "md",
       "size": 2464,
       "prettySize": "2.46 kB",
-      "modifiedTime": "2019-09-30T12:45:19.683Z",
-      "accessTime": "2019-09-30T12:44:47.620Z",
-      "changeTime": "2019-09-30T12:45:19.683Z",
+      "modifiedTime": "2019-09-30T13:31:19.038Z",
+      "accessTime": "2019-09-30T13:31:19.469Z",
+      "changeTime": "2019-09-30T13:31:19.038Z",
       "birthTime": "2019-09-30T12:27:37.029Z",
       "root": "/",
       "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
@@ -3266,13 +3266,13 @@
       "blksize": 4096,
       "ino": 4198659,
       "blocks": 8,
-      "atimeMs": 1569847487620.228,
-      "mtimeMs": 1569847519683.311,
-      "ctimeMs": 1569847519683.311,
+      "atimeMs": 1569850279469.4854,
+      "mtimeMs": 1569850279038.4285,
+      "ctimeMs": 1569850279038.4285,
       "birthtimeMs": 1569846457028.7368,
-      "atime": "2019-09-30T12:44:47.620Z",
-      "mtime": "2019-09-30T12:45:19.683Z",
-      "ctime": "2019-09-30T12:45:19.683Z",
+      "atime": "2019-09-30T13:31:19.469Z",
+      "mtime": "2019-09-30T13:31:19.038Z",
+      "ctime": "2019-09-30T13:31:19.038Z",
       "birthtime": "2019-09-30T12:27:37.029Z"
     },
     "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a": {
@@ -3282,7 +3282,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "74573bc47539b2719cea27ad83ec3952",
+        "contentDigest": "b97fb35f3aead6c894de0c98028179a3",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
@@ -3292,11 +3292,11 @@
       "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
       "relativePath": "JavaScript/var,-let,-const-비교.md",
       "extension": "md",
-      "size": 7889,
+      "size": 7886,
       "prettySize": "7.89 kB",
-      "modifiedTime": "2019-09-22T06:46:35.235Z",
-      "accessTime": "2019-09-30T12:27:39.330Z",
-      "changeTime": "2019-09-22T06:46:35.235Z",
+      "modifiedTime": "2019-09-30T13:32:20.520Z",
+      "accessTime": "2019-09-30T13:32:07.450Z",
+      "changeTime": "2019-09-30T13:32:20.520Z",
       "birthTime": "2019-09-21T12:13:48.356Z",
       "root": "/",
       "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
@@ -3313,13 +3313,13 @@
       "blksize": 4096,
       "ino": 3591857,
       "blocks": 16,
-      "atimeMs": 1569846459330.2678,
-      "mtimeMs": 1569134795234.5525,
-      "ctimeMs": 1569134795234.5525,
+      "atimeMs": 1569850327449.512,
+      "mtimeMs": 1569850340519.6958,
+      "ctimeMs": 1569850340519.6958,
       "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-09-30T12:27:39.330Z",
-      "mtime": "2019-09-22T06:46:35.235Z",
-      "ctime": "2019-09-22T06:46:35.235Z",
+      "atime": "2019-09-30T13:32:07.450Z",
+      "mtime": "2019-09-30T13:32:20.520Z",
+      "ctime": "2019-09-30T13:32:20.520Z",
       "birthtime": "2019-09-21T12:13:48.356Z"
     },
     "86e14afc-3875-5326-a610-c1f3a4236c5f": {
@@ -3519,31 +3519,6 @@
       "mtime": "2019-09-21T09:49:46.534Z",
       "ctime": "2019-09-21T09:49:46.536Z",
       "birthtime": "2019-09-21T09:49:46.530Z"
-    },
-    "4230c083-d80e-57ab-99a2-27d9493bd276": {
-      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
-      "children": [],
-      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
-      "internal": {
-        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-        "type": "MarkdownRemark",
-        "contentDigest": "6e17247bec278d7d319379b84ccc8d4f",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "1. var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
-      "fields": {
-        "slug": "/JavaScript/var,-let,-const-비교/"
-      }
     },
     "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": {
       "id": "b487d7da-4d3e-5cb8-a4df-ee0d2673e963",
@@ -3924,39 +3899,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /JavaScript/onclick-vs-addeventlistener/": {
-      "jsonName": "java-script-onclick-vs-addeventlistener-96d",
-      "internalComponentName": "ComponentJavaScriptOnclickVsAddeventlistener",
-      "path": "/JavaScript/onclick-vs-addeventlistener/",
-      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/JavaScript/onclick-vs-addeventlistener/",
-        "previous": null,
-        "next": {
-          "fields": {
-            "slug": "/JavaScript/hoisting/"
-          },
-          "frontmatter": {
-            "title": "호이스팅(Hoisting)",
-            "category": "javascript"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
-      "id": "SitePage /JavaScript/onclick-vs-addeventlistener/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a04099015545627c40ed8445d2a5c6b2",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /etc./junior_seminar/": {
       "jsonName": "etc-junior-seminar-cdb",
       "internalComponentName": "ComponentEtcJuniorSeminar",
@@ -3971,7 +3913,7 @@
             "slug": "/JavaScript/var,-let,-const-비교/"
           },
           "frontmatter": {
-            "title": "1. var, let, const 비교",
+            "title": "var, let, const 비교",
             "category": "JavaScript"
           }
         },
@@ -3985,48 +3927,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "67f76712962aedd62ef4347b31844f21",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /JavaScript/var,-let,-const-비교/": {
-      "jsonName": "java-script-var-let-const-비교-bb7",
-      "internalComponentName": "ComponentJavaScriptVarLetConst비교",
-      "path": "/JavaScript/var,-let,-const-비교/",
-      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/JavaScript/var,-let,-const-비교/",
-        "previous": {
-          "fields": {
-            "slug": "/etc./notion-for-students-&-teachers/"
-          },
-          "frontmatter": {
-            "title": "Notion is FREE for students & teachers",
-            "category": "etc."
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/etc./junior_seminar/"
-          },
-          "frontmatter": {
-            "title": "2019 스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
-            "category": "etc."
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
-      "id": "SitePage /JavaScript/var,-let,-const-비교/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0d5dbfaf800008e4b9f0802407c9d4a7",
+        "contentDigest": "f51f76095254cba10dfed83e6f3f6e58",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4054,7 +3955,7 @@
             "slug": "/JavaScript/var,-let,-const-비교/"
           },
           "frontmatter": {
-            "title": "1. var, let, const 비교",
+            "title": "var, let, const 비교",
             "category": "JavaScript"
           }
         }
@@ -4067,7 +3968,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2901791a3eb0884bda06b5c49e3e2d22",
+        "contentDigest": "4168b78f89bad1159d806cb74a393c78",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4156,6 +4057,53 @@
         "owner": "internal-data-bridge"
       }
     },
+    "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d": {
+      "id": "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d",
+      "children": [
+        "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3e2934968485124d00b44e71c7f9b90b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/hoisting.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/hoisting.md",
+      "relativePath": "JavaScript/hoisting.md",
+      "extension": "md",
+      "size": 2486,
+      "prettySize": "2.49 kB",
+      "modifiedTime": "2019-09-30T13:31:21.300Z",
+      "accessTime": "2019-09-30T13:30:46.620Z",
+      "changeTime": "2019-09-30T13:31:21.300Z",
+      "birthTime": "2019-09-30T12:48:35.263Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
+      "base": "hoisting.md",
+      "ext": ".md",
+      "name": "hoisting",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4201455,
+      "blocks": 8,
+      "atimeMs": 1569850246619.9292,
+      "mtimeMs": 1569850281300.3816,
+      "ctimeMs": 1569850281300.3816,
+      "birthtimeMs": 1569847715262.665,
+      "atime": "2019-09-30T13:30:46.620Z",
+      "mtime": "2019-09-30T13:31:21.300Z",
+      "ctime": "2019-09-30T13:31:21.300Z",
+      "birthtime": "2019-09-30T12:48:35.263Z"
+    },
     "c6466db6-7e0c-595d-bd7b-0a9de7babe87": {
       "id": "c6466db6-7e0c-595d-bd7b-0a9de7babe87",
       "children": [],
@@ -4181,52 +4129,63 @@
         "slug": "/JavaScript/onclick-vs-addeventlistener/"
       }
     },
-    "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d": {
-      "id": "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d",
-      "children": [
-        "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "3e2934968485124d00b44e71c7f9b90b",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/hoisting.md\"",
-        "owner": "gatsby-source-filesystem"
+    "SitePage /JavaScript/onclick-vs-addeventlistener/": {
+      "jsonName": "java-script-onclick-vs-addeventlistener-96d",
+      "internalComponentName": "ComponentJavaScriptOnclickVsAddeventlistener",
+      "path": "/JavaScript/onclick-vs-addeventlistener/",
+      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/onclick-vs-addeventlistener/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/hoisting/"
+          },
+          "frontmatter": {
+            "title": "호이스팅(Hoisting)",
+            "category": "javascript"
+          }
+        }
       },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/hoisting.md",
-      "relativePath": "JavaScript/hoisting.md",
-      "extension": "md",
-      "size": 2486,
-      "prettySize": "2.49 kB",
-      "modifiedTime": "2019-09-30T13:29:26.398Z",
-      "accessTime": "2019-09-30T13:29:04.725Z",
-      "changeTime": "2019-09-30T13:29:26.398Z",
-      "birthTime": "2019-09-30T12:48:35.263Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
-      "base": "hoisting.md",
-      "ext": ".md",
-      "name": "hoisting",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4201455,
-      "blocks": 8,
-      "atimeMs": 1569850144725.069,
-      "mtimeMs": 1569850166398.0374,
-      "ctimeMs": 1569850166398.0374,
-      "birthtimeMs": 1569847715262.665,
-      "atime": "2019-09-30T13:29:04.725Z",
-      "mtime": "2019-09-30T13:29:26.398Z",
-      "ctime": "2019-09-30T13:29:26.398Z",
-      "birthtime": "2019-09-30T12:48:35.263Z"
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/onclick-vs-addeventlistener/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a04099015545627c40ed8445d2a5c6b2",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2": {
+      "id": "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2",
+      "children": [],
+      "parent": "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d",
+      "internal": {
+        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "3d3a0a3f8db325915cb99f73384497a9",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "호이스팅(Hoisting)",
+        "date": "2018-05-16T21:10:14.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/hoisting.md",
+      "fields": {
+        "slug": "/JavaScript/hoisting/"
+      }
     },
     "SitePage /JavaScript/hoisting/": {
       "jsonName": "java-script-hoisting-0e5",
@@ -4269,29 +4228,70 @@
         "owner": "internal-data-bridge"
       }
     },
-    "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2": {
-      "id": "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2",
+    "4230c083-d80e-57ab-99a2-27d9493bd276": {
+      "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
       "children": [],
-      "parent": "dea2a50a-9b47-5b0e-ab20-f5e1dce6777d",
+      "parent": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
       "internal": {
-        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
         "type": "MarkdownRemark",
-        "contentDigest": "3d3a0a3f8db325915cb99f73384497a9",
+        "contentDigest": "6c5a59ea257a6f0d59361d0b4a483a43",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "호이스팅(Hoisting)",
-        "date": "2018-05-16T21:10:14.000Z",
-        "category": "javascript"
+        "title": "var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "JavaScript"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/hoisting.md",
+      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
       "fields": {
-        "slug": "/JavaScript/hoisting/"
+        "slug": "/JavaScript/var,-let,-const-비교/"
+      }
+    },
+    "SitePage /JavaScript/var,-let,-const-비교/": {
+      "jsonName": "java-script-var-let-const-비교-bb7",
+      "internalComponentName": "ComponentJavaScriptVarLetConst비교",
+      "path": "/JavaScript/var,-let,-const-비교/",
+      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/var,-let,-const-비교/",
+        "previous": {
+          "fields": {
+            "slug": "/etc./notion-for-students-&-teachers/"
+          },
+          "frontmatter": {
+            "title": "Notion is FREE for students & teachers",
+            "category": "etc."
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/etc./junior_seminar/"
+          },
+          "frontmatter": {
+            "title": "2019 스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
+            "category": "etc."
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/var,-let,-const-비교/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0d5dbfaf800008e4b9f0802407c9d4a7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     }
   },
@@ -4306,12 +4306,12 @@
         "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
-        "/JavaScript/onclick-vs-addeventlistener/",
         "/etc./junior_seminar/",
-        "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/",
         "/",
-        "/JavaScript/hoisting/"
+        "/JavaScript/hoisting/",
+        "/JavaScript/onclick-vs-addeventlistener/",
+        "/JavaScript/var,-let,-const-비교/"
       ],
       "e43be9d8-1f99-51cc-a68b-b08052195286": [
         "sq--src-components-bio-index-jsx"
@@ -4331,9 +4331,7 @@
       "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": [
         "/etc./notion-for-students-&-teachers/"
       ],
-      "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2": [
-        "/JavaScript/hoisting/"
-      ]
+      "7901c0ed-67e8-59c2-b289-9ac8ba4c0dd2": []
     },
     "connections": {
       "MarkdownRemark": [
@@ -4352,16 +4350,16 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "580/path---index-6a9-FqlCeU2fjDxzV5XHSue0sRzFWEU",
+    "index": "690/path---index-6a9-vhehHKqs60jhi3UNXGdWkaHQw",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "914/path---etc-notion-for-students-teachers-efd-4f3-fzmfdTY6QjSZ4lQrZ1JLPs2XyY",
-    "java-script-var-let-const-비교-bb7": "740/path---java-script-var-let-const-비교-bb-7-6bb-ah3raCKB3rlmGvugRAUZUZw",
-    "etc-junior-seminar-cdb": "972/path---etc-junior-seminar-cdb-952-ClrGXPwyZllaZsEaM0ef4RZTJW8",
+    "etc-notion-for-students-teachers-efd": "984/path---etc-notion-for-students-teachers-efd-4f3-ZLFHEJeFbG1JrdPNLEe8bHBuTms",
+    "java-script-var-let-const-비교-bb7": "360/path---java-script-var-let-const-비교-bb-7-6bb-WcvlHCkkxBJYQB9w23IbUiKYzY",
+    "etc-junior-seminar-cdb": "168/path---etc-junior-seminar-cdb-952-oheZ7EpHCWj8BF4OZsmZB5f6Uk",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
     "java-script-onclick-vs-addeventlistener-96d": "812/path---java-script-onclick-vs-addeventlistener-96-d-bd0-5gcIGhnzzycKoD3t27lXN3wsmM",
-    "java-script-hoisting-0e5": "633/path---java-script-hoisting-0-e-5-d97-q4a0UHtHApV0URyUzBeukPnRmvM"
+    "java-script-hoisting-0e5": "867/path---java-script-hoisting-0-e-5-d97-kXfr822rPMMnQPkpS8jlbYgBQH0"
   },
   "components": {
     "/Users/jess2/study/Jess2.io/src/templates/blog-post.js": {

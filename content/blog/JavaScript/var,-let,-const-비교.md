@@ -1,5 +1,5 @@
 ---
-title: 1. var, let, const 비교
+title: var, let, const 비교
 date: 2019-09-22 12:09:37
 category: JavaScript
 ---
