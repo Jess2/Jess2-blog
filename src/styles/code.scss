@@ -155,6 +155,10 @@ h3, h4, h5, h6 {
   line-height: inherit;
 }
 
+ul {
+  margin-bottom: 13px;
+}
+
 li > ul {
   margin-bottom: calc(0.8125rem / 2) !important;
 }

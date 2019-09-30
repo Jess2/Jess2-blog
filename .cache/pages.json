@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-hoisting-0e5",
+        "path": "/JavaScript/hoisting/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-onclick-vs-addeventlistener-96d",
         "path": "/JavaScript/onclick-vs-addeventlistener/"
     },
