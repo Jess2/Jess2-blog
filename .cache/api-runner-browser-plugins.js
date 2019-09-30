@@ -9,7 +9,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[],"trackingId":""},
+      options: {"plugins":[],"trackingId":"UA-149032677-1"},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},

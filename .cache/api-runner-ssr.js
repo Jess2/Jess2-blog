@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":""},
+      options: {"plugins":[],"trackingId":"UA-149032677-1"},
     },{
       plugin: require('/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Jess2's Devlog","short_name":"Jess2's Devlog","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/jessieImg.png"},

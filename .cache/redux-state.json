@@ -1660,14 +1660,14 @@
         "owner": "internal-data-bridge"
       }
     },
-    "40ce8422-5643-56a1-bd08-9f8fcb6023d4": {
+    "8b41d8b0-5f80-5c50-88b3-d76fc9ca6e94": {
       "resolve": "/Users/jess2/study/Jess2.io/node_modules/gatsby-plugin-google-analytics",
-      "id": "40ce8422-5643-56a1-bd08-9f8fcb6023d4",
+      "id": "8b41d8b0-5f80-5c50-88b3-d76fc9ca6e94",
       "name": "gatsby-plugin-google-analytics",
       "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
-        "trackingId": ""
+        "trackingId": "UA-149032677-1"
       },
       "nodeAPIs": [],
       "browserAPIs": [
@@ -1728,7 +1728,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fe19ee2755f1f0c5cb7c6809fc3b0a15",
+        "contentDigest": "d82261c1d31294e199e0872e138d93f3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2654,7 +2654,7 @@
       "resolve": "/Users/jess2/study/Jess2.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "7936bf31c99e973848e9be0eb69f8682",
+      "version": "ea2d592d3eff8c08393f43636b01299c",
       "pluginOptions": {
         "plugins": []
       },
@@ -2892,7 +2892,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "937ef4fe5cba55363acd29140ac0245c",
+        "contentDigest": "e78bb85ab10c53d88b34a6d95491947a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -3036,18 +3036,18 @@
         "share": {
           "facebookAppId": ""
         },
-        "ga": ""
+        "ga": "UA-149032677-1"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-09-30T12:11:03.813Z",
+      "buildTime": "2019-09-30T12:29:05.370Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bb384104f9fb69862b9120ee658e56ca",
+        "contentDigest": "e8ecee498de11e039ea6b69dddb947be",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3057,7 +3057,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2211408d54f27489756fcb1fcacd1661",
+        "contentDigest": "b37294ad1814b355bb1e5fee771bed02",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -3069,7 +3069,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T12:13:24.386Z",
-      "accessTime": "2019-09-30T12:11:09.998Z",
+      "accessTime": "2019-09-30T12:29:09.954Z",
       "changeTime": "2019-09-21T12:13:24.386Z",
       "birthTime": "2019-09-07T02:56:09.622Z",
       "root": "/",
@@ -3087,11 +3087,11 @@
       "blksize": 4096,
       "ino": 3265981,
       "blocks": 0,
-      "atimeMs": 1569845469997.696,
+      "atimeMs": 1569846549953.8088,
       "mtimeMs": 1569068004385.68,
       "ctimeMs": 1569068004385.68,
       "birthtimeMs": 1567824969621.551,
-      "atime": "2019-09-30T12:11:09.998Z",
+      "atime": "2019-09-30T12:29:09.954Z",
       "mtime": "2019-09-21T12:13:24.386Z",
       "ctime": "2019-09-21T12:13:24.386Z",
       "birthtime": "2019-09-07T02:56:09.622Z"
@@ -3101,7 +3101,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "58421d9d766d74ca16fb7ac384cdc9bf",
+        "contentDigest": "590361293337c406509f438417468d45",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
@@ -3110,11 +3110,11 @@
       "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
       "relativePath": "JavaScript",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-09-21T12:13:48.356Z",
-      "accessTime": "2019-09-30T12:11:09.999Z",
-      "changeTime": "2019-09-21T12:13:48.356Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-09-30T12:27:52.028Z",
+      "accessTime": "2019-09-30T12:29:09.956Z",
+      "changeTime": "2019-09-30T12:27:52.028Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
       "dir": "/Users/jess2/study/Jess2.io/content/blog",
@@ -3124,20 +3124,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1569845469999.3987,
-      "mtimeMs": 1569068028356.4558,
-      "ctimeMs": 1569068028356.4558,
+      "atimeMs": 1569846549956.0195,
+      "mtimeMs": 1569846472028.0908,
+      "ctimeMs": 1569846472028.0908,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2019-09-30T12:11:09.999Z",
-      "mtime": "2019-09-21T12:13:48.356Z",
-      "ctime": "2019-09-21T12:13:48.356Z",
+      "atime": "2019-09-30T12:29:09.956Z",
+      "mtime": "2019-09-30T12:27:52.028Z",
+      "ctime": "2019-09-30T12:27:52.028Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
     },
     "c2fba15c-35ef-5601-91cd-d75f8d20e7e2": {
@@ -3145,7 +3145,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "9d245e19a2e9be31150d323664e7d322",
+        "contentDigest": "5472a7464f248bd0a9ecee977682af4c",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
@@ -3157,7 +3157,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-09-29T07:01:44.369Z",
-      "accessTime": "2019-09-30T12:11:09.999Z",
+      "accessTime": "2019-09-30T12:29:09.958Z",
       "changeTime": "2019-09-29T07:01:44.369Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
@@ -3175,11 +3175,11 @@
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1569845469999.4746,
+      "atimeMs": 1569846549958.1287,
       "mtimeMs": 1569740504369.196,
       "ctimeMs": 1569740504369.196,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2019-09-30T12:11:09.999Z",
+      "atime": "2019-09-30T12:29:09.958Z",
       "mtime": "2019-09-29T07:01:44.369Z",
       "ctime": "2019-09-29T07:01:44.369Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
@@ -3189,7 +3189,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a280760106e9ac09298816c394726213",
+        "contentDigest": "23d23cd21419200b51b660e208f2f2ed",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
@@ -3201,7 +3201,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-09-29T07:02:03.958Z",
-      "accessTime": "2019-09-30T12:11:10.001Z",
+      "accessTime": "2019-09-30T12:29:09.959Z",
       "changeTime": "2019-09-29T07:02:03.958Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
@@ -3219,44 +3219,44 @@
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1569845470000.7966,
+      "atimeMs": 1569846549959.2446,
       "mtimeMs": 1569740523957.9817,
       "ctimeMs": 1569740523957.9817,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2019-09-30T12:11:10.001Z",
+      "atime": "2019-09-30T12:29:09.959Z",
       "mtime": "2019-09-29T07:02:03.958Z",
       "ctime": "2019-09-29T07:02:03.958Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
     },
-    "8003bdf0-1683-5b32-af0b-0abbc016a0d5": {
-      "id": "8003bdf0-1683-5b32-af0b-0abbc016a0d5",
+    "1da948ce-6b04-54cd-a881-aefdad41a208": {
+      "id": "1da948ce-6b04-54cd-a881-aefdad41a208",
       "children": [
-        "b487d7da-4d3e-5cb8-a4df-ee0d2673e963"
+        "c6466db6-7e0c-595d-bd7b-0a9de7babe87"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "bc5d9af8f469e9d05090041516f2fdbb",
+        "contentDigest": "0dcdfab8b7aeb45efcbcd00b9d252f92",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"content/blog/etc./notion-for-students-&-teachers.md\"",
+        "description": "File \"content/blog/JavaScript/onclick-vs-addeventlistener.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./notion-for-students-&-teachers.md",
-      "relativePath": "etc./notion-for-students-&-teachers.md",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/onclick-vs-addeventlistener.md",
+      "relativePath": "JavaScript/onclick-vs-addeventlistener.md",
       "extension": "md",
-      "size": 1167,
-      "prettySize": "1.17 kB",
-      "modifiedTime": "2019-09-21T11:41:26.904Z",
-      "accessTime": "2019-09-21T19:06:31.449Z",
-      "changeTime": "2019-09-21T11:41:26.904Z",
-      "birthTime": "2019-09-21T09:41:51.163Z",
+      "size": 2464,
+      "prettySize": "2.46 kB",
+      "modifiedTime": "2019-09-30T12:45:19.683Z",
+      "accessTime": "2019-09-30T12:44:47.620Z",
+      "changeTime": "2019-09-30T12:45:19.683Z",
+      "birthTime": "2019-09-30T12:27:37.029Z",
       "root": "/",
-      "dir": "/Users/jess2/study/Jess2.io/content/blog/etc.",
-      "base": "notion-for-students-&-teachers.md",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/JavaScript",
+      "base": "onclick-vs-addeventlistener.md",
       "ext": ".md",
-      "name": "notion-for-students-&-teachers",
-      "relativeDirectory": "etc.",
+      "name": "onclick-vs-addeventlistener",
+      "relativeDirectory": "JavaScript",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -3264,16 +3264,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578801,
+      "ino": 4198659,
       "blocks": 8,
-      "atimeMs": 1569092791449.1758,
-      "mtimeMs": 1569066086904.0698,
-      "ctimeMs": 1569066086904.0698,
-      "birthtimeMs": 1569058911162.5479,
-      "atime": "2019-09-21T19:06:31.449Z",
-      "mtime": "2019-09-21T11:41:26.904Z",
-      "ctime": "2019-09-21T11:41:26.904Z",
-      "birthtime": "2019-09-21T09:41:51.163Z"
+      "atimeMs": 1569847487620.228,
+      "mtimeMs": 1569847519683.311,
+      "ctimeMs": 1569847519683.311,
+      "birthtimeMs": 1569846457028.7368,
+      "atime": "2019-09-30T12:44:47.620Z",
+      "mtime": "2019-09-30T12:45:19.683Z",
+      "ctime": "2019-09-30T12:45:19.683Z",
+      "birthtime": "2019-09-30T12:27:37.029Z"
     },
     "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a": {
       "id": "8e1148ac-50fd-5ed8-82f0-487e95d7cb4a",
@@ -3295,7 +3295,7 @@
       "size": 7889,
       "prettySize": "7.89 kB",
       "modifiedTime": "2019-09-22T06:46:35.235Z",
-      "accessTime": "2019-09-22T06:46:35.233Z",
+      "accessTime": "2019-09-30T12:27:39.330Z",
       "changeTime": "2019-09-22T06:46:35.235Z",
       "birthTime": "2019-09-21T12:13:48.356Z",
       "root": "/",
@@ -3313,11 +3313,11 @@
       "blksize": 4096,
       "ino": 3591857,
       "blocks": 16,
-      "atimeMs": 1569134795232.855,
+      "atimeMs": 1569846459330.2678,
       "mtimeMs": 1569134795234.5525,
       "ctimeMs": 1569134795234.5525,
       "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-09-22T06:46:35.233Z",
+      "atime": "2019-09-30T12:27:39.330Z",
       "mtime": "2019-09-22T06:46:35.235Z",
       "ctime": "2019-09-22T06:46:35.235Z",
       "birthtime": "2019-09-21T12:13:48.356Z"
@@ -3342,7 +3342,7 @@
       "size": 15247,
       "prettySize": "15.2 kB",
       "modifiedTime": "2019-09-29T12:30:03.673Z",
-      "accessTime": "2019-09-29T12:30:33.374Z",
+      "accessTime": "2019-09-30T12:29:09.958Z",
       "changeTime": "2019-09-29T12:30:03.673Z",
       "birthTime": "2019-09-29T07:01:44.369Z",
       "root": "/",
@@ -3360,14 +3360,61 @@
       "blksize": 4096,
       "ino": 4108656,
       "blocks": 32,
-      "atimeMs": 1569760233374.085,
+      "atimeMs": 1569846549958.2224,
       "mtimeMs": 1569760203673.06,
       "ctimeMs": 1569760203673.06,
       "birthtimeMs": 1569740504369.1792,
-      "atime": "2019-09-29T12:30:33.374Z",
+      "atime": "2019-09-30T12:29:09.958Z",
       "mtime": "2019-09-29T12:30:03.673Z",
       "ctime": "2019-09-29T12:30:03.673Z",
       "birthtime": "2019-09-29T07:01:44.369Z"
+    },
+    "8003bdf0-1683-5b32-af0b-0abbc016a0d5": {
+      "id": "8003bdf0-1683-5b32-af0b-0abbc016a0d5",
+      "children": [
+        "b487d7da-4d3e-5cb8-a4df-ee0d2673e963"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bc5d9af8f469e9d05090041516f2fdbb",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/etc./notion-for-students-&-teachers.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./notion-for-students-&-teachers.md",
+      "relativePath": "etc./notion-for-students-&-teachers.md",
+      "extension": "md",
+      "size": 1167,
+      "prettySize": "1.17 kB",
+      "modifiedTime": "2019-09-21T11:41:26.904Z",
+      "accessTime": "2019-09-30T12:29:09.958Z",
+      "changeTime": "2019-09-21T11:41:26.904Z",
+      "birthTime": "2019-09-21T09:41:51.163Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/Jess2.io/content/blog/etc.",
+      "base": "notion-for-students-&-teachers.md",
+      "ext": ".md",
+      "name": "notion-for-students-&-teachers",
+      "relativeDirectory": "etc.",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3578801,
+      "blocks": 8,
+      "atimeMs": 1569846549958.2744,
+      "mtimeMs": 1569066086904.0698,
+      "ctimeMs": 1569066086904.0698,
+      "birthtimeMs": 1569058911162.5479,
+      "atime": "2019-09-30T12:29:09.958Z",
+      "mtime": "2019-09-21T11:41:26.904Z",
+      "ctime": "2019-09-21T11:41:26.904Z",
+      "birthtime": "2019-09-21T09:41:51.163Z"
     },
     "b0f3eacd-3ed3-5c4e-9bcc-21202015cbfa": {
       "id": "b0f3eacd-3ed3-5c4e-9bcc-21202015cbfa",
@@ -3389,7 +3436,7 @@
       "size": 64964,
       "prettySize": "65 kB",
       "modifiedTime": "2019-09-29T06:58:06.404Z",
-      "accessTime": "2019-09-29T09:57:35.278Z",
+      "accessTime": "2019-09-30T12:11:14.952Z",
       "changeTime": "2019-09-29T07:02:03.958Z",
       "birthTime": "2019-09-29T06:58:06.397Z",
       "root": "/",
@@ -3407,11 +3454,11 @@
       "blksize": 4096,
       "ino": 4108338,
       "blocks": 128,
-      "atimeMs": 1569751055277.6047,
+      "atimeMs": 1569845474951.6714,
       "mtimeMs": 1569740286404.1377,
       "ctimeMs": 1569740523957.9817,
       "birthtimeMs": 1569740286397.1536,
-      "atime": "2019-09-29T09:57:35.278Z",
+      "atime": "2019-09-30T12:11:14.952Z",
       "mtime": "2019-09-29T06:58:06.404Z",
       "ctime": "2019-09-29T07:02:03.958Z",
       "birthtime": "2019-09-29T06:58:06.397Z"
@@ -3446,7 +3493,7 @@
       "size": 219080,
       "prettySize": "219 kB",
       "modifiedTime": "2019-09-21T09:49:46.534Z",
-      "accessTime": "2019-09-21T14:04:37.522Z",
+      "accessTime": "2019-09-30T12:11:14.952Z",
       "changeTime": "2019-09-21T09:49:46.536Z",
       "birthTime": "2019-09-21T09:49:46.530Z",
       "root": "/",
@@ -3464,39 +3511,14 @@
       "blksize": 4096,
       "ino": 3579518,
       "blocks": 432,
-      "atimeMs": 1569074677521.5625,
+      "atimeMs": 1569845474951.653,
       "mtimeMs": 1569059386533.913,
       "ctimeMs": 1569059386535.9614,
       "birthtimeMs": 1569059386529.755,
-      "atime": "2019-09-21T14:04:37.522Z",
+      "atime": "2019-09-30T12:11:14.952Z",
       "mtime": "2019-09-21T09:49:46.534Z",
       "ctime": "2019-09-21T09:49:46.536Z",
       "birthtime": "2019-09-21T09:49:46.530Z"
-    },
-    "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": {
-      "id": "b487d7da-4d3e-5cb8-a4df-ee0d2673e963",
-      "children": [],
-      "parent": "8003bdf0-1683-5b32-af0b-0abbc016a0d5",
-      "internal": {
-        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "5506d25742859dd134dc8bc31e2993ef",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Notion is FREE for students & teachers",
-        "date": "2019-09-21T18:10:14.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./notion-for-students-&-teachers.md",
-      "fields": {
-        "slug": "/etc./notion-for-students-&-teachers/"
-      }
     },
     "4230c083-d80e-57ab-99a2-27d9493bd276": {
       "id": "4230c083-d80e-57ab-99a2-27d9493bd276",
@@ -3521,6 +3543,31 @@
       "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/var,-let,-const-비교.md",
       "fields": {
         "slug": "/JavaScript/var,-let,-const-비교/"
+      }
+    },
+    "b487d7da-4d3e-5cb8-a4df-ee0d2673e963": {
+      "id": "b487d7da-4d3e-5cb8-a4df-ee0d2673e963",
+      "children": [],
+      "parent": "8003bdf0-1683-5b32-af0b-0abbc016a0d5",
+      "internal": {
+        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5506d25742859dd134dc8bc31e2993ef",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Notion is FREE for students & teachers",
+        "date": "2019-09-21T18:10:14.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/etc./notion-for-students-&-teachers.md",
+      "fields": {
+        "slug": "/etc./notion-for-students-&-teachers/"
       }
     },
     "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00": {
@@ -3578,7 +3625,7 @@
       "size": 1210780,
       "prettySize": "1.21 MB",
       "modifiedTime": "2019-09-21T11:08:50.357Z",
-      "accessTime": "2019-09-21T14:04:46.014Z",
+      "accessTime": "2019-09-30T12:11:14.952Z",
       "changeTime": "2019-09-21T11:08:50.361Z",
       "birthTime": "2019-09-21T11:08:50.330Z",
       "root": "/",
@@ -3596,11 +3643,11 @@
       "blksize": 4096,
       "ino": 3583830,
       "blocks": 2368,
-      "atimeMs": 1569074686014.219,
+      "atimeMs": 1569845474951.6343,
       "mtimeMs": 1569064130357.459,
       "ctimeMs": 1569064130360.5417,
       "birthtimeMs": 1569064130329.5183,
-      "atime": "2019-09-21T14:04:46.014Z",
+      "atime": "2019-09-30T12:11:14.952Z",
       "mtime": "2019-09-21T11:08:50.357Z",
       "ctime": "2019-09-21T11:08:50.361Z",
       "birthtime": "2019-09-21T11:08:50.330Z"
@@ -3633,7 +3680,7 @@
       "size": 1277214,
       "prettySize": "1.28 MB",
       "modifiedTime": "2019-09-21T11:03:03.068Z",
-      "accessTime": "2019-09-21T13:32:27.302Z",
+      "accessTime": "2019-09-30T12:11:14.952Z",
       "changeTime": "2019-09-21T11:03:03.072Z",
       "birthTime": "2019-09-21T11:03:03.039Z",
       "root": "/",
@@ -3651,11 +3698,11 @@
       "blksize": 4096,
       "ino": 3583565,
       "blocks": 2496,
-      "atimeMs": 1569072747301.7632,
+      "atimeMs": 1569845474951.6128,
       "mtimeMs": 1569063783068.07,
       "ctimeMs": 1569063783072.0247,
       "birthtimeMs": 1569063783039.3079,
-      "atime": "2019-09-21T13:32:27.302Z",
+      "atime": "2019-09-30T12:11:14.952Z",
       "mtime": "2019-09-21T11:03:03.068Z",
       "ctime": "2019-09-21T11:03:03.072Z",
       "birthtime": "2019-09-21T11:03:03.039Z"
@@ -3665,7 +3712,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "f54165051d9e3fcda79a3bce656c3b9b",
+        "contentDigest": "81eac94a3666f35c9f9a31d96bbd51a1",
         "type": "Directory",
         "description": "Directory \"content/__about\"",
         "owner": "gatsby-source-filesystem"
@@ -3677,7 +3724,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:06:10.676Z",
-      "accessTime": "2019-09-30T12:11:10.056Z",
+      "accessTime": "2019-09-30T12:29:10.042Z",
       "changeTime": "2019-09-21T03:28:26.650Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3695,11 +3742,11 @@
       "blksize": 4096,
       "ino": 3265999,
       "blocks": 0,
-      "atimeMs": 1569845470055.5798,
+      "atimeMs": 1569846550041.6077,
       "mtimeMs": 1567825570676.0103,
       "ctimeMs": 1569036506649.9487,
       "birthtimeMs": 1567824969620.8088,
-      "atime": "2019-09-30T12:11:10.056Z",
+      "atime": "2019-09-30T12:29:10.042Z",
       "mtime": "2019-09-07T03:06:10.676Z",
       "ctime": "2019-09-21T03:28:26.650Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3724,7 +3771,7 @@
       "size": 200,
       "prettySize": "200 B",
       "modifiedTime": "2019-09-22T07:24:20.439Z",
-      "accessTime": "2019-09-25T10:23:40.780Z",
+      "accessTime": "2019-09-30T12:11:14.951Z",
       "changeTime": "2019-09-22T07:24:20.439Z",
       "birthTime": "2019-09-07T03:06:10.675Z",
       "root": "/",
@@ -3742,11 +3789,11 @@
       "blksize": 4096,
       "ino": 3266000,
       "blocks": 8,
-      "atimeMs": 1569407020780.1614,
+      "atimeMs": 1569845474951.1968,
       "mtimeMs": 1569137060439.3071,
       "ctimeMs": 1569137060439.3071,
       "birthtimeMs": 1567825570674.826,
-      "atime": "2019-09-25T10:23:40.780Z",
+      "atime": "2019-09-30T12:11:14.951Z",
       "mtime": "2019-09-22T07:24:20.439Z",
       "ctime": "2019-09-22T07:24:20.439Z",
       "birthtime": "2019-09-07T03:06:10.675Z"
@@ -3781,7 +3828,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "27b71b6aaff42219fce93a16be76bf12",
+        "contentDigest": "9287c18a69603f704ed77fdd35d9eb63",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -3793,7 +3840,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:49:48.848Z",
-      "accessTime": "2019-09-30T12:11:10.061Z",
+      "accessTime": "2019-09-30T12:29:10.055Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -3811,11 +3858,11 @@
       "blksize": 4096,
       "ino": 3266001,
       "blocks": 0,
-      "atimeMs": 1569845470060.973,
+      "atimeMs": 1569846550055.0654,
       "mtimeMs": 1567828188848.3962,
       "ctimeMs": 1569036506651.0718,
       "birthtimeMs": 1567824969621.066,
-      "atime": "2019-09-30T12:11:10.061Z",
+      "atime": "2019-09-30T12:29:10.055Z",
       "mtime": "2019-09-07T03:49:48.848Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -3840,7 +3887,7 @@
       "size": 412008,
       "prettySize": "412 kB",
       "modifiedTime": "2019-09-07T03:23:10.763Z",
-      "accessTime": "2019-09-21T14:04:48.027Z",
+      "accessTime": "2019-09-30T12:11:14.951Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T03:23:10.740Z",
       "root": "/",
@@ -3858,11 +3905,11 @@
       "blksize": 4096,
       "ino": 3266002,
       "blocks": 808,
-      "atimeMs": 1569074688027.063,
+      "atimeMs": 1569845474951.2688,
       "mtimeMs": 1567826590763.4646,
       "ctimeMs": 1569036506650.9792,
       "birthtimeMs": 1567826590740.0664,
-      "atime": "2019-09-21T14:04:48.027Z",
+      "atime": "2019-09-30T12:11:14.951Z",
       "mtime": "2019-09-07T03:23:10.763Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T03:23:10.740Z"
@@ -3875,6 +3922,39 @@
         "contentDigest": "6b86f32294559d4fe1193731fc447db0",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /JavaScript/onclick-vs-addeventlistener/": {
+      "jsonName": "java-script-onclick-vs-addeventlistener-96d",
+      "internalComponentName": "ComponentJavaScriptOnclickVsAddeventlistener",
+      "path": "/JavaScript/onclick-vs-addeventlistener/",
+      "component": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/onclick-vs-addeventlistener/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/etc./notion-for-students-&-teachers/"
+          },
+          "frontmatter": {
+            "title": "Notion is FREE for students & teachers",
+            "category": "etc."
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/Jess2.io/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/onclick-vs-addeventlistener/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d48ef6d90d2be6f5dd50fed3e235452f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /etc./junior_seminar/": {
@@ -3960,7 +4040,15 @@
       "isCreatedByStatefulCreatePages": false,
       "context": {
         "slug": "/etc./notion-for-students-&-teachers/",
-        "previous": null,
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/onclick-vs-addeventlistener/"
+          },
+          "frontmatter": {
+            "title": "onclick과 addEventListener 비교",
+            "category": "javascript"
+          }
+        },
         "next": {
           "fields": {
             "slug": "/JavaScript/var,-let,-const-비교/"
@@ -3979,7 +4067,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "805383f19893752b4c7878adfa98ab3a",
+        "contentDigest": "a6a976f743fe611453afcf72277709f5",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4067,11 +4155,36 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "c6466db6-7e0c-595d-bd7b-0a9de7babe87": {
+      "id": "c6466db6-7e0c-595d-bd7b-0a9de7babe87",
+      "children": [],
+      "parent": "1da948ce-6b04-54cd-a881-aefdad41a208",
+      "internal": {
+        "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+        "type": "MarkdownRemark",
+        "contentDigest": "f20b1f681c1f8d9b631014c8c949ac39",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "onclick과 addEventListener 비교",
+        "date": "2018-05-15T21:10:10.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+      "fileAbsolutePath": "/Users/jess2/study/Jess2.io/content/blog/JavaScript/onclick-vs-addeventlistener.md",
+      "fields": {
+        "slug": "/JavaScript/onclick-vs-addeventlistener/"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f74647fc1bcfa47e771af28eedb23381"
+    "PLUGINS_HASH": "c7c357f48fcdb7de7b1b522bb60dd870"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -4080,6 +4193,7 @@
         "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
+        "/JavaScript/onclick-vs-addeventlistener/",
         "/etc./junior_seminar/",
         "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/",
@@ -4090,6 +4204,9 @@
       ],
       "f737b2e2-0fc8-5d8f-a71d-9c7ba6a45476": [
         "sq--src-components-bio-index-jsx"
+      ],
+      "c6466db6-7e0c-595d-bd7b-0a9de7babe87": [
+        "/JavaScript/onclick-vs-addeventlistener/"
       ],
       "3ff6e046-1d6c-5b89-9dfe-9c59a15c3e00": [
         "/etc./junior_seminar/"
@@ -4118,13 +4235,15 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "925/path---index-6a9-0Xr4Kk6TktJVme7VXukEuL0m4",
+    "index": "171/path---index-6a9-L55MRsGfdzGawnLgh0ON0Itpos",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "130/path---etc-notion-for-students-teachers-efd-4f3-PA4wnM2O0GkM54UEYDAUxKAAZw",
+    "etc-notion-for-students-teachers-efd": "998/path---etc-notion-for-students-teachers-efd-4f3-lUWjLEHXzmDYvziDtTNbjdQ",
     "java-script-var-let-const-비교-bb7": "740/path---java-script-var-let-const-비교-bb-7-6bb-ah3raCKB3rlmGvugRAUZUZw",
-    "etc-junior-seminar-cdb": "972/path---etc-junior-seminar-cdb-952-ClrGXPwyZllaZsEaM0ef4RZTJW8"
+    "etc-junior-seminar-cdb": "972/path---etc-junior-seminar-cdb-952-ClrGXPwyZllaZsEaM0ef4RZTJW8",
+    "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
+    "java-script-onclick-vs-addeventlistener-96d": "42/path---java-script-onclick-vs-addeventlistener-96-d-bd0-hkpYjo9NXp1QhTPDjNLSUL98e0o"
   },
   "components": {
     "/Users/jess2/study/Jess2.io/src/templates/blog-post.js": {
