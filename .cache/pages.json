@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-js-이벤트-위임-6f8",
+        "path": "/JavaScript/[js]-이벤트-위임/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-event-bubbling과-event-capturing-c50",
         "path": "/JavaScript/event-bubbling과-event-capturing/"
     },

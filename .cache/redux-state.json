@@ -3329,7 +3329,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "c2619d106054692863b98bbe3e5236f1",
+        "contentDigest": "cd059336723c516280ff2d4bee103d2b",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/event-bubbling과-event-capturing.md\"",
@@ -3339,11 +3339,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
       "relativePath": "JavaScript/event-bubbling과-event-capturing.md",
       "extension": "md",
-      "size": 6129,
-      "prettySize": "6.13 kB",
-      "modifiedTime": "2019-10-05T11:51:04.278Z",
-      "accessTime": "2019-10-05T11:50:42.204Z",
-      "changeTime": "2019-10-05T11:51:04.278Z",
+      "size": 6252,
+      "prettySize": "6.25 kB",
+      "modifiedTime": "2019-10-05T12:20:44.149Z",
+      "accessTime": "2019-10-05T12:20:32.287Z",
+      "changeTime": "2019-10-05T12:20:44.149Z",
       "birthTime": "2019-10-05T02:58:24.836Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -3360,13 +3360,13 @@
       "blksize": 4096,
       "ino": 4342563,
       "blocks": 16,
-      "atimeMs": 1570276242204.4937,
-      "mtimeMs": 1570276264278.2302,
-      "ctimeMs": 1570276264278.2302,
+      "atimeMs": 1570278032286.8342,
+      "mtimeMs": 1570278044148.63,
+      "ctimeMs": 1570278044148.63,
       "birthtimeMs": 1570244304835.7715,
-      "atime": "2019-10-05T11:50:42.204Z",
-      "mtime": "2019-10-05T11:51:04.278Z",
-      "ctime": "2019-10-05T11:51:04.278Z",
+      "atime": "2019-10-05T12:20:32.287Z",
+      "mtime": "2019-10-05T12:20:44.149Z",
+      "ctime": "2019-10-05T12:20:44.149Z",
       "birthtime": "2019-10-05T02:58:24.836Z"
     },
     "2094c0ed-e3ea-53e0-aa42-19072fb1a52a": {
@@ -3376,7 +3376,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "e3867ea502f69d2213373b775f79f69e",
+        "contentDigest": "f57534762bb065d936654ecfad046a89",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/hoisting.md\"",
@@ -3388,9 +3388,9 @@
       "extension": "md",
       "size": 2493,
       "prettySize": "2.49 kB",
-      "modifiedTime": "2019-10-05T06:16:52.907Z",
-      "accessTime": "2019-10-05T11:50:13.397Z",
-      "changeTime": "2019-10-05T06:16:52.907Z",
+      "modifiedTime": "2019-10-05T11:55:57.795Z",
+      "accessTime": "2019-10-05T11:55:30.522Z",
+      "changeTime": "2019-10-05T11:55:57.795Z",
       "birthTime": "2019-09-30T12:48:35.263Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -3407,13 +3407,13 @@
       "blksize": 4096,
       "ino": 4201455,
       "blocks": 8,
-      "atimeMs": 1570276213396.577,
-      "mtimeMs": 1570256212906.9817,
-      "ctimeMs": 1570256212906.9817,
+      "atimeMs": 1570276530522.0938,
+      "mtimeMs": 1570276557795.357,
+      "ctimeMs": 1570276557795.357,
       "birthtimeMs": 1569847715262.665,
-      "atime": "2019-10-05T11:50:13.397Z",
-      "mtime": "2019-10-05T06:16:52.907Z",
-      "ctime": "2019-10-05T06:16:52.907Z",
+      "atime": "2019-10-05T11:55:30.522Z",
+      "mtime": "2019-10-05T11:55:57.795Z",
+      "ctime": "2019-10-05T11:55:57.795Z",
       "birthtime": "2019-09-30T12:48:35.263Z"
     },
     "055c2863-05bd-550a-ba9b-a8fe40aa8f4f": {
@@ -3423,7 +3423,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "c7a10e8bde069758a2a251e7834dcede",
+        "contentDigest": "52caf85e950b8c471137135e52b47563",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/onclick-vs-addeventlistener.md\"",
@@ -3435,9 +3435,9 @@
       "extension": "md",
       "size": 2471,
       "prettySize": "2.47 kB",
-      "modifiedTime": "2019-10-05T06:17:13.710Z",
-      "accessTime": "2019-10-05T11:50:13.397Z",
-      "changeTime": "2019-10-05T06:17:13.710Z",
+      "modifiedTime": "2019-10-05T11:55:57.792Z",
+      "accessTime": "2019-10-05T11:55:30.522Z",
+      "changeTime": "2019-10-05T11:55:57.792Z",
       "birthTime": "2019-09-30T12:27:37.029Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -3454,13 +3454,13 @@
       "blksize": 4096,
       "ino": 4198659,
       "blocks": 8,
-      "atimeMs": 1570276213396.6196,
-      "mtimeMs": 1570256233710.207,
-      "ctimeMs": 1570256233710.207,
+      "atimeMs": 1570276530522.1528,
+      "mtimeMs": 1570276557792.0693,
+      "ctimeMs": 1570276557792.0693,
       "birthtimeMs": 1569846457028.7368,
-      "atime": "2019-10-05T11:50:13.397Z",
-      "mtime": "2019-10-05T06:17:13.710Z",
-      "ctime": "2019-10-05T06:17:13.710Z",
+      "atime": "2019-10-05T11:55:30.522Z",
+      "mtime": "2019-10-05T11:55:57.792Z",
+      "ctime": "2019-10-05T11:55:57.792Z",
       "birthtime": "2019-09-30T12:27:37.029Z"
     },
     "57606479-633c-5831-bb88-f6b898f079e3": {
@@ -3470,7 +3470,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "ba2567444e6d489f058ee344b76f4de4",
+        "contentDigest": "f6add23636f6be1adec1a13ad4714b2d",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
@@ -3482,9 +3482,9 @@
       "extension": "md",
       "size": 7893,
       "prettySize": "7.89 kB",
-      "modifiedTime": "2019-10-05T06:17:13.714Z",
-      "accessTime": "2019-10-05T11:50:13.397Z",
-      "changeTime": "2019-10-05T06:17:13.714Z",
+      "modifiedTime": "2019-10-05T11:55:57.799Z",
+      "accessTime": "2019-10-05T11:55:30.522Z",
+      "changeTime": "2019-10-05T11:55:57.799Z",
       "birthTime": "2019-09-21T12:13:48.356Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -3501,13 +3501,13 @@
       "blksize": 4096,
       "ino": 3591857,
       "blocks": 16,
-      "atimeMs": 1570276213396.606,
-      "mtimeMs": 1570256233714.4453,
-      "ctimeMs": 1570256233714.4453,
+      "atimeMs": 1570276530522.1433,
+      "mtimeMs": 1570276557798.8137,
+      "ctimeMs": 1570276557798.8137,
       "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-10-05T11:50:13.397Z",
-      "mtime": "2019-10-05T06:17:13.714Z",
-      "ctime": "2019-10-05T06:17:13.714Z",
+      "atime": "2019-10-05T11:55:30.522Z",
+      "mtime": "2019-10-05T11:55:57.799Z",
+      "ctime": "2019-10-05T11:55:57.799Z",
       "birthtime": "2019-09-21T12:13:48.356Z"
     },
     "f1e9eddf-97fe-5428-84d0-8f6be02fb560": {
@@ -3637,81 +3637,6 @@
       "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./notion-for-students-&-teachers.md",
       "fields": {
         "slug": "/etc./notion-for-students-&-teachers/"
-      }
-    },
-    "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": {
-      "id": "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62",
-      "children": [],
-      "parent": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
-      "internal": {
-        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "58c63ddb82d53d36e0932c17ef4dd402",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 호이스팅(Hoisting)",
-        "date": "2019-09-30T21:10:14.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
-      "fields": {
-        "slug": "/JavaScript/hoisting/"
-      }
-    },
-    "25c6c20d-d48b-529b-80eb-f7c30b6eed83": {
-      "id": "25c6c20d-d48b-529b-80eb-f7c30b6eed83",
-      "children": [],
-      "parent": "055c2863-05bd-550a-ba9b-a8fe40aa8f4f",
-      "internal": {
-        "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
-        "type": "MarkdownRemark",
-        "contentDigest": "03b66151ba6f1e71457a1fa90293228d",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] onclick과 addEventListener 비교",
-        "date": "2019-09-30T21:10:10.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
-      "fields": {
-        "slug": "/JavaScript/onclick-vs-addeventlistener/"
-      }
-    },
-    "0131de86-2b66-5dfd-a184-e4f14464772f": {
-      "id": "0131de86-2b66-5dfd-a184-e4f14464772f",
-      "children": [],
-      "parent": "57606479-633c-5831-bb88-f6b898f079e3",
-      "internal": {
-        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-        "type": "MarkdownRemark",
-        "contentDigest": "bb94d5bdb4a5248054dcef9b75106b51",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var,-let,-const-비교.md",
-      "fields": {
-        "slug": "/JavaScript/var,-let,-const-비교/"
       }
     },
     "1ee9aa6b-4c39-52c2-965a-75a901caea76": {
@@ -4083,10 +4008,18 @@
           },
           "frontmatter": {
             "title": "[JS] 호이스팅(Hoisting)",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/[js]-이벤트-위임/"
+          },
+          "frontmatter": {
+            "title": "[JS] 이벤트 위임",
+            "category": "javascript"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -4096,7 +4029,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bef6740a47069b5bcff8f7c61e303114",
+        "contentDigest": "f824163be163902ef55a406153ce2a4b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4116,7 +4049,7 @@
           },
           "frontmatter": {
             "title": "[JS] onclick과 addEventListener 비교",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         },
         "next": {
@@ -4125,7 +4058,7 @@
           },
           "frontmatter": {
             "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         }
       },
@@ -4137,7 +4070,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1bcc7bb35a8b1150d650c21da6eeeb45",
+        "contentDigest": "707c487ffa57f24d48d32155bb461bf6",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4166,7 +4099,7 @@
           },
           "frontmatter": {
             "title": "[JS] 호이스팅(Hoisting)",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         }
       },
@@ -4178,7 +4111,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0921a40d21f82a4caec38ebbdd691811",
+        "contentDigest": "1c983e5b50dc5ef02c5d1bd458a6a9ae",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4198,7 +4131,7 @@
           },
           "frontmatter": {
             "title": "[JS] var, let, const 비교",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         },
         "next": {
@@ -4207,7 +4140,7 @@
           },
           "frontmatter": {
             "title": "[JS] onclick과 addEventListener 비교",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         }
       },
@@ -4219,7 +4152,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "06c380d0d8121d73e785bcc525a0bf74",
+        "contentDigest": "90ffa983caacdd2de7fc8fddfc917224",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4281,7 +4214,7 @@
           },
           "frontmatter": {
             "title": "[JS] var, let, const 비교",
-            "category": "JavaScript"
+            "category": "javascript"
           }
         }
       },
@@ -4293,7 +4226,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1bc06e253ef02b2bb6b4f51206275aa1",
+        "contentDigest": "57f7c427eeae72f2c12c0b399a5ac15a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4382,14 +4315,409 @@
         "owner": "internal-data-bridge"
       }
     },
+    "7dd2ebcf-5809-584e-94d7-c295e555e17b": {
+      "id": "7dd2ebcf-5809-584e-94d7-c295e555e17b",
+      "children": [
+        "9cfd2433-4f4f-5259-8ae3-c754f2708a2f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a353a33a20ab0491f1cf551d1b0dca37",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/[js]-이벤트-위임.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-이벤트-위임.md",
+      "relativePath": "JavaScript/[js]-이벤트-위임.md",
+      "extension": "md",
+      "size": 87,
+      "prettySize": "87 B",
+      "modifiedTime": "2019-10-05T11:55:57.804Z",
+      "accessTime": "2019-10-05T11:55:30.490Z",
+      "changeTime": "2019-10-05T11:55:57.804Z",
+      "birthTime": "2019-10-05T11:54:02.191Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "[js]-이벤트-위임.md",
+      "ext": ".md",
+      "name": "[js]-이벤트-위임",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4430145,
+      "blocks": 8,
+      "atimeMs": 1570276530490.4424,
+      "mtimeMs": 1570276557804.2869,
+      "ctimeMs": 1570276557804.2869,
+      "birthtimeMs": 1570276442190.8757,
+      "atime": "2019-10-05T11:55:30.490Z",
+      "mtime": "2019-10-05T11:55:57.804Z",
+      "ctime": "2019-10-05T11:55:57.804Z",
+      "birthtime": "2019-10-05T11:54:02.191Z"
+    },
+    "SitePage /JavaScript/[js]-이벤트-위임/": {
+      "jsonName": "java-script-js-이벤트-위임-6f8",
+      "internalComponentName": "ComponentJavaScriptJs이벤트위임",
+      "path": "/JavaScript/[js]-이벤트-위임/",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/[js]-이벤트-위임/",
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/event-bubbling과-event-capturing/"
+          },
+          "frontmatter": {
+            "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
+            "category": "javascript"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/[js]-이벤트-위임/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9c3b0e54c0463e087bb9947e0ca179e6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": {
+      "id": "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62",
+      "children": [],
+      "parent": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
+      "internal": {
+        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "20e1b81228f4e3921a4e35049196fba1",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 호이스팅(Hoisting)",
+        "date": "2019-09-30T21:10:14.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
+      "fields": {
+        "slug": "/JavaScript/hoisting/"
+      }
+    },
+    "0131de86-2b66-5dfd-a184-e4f14464772f": {
+      "id": "0131de86-2b66-5dfd-a184-e4f14464772f",
+      "children": [],
+      "parent": "57606479-633c-5831-bb88-f6b898f079e3",
+      "internal": {
+        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "type": "MarkdownRemark",
+        "contentDigest": "fe0b74d1fe53d95dd4dcfcf97f2d0c79",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var,-let,-const-비교.md",
+      "fields": {
+        "slug": "/JavaScript/var,-let,-const-비교/"
+      }
+    },
+    "25c6c20d-d48b-529b-80eb-f7c30b6eed83": {
+      "id": "25c6c20d-d48b-529b-80eb-f7c30b6eed83",
+      "children": [],
+      "parent": "055c2863-05bd-550a-ba9b-a8fe40aa8f4f",
+      "internal": {
+        "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+        "type": "MarkdownRemark",
+        "contentDigest": "78cc19270509e409c28320fb26b105cc",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] onclick과 addEventListener 비교",
+        "date": "2019-09-30T21:10:10.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
+      "fields": {
+        "slug": "/JavaScript/onclick-vs-addeventlistener/"
+      }
+    },
+    "9cfd2433-4f4f-5259-8ae3-c754f2708a2f": {
+      "id": "9cfd2433-4f4f-5259-8ae3-c754f2708a2f",
+      "children": [],
+      "parent": "7dd2ebcf-5809-584e-94d7-c295e555e17b",
+      "internal": {
+        "content": "\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "17868b37e6596e0448e283e16cac535a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 이벤트 위임",
+        "date": "2019-10-05T20:10:26.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-이벤트-위임.md",
+      "fields": {
+        "slug": "/JavaScript/[js]-이벤트-위임/"
+      }
+    },
+    "e921754d-2c79-577f-b252-f41b9f08567b": {
+      "id": "e921754d-2c79-577f-b252-f41b9f08567b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "522e357933e8c9d372cc91e6a3164c53",
+        "type": "Directory",
+        "description": "Directory \"content/blog/JavaScript/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images",
+      "relativePath": "JavaScript/images",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-10-05T12:03:40.214Z",
+      "accessTime": "2019-10-05T12:03:40.959Z",
+      "changeTime": "2019-10-05T12:03:40.214Z",
+      "birthTime": "2019-10-05T12:03:40.214Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4431629,
+      "blocks": 0,
+      "atimeMs": 1570277020959.1123,
+      "mtimeMs": 1570277020214.4775,
+      "ctimeMs": 1570277020214.4775,
+      "birthtimeMs": 1570277020214.4775,
+      "atime": "2019-10-05T12:03:40.959Z",
+      "mtime": "2019-10-05T12:03:40.214Z",
+      "ctime": "2019-10-05T12:03:40.214Z",
+      "birthtime": "2019-10-05T12:03:40.214Z"
+    },
+    "5c826650-6167-59dc-acd6-6f53783208ec": {
+      "id": "5c826650-6167-59dc-acd6-6f53783208ec",
+      "children": [
+        "572565f4-b8cc-535d-bfdb-7b01f98ca056"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "58a3a02d0ce3d888a74b06d5f6ae67b3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/JavaScript/images/event-bubbling.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images/event-bubbling.png",
+      "relativePath": "JavaScript/images/event-bubbling.png",
+      "extension": "png",
+      "size": 43385,
+      "prettySize": "43.4 kB",
+      "modifiedTime": "2019-10-05T12:03:06.261Z",
+      "accessTime": "2019-10-05T12:03:33.176Z",
+      "changeTime": "2019-10-05T12:03:44.901Z",
+      "birthTime": "2019-10-05T12:03:06.260Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images",
+      "base": "event-bubbling.png",
+      "ext": ".png",
+      "name": "event-bubbling",
+      "relativeDirectory": "JavaScript/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4431581,
+      "blocks": 88,
+      "atimeMs": 1570277013176.0452,
+      "mtimeMs": 1570276986260.7036,
+      "ctimeMs": 1570277024900.6453,
+      "birthtimeMs": 1570276986260.4534,
+      "atime": "2019-10-05T12:03:33.176Z",
+      "mtime": "2019-10-05T12:03:06.261Z",
+      "ctime": "2019-10-05T12:03:44.901Z",
+      "birthtime": "2019-10-05T12:03:06.260Z"
+    },
+    "572565f4-b8cc-535d-bfdb-7b01f98ca056": {
+      "id": "572565f4-b8cc-535d-bfdb-7b01f98ca056",
+      "children": [],
+      "parent": "5c826650-6167-59dc-acd6-6f53783208ec",
+      "internal": {
+        "contentDigest": "58a3a02d0ce3d888a74b06d5f6ae67b3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "42170438-50f9-5cb5-b591-8d34b2b1e4ee": {
+      "id": "42170438-50f9-5cb5-b591-8d34b2b1e4ee",
+      "children": [
+        "76bbe17d-e98f-5101-81a8-6e4cf9177562"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b538c4079739c82afaa3a5e516f25213",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/JavaScript/images/event-bubbling-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images/event-bubbling-2.png",
+      "relativePath": "JavaScript/images/event-bubbling-2.png",
+      "extension": "png",
+      "size": 38255,
+      "prettySize": "38.3 kB",
+      "modifiedTime": "2019-10-05T12:09:33.472Z",
+      "accessTime": "2019-10-05T12:09:45.890Z",
+      "changeTime": "2019-10-05T12:09:45.749Z",
+      "birthTime": "2019-10-05T12:09:33.472Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images",
+      "base": "event-bubbling-2.png",
+      "ext": ".png",
+      "name": "event-bubbling-2",
+      "relativeDirectory": "JavaScript/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4431865,
+      "blocks": 80,
+      "atimeMs": 1570277385889.8489,
+      "mtimeMs": 1570277373472.1956,
+      "ctimeMs": 1570277385748.7922,
+      "birthtimeMs": 1570277373472.0957,
+      "atime": "2019-10-05T12:09:45.890Z",
+      "mtime": "2019-10-05T12:09:33.472Z",
+      "ctime": "2019-10-05T12:09:45.749Z",
+      "birthtime": "2019-10-05T12:09:33.472Z"
+    },
+    "76bbe17d-e98f-5101-81a8-6e4cf9177562": {
+      "id": "76bbe17d-e98f-5101-81a8-6e4cf9177562",
+      "children": [],
+      "parent": "42170438-50f9-5cb5-b591-8d34b2b1e4ee",
+      "internal": {
+        "contentDigest": "b538c4079739c82afaa3a5e516f25213",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "47df9e71-eda4-5d1d-adff-ba6760407080": {
+      "id": "47df9e71-eda4-5d1d-adff-ba6760407080",
+      "children": [
+        "05163c97-7c8f-559e-994e-0b704f05d37f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3cab9a1157fdb4cacffc54f9bff94ec5",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/JavaScript/images/event-capturing.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images/event-capturing.png",
+      "relativePath": "JavaScript/images/event-capturing.png",
+      "extension": "png",
+      "size": 37861,
+      "prettySize": "37.9 kB",
+      "modifiedTime": "2019-10-05T12:18:45.998Z",
+      "accessTime": "2019-10-05T12:18:56.000Z",
+      "changeTime": "2019-10-05T12:19:04.689Z",
+      "birthTime": "2019-10-05T12:18:45.998Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/images",
+      "base": "event-capturing.png",
+      "ext": ".png",
+      "name": "event-capturing",
+      "relativeDirectory": "JavaScript/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4432344,
+      "blocks": 80,
+      "atimeMs": 1570277935999.674,
+      "mtimeMs": 1570277925998.2297,
+      "ctimeMs": 1570277944688.7307,
+      "birthtimeMs": 1570277925998.0818,
+      "atime": "2019-10-05T12:18:56.000Z",
+      "mtime": "2019-10-05T12:18:45.998Z",
+      "ctime": "2019-10-05T12:19:04.689Z",
+      "birthtime": "2019-10-05T12:18:45.998Z"
+    },
+    "05163c97-7c8f-559e-994e-0b704f05d37f": {
+      "id": "05163c97-7c8f-559e-994e-0b704f05d37f",
+      "children": [],
+      "parent": "47df9e71-eda4-5d1d-adff-ba6760407080",
+      "internal": {
+        "contentDigest": "3cab9a1157fdb4cacffc54f9bff94ec5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "413b15ca-f125-5ffc-8a84-acfc020f556a": {
       "id": "413b15ca-f125-5ffc-8a84-acfc020f556a",
       "children": [],
       "parent": "0d5e50a4-a54d-5dda-8dd8-a3615c13fb89",
       "internal": {
-        "content": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+        "content": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "df3a5b192c88044d1e411de5cb67ca87",
+        "contentDigest": "7001b6044b19058b2b887556e3cb0666",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -4398,10 +4726,10 @@
       "frontmatter": {
         "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
         "date": "2019-10-05T11:11:34.000Z",
-        "category": "JavaScript"
+        "category": "javascript"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+      "rawMarkdownBody": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
       "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
       "fields": {
         "slug": "/JavaScript/event-bubbling과-event-capturing/"
@@ -4425,7 +4753,8 @@
         "/JavaScript/onclick-vs-addeventlistener/",
         "/etc./junior_seminar/",
         "/JavaScript/var,-let,-const-비교/",
-        "/etc./notion-for-students-&-teachers/"
+        "/etc./notion-for-students-&-teachers/",
+        "/JavaScript/[js]-이벤트-위임/"
       ],
       "8df3d8df-54cd-514b-b8f2-6a44c48f3926": [],
       "22f47c53-923b-57ea-ab93-12b451214ef9": [],
@@ -4458,6 +4787,9 @@
       ],
       "ce5ab02d-de4d-5a37-a4e3-79fe8c5b4a3e": [
         "/etc./notion-for-students-&-teachers/"
+      ],
+      "9cfd2433-4f4f-5259-8ae3-c754f2708a2f": [
+        "/JavaScript/[js]-이벤트-위임/"
       ]
     },
     "connections": {
@@ -4477,17 +4809,18 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "229/path---index-6a9-cvUyX2TjCWSdD1Sz2C9O6Y9w3Bc",
+    "index": "841/path---index-6a9-wzCmcEt8gV1uAczCVpVKj518",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "888/path---etc-notion-for-students-teachers-efd-4f3-6HwH8Z9Jc1jNLXQlkAs6T5H9tE",
+    "etc-notion-for-students-teachers-efd": "496/path---etc-notion-for-students-teachers-efd-4f3-jgo8fKejHJzECkBmmhMgAHy8",
     "java-script-var-let-const-비교-bb7": "858/path---java-script-var-let-const-비교-bb-7-6bb-nCc7BjooLDx2bw3GHHJoKNSQKY",
-    "etc-junior-seminar-cdb": "688/path---etc-junior-seminar-cdb-952-bSOgjIinq40M0pJ6xmIArsq3Q",
+    "etc-junior-seminar-cdb": "522/path---etc-junior-seminar-cdb-952-hNZbjpDpF8Kl3I6OqVmBKXVkc",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
-    "java-script-onclick-vs-addeventlistener-96d": "159/path---java-script-onclick-vs-addeventlistener-96-d-bd0-o29cKNLqr5JGAmjAZ483xDPw4I",
-    "java-script-hoisting-0e5": "814/path---java-script-hoisting-0-e-5-d97-p17YgtgBldS4e3BoJnZy4gD7TI",
-    "java-script-event-bubbling과-event-capturing-c50": "397/path---java-script-event-bubbling과-event-capturing-c-50-e5f-0PHUkz9x5uWs9xehvjqPymM8Aow"
+    "java-script-onclick-vs-addeventlistener-96d": "142/path---java-script-onclick-vs-addeventlistener-96-d-bd0-5RQL6EnF15hSoloJpOu167BIXME",
+    "java-script-hoisting-0e5": "254/path---java-script-hoisting-0-e-5-d97-ZLvkYjN1AvHiNDbxv9gvdMUHs",
+    "java-script-event-bubbling과-event-capturing-c50": "727/path---java-script-event-bubbling과-event-capturing-c-50-e5f-ZkOj8wRRUU8XaG8Q5pZtR1QougU",
+    "java-script-js-이벤트-위임-6f8": "319/path---java-script-js-이벤트-위임-6-f-8-b59-LwcFBym0CQV0JInaQJLCv4J6Y"
   },
   "components": {
     "/Users/jess2/study/jess2devlog/src/templates/blog-post.js": {

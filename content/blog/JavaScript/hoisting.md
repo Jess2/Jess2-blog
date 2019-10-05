@@ -1,7 +1,7 @@
 ---
 title: "[JS] 호이스팅(Hoisting)"
 date: 2019-09-30 21:09:74
-category: JavaScript
+category: javascript
 ---
 
 **Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.
