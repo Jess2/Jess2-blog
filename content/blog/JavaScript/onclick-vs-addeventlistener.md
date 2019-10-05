@@ -1,7 +1,7 @@
 ---
 title: <JS> onclick과 addEventListener 비교
 date: 2019-09-30 21:09:70
-category: javascript
+category: JavaScript
 ---
 
 자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?

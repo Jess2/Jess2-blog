@@ -3235,7 +3235,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "37458aa317f637ac79e9112322d9dfd1",
+        "contentDigest": "e97e2664d6695525613267af6d76c04d",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/event-bubbling과-event-capturing.md\"",
@@ -3247,9 +3247,9 @@
       "extension": "md",
       "size": 6118,
       "prettySize": "6.12 kB",
-      "modifiedTime": "2019-10-05T04:35:59.633Z",
-      "accessTime": "2019-10-05T04:34:53.120Z",
-      "changeTime": "2019-10-05T04:35:59.633Z",
+      "modifiedTime": "2019-10-05T04:40:25.054Z",
+      "accessTime": "2019-10-05T04:36:26.576Z",
+      "changeTime": "2019-10-05T04:40:25.054Z",
       "birthTime": "2019-10-05T02:58:24.836Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
@@ -3266,13 +3266,13 @@
       "blksize": 4096,
       "ino": 4342563,
       "blocks": 16,
-      "atimeMs": 1570250093120.006,
-      "mtimeMs": 1570250159632.8347,
-      "ctimeMs": 1570250159632.8347,
+      "atimeMs": 1570250186576.3433,
+      "mtimeMs": 1570250425053.8845,
+      "ctimeMs": 1570250425053.8845,
       "birthtimeMs": 1570244304835.7715,
-      "atime": "2019-10-05T04:34:53.120Z",
-      "mtime": "2019-10-05T04:35:59.633Z",
-      "ctime": "2019-10-05T04:35:59.633Z",
+      "atime": "2019-10-05T04:36:26.576Z",
+      "mtime": "2019-10-05T04:40:25.054Z",
+      "ctime": "2019-10-05T04:40:25.054Z",
       "birthtime": "2019-10-05T02:58:24.836Z"
     },
     "44a0d21a-db94-5d92-b6b2-f392381b66d2": {
@@ -3282,7 +3282,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "60a426fb63dc934aa87ce105450e0534",
+        "contentDigest": "7c5ad394001dded32955bcdf1b25409f",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/hoisting.md\"",
@@ -3294,9 +3294,9 @@
       "extension": "md",
       "size": 2491,
       "prettySize": "2.49 kB",
-      "modifiedTime": "2019-10-05T03:31:51.643Z",
-      "accessTime": "2019-10-05T03:29:48.156Z",
-      "changeTime": "2019-10-05T03:31:51.643Z",
+      "modifiedTime": "2019-10-05T04:40:32.818Z",
+      "accessTime": "2019-10-05T04:40:31.774Z",
+      "changeTime": "2019-10-05T04:40:32.818Z",
       "birthTime": "2019-09-30T12:48:35.263Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
@@ -3313,13 +3313,13 @@
       "blksize": 4096,
       "ino": 4201455,
       "blocks": 8,
-      "atimeMs": 1570246188156.3533,
-      "mtimeMs": 1570246311643.3528,
-      "ctimeMs": 1570246311643.3528,
+      "atimeMs": 1570250431773.744,
+      "mtimeMs": 1570250432817.8347,
+      "ctimeMs": 1570250432817.8347,
       "birthtimeMs": 1569847715262.665,
-      "atime": "2019-10-05T03:29:48.156Z",
-      "mtime": "2019-10-05T03:31:51.643Z",
-      "ctime": "2019-10-05T03:31:51.643Z",
+      "atime": "2019-10-05T04:40:31.774Z",
+      "mtime": "2019-10-05T04:40:32.818Z",
+      "ctime": "2019-10-05T04:40:32.818Z",
       "birthtime": "2019-09-30T12:48:35.263Z"
     },
     "cc4aa844-779f-56de-b82d-ebdeefaa57e1": {
@@ -3376,7 +3376,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "91762f5cd0a2d9268565dd190d19820a",
+        "contentDigest": "4ce0768c0490c5ad367b800febd99915",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/onclick-vs-addeventlistener.md\"",
@@ -3388,9 +3388,9 @@
       "extension": "md",
       "size": 2469,
       "prettySize": "2.47 kB",
-      "modifiedTime": "2019-10-05T03:31:51.647Z",
-      "accessTime": "2019-10-05T03:29:48.156Z",
-      "changeTime": "2019-10-05T03:31:51.647Z",
+      "modifiedTime": "2019-10-05T04:40:38.148Z",
+      "accessTime": "2019-10-05T04:36:26.577Z",
+      "changeTime": "2019-10-05T04:40:38.148Z",
       "birthTime": "2019-09-30T12:27:37.029Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
@@ -3407,13 +3407,13 @@
       "blksize": 4096,
       "ino": 4198659,
       "blocks": 8,
-      "atimeMs": 1570246188156.3743,
-      "mtimeMs": 1570246311647.243,
-      "ctimeMs": 1570246311647.243,
+      "atimeMs": 1570250186576.5352,
+      "mtimeMs": 1570250438147.6685,
+      "ctimeMs": 1570250438147.6685,
       "birthtimeMs": 1569846457028.7368,
-      "atime": "2019-10-05T03:29:48.156Z",
-      "mtime": "2019-10-05T03:31:51.647Z",
-      "ctime": "2019-10-05T03:31:51.647Z",
+      "atime": "2019-10-05T04:36:26.577Z",
+      "mtime": "2019-10-05T04:40:38.148Z",
+      "ctime": "2019-10-05T04:40:38.148Z",
       "birthtime": "2019-09-30T12:27:37.029Z"
     },
     "3f02b1e0-7c3c-507b-bed0-1a5776d2492e": {
@@ -4033,7 +4033,7 @@
           },
           "frontmatter": {
             "title": "<JS> 호이스팅(Hoisting)",
-            "category": "javascript"
+            "category": "JavaScript"
           }
         },
         "next": null
@@ -4046,7 +4046,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fa6d53efa2995b58986413f0b7eb7b31",
+        "contentDigest": "3a5ad9094c383f499ce0a442afff0371",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4075,7 +4075,7 @@
           },
           "frontmatter": {
             "title": "<JS> onclick과 addEventListener 비교",
-            "category": "javascript"
+            "category": "JavaScript"
           }
         }
       },
@@ -4087,7 +4087,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "782c2c14df24b192c2002d9b88294f97",
+        "contentDigest": "c90467735735fc4b2ee9f4e27d27e3f4",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4181,7 +4181,7 @@
           },
           "frontmatter": {
             "title": "<JS> onclick과 addEventListener 비교",
-            "category": "javascript"
+            "category": "JavaScript"
           }
         },
         "next": {
@@ -4190,7 +4190,7 @@
           },
           "frontmatter": {
             "title": "<JS> Event Bubbling과 Event Capturing",
-            "category": "javascript"
+            "category": "JavaScript"
           }
         }
       },
@@ -4202,7 +4202,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2380aea652ccd7731c475eb0c7fc050a",
+        "contentDigest": "019917eec209dd0c8e351b4d7d0f9d6b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4231,7 +4231,7 @@
           },
           "frontmatter": {
             "title": "<JS> 호이스팅(Hoisting)",
-            "category": "javascript"
+            "category": "JavaScript"
           }
         }
       },
@@ -4243,7 +4243,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c16651ef7d863c72fc72c0c4c8a705b",
+        "contentDigest": "d35de2bf1220e43c069b9475e5aed50b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4332,6 +4332,31 @@
         "owner": "internal-data-bridge"
       }
     },
+    "244042d8-07fc-502a-8ba4-8b74f82c6d88": {
+      "id": "244042d8-07fc-502a-8ba4-8b74f82c6d88",
+      "children": [],
+      "parent": "7723953f-dbd8-5203-8313-abfe8d5fb23b",
+      "internal": {
+        "content": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "abe52cd20b4798e4629b2ea02aaf3eeb",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "<JS> Event Bubbling과 Event Capturing",
+        "date": "2019-10-05T11:11:34.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
+      "fields": {
+        "slug": "/JavaScript/event-bubbling과-event-capturing/"
+      }
+    },
     "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8": {
       "id": "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8",
       "children": [],
@@ -4339,7 +4364,7 @@
       "internal": {
         "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
         "type": "MarkdownRemark",
-        "contentDigest": "bcf6c7447d7c73c67a6ab7c247a4f156",
+        "contentDigest": "1e479d096fd166779ad00a5bc9c8eda0",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -4348,7 +4373,7 @@
       "frontmatter": {
         "title": "<JS> 호이스팅(Hoisting)",
         "date": "2019-09-30T21:10:14.000Z",
-        "category": "javascript"
+        "category": "JavaScript"
       },
       "excerpt": "",
       "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
@@ -4364,7 +4389,7 @@
       "internal": {
         "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
         "type": "MarkdownRemark",
-        "contentDigest": "6e36c173d7f7f5d7a7e94895ae7dbc68",
+        "contentDigest": "0e89c74886976c11ea8c66f5963a446c",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -4373,38 +4398,13 @@
       "frontmatter": {
         "title": "<JS> onclick과 addEventListener 비교",
         "date": "2019-09-30T21:10:10.000Z",
-        "category": "javascript"
+        "category": "JavaScript"
       },
       "excerpt": "",
       "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
       "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
       "fields": {
         "slug": "/JavaScript/onclick-vs-addeventlistener/"
-      }
-    },
-    "244042d8-07fc-502a-8ba4-8b74f82c6d88": {
-      "id": "244042d8-07fc-502a-8ba4-8b74f82c6d88",
-      "children": [],
-      "parent": "7723953f-dbd8-5203-8313-abfe8d5fb23b",
-      "internal": {
-        "content": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "aaa257cd0093770706737ce06bf73134",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "<JS> Event Bubbling과 Event Capturing",
-        "date": "2019-10-05T11:11:34.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
-      "fields": {
-        "slug": "/JavaScript/event-bubbling과-event-capturing/"
       }
     }
   },
@@ -4469,17 +4469,17 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "946/path---index-6a9-iVa4NzKnHHFueaQkAko0rGyXs",
+    "index": "508/path---index-6a9-t2US9QQHsgg5kSQbX5sMcFsY8",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
     "etc-notion-for-students-teachers-efd": "756/path---etc-notion-for-students-teachers-efd-4f3-Y4XzJajra2KGNrUZcV0Y3tynano",
     "java-script-var-let-const-비교-bb7": "550/path---java-script-var-let-const-비교-bb-7-6bb-iHZ9ni5DoDS7gzcZDvZRREsVGY",
-    "etc-junior-seminar-cdb": "547/path---etc-junior-seminar-cdb-952-8khlUgRyJpqtvkKkXD9og1lyJI",
+    "etc-junior-seminar-cdb": "139/path---etc-junior-seminar-cdb-952-aSum5WIOVcedC9kYBQopNRAdrA",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
-    "java-script-onclick-vs-addeventlistener-96d": "186/path---java-script-onclick-vs-addeventlistener-96-d-bd0-s9s25Y6gLDJk6NOtMiqFhDWu2KQ",
-    "java-script-hoisting-0e5": "168/path---java-script-hoisting-0-e-5-d97-LjodBICbFD6zqwrUuBkxtxRm0s",
-    "java-script-event-bubbling과-event-capturing-c50": "680/path---java-script-event-bubbling과-event-capturing-c-50-e5f-r4chQjqF16m7iPUDD6UAYXkXLw"
+    "java-script-onclick-vs-addeventlistener-96d": "692/path---java-script-onclick-vs-addeventlistener-96-d-bd0-5hLDZ8dLnqNuliGGgYir2xMYoE",
+    "java-script-hoisting-0e5": "210/path---java-script-hoisting-0-e-5-d97-vlRNtWUzd6ZqetjPwqLlkZxQwGs",
+    "java-script-event-bubbling과-event-capturing-c50": "90/path---java-script-event-bubbling과-event-capturing-c-50-e5f-8ncWU9bhS9lKNEZsyms4oaOT4E"
   },
   "components": {
     "/Users/jess2/study/jess2Blog/src/templates/blog-post.js": {
