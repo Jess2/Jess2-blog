@@ -4,25 +4,25 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/jess2/study/jess2Blog/.cache/dev-404-page.js",
+      "component": "/Users/jess2/study/jess2devlog/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/jess2/study/jess2Blog/.cache/dev-404-page.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbedc48fa4b814e0453141ee95fc0214",
+        "contentDigest": "aa5c2606ed45f26869a9b4d552785ce6",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "174cf8cf61df029e90e4ca66c768a6a8",
+        "contentDigest": "e9ab6e7a31f47703d542c9c3c8d4fb72",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -86,13 +86,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9be8742951765a47777a262253062f35",
+        "contentDigest": "8df73775bf11bd005088e791107b90e6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -105,7 +105,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -122,13 +122,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "479aaa67b96781f0378105157b89ed91",
+        "contentDigest": "169f82b92814fa0c9217b9f44c33ffa2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -140,7 +140,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -157,13 +157,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9501eef80076079e2dd82bb7d4146583",
+        "contentDigest": "0cc855c4794ab97b45a5b625f968a2b4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -175,7 +175,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -192,13 +192,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b2959ac9be9628952aeaa4e1db0e502f",
+        "contentDigest": "d7a3eaf2497020ffde14c9d8ce38ee05",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -210,7 +210,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -227,13 +227,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "cb11436a1ef88c2fa54cd831d276aeb0",
+        "contentDigest": "2140e78f3970fe070c26535b2a5e6904",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "66a12c8c-dfe6-567c-bc7a-cf0a82cd3ef1": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-disqus",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-disqus",
       "id": "66a12c8c-dfe6-567c-bc7a-cf0a82cd3ef1",
       "name": "gatsby-plugin-disqus",
       "version": "1.1.2",
@@ -246,7 +246,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-disqus",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-disqus",
       "packageJson": {
         "name": "gatsby-plugin-disqus",
         "description": "A component for integrating Disqus comments in Gatsby.",
@@ -314,674 +314,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ccabc2f62d802a1c814d0985dd792a9a",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "6519fb5d-f2da-5953-9180-e63172ac1661": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "id": "6519fb5d-f2da-5953-9180-e63172ac1661",
-      "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
-      "pluginOptions": {
-        "plugins": [],
-        "path": "/Users/jess2/study/jess2Blog/content/blog",
-        "name": "blog"
-      },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "packageJson": {
-        "name": "gatsby-source-filesystem",
-        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "better-queue",
-            "version": "^3.8.7"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "chokidar",
-            "version": "2.1.2"
-          },
-          {
-            "name": "file-type",
-            "version": "^10.2.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "got",
-            "version": "^7.1.0"
-          },
-          {
-            "name": "md5-file",
-            "version": "^3.1.1"
-          },
-          {
-            "name": "mime",
-            "version": "^2.2.0"
-          },
-          {
-            "name": "pretty-bytes",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "valid-url",
-            "version": "^1.0.9"
-          },
-          {
-            "name": "xstate",
-            "version": "^3.1.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "473faddf9a4a2db615b3062f31e73ed6",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "cb004b9b-85ce-52df-af9d-9b4c372a829f": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "id": "cb004b9b-85ce-52df-af9d-9b4c372a829f",
-      "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
-      "pluginOptions": {
-        "plugins": [],
-        "path": "/Users/jess2/study/jess2Blog/content/__about",
-        "name": "about"
-      },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "packageJson": {
-        "name": "gatsby-source-filesystem",
-        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "better-queue",
-            "version": "^3.8.7"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "chokidar",
-            "version": "2.1.2"
-          },
-          {
-            "name": "file-type",
-            "version": "^10.2.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "got",
-            "version": "^7.1.0"
-          },
-          {
-            "name": "md5-file",
-            "version": "^3.1.1"
-          },
-          {
-            "name": "mime",
-            "version": "^2.2.0"
-          },
-          {
-            "name": "pretty-bytes",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "valid-url",
-            "version": "^1.0.9"
-          },
-          {
-            "name": "xstate",
-            "version": "^3.1.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "f2d793d2c197aa68b0b61b7bb5100c3e",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "1f4ce20e-60be-51ba-ac22-e32310c45444": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "id": "1f4ce20e-60be-51ba-ac22-e32310c45444",
-      "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
-      "pluginOptions": {
-        "plugins": [],
-        "path": "/Users/jess2/study/jess2Blog/content/assets",
-        "name": "assets"
-      },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-source-filesystem",
-      "packageJson": {
-        "name": "gatsby-source-filesystem",
-        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "better-queue",
-            "version": "^3.8.7"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "chokidar",
-            "version": "2.1.2"
-          },
-          {
-            "name": "file-type",
-            "version": "^10.2.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "got",
-            "version": "^7.1.0"
-          },
-          {
-            "name": "md5-file",
-            "version": "^3.1.1"
-          },
-          {
-            "name": "mime",
-            "version": "^2.2.0"
-          },
-          {
-            "name": "pretty-bytes",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "valid-url",
-            "version": "^1.0.9"
-          },
-          {
-            "name": "xstate",
-            "version": "^3.1.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "39201b9af16669005c399b0f43b8e293",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "9f080a5b-bb79-5dd1-b846-e7803ba59c61": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-transformer-remark",
-      "id": "9f080a5b-bb79-5dd1-b846-e7803ba59c61",
-      "name": "gatsby-transformer-remark",
-      "version": "2.3.8",
-      "pluginOptions": {
-        "plugins": [
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images",
-            "id": "6d72660d-d259-5ce7-8f5d-60a6bbc00710",
-            "name": "gatsby-remark-images",
-            "version": "3.0.10",
-            "pluginOptions": {
-              "plugins": [],
-              "maxWidth": 590,
-              "linkImagesToOriginal": false,
-              "wrapperStyle": "",
-              "backgroundColor": "white",
-              "showCaptions": false,
-              "pathPrefix": "",
-              "withWebp": false,
-              "tracedSVG": false
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [
-              "onRouteUpdate"
-            ],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images-medium-zoom",
-            "id": "00766cce-5d2c-53cd-bcc0-287866d4b798",
-            "name": "gatsby-remark-images-medium-zoom",
-            "version": "1.2.1",
-            "pluginOptions": {
-              "plugins": [],
-              "margin": 36,
-              "scrollOffset": 0
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [
-              "onRouteUpdate"
-            ],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images-medium-zoom"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-responsive-iframe",
-            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
-            "name": "gatsby-remark-responsive-iframe",
-            "version": "2.1.1",
-            "pluginOptions": {
-              "plugins": [],
-              "wrapperStyle": "margin-bottom: 1.0725rem"
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-responsive-iframe"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-prismjs",
-            "id": "340074bd-609b-5299-8d1d-d9eb4b78ba7a",
-            "name": "gatsby-remark-prismjs",
-            "version": "3.2.6",
-            "pluginOptions": {
-              "plugins": [],
-              "inlineCodeMarker": "%"
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-prismjs"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-copy-linked-files",
-            "id": "80533a5b-ad2d-50ff-af51-726674869458",
-            "name": "gatsby-remark-copy-linked-files",
-            "version": "2.0.11",
-            "pluginOptions": {
-              "plugins": [],
-              "ignoreFileExtensions": [
-                "png",
-                "jpg",
-                "jpeg",
-                "bmp",
-                "tiff"
-              ]
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-copy-linked-files"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-smartypants",
-            "id": "90305615-131b-5991-a708-2c2d1c43d946",
-            "name": "gatsby-remark-smartypants",
-            "version": "2.0.9",
-            "pluginOptions": {
-              "plugins": []
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-smartypants"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-autolink-headers",
-            "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
-            "name": "gatsby-remark-autolink-headers",
-            "version": "2.0.16",
-            "pluginOptions": {
-              "plugins": []
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [
-              "onInitialClientRender",
-              "shouldUpdateScroll"
-            ],
-            "ssrAPIs": [
-              "onRenderBody"
-            ],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-autolink-headers"
-          },
-          {
-            "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-emoji",
-            "id": "ba2276fa-55a5-5588-8e63-60d28f74dce4",
-            "name": "gatsby-remark-emoji",
-            "version": "0.0.2",
-            "pluginOptions": {
-              "plugins": []
-            },
-            "nodeAPIs": [],
-            "browserAPIs": [],
-            "ssrAPIs": [],
-            "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-emoji"
-          }
-        ]
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-transformer-remark",
-      "packageJson": {
-        "name": "gatsby-transformer-remark",
-        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.3.8",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "markdown",
-          "remark"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "gray-matter",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "hast-util-raw",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "hast-util-to-html",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mdast-util-to-hast",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "mdast-util-to-string",
-            "version": "^1.0.5"
-          },
-          {
-            "name": "mdast-util-toc",
-            "version": "^2.0.1"
-          },
-          {
-            "name": "remark",
-            "version": "^9.0.0"
-          },
-          {
-            "name": "remark-parse",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "remark-retext",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "remark-stringify",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "retext-english",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "sanitize-html",
-            "version": "^1.18.2"
-          },
-          {
-            "name": "underscore.string",
-            "version": "^3.3.5"
-          },
-          {
-            "name": "unified",
-            "version": "^6.1.5"
-          },
-          {
-            "name": "unist-util-remove-position",
-            "version": "^1.1.2"
-          },
-          {
-            "name": "unist-util-select",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "unist-util-visit",
-            "version": "^1.3.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.88"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "77c6cb60f4488c4ec38916358ecf196d",
+        "contentDigest": "bdfe76dc2b24c5a8a1eeeca1857d8d5f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6d72660d-d259-5ce7-8f5d-60a6bbc00710": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images",
       "id": "6d72660d-d259-5ce7-8f5d-60a6bbc00710",
       "name": "gatsby-remark-images",
       "version": "3.0.10",
@@ -1001,7 +340,7 @@
         "onRouteUpdate"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images",
       "packageJson": {
         "name": "gatsby-remark-images",
         "description": "Processes images in markdown so they can be used in the production build.",
@@ -1096,13 +435,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "78d72df96b396a4f4618ce75cf2e8db0",
+        "contentDigest": "e5276ed566969062ff9102b5f6d7027d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "00766cce-5d2c-53cd-bcc0-287866d4b798": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images-medium-zoom",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images-medium-zoom",
       "id": "00766cce-5d2c-53cd-bcc0-287866d4b798",
       "name": "gatsby-remark-images-medium-zoom",
       "version": "1.2.1",
@@ -1116,7 +455,7 @@
         "onRouteUpdate"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-images-medium-zoom",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images-medium-zoom",
       "packageJson": {
         "name": "gatsby-remark-images-medium-zoom",
         "description": "medium-zoom plugin for gatsby",
@@ -1148,13 +487,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "76a13916876899683a48607e337999ac",
+        "contentDigest": "d9a2dfebab104a7dc8b0b43b9f8dfea0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-responsive-iframe",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-responsive-iframe",
       "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
       "name": "gatsby-remark-responsive-iframe",
       "version": "2.1.1",
@@ -1165,7 +504,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-responsive-iframe",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-responsive-iframe",
       "packageJson": {
         "name": "gatsby-remark-responsive-iframe",
         "description": "Make iframes in Markdown processed by Remark responsive",
@@ -1241,13 +580,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e862e725e1cbb8140fdeda83b8514eb4",
+        "contentDigest": "d9ab18f746e1d691310607864d1cf9de",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "340074bd-609b-5299-8d1d-d9eb4b78ba7a": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-prismjs",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-prismjs",
       "id": "340074bd-609b-5299-8d1d-d9eb4b78ba7a",
       "name": "gatsby-remark-prismjs",
       "version": "3.2.6",
@@ -1258,7 +597,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-prismjs",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-prismjs",
       "packageJson": {
         "name": "gatsby-remark-prismjs",
         "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
@@ -1331,13 +670,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fd41b8adc8439371bbd8d2819b057ac6",
+        "contentDigest": "6c5a89231b2fc6fb7526f68bbb4ed8fa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "80533a5b-ad2d-50ff-af51-726674869458": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-copy-linked-files",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-copy-linked-files",
       "id": "80533a5b-ad2d-50ff-af51-726674869458",
       "name": "gatsby-remark-copy-linked-files",
       "version": "2.0.11",
@@ -1354,7 +693,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-copy-linked-files",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-copy-linked-files",
       "packageJson": {
         "name": "gatsby-remark-copy-linked-files",
         "description": "Find files which are linked to from markdown and copy them to the public directory",
@@ -1435,13 +774,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fad9418786a2662a07e1458c9351a8d6",
+        "contentDigest": "032c921c2db5e2cc378cc0c2d8c84191",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "90305615-131b-5991-a708-2c2d1c43d946": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-smartypants",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-smartypants",
       "id": "90305615-131b-5991-a708-2c2d1c43d946",
       "name": "gatsby-remark-smartypants",
       "version": "2.0.9",
@@ -1451,7 +790,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-smartypants",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-smartypants",
       "packageJson": {
         "name": "gatsby-remark-smartypants",
         "description": "Use retext-smartypants to auto-enhance typography of markdown",
@@ -1515,13 +854,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4aced0063f8b9b493cbabd24235ec72c",
+        "contentDigest": "6c269f3995cd977efbcd8cfd9ca0d19e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "df380aaa-460e-51a2-8830-e6712dc1f436": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-autolink-headers",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-autolink-headers",
       "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
       "name": "gatsby-remark-autolink-headers",
       "version": "2.0.16",
@@ -1536,7 +875,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-autolink-headers",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-autolink-headers",
       "packageJson": {
         "name": "gatsby-remark-autolink-headers",
         "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
@@ -1604,13 +943,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7c3056e0001e49ef89897288524c879c",
+        "contentDigest": "f7e41982d40aa442675a50bc5b9afb68",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "ba2276fa-55a5-5588-8e63-60d28f74dce4": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-emoji",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-emoji",
       "id": "ba2276fa-55a5-5588-8e63-60d28f74dce4",
       "name": "gatsby-remark-emoji",
       "version": "0.0.2",
@@ -1620,7 +959,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-remark-emoji",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-emoji",
       "packageJson": {
         "name": "gatsby-remark-emoji",
         "description": "Add slack-style emoji to gatsby's markdown :thumbs_up:.",
@@ -1655,13 +994,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4a6a9c99744a73df35e7a47c4f4543ff",
+        "contentDigest": "adaefeb3265e8a3b722c3c6eed29a034",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "8b41d8b0-5f80-5c50-88b3-d76fc9ca6e94": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-google-analytics",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-google-analytics",
       "id": "8b41d8b0-5f80-5c50-88b3-d76fc9ca6e94",
       "name": "gatsby-plugin-google-analytics",
       "version": "2.0.17",
@@ -1676,7 +1015,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-google-analytics",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-google-analytics",
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
@@ -1728,13 +1067,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "481a36ac79cca31f868c16e0aa9c4633",
+        "contentDigest": "047e2228f45e4b1ee3c859dfa5e1a997",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "9d426908-e9ef-5de0-a952-50ad52715e90": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-manifest",
       "id": "9d426908-e9ef-5de0-a952-50ad52715e90",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.24",
@@ -1755,7 +1094,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
@@ -1819,13 +1158,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a71dea05b37f8786027e2977e1cbd804",
+        "contentDigest": "ccee45fa3f35ebd8ced54e9a54d175a2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-typography",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-typography",
       "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
       "name": "gatsby-plugin-typography",
       "version": "2.2.10",
@@ -1843,7 +1182,7 @@
         "onRenderBody",
         "onPreRenderHTML"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -1912,13 +1251,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1a8e38e59b3a14ee804de50e0b42cf2e",
+        "contentDigest": "4bc755bc92c70dae49f0856e8ca0ae2d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
       "version": "2.1.17",
@@ -1932,7 +1271,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -2008,13 +1347,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "248bdd1613c4b186dcb2b4d39e485e82",
+        "contentDigest": "72c7e603b5555ae387d86b7af7885fa4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
       "version": "2.0.30",
@@ -2026,7 +1365,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -2139,13 +1478,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c459c9d6578de83357c34e3bb42cad22",
+        "contentDigest": "31d11995d7acddbf9255ba5bb0f8422c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-feed",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-feed",
       "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
       "name": "gatsby-plugin-feed",
       "version": "2.1.0",
@@ -2158,7 +1497,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-feed",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-feed",
       "packageJson": {
         "name": "gatsby-plugin-feed",
         "description": "Creates an RSS feed for your Gatsby site.",
@@ -2224,13 +1563,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "050574b4613098231a66b95cd5a42f82",
+        "contentDigest": "8de714538546bec21c189bbb41449df3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-offline",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-offline",
       "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
       "version": "2.0.25",
@@ -2247,7 +1586,7 @@
         "onPostPrefetchPathname"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-offline",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
@@ -2321,13 +1660,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "37790a336d6dabd032fe82a8004f185e",
+        "contentDigest": "f8ec2155cc830f0c5eadc6d37dafbda7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.10",
@@ -2339,7 +1678,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -2406,13 +1745,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b6f8a8ff1d372ed78b49c234c978eaf2",
+        "contentDigest": "9eaaefc047043b333c11990594ab946e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sass",
       "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
       "name": "gatsby-plugin-sass",
       "version": "2.0.11",
@@ -2424,7 +1763,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -2485,13 +1824,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c081b40d279d7fa3fc63b7a002797dfe",
+        "contentDigest": "8cb8b745c1905da3fca37242ba823229",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-lodash",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-lodash",
       "id": "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2",
       "name": "gatsby-plugin-lodash",
       "version": "3.0.5",
@@ -2504,7 +1843,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-lodash",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-lodash",
       "packageJson": {
         "name": "gatsby-plugin-lodash",
         "description": "Easy modular Lodash builds. Adds the Lodash webpack & Babel plugins to your Gatsby build",
@@ -2563,13 +1902,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "91b5c5e752a2546a272f432b37d7da15",
+        "contentDigest": "ab385559874bdfcf40998733442f9fc4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sitemap",
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sitemap",
       "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
       "name": "gatsby-plugin-sitemap",
       "version": "2.0.10",
@@ -2583,7 +1922,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-sitemap",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-sitemap",
       "packageJson": {
         "name": "gatsby-plugin-sitemap",
         "description": "Gatsby plugin that automatically creates a sitemap for your site",
@@ -2645,13 +1984,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "852fe5d567848db71932d61ef031cfa0",
+        "contentDigest": "0f19b24a13bc12c76d81008215f592e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/jess2/study/jess2Blog",
+      "resolve": "/Users/jess2/study/jess2devlog",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "8d42b86ea6a749ebe1d3460da8f55a04",
@@ -2666,7 +2005,7 @@
         "onInitialClientRender"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog",
       "packageJson": {
         "name": "gatsby-starter-bee",
         "description": "Gatsby blog starter template",
@@ -2892,19 +2231,732 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ff5ac3979b69f951b89c9967fc9851c6",
+        "contentDigest": "068f2c6363a766f14fea8b8ba7bf7f87",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2": {
-      "resolve": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-page-creator",
-      "id": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
+    "Site": {
+      "siteMetadata": {
+        "title": "Jess2.xyz",
+        "description": "Blog posted about frontend development",
+        "author": "Jess2",
+        "introduction": "👩🏻‍💻Frontend Developer",
+        "siteUrl": "http://jess2.xyz",
+        "social": {
+          "twitter": "",
+          "github": "jess2",
+          "facebook": "jesssss2",
+          "medium": ""
+        },
+        "icon": "content/assets/jessieImg.png",
+        "thumbnail": "content/assets/jessieImg.png",
+        "keywords": [
+          "blog",
+          "javascript",
+          "web",
+          "vue",
+          "frontend",
+          "development"
+        ],
+        "comment": {
+          "disqusShortName": "https-jess2-netlify-com",
+          "utterances": ""
+        },
+        "configs": {
+          "countOfInitialPost": 10
+        },
+        "sponsor": {
+          "buyMeACoffeeId": "Jess2"
+        },
+        "share": {
+          "facebookAppId": ""
+        },
+        "ga": "UA-149032677-1"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-10-05T11:50:23.973Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "763e946860123542fb73a0dff159e676",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a3fc83d-66c7-5c80-8746-d616cf803085": {
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "id": "4a3fc83d-66c7-5c80-8746-d616cf803085",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/jess2devlog/content/blog",
+        "name": "blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f59c2ce167521dda0ac77488fee111e7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "229a0482-36de-577b-a31c-4693a0621779": {
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "id": "229a0482-36de-577b-a31c-4693a0621779",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/jess2devlog/content/__about",
+        "name": "about"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2c060920be3a2d2498ebd13f70d1b9ae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4cdc1f18-a8b1-5b5c-852b-221939efa966": {
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "id": "4cdc1f18-a8b1-5b5c-852b-221939efa966",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jess2/study/jess2devlog/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6a9c2de971c63271ded9245a48408d01",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1307576e-d902-521a-9435-d0d276c96bc0": {
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-transformer-remark",
+      "id": "1307576e-d902-521a-9435-d0d276c96bc0",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images",
+            "id": "6d72660d-d259-5ce7-8f5d-60a6bbc00710",
+            "name": "gatsby-remark-images",
+            "version": "3.0.10",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false,
+              "tracedSVG": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images-medium-zoom",
+            "id": "00766cce-5d2c-53cd-bcc0-287866d4b798",
+            "name": "gatsby-remark-images-medium-zoom",
+            "version": "1.2.1",
+            "pluginOptions": {
+              "plugins": [],
+              "margin": 36,
+              "scrollOffset": 0
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images-medium-zoom"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.1.1",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-prismjs",
+            "id": "340074bd-609b-5299-8d1d-d9eb4b78ba7a",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.6",
+            "pluginOptions": {
+              "plugins": [],
+              "inlineCodeMarker": "%"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.11",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-smartypants"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-autolink-headers",
+            "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
+            "name": "gatsby-remark-autolink-headers",
+            "version": "2.0.16",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onInitialClientRender",
+              "shouldUpdateScroll"
+            ],
+            "ssrAPIs": [
+              "onRenderBody"
+            ],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-autolink-headers"
+          },
+          {
+            "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-emoji",
+            "id": "ba2276fa-55a5-5588-8e63-60d28f74dce4",
+            "name": "gatsby-remark-emoji",
+            "version": "0.0.2",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-emoji"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "497de13af0b5f16ea0ce87120e847e05",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "22015af3-7688-5ded-bbd4-2cab8b3760f2": {
+      "resolve": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-page-creator",
+      "id": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.11",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/jess2/study/jess2Blog/src/pages",
+        "path": "/Users/jess2/study/jess2devlog/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -2912,7 +2964,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/jess2/study/jess2Blog/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/jess2/study/jess2devlog/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -2995,85 +3047,33 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "04c791b6aaf93dd725d22c54a4545244",
+        "contentDigest": "6af27ee8f9e8a9fe3324bf3bb2059c0b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Site": {
-      "siteMetadata": {
-        "title": "Jess2.xyz",
-        "description": "Blog posted about frontend development",
-        "author": "Jess2",
-        "introduction": "👩🏻‍💻Frontend Developer",
-        "siteUrl": "http://jess2.xyz",
-        "social": {
-          "twitter": "",
-          "github": "jess2",
-          "facebook": "jesssss2",
-          "medium": ""
-        },
-        "icon": "content/assets/jessieImg.png",
-        "thumbnail": "content/assets/jessieImg.png",
-        "keywords": [
-          "blog",
-          "javascript",
-          "web",
-          "vue",
-          "frontend",
-          "development"
-        ],
-        "comment": {
-          "disqusShortName": "https-jess2-netlify-com",
-          "utterances": ""
-        },
-        "configs": {
-          "countOfInitialPost": 10
-        },
-        "sponsor": {
-          "buyMeACoffeeId": "Jess2"
-        },
-        "share": {
-          "facebookAppId": ""
-        },
-        "ga": "UA-149032677-1"
-      },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-10-05T06:15:05.693Z",
-      "id": "Site",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "b2e5f38b7d4783974a2f4371a76001ea",
-        "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "2434f5fe-988f-5208-baf2-6a0c872cb705": {
-      "id": "2434f5fe-988f-5208-baf2-6a0c872cb705",
+    "91b656d2-68f9-5e17-946d-66b56e55476e": {
+      "id": "91b656d2-68f9-5e17-946d-66b56e55476e",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "63da320257972536e6b33bbde3c1779f",
+        "contentDigest": "2cb0cf23398fb2fef4ddee485937606e",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog",
       "relativePath": "",
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T12:13:24.386Z",
-      "accessTime": "2019-10-05T06:15:13.196Z",
+      "accessTime": "2019-10-05T11:50:33.531Z",
       "changeTime": "2019-09-21T12:13:24.386Z",
       "birthTime": "2019-09-07T02:56:09.622Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content",
+      "dir": "/Users/jess2/study/jess2devlog/content",
       "base": "blog",
       "ext": "",
       "name": "blog",
@@ -3087,37 +3087,37 @@
       "blksize": 4096,
       "ino": 3265981,
       "blocks": 0,
-      "atimeMs": 1570256113195.8193,
+      "atimeMs": 1570276233531.374,
       "mtimeMs": 1569068004385.68,
       "ctimeMs": 1569068004385.68,
       "birthtimeMs": 1567824969621.551,
-      "atime": "2019-10-05T06:15:13.196Z",
+      "atime": "2019-10-05T11:50:33.531Z",
       "mtime": "2019-09-21T12:13:24.386Z",
       "ctime": "2019-09-21T12:13:24.386Z",
       "birthtime": "2019-09-07T02:56:09.622Z"
     },
-    "4008e004-c339-54f3-93d3-9b4766fd1bac": {
-      "id": "4008e004-c339-54f3-93d3-9b4766fd1bac",
+    "e7df17e2-8570-5c28-84cb-30f13bb66c4a": {
+      "id": "e7df17e2-8570-5c28-84cb-30f13bb66c4a",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "caed4944498524dfecfa44bf06ad01d4",
+        "contentDigest": "18e63a2f703e2b00c331b49de2a1b7df",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
       "relativePath": "JavaScript",
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-10-05T02:58:24.836Z",
-      "accessTime": "2019-10-05T06:15:13.198Z",
+      "accessTime": "2019-10-05T11:50:33.534Z",
       "changeTime": "2019-10-05T02:58:24.836Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog",
       "base": "JavaScript",
       "ext": "",
       "name": "JavaScript",
@@ -3131,37 +3131,37 @@
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1570256113197.5066,
+      "atimeMs": 1570276233533.7686,
       "mtimeMs": 1570244304835.787,
       "ctimeMs": 1570244304835.787,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2019-10-05T06:15:13.198Z",
+      "atime": "2019-10-05T11:50:33.534Z",
       "mtime": "2019-10-05T02:58:24.836Z",
       "ctime": "2019-10-05T02:58:24.836Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
     },
-    "ad731940-7185-5e8b-9496-74cc36800e0a": {
-      "id": "ad731940-7185-5e8b-9496-74cc36800e0a",
+    "30f09798-54d2-5e76-8db9-68b4b63c569c": {
+      "id": "30f09798-54d2-5e76-8db9-68b4b63c569c",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c9c03b44bf54f27cb5316b5711fa02b0",
+        "contentDigest": "09aa6cd5f3ec634c2718e6ca81edb52b",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc.",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc.",
       "relativePath": "etc.",
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-09-29T07:01:44.369Z",
-      "accessTime": "2019-10-05T06:15:13.199Z",
+      "accessTime": "2019-10-05T11:50:33.534Z",
       "changeTime": "2019-09-29T07:01:44.369Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog",
       "base": "etc.",
       "ext": ".",
       "name": "etc",
@@ -3175,37 +3175,37 @@
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1570256113198.7617,
+      "atimeMs": 1570276233533.7483,
       "mtimeMs": 1569740504369.196,
       "ctimeMs": 1569740504369.196,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2019-10-05T06:15:13.199Z",
+      "atime": "2019-10-05T11:50:33.534Z",
       "mtime": "2019-09-29T07:01:44.369Z",
       "ctime": "2019-09-29T07:01:44.369Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
     },
-    "e3aad3d9-9ce9-5aff-aabb-a62bba8e5a32": {
-      "id": "e3aad3d9-9ce9-5aff-aabb-a62bba8e5a32",
+    "ae5d4e6f-201a-50e7-a0a2-0a7d03725a27": {
+      "id": "ae5d4e6f-201a-50e7-a0a2-0a7d03725a27",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "70bb4b19eba71d8ca5c5598603f161aa",
+        "contentDigest": "d67bc730e273a82569cc72c0e9887b66",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./images",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "relativePath": "etc./images",
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-09-29T07:02:03.958Z",
-      "accessTime": "2019-10-05T06:15:13.200Z",
+      "accessTime": "2019-10-05T11:50:33.540Z",
       "changeTime": "2019-09-29T07:02:03.958Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc.",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc.",
       "base": "images",
       "ext": "",
       "name": "images",
@@ -3219,254 +3219,19 @@
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1570256113199.5803,
+      "atimeMs": 1570276233540.1575,
       "mtimeMs": 1569740523957.9817,
       "ctimeMs": 1569740523957.9817,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2019-10-05T06:15:13.200Z",
+      "atime": "2019-10-05T11:50:33.540Z",
       "mtime": "2019-09-29T07:02:03.958Z",
       "ctime": "2019-09-29T07:02:03.958Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
     },
-    "7723953f-dbd8-5203-8313-abfe8d5fb23b": {
-      "id": "7723953f-dbd8-5203-8313-abfe8d5fb23b",
+    "a36ca943-e4c1-501e-9d27-34ed1e96289f": {
+      "id": "a36ca943-e4c1-501e-9d27-34ed1e96289f",
       "children": [
-        "244042d8-07fc-502a-8ba4-8b74f82c6d88"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "e669867c3d3c49128067d237801e2607",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/event-bubbling과-event-capturing.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
-      "relativePath": "JavaScript/event-bubbling과-event-capturing.md",
-      "extension": "md",
-      "size": 6120,
-      "prettySize": "6.12 kB",
-      "modifiedTime": "2019-10-05T06:16:40.451Z",
-      "accessTime": "2019-10-05T06:15:59.709Z",
-      "changeTime": "2019-10-05T06:16:40.451Z",
-      "birthTime": "2019-10-05T02:58:24.836Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
-      "base": "event-bubbling과-event-capturing.md",
-      "ext": ".md",
-      "name": "event-bubbling과-event-capturing",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4342563,
-      "blocks": 16,
-      "atimeMs": 1570256159709.294,
-      "mtimeMs": 1570256200451.0535,
-      "ctimeMs": 1570256200451.0535,
-      "birthtimeMs": 1570244304835.7715,
-      "atime": "2019-10-05T06:15:59.709Z",
-      "mtime": "2019-10-05T06:16:40.451Z",
-      "ctime": "2019-10-05T06:16:40.451Z",
-      "birthtime": "2019-10-05T02:58:24.836Z"
-    },
-    "44a0d21a-db94-5d92-b6b2-f392381b66d2": {
-      "id": "44a0d21a-db94-5d92-b6b2-f392381b66d2",
-      "children": [
-        "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "e3867ea502f69d2213373b775f79f69e",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/hoisting.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/hoisting.md",
-      "relativePath": "JavaScript/hoisting.md",
-      "extension": "md",
-      "size": 2493,
-      "prettySize": "2.49 kB",
-      "modifiedTime": "2019-10-05T06:16:52.907Z",
-      "accessTime": "2019-10-05T06:15:19.589Z",
-      "changeTime": "2019-10-05T06:16:52.907Z",
-      "birthTime": "2019-09-30T12:48:35.263Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
-      "base": "hoisting.md",
-      "ext": ".md",
-      "name": "hoisting",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4201455,
-      "blocks": 8,
-      "atimeMs": 1570256119589.1511,
-      "mtimeMs": 1570256212906.9817,
-      "ctimeMs": 1570256212906.9817,
-      "birthtimeMs": 1569847715262.665,
-      "atime": "2019-10-05T06:15:19.589Z",
-      "mtime": "2019-10-05T06:16:52.907Z",
-      "ctime": "2019-10-05T06:16:52.907Z",
-      "birthtime": "2019-09-30T12:48:35.263Z"
-    },
-    "cc4aa844-779f-56de-b82d-ebdeefaa57e1": {
-      "id": "cc4aa844-779f-56de-b82d-ebdeefaa57e1",
-      "children": [
-        "640b1e07-5ced-5c4f-ac84-60fe4ab44095"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "ba2567444e6d489f058ee344b76f4de4",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/var,-let,-const-비교.md",
-      "relativePath": "JavaScript/var,-let,-const-비교.md",
-      "extension": "md",
-      "size": 7893,
-      "prettySize": "7.89 kB",
-      "modifiedTime": "2019-10-05T06:17:13.714Z",
-      "accessTime": "2019-10-05T06:15:19.589Z",
-      "changeTime": "2019-10-05T06:17:13.714Z",
-      "birthTime": "2019-09-21T12:13:48.356Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
-      "base": "var,-let,-const-비교.md",
-      "ext": ".md",
-      "name": "var,-let,-const-비교",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3591857,
-      "blocks": 16,
-      "atimeMs": 1570256119589.1912,
-      "mtimeMs": 1570256233714.4453,
-      "ctimeMs": 1570256233714.4453,
-      "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-10-05T06:15:19.589Z",
-      "mtime": "2019-10-05T06:17:13.714Z",
-      "ctime": "2019-10-05T06:17:13.714Z",
-      "birthtime": "2019-09-21T12:13:48.356Z"
-    },
-    "9b9575ff-7323-5f92-8c40-270ad9d60bed": {
-      "id": "9b9575ff-7323-5f92-8c40-270ad9d60bed",
-      "children": [
-        "fe1cf9c2-e9a1-580e-8bf7-f231ad3046e2"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "c7a10e8bde069758a2a251e7834dcede",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/JavaScript/onclick-vs-addeventlistener.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
-      "relativePath": "JavaScript/onclick-vs-addeventlistener.md",
-      "extension": "md",
-      "size": 2471,
-      "prettySize": "2.47 kB",
-      "modifiedTime": "2019-10-05T06:17:13.710Z",
-      "accessTime": "2019-10-05T06:15:19.589Z",
-      "changeTime": "2019-10-05T06:17:13.710Z",
-      "birthTime": "2019-09-30T12:27:37.029Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/JavaScript",
-      "base": "onclick-vs-addeventlistener.md",
-      "ext": ".md",
-      "name": "onclick-vs-addeventlistener",
-      "relativeDirectory": "JavaScript",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4198659,
-      "blocks": 8,
-      "atimeMs": 1570256119589.1711,
-      "mtimeMs": 1570256233710.207,
-      "ctimeMs": 1570256233710.207,
-      "birthtimeMs": 1569846457028.7368,
-      "atime": "2019-10-05T06:15:19.589Z",
-      "mtime": "2019-10-05T06:17:13.710Z",
-      "ctime": "2019-10-05T06:17:13.710Z",
-      "birthtime": "2019-09-30T12:27:37.029Z"
-    },
-    "3f02b1e0-7c3c-507b-bed0-1a5776d2492e": {
-      "id": "3f02b1e0-7c3c-507b-bed0-1a5776d2492e",
-      "children": [
-        "5c7ffc30-30dd-5c02-9d74-8934dba4a16a"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "bc5d9af8f469e9d05090041516f2fdbb",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/etc./notion-for-students-&-teachers.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./notion-for-students-&-teachers.md",
-      "relativePath": "etc./notion-for-students-&-teachers.md",
-      "extension": "md",
-      "size": 1167,
-      "prettySize": "1.17 kB",
-      "modifiedTime": "2019-09-21T11:41:26.904Z",
-      "accessTime": "2019-10-05T03:22:57.284Z",
-      "changeTime": "2019-09-21T11:41:26.904Z",
-      "birthTime": "2019-09-21T09:41:51.163Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc.",
-      "base": "notion-for-students-&-teachers.md",
-      "ext": ".md",
-      "name": "notion-for-students-&-teachers",
-      "relativeDirectory": "etc.",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3578801,
-      "blocks": 8,
-      "atimeMs": 1570245777283.9297,
-      "mtimeMs": 1569066086904.0698,
-      "ctimeMs": 1569066086904.0698,
-      "birthtimeMs": 1569058911162.5479,
-      "atime": "2019-10-05T03:22:57.284Z",
-      "mtime": "2019-09-21T11:41:26.904Z",
-      "ctime": "2019-09-21T11:41:26.904Z",
-      "birthtime": "2019-09-21T09:41:51.163Z"
-    },
-    "07edcc89-e6e0-550f-b7a2-2b47cb0d3f13": {
-      "id": "07edcc89-e6e0-550f-b7a2-2b47cb0d3f13",
-      "children": [
-        "e5bc3f87-8bfa-532a-b3ce-6b5b449ea6f3"
+        "7509f9e2-b764-57cd-908a-dff4369ab49f"
       ],
       "parent": null,
       "internal": {
@@ -3477,17 +3242,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./junior_seminar.md",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./junior_seminar.md",
       "relativePath": "etc./junior_seminar.md",
       "extension": "md",
       "size": 15259,
       "prettySize": "15.3 kB",
       "modifiedTime": "2019-10-05T06:17:38.804Z",
-      "accessTime": "2019-10-05T06:15:19.589Z",
+      "accessTime": "2019-10-05T11:50:13.396Z",
       "changeTime": "2019-10-05T06:17:38.804Z",
       "birthTime": "2019-09-29T07:01:44.369Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc.",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc.",
       "base": "junior_seminar.md",
       "ext": ".md",
       "name": "junior_seminar",
@@ -3501,19 +3266,254 @@
       "blksize": 4096,
       "ino": 4108656,
       "blocks": 32,
-      "atimeMs": 1570256119589.4216,
+      "atimeMs": 1570276213396.4304,
       "mtimeMs": 1570256258803.6348,
       "ctimeMs": 1570256258803.6348,
       "birthtimeMs": 1569740504369.1792,
-      "atime": "2019-10-05T06:15:19.589Z",
+      "atime": "2019-10-05T11:50:13.396Z",
       "mtime": "2019-10-05T06:17:38.804Z",
       "ctime": "2019-10-05T06:17:38.804Z",
       "birthtime": "2019-09-29T07:01:44.369Z"
     },
-    "9fd4346b-0f12-5a98-a47a-25172e9aa440": {
-      "id": "9fd4346b-0f12-5a98-a47a-25172e9aa440",
+    "0a700a55-3e87-5dc9-8d15-d11c9ee27711": {
+      "id": "0a700a55-3e87-5dc9-8d15-d11c9ee27711",
       "children": [
-        "6e0d2b4e-3e40-50e8-b602-61818eb64d32"
+        "ce5ab02d-de4d-5a37-a4e3-79fe8c5b4a3e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bc5d9af8f469e9d05090041516f2fdbb",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/etc./notion-for-students-&-teachers.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./notion-for-students-&-teachers.md",
+      "relativePath": "etc./notion-for-students-&-teachers.md",
+      "extension": "md",
+      "size": 1167,
+      "prettySize": "1.17 kB",
+      "modifiedTime": "2019-09-21T11:41:26.904Z",
+      "accessTime": "2019-10-05T11:50:33.534Z",
+      "changeTime": "2019-09-21T11:41:26.904Z",
+      "birthTime": "2019-09-21T09:41:51.163Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc.",
+      "base": "notion-for-students-&-teachers.md",
+      "ext": ".md",
+      "name": "notion-for-students-&-teachers",
+      "relativeDirectory": "etc.",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3578801,
+      "blocks": 8,
+      "atimeMs": 1570276233533.8909,
+      "mtimeMs": 1569066086904.0698,
+      "ctimeMs": 1569066086904.0698,
+      "birthtimeMs": 1569058911162.5479,
+      "atime": "2019-10-05T11:50:33.534Z",
+      "mtime": "2019-09-21T11:41:26.904Z",
+      "ctime": "2019-09-21T11:41:26.904Z",
+      "birthtime": "2019-09-21T09:41:51.163Z"
+    },
+    "0d5e50a4-a54d-5dda-8dd8-a3615c13fb89": {
+      "id": "0d5e50a4-a54d-5dda-8dd8-a3615c13fb89",
+      "children": [
+        "413b15ca-f125-5ffc-8a84-acfc020f556a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c2619d106054692863b98bbe3e5236f1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/event-bubbling과-event-capturing.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
+      "relativePath": "JavaScript/event-bubbling과-event-capturing.md",
+      "extension": "md",
+      "size": 6129,
+      "prettySize": "6.13 kB",
+      "modifiedTime": "2019-10-05T11:51:04.278Z",
+      "accessTime": "2019-10-05T11:50:42.204Z",
+      "changeTime": "2019-10-05T11:51:04.278Z",
+      "birthTime": "2019-10-05T02:58:24.836Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "event-bubbling과-event-capturing.md",
+      "ext": ".md",
+      "name": "event-bubbling과-event-capturing",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4342563,
+      "blocks": 16,
+      "atimeMs": 1570276242204.4937,
+      "mtimeMs": 1570276264278.2302,
+      "ctimeMs": 1570276264278.2302,
+      "birthtimeMs": 1570244304835.7715,
+      "atime": "2019-10-05T11:50:42.204Z",
+      "mtime": "2019-10-05T11:51:04.278Z",
+      "ctime": "2019-10-05T11:51:04.278Z",
+      "birthtime": "2019-10-05T02:58:24.836Z"
+    },
+    "2094c0ed-e3ea-53e0-aa42-19072fb1a52a": {
+      "id": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
+      "children": [
+        "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e3867ea502f69d2213373b775f79f69e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/hoisting.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
+      "relativePath": "JavaScript/hoisting.md",
+      "extension": "md",
+      "size": 2493,
+      "prettySize": "2.49 kB",
+      "modifiedTime": "2019-10-05T06:16:52.907Z",
+      "accessTime": "2019-10-05T11:50:13.397Z",
+      "changeTime": "2019-10-05T06:16:52.907Z",
+      "birthTime": "2019-09-30T12:48:35.263Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "hoisting.md",
+      "ext": ".md",
+      "name": "hoisting",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4201455,
+      "blocks": 8,
+      "atimeMs": 1570276213396.577,
+      "mtimeMs": 1570256212906.9817,
+      "ctimeMs": 1570256212906.9817,
+      "birthtimeMs": 1569847715262.665,
+      "atime": "2019-10-05T11:50:13.397Z",
+      "mtime": "2019-10-05T06:16:52.907Z",
+      "ctime": "2019-10-05T06:16:52.907Z",
+      "birthtime": "2019-09-30T12:48:35.263Z"
+    },
+    "055c2863-05bd-550a-ba9b-a8fe40aa8f4f": {
+      "id": "055c2863-05bd-550a-ba9b-a8fe40aa8f4f",
+      "children": [
+        "25c6c20d-d48b-529b-80eb-f7c30b6eed83"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c7a10e8bde069758a2a251e7834dcede",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/onclick-vs-addeventlistener.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
+      "relativePath": "JavaScript/onclick-vs-addeventlistener.md",
+      "extension": "md",
+      "size": 2471,
+      "prettySize": "2.47 kB",
+      "modifiedTime": "2019-10-05T06:17:13.710Z",
+      "accessTime": "2019-10-05T11:50:13.397Z",
+      "changeTime": "2019-10-05T06:17:13.710Z",
+      "birthTime": "2019-09-30T12:27:37.029Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "onclick-vs-addeventlistener.md",
+      "ext": ".md",
+      "name": "onclick-vs-addeventlistener",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4198659,
+      "blocks": 8,
+      "atimeMs": 1570276213396.6196,
+      "mtimeMs": 1570256233710.207,
+      "ctimeMs": 1570256233710.207,
+      "birthtimeMs": 1569846457028.7368,
+      "atime": "2019-10-05T11:50:13.397Z",
+      "mtime": "2019-10-05T06:17:13.710Z",
+      "ctime": "2019-10-05T06:17:13.710Z",
+      "birthtime": "2019-09-30T12:27:37.029Z"
+    },
+    "57606479-633c-5831-bb88-f6b898f079e3": {
+      "id": "57606479-633c-5831-bb88-f6b898f079e3",
+      "children": [
+        "0131de86-2b66-5dfd-a184-e4f14464772f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ba2567444e6d489f058ee344b76f4de4",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/var,-let,-const-비교.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var,-let,-const-비교.md",
+      "relativePath": "JavaScript/var,-let,-const-비교.md",
+      "extension": "md",
+      "size": 7893,
+      "prettySize": "7.89 kB",
+      "modifiedTime": "2019-10-05T06:17:13.714Z",
+      "accessTime": "2019-10-05T11:50:13.397Z",
+      "changeTime": "2019-10-05T06:17:13.714Z",
+      "birthTime": "2019-09-21T12:13:48.356Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "var,-let,-const-비교.md",
+      "ext": ".md",
+      "name": "var,-let,-const-비교",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3591857,
+      "blocks": 16,
+      "atimeMs": 1570276213396.606,
+      "mtimeMs": 1570256233714.4453,
+      "ctimeMs": 1570256233714.4453,
+      "birthtimeMs": 1569068028356.4468,
+      "atime": "2019-10-05T11:50:13.397Z",
+      "mtime": "2019-10-05T06:17:13.714Z",
+      "ctime": "2019-10-05T06:17:13.714Z",
+      "birthtime": "2019-09-21T12:13:48.356Z"
+    },
+    "f1e9eddf-97fe-5428-84d0-8f6be02fb560": {
+      "id": "f1e9eddf-97fe-5428-84d0-8f6be02fb560",
+      "children": [
+        "079cde45-7f6e-5f81-bc46-8b2cce2d2b6d"
       ],
       "parent": null,
       "internal": {
@@ -3524,17 +3524,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./images/startup_junior_seminar.png",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/startup_junior_seminar.png",
       "relativePath": "etc./images/startup_junior_seminar.png",
       "extension": "png",
       "size": 64964,
       "prettySize": "65 kB",
       "modifiedTime": "2019-09-29T06:58:06.404Z",
-      "accessTime": "2019-09-29T09:57:35.278Z",
+      "accessTime": "2019-10-05T11:50:33.540Z",
       "changeTime": "2019-09-29T07:02:03.958Z",
       "birthTime": "2019-09-29T06:58:06.397Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc./images",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "base": "startup_junior_seminar.png",
       "ext": ".png",
       "name": "startup_junior_seminar",
@@ -3548,54 +3548,29 @@
       "blksize": 4096,
       "ino": 4108338,
       "blocks": 128,
-      "atimeMs": 1569751055277.6047,
+      "atimeMs": 1570276233540.2913,
       "mtimeMs": 1569740286404.1377,
       "ctimeMs": 1569740523957.9817,
       "birthtimeMs": 1569740286397.1536,
-      "atime": "2019-09-29T09:57:35.278Z",
+      "atime": "2019-10-05T11:50:33.540Z",
       "mtime": "2019-09-29T06:58:06.404Z",
       "ctime": "2019-09-29T07:02:03.958Z",
       "birthtime": "2019-09-29T06:58:06.397Z"
     },
-    "6e0d2b4e-3e40-50e8-b602-61818eb64d32": {
-      "id": "6e0d2b4e-3e40-50e8-b602-61818eb64d32",
+    "079cde45-7f6e-5f81-bc46-8b2cce2d2b6d": {
+      "id": "079cde45-7f6e-5f81-bc46-8b2cce2d2b6d",
       "children": [],
-      "parent": "9fd4346b-0f12-5a98-a47a-25172e9aa440",
+      "parent": "f1e9eddf-97fe-5428-84d0-8f6be02fb560",
       "internal": {
         "contentDigest": "3fad73bb6dfa54e29f02eb180909e950",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "5c7ffc30-30dd-5c02-9d74-8934dba4a16a": {
-      "id": "5c7ffc30-30dd-5c02-9d74-8934dba4a16a",
-      "children": [],
-      "parent": "3f02b1e0-7c3c-507b-bed0-1a5776d2492e",
-      "internal": {
-        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "4cb124f3bbd47840057f8bebd7b088a5",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Notion is FREE for students & teachers",
-        "date": "2019-09-21T18:10:14.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./notion-for-students-&-teachers.md",
-      "fields": {
-        "slug": "/etc./notion-for-students-&-teachers/"
-      }
-    },
-    "69fd6b89-0787-56cf-8b86-72dc1312dfdc": {
-      "id": "69fd6b89-0787-56cf-8b86-72dc1312dfdc",
+    "374754a3-016f-586e-97e2-a1a6c9e00da6": {
+      "id": "374754a3-016f-586e-97e2-a1a6c9e00da6",
       "children": [
-        "98e4d5be-c91e-52c0-ba30-8310865d43ec"
+        "1ee9aa6b-4c39-52c2-965a-75a901caea76"
       ],
       "parent": null,
       "internal": {
@@ -3606,17 +3581,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./images/notion_main.png",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/notion_main.png",
       "relativePath": "etc./images/notion_main.png",
       "extension": "png",
       "size": 219080,
       "prettySize": "219 kB",
       "modifiedTime": "2019-09-21T09:49:46.534Z",
-      "accessTime": "2019-10-05T02:49:05.127Z",
+      "accessTime": "2019-10-05T11:50:33.540Z",
       "changeTime": "2019-09-21T09:49:46.536Z",
       "birthTime": "2019-09-21T09:49:46.530Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc./images",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "base": "notion_main.png",
       "ext": ".png",
       "name": "notion_main",
@@ -3630,29 +3605,154 @@
       "blksize": 4096,
       "ino": 3579518,
       "blocks": 432,
-      "atimeMs": 1570243745127.232,
+      "atimeMs": 1570276233540.28,
       "mtimeMs": 1569059386533.913,
       "ctimeMs": 1569059386535.9614,
       "birthtimeMs": 1569059386529.755,
-      "atime": "2019-10-05T02:49:05.127Z",
+      "atime": "2019-10-05T11:50:33.540Z",
       "mtime": "2019-09-21T09:49:46.534Z",
       "ctime": "2019-09-21T09:49:46.536Z",
       "birthtime": "2019-09-21T09:49:46.530Z"
     },
-    "98e4d5be-c91e-52c0-ba30-8310865d43ec": {
-      "id": "98e4d5be-c91e-52c0-ba30-8310865d43ec",
+    "ce5ab02d-de4d-5a37-a4e3-79fe8c5b4a3e": {
+      "id": "ce5ab02d-de4d-5a37-a4e3-79fe8c5b4a3e",
       "children": [],
-      "parent": "69fd6b89-0787-56cf-8b86-72dc1312dfdc",
+      "parent": "0a700a55-3e87-5dc9-8d15-d11c9ee27711",
+      "internal": {
+        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "86fcd9f548a7b0859d67a09e8877e5b7",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Notion is FREE for students & teachers",
+        "date": "2019-09-21T18:10:14.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./notion-for-students-&-teachers.md",
+      "fields": {
+        "slug": "/etc./notion-for-students-&-teachers/"
+      }
+    },
+    "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": {
+      "id": "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62",
+      "children": [],
+      "parent": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
+      "internal": {
+        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "58c63ddb82d53d36e0932c17ef4dd402",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 호이스팅(Hoisting)",
+        "date": "2019-09-30T21:10:14.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
+      "fields": {
+        "slug": "/JavaScript/hoisting/"
+      }
+    },
+    "25c6c20d-d48b-529b-80eb-f7c30b6eed83": {
+      "id": "25c6c20d-d48b-529b-80eb-f7c30b6eed83",
+      "children": [],
+      "parent": "055c2863-05bd-550a-ba9b-a8fe40aa8f4f",
+      "internal": {
+        "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+        "type": "MarkdownRemark",
+        "contentDigest": "03b66151ba6f1e71457a1fa90293228d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] onclick과 addEventListener 비교",
+        "date": "2019-09-30T21:10:10.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
+      "fields": {
+        "slug": "/JavaScript/onclick-vs-addeventlistener/"
+      }
+    },
+    "0131de86-2b66-5dfd-a184-e4f14464772f": {
+      "id": "0131de86-2b66-5dfd-a184-e4f14464772f",
+      "children": [],
+      "parent": "57606479-633c-5831-bb88-f6b898f079e3",
+      "internal": {
+        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "type": "MarkdownRemark",
+        "contentDigest": "bb94d5bdb4a5248054dcef9b75106b51",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "JavaScript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var,-let,-const-비교.md",
+      "fields": {
+        "slug": "/JavaScript/var,-let,-const-비교/"
+      }
+    },
+    "1ee9aa6b-4c39-52c2-965a-75a901caea76": {
+      "id": "1ee9aa6b-4c39-52c2-965a-75a901caea76",
+      "children": [],
+      "parent": "374754a3-016f-586e-97e2-a1a6c9e00da6",
       "internal": {
         "contentDigest": "64412af9c6cc138b598d9b82839b01bb",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "0298a609-518a-57cb-bdab-2ffda28cd9e5": {
-      "id": "0298a609-518a-57cb-bdab-2ffda28cd9e5",
+    "7509f9e2-b764-57cd-908a-dff4369ab49f": {
+      "id": "7509f9e2-b764-57cd-908a-dff4369ab49f",
+      "children": [],
+      "parent": "a36ca943-e4c1-501e-9d27-34ed1e96289f",
+      "internal": {
+        "content": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'.<br>\n이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각한다. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
+        "type": "MarkdownRemark",
+        "contentDigest": "6e417be229c6e683f1347067fd47f752",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Seminar] 2019 스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
+        "date": "2019-09-29T16:10:16.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'.<br>\n이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각한다. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./junior_seminar.md",
+      "fields": {
+        "slug": "/etc./junior_seminar/"
+      }
+    },
+    "eefc3976-6140-5345-8cdb-ffa417a8b93b": {
+      "id": "eefc3976-6140-5345-8cdb-ffa417a8b93b",
       "children": [
-        "27a625d4-e85c-5726-a148-a40b8b5bded0"
+        "1a58176d-29e8-59c2-826d-8b50d1f517b0"
       ],
       "parent": null,
       "internal": {
@@ -3663,17 +3763,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./images/notion_1.png",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/notion_1.png",
       "relativePath": "etc./images/notion_1.png",
       "extension": "png",
       "size": 1210780,
       "prettySize": "1.21 MB",
       "modifiedTime": "2019-09-21T11:08:50.357Z",
-      "accessTime": "2019-09-21T14:04:46.014Z",
+      "accessTime": "2019-10-05T11:50:33.540Z",
       "changeTime": "2019-09-21T11:08:50.361Z",
       "birthTime": "2019-09-21T11:08:50.330Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc./images",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "base": "notion_1.png",
       "ext": ".png",
       "name": "notion_1",
@@ -3687,17 +3787,27 @@
       "blksize": 4096,
       "ino": 3583830,
       "blocks": 2368,
-      "atimeMs": 1569074686014.219,
+      "atimeMs": 1570276233540.2605,
       "mtimeMs": 1569064130357.459,
       "ctimeMs": 1569064130360.5417,
       "birthtimeMs": 1569064130329.5183,
-      "atime": "2019-09-21T14:04:46.014Z",
+      "atime": "2019-10-05T11:50:33.540Z",
       "mtime": "2019-09-21T11:08:50.357Z",
       "ctime": "2019-09-21T11:08:50.361Z",
       "birthtime": "2019-09-21T11:08:50.330Z"
     },
-    "013568ce-06f1-5601-8293-bb282e06924b": {
-      "id": "013568ce-06f1-5601-8293-bb282e06924b",
+    "1a58176d-29e8-59c2-826d-8b50d1f517b0": {
+      "id": "1a58176d-29e8-59c2-826d-8b50d1f517b0",
+      "children": [],
+      "parent": "eefc3976-6140-5345-8cdb-ffa417a8b93b",
+      "internal": {
+        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6536f14a-cd9b-506d-8d0f-b0eba2c7cf5d": {
+      "id": "6536f14a-cd9b-506d-8d0f-b0eba2c7cf5d",
       "children": [],
       "parent": null,
       "internal": {
@@ -3708,17 +3818,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./images/Notionforstudentsupgrade.gif",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/Notionforstudentsupgrade.gif",
       "relativePath": "etc./images/Notionforstudentsupgrade.gif",
       "extension": "gif",
       "size": 1277214,
       "prettySize": "1.28 MB",
       "modifiedTime": "2019-09-21T11:03:03.068Z",
-      "accessTime": "2019-09-21T13:32:27.302Z",
+      "accessTime": "2019-10-05T11:50:33.540Z",
       "changeTime": "2019-09-21T11:03:03.072Z",
       "birthTime": "2019-09-21T11:03:03.039Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/blog/etc./images",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "base": "Notionforstudentsupgrade.gif",
       "ext": ".gif",
       "name": "Notionforstudentsupgrade",
@@ -3732,47 +3842,37 @@
       "blksize": 4096,
       "ino": 3583565,
       "blocks": 2496,
-      "atimeMs": 1569072747301.7632,
+      "atimeMs": 1570276233540.2422,
       "mtimeMs": 1569063783068.07,
       "ctimeMs": 1569063783072.0247,
       "birthtimeMs": 1569063783039.3079,
-      "atime": "2019-09-21T13:32:27.302Z",
+      "atime": "2019-10-05T11:50:33.540Z",
       "mtime": "2019-09-21T11:03:03.068Z",
       "ctime": "2019-09-21T11:03:03.072Z",
       "birthtime": "2019-09-21T11:03:03.039Z"
     },
-    "27a625d4-e85c-5726-a148-a40b8b5bded0": {
-      "id": "27a625d4-e85c-5726-a148-a40b8b5bded0",
-      "children": [],
-      "parent": "0298a609-518a-57cb-bdab-2ffda28cd9e5",
-      "internal": {
-        "contentDigest": "3d5f33600ebb3f8c8f9eaa19a4fd9308",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "f3cb1d81-e0da-56df-9e9f-3f452cf46c7a": {
-      "id": "f3cb1d81-e0da-56df-9e9f-3f452cf46c7a",
+    "bc57d741-fbaa-56fb-b4b0-2d18d365e7fb": {
+      "id": "bc57d741-fbaa-56fb-b4b0-2d18d365e7fb",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a4d2bdb43a80f7cd175c45a76ec1d36f",
+        "contentDigest": "8fb0761497eff932e239833bc031429d",
         "type": "Directory",
         "description": "Directory \"content/__about\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "about",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/__about",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/__about",
       "relativePath": "",
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:06:10.676Z",
-      "accessTime": "2019-10-05T06:15:13.244Z",
+      "accessTime": "2019-10-05T11:50:33.674Z",
       "changeTime": "2019-09-21T03:28:26.650Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content",
+      "dir": "/Users/jess2/study/jess2devlog/content",
       "base": "__about",
       "ext": "",
       "name": "__about",
@@ -3786,19 +3886,19 @@
       "blksize": 4096,
       "ino": 3265999,
       "blocks": 0,
-      "atimeMs": 1570256113243.509,
+      "atimeMs": 1570276233674.1172,
       "mtimeMs": 1567825570676.0103,
       "ctimeMs": 1569036506649.9487,
       "birthtimeMs": 1567824969620.8088,
-      "atime": "2019-10-05T06:15:13.244Z",
+      "atime": "2019-10-05T11:50:33.674Z",
       "mtime": "2019-09-07T03:06:10.676Z",
       "ctime": "2019-09-21T03:28:26.650Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
     },
-    "d1e6ff27-e61e-55ae-ab7e-2278d8f8f11c": {
-      "id": "d1e6ff27-e61e-55ae-ab7e-2278d8f8f11c",
+    "cd18d39e-a02e-516f-abbe-0c90aedfb644": {
+      "id": "cd18d39e-a02e-516f-abbe-0c90aedfb644",
       "children": [
-        "385b4623-8e3c-5325-99ca-9586ce1050ef"
+        "d9f3fb65-014a-5028-a32b-9ffac00e9911"
       ],
       "parent": null,
       "internal": {
@@ -3809,17 +3909,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "about",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/__about/resume-en.md",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/__about/resume-en.md",
       "relativePath": "resume-en.md",
       "extension": "md",
       "size": 200,
       "prettySize": "200 B",
       "modifiedTime": "2019-09-22T07:24:20.439Z",
-      "accessTime": "2019-10-05T02:49:05.127Z",
+      "accessTime": "2019-10-05T11:50:33.674Z",
       "changeTime": "2019-09-22T07:24:20.439Z",
       "birthTime": "2019-09-07T03:06:10.675Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/__about",
+      "dir": "/Users/jess2/study/jess2devlog/content/__about",
       "base": "resume-en.md",
       "ext": ".md",
       "name": "resume-en",
@@ -3833,23 +3933,23 @@
       "blksize": 4096,
       "ino": 3266000,
       "blocks": 8,
-      "atimeMs": 1570243745126.7217,
+      "atimeMs": 1570276233674.1816,
       "mtimeMs": 1569137060439.3071,
       "ctimeMs": 1569137060439.3071,
       "birthtimeMs": 1567825570674.826,
-      "atime": "2019-10-05T02:49:05.127Z",
+      "atime": "2019-10-05T11:50:33.674Z",
       "mtime": "2019-09-22T07:24:20.439Z",
       "ctime": "2019-09-22T07:24:20.439Z",
       "birthtime": "2019-09-07T03:06:10.675Z"
     },
-    "385b4623-8e3c-5325-99ca-9586ce1050ef": {
-      "id": "385b4623-8e3c-5325-99ca-9586ce1050ef",
+    "d9f3fb65-014a-5028-a32b-9ffac00e9911": {
+      "id": "d9f3fb65-014a-5028-a32b-9ffac00e9911",
       "children": [],
-      "parent": "d1e6ff27-e61e-55ae-ab7e-2278d8f8f11c",
+      "parent": "cd18d39e-a02e-516f-abbe-0c90aedfb644",
       "internal": {
         "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
         "type": "MarkdownRemark",
-        "contentDigest": "fe1e37b50f05fd502934ab3dcbafd5e5",
+        "contentDigest": "fa3f8fda27ed9e308dc5b7f364ed2bd0",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -3862,33 +3962,33 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/__about/resume-en.md",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/__about/resume-en.md",
       "fields": {
         "slug": "/resume-en/"
       }
     },
-    "8bfce056-7042-5e2c-8676-11368331ea3f": {
-      "id": "8bfce056-7042-5e2c-8676-11368331ea3f",
+    "36c937ba-e7c8-5269-aabd-2cc5b42b0c44": {
+      "id": "36c937ba-e7c8-5269-aabd-2cc5b42b0c44",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ff9b4494152d993d7f705929cd378349",
+        "contentDigest": "723d1a6392d07d706ba8ef26404c47a9",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "assets",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/assets",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/assets",
       "relativePath": "",
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:49:48.848Z",
-      "accessTime": "2019-10-05T06:15:13.247Z",
+      "accessTime": "2019-10-05T11:50:33.686Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content",
+      "dir": "/Users/jess2/study/jess2devlog/content",
       "base": "assets",
       "ext": "",
       "name": "assets",
@@ -3902,19 +4002,19 @@
       "blksize": 4096,
       "ino": 3266001,
       "blocks": 0,
-      "atimeMs": 1570256113246.639,
+      "atimeMs": 1570276233686.0364,
       "mtimeMs": 1567828188848.3962,
       "ctimeMs": 1569036506651.0718,
       "birthtimeMs": 1567824969621.066,
-      "atime": "2019-10-05T06:15:13.247Z",
+      "atime": "2019-10-05T11:50:33.686Z",
       "mtime": "2019-09-07T03:49:48.848Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
     },
-    "8df3d8df-54cd-514b-b8f2-6a44c48f3926": {
-      "id": "8df3d8df-54cd-514b-b8f2-6a44c48f3926",
+    "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": {
+      "id": "6e0035dc-e924-580e-ba87-98dd1e9ff0e0",
       "children": [
-        "22f47c53-923b-57ea-ab93-12b451214ef9"
+        "9edcef34-1d9a-5d75-9fef-085654a69a83"
       ],
       "parent": null,
       "internal": {
@@ -3925,17 +4025,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "assets",
-      "absolutePath": "/Users/jess2/study/jess2Blog/content/assets/jessieImg.png",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/assets/jessieImg.png",
       "relativePath": "jessieImg.png",
       "extension": "png",
       "size": 412008,
       "prettySize": "412 kB",
       "modifiedTime": "2019-09-07T03:23:10.763Z",
-      "accessTime": "2019-10-05T02:49:05.127Z",
+      "accessTime": "2019-10-05T11:50:33.686Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T03:23:10.740Z",
       "root": "/",
-      "dir": "/Users/jess2/study/jess2Blog/content/assets",
+      "dir": "/Users/jess2/study/jess2devlog/content/assets",
       "base": "jessieImg.png",
       "ext": ".png",
       "name": "jessieImg",
@@ -3949,30 +4049,63 @@
       "blksize": 4096,
       "ino": 3266002,
       "blocks": 808,
-      "atimeMs": 1570243745126.7942,
+      "atimeMs": 1570276233686.0833,
       "mtimeMs": 1567826590763.4646,
       "ctimeMs": 1569036506650.9792,
       "birthtimeMs": 1567826590740.0664,
-      "atime": "2019-10-05T02:49:05.127Z",
+      "atime": "2019-10-05T11:50:33.686Z",
       "mtime": "2019-09-07T03:23:10.763Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T03:23:10.740Z"
     },
-    "22f47c53-923b-57ea-ab93-12b451214ef9": {
-      "id": "22f47c53-923b-57ea-ab93-12b451214ef9",
+    "9edcef34-1d9a-5d75-9fef-085654a69a83": {
+      "id": "9edcef34-1d9a-5d75-9fef-085654a69a83",
       "children": [],
-      "parent": "8df3d8df-54cd-514b-b8f2-6a44c48f3926",
+      "parent": "6e0035dc-e924-580e-ba87-98dd1e9ff0e0",
       "internal": {
         "contentDigest": "6b86f32294559d4fe1193731fc447db0",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "SitePage /JavaScript/event-bubbling과-event-capturing/": {
+      "jsonName": "java-script-event-bubbling과-event-capturing-c50",
+      "internalComponentName": "ComponentJavaScriptEventBubbling과EventCapturing",
+      "path": "/JavaScript/event-bubbling과-event-capturing/",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/event-bubbling과-event-capturing/",
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/hoisting/"
+          },
+          "frontmatter": {
+            "title": "[JS] 호이스팅(Hoisting)",
+            "category": "JavaScript"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/event-bubbling과-event-capturing/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bef6740a47069b5bcff8f7c61e303114",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /JavaScript/hoisting/": {
       "jsonName": "java-script-hoisting-0e5",
       "internalComponentName": "ComponentJavaScriptHoisting",
       "path": "/JavaScript/hoisting/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "isCreatedByStatefulCreatePages": false,
       "context": {
@@ -3991,20 +4124,20 @@
             "slug": "/JavaScript/event-bubbling과-event-capturing/"
           },
           "frontmatter": {
-            "title": "[JS] Event Bubbling과 Event Capturing",
+            "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
             "category": "JavaScript"
           }
         }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "id": "SitePage /JavaScript/hoisting/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0a53f51dbc50dc9254c7331d42921e0f",
+        "contentDigest": "1bcc7bb35a8b1150d650c21da6eeeb45",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4013,7 +4146,7 @@
       "jsonName": "java-script-onclick-vs-addeventlistener-96d",
       "internalComponentName": "ComponentJavaScriptOnclickVsAddeventlistener",
       "path": "/JavaScript/onclick-vs-addeventlistener/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "isCreatedByStatefulCreatePages": false,
       "context": {
@@ -4039,13 +4172,13 @@
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "id": "SitePage /JavaScript/onclick-vs-addeventlistener/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3522f1efbdf58a08b4ba38e67c8d691c",
+        "contentDigest": "0921a40d21f82a4caec38ebbdd691811",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4054,7 +4187,7 @@
       "jsonName": "etc-junior-seminar-cdb",
       "internalComponentName": "ComponentEtcJuniorSeminar",
       "path": "/etc./junior_seminar/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "isCreatedByStatefulCreatePages": false,
       "context": {
@@ -4080,13 +4213,13 @@
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "id": "SitePage /etc./junior_seminar/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "59f4df1250f09f853e312ca9d0f6df33",
+        "contentDigest": "06c380d0d8121d73e785bcc525a0bf74",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4095,7 +4228,7 @@
       "jsonName": "java-script-var-let-const-비교-bb7",
       "internalComponentName": "ComponentJavaScriptVarLetConst비교",
       "path": "/JavaScript/var,-let,-const-비교/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "isCreatedByStatefulCreatePages": false,
       "context": {
@@ -4121,13 +4254,13 @@
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "id": "SitePage /JavaScript/var,-let,-const-비교/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "00be5b9255f0ed1c3040ffc6ec98e8fc",
+        "contentDigest": "42e388c47adc7877e4856bc12bfd64a6",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4136,7 +4269,7 @@
       "jsonName": "etc-notion-for-students-teachers-efd",
       "internalComponentName": "ComponentEtcNotionForStudentsTeachers",
       "path": "/etc./notion-for-students-&-teachers/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "isCreatedByStatefulCreatePages": false,
       "context": {
@@ -4154,13 +4287,13 @@
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
       "id": "SitePage /etc./notion-for-students-&-teachers/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "35b3126a6d50c6ec1a28978067d49752",
+        "contentDigest": "1bc06e253ef02b2bb6b4f51206275aa1",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -4169,20 +4302,20 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/jess2/study/jess2Blog/src/pages/404.js",
+      "component": "/Users/jess2/study/jess2devlog/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
-      "pluginCreator___NODE": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "pluginCreatorId": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/404.js",
+      "pluginCreator___NODE": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "pluginCreatorId": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e614cd31d5675c6e4bdb89965d4cf643",
-        "description": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
+        "contentDigest": "6829b5e18eb2da5d61d9e424e7994ba6",
+        "description": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
         "owner": "internal-data-bridge"
       }
     },
@@ -4190,20 +4323,20 @@
       "jsonName": "about-f34",
       "internalComponentName": "ComponentAbout",
       "path": "/about/",
-      "component": "/Users/jess2/study/jess2Blog/src/pages/about.js",
+      "component": "/Users/jess2/study/jess2devlog/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
-      "pluginCreator___NODE": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "pluginCreatorId": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/about.js",
+      "pluginCreator___NODE": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "pluginCreatorId": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/about.js",
       "id": "SitePage /about/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "678e58bcaaa59fb218d25749ba185c53",
-        "description": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
+        "contentDigest": "7086cbad55020617a8c889b60a4fc2ac",
+        "description": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
         "owner": "internal-data-bridge"
       }
     },
@@ -4211,20 +4344,20 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/jess2/study/jess2Blog/src/pages/index.js",
+      "component": "/Users/jess2/study/jess2devlog/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
-      "pluginCreator___NODE": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "pluginCreatorId": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/index.js",
+      "pluginCreator___NODE": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "pluginCreatorId": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/index.js",
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c41e7cc20492dae6e181ede114d0ea5e",
-        "description": "cbcde5fa-b407-5b69-88c5-db3e49b9d5a2",
+        "contentDigest": "934148766e469f77005fd5ec5cac2a47",
+        "description": "22015af3-7688-5ded-bbd4-2cab8b3760f2",
         "owner": "internal-data-bridge"
       }
     },
@@ -4232,179 +4365,46 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/jess2/study/jess2Blog/src/pages/404.js",
+      "component": "/Users/jess2/study/jess2devlog/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/404.js",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d6f19014692cc3a69a1cf205d31d0254",
+        "contentDigest": "a29d10154151f5e59a9b949e75c48d03",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /JavaScript/event-bubbling과-event-capturing/": {
-      "jsonName": "java-script-event-bubbling과-event-capturing-c50",
-      "internalComponentName": "ComponentJavaScriptEventBubbling과EventCapturing",
-      "path": "/JavaScript/event-bubbling과-event-capturing/",
-      "component": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/JavaScript/event-bubbling과-event-capturing/",
-        "previous": {
-          "fields": {
-            "slug": "/JavaScript/hoisting/"
-          },
-          "frontmatter": {
-            "title": "[JS] 호이스팅(Hoisting)",
-            "category": "JavaScript"
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js",
-      "id": "SitePage /JavaScript/event-bubbling과-event-capturing/",
-      "parent": null,
+    "413b15ca-f125-5ffc-8a84-acfc020f556a": {
+      "id": "413b15ca-f125-5ffc-8a84-acfc020f556a",
       "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6093169de78f9610aa368a8c00f820b0",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "244042d8-07fc-502a-8ba4-8b74f82c6d88": {
-      "id": "244042d8-07fc-502a-8ba4-8b74f82c6d88",
-      "children": [],
-      "parent": "7723953f-dbd8-5203-8313-abfe8d5fb23b",
+      "parent": "0d5e50a4-a54d-5dda-8dd8-a3615c13fb89",
       "internal": {
         "content": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "a18c22f87f23626ffc5f04ec3c6f75a5",
+        "contentDigest": "df3a5b192c88044d1e411de5cb67ca87",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "[JS] Event Bubbling과 Event Capturing",
+        "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
         "date": "2019-10-05T11:11:34.000Z",
         "category": "JavaScript"
       },
       "excerpt": "",
       "rawMarkdownBody": "\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼, 버블링이 정확히 뭔데?\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/event-bubbling과-event-capturing.md",
       "fields": {
         "slug": "/JavaScript/event-bubbling과-event-capturing/"
-      }
-    },
-    "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8": {
-      "id": "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8",
-      "children": [],
-      "parent": "44a0d21a-db94-5d92-b6b2-f392381b66d2",
-      "internal": {
-        "content": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "80f8fc0baeed8f434c302858c5d4f15a",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 호이스팅(Hoisting)",
-        "date": "2019-09-30T21:10:14.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/hoisting.md",
-      "fields": {
-        "slug": "/JavaScript/hoisting/"
-      }
-    },
-    "fe1cf9c2-e9a1-580e-8bf7-f231ad3046e2": {
-      "id": "fe1cf9c2-e9a1-580e-8bf7-f231ad3046e2",
-      "children": [],
-      "parent": "9b9575ff-7323-5f92-8c40-270ad9d60bed",
-      "internal": {
-        "content": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
-        "type": "MarkdownRemark",
-        "contentDigest": "835f21ea5256c9124e4b9b67dcd11acc",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] onclick과 addEventListener 비교",
-        "date": "2019-09-30T21:10:10.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?\n`onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.\n\n### onclick은 하나만, addEventListener는 여러 개를.\n\n`onclick`에는 하나의 콜백만 지정할 수 있지만, `addEventListener`를 사용하면 여러 개의 이벤트 리스너를 추가할 수 있다.\n\n따라서 만약 `onclick` 이벤트 핸들러를 두 번 이상 사용한다면 기존 이벤트 핸들러를 덮어쓰기 때문에 **가장 아래에 추가한 핸들러**만 제대로 작동한다.\n\n반면, `addEventListener`는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 **모든 핸들러**가 정상적으로 작동한다.\n\n아래의 JavaScript 코드를 보자.\n\n```js\nvar btn = document.getElementById('btn');\n\nbtn.onclick = function() {\n  alert('onclick-1'); // 실행 안 됨\n}\n\nbtn.onclick = function() {\n  alert('onclick-2'); // 실행 됨\n}\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-1'); // 실행 됨\n});\n\nbtn.addEventListener('click', function() {\n  alert('addEventListener-2'); // 실행 됨\n});\n```\n\n`btn`에 `onclick`과 `addEventListener` 이벤트 핸들러를 각각 두 개씩, 총 네 개의 핸들러를 만들었다.\n\n이 네 개의 이벤트 핸들러 중 `alert('onclick-1')`는 실행되지 않고 나머지 세 개만 실행되는 것을 확인할 수 있다.\n\n### 그럼 onclick은 왜 있는거야?\n\n이쯤 되면 이런 의문이 들 수 있다. 클릭 이벤트를 주고 싶으면 그냥 `addEventListener`를 사용하면 되지, `onclick`은 굳이 왜 만든 것일까?\n\n`onclick`은 초기 DOM Level-0에서 제공하던 기능이고 그 이후 버전인 Level-2에서 추가된 것이 `addEventListener`이다.\n\n`addEventListener`는 이벤트 캡쳐링, 버블링 같은 이벤트 방식을 설정할 수 있기 때문에 이벤트 제어에 있어서 더욱 유용하지만, `addEventListener`는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 `onclick`을 사용하거나 다른 방법을 찾아야 한다.\n\n### Reference \n- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
-      "fields": {
-        "slug": "/JavaScript/onclick-vs-addeventlistener/"
-      }
-    },
-    "640b1e07-5ced-5c4f-ac84-60fe4ab44095": {
-      "id": "640b1e07-5ced-5c4f-ac84-60fe4ab44095",
-      "children": [],
-      "parent": "cc4aa844-779f-56de-b82d-ebdeefaa57e1",
-      "internal": {
-        "content": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-        "type": "MarkdownRemark",
-        "contentDigest": "5082b719741f006a0e4979bda7d1f458",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "JavaScript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/JavaScript/var,-let,-const-비교.md",
-      "fields": {
-        "slug": "/JavaScript/var,-let,-const-비교/"
-      }
-    },
-    "e5bc3f87-8bfa-532a-b3ce-6b5b449ea6f3": {
-      "id": "e5bc3f87-8bfa-532a-b3ce-6b5b449ea6f3",
-      "children": [],
-      "parent": "07edcc89-e6e0-550f-b7a2-2b47cb0d3f13",
-      "internal": {
-        "content": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'.<br>\n이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각한다. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
-        "type": "MarkdownRemark",
-        "contentDigest": "61351ea1cfa342cdb4bccaf49ba9dee0",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[Seminar] 2019 스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기",
-        "date": "2019-09-29T16:10:16.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/startup_junior_seminar.png)\n\n다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'.<br>\n이 곳에서 들은 내용을 정리하고 공유하고자 한다.\n\n## [세션 1] 2년간 5개 회사 경험기 (정석준님 - 피알앤디컴퍼니 개발자)\n\n> 이직왕, 프로이직러. 2년 동안 5개 회사를 다녔기 때문에 짧은 기간 내에 면접 경험도 많고 회사 경험이 많다.\n\n### 좋은 회사\n\n좋은 회사란 어떤 회사일까? 연봉을 많이 주는 회사? 좋은 복지가 있는 회사? 뛰어나고 배울 것이 많은 사수가 있는 회사?\n\n어떻게 하면 좋은 회사를 입사하기 전에 알 수 있을까? 크레딧잡, 블라인드 등으로 알아볼 수 있지만 **'채용 공고'**를 보고도 알 수 있다.\n\n채용공고란, 나를 뽑는 회사 소개라고 볼 수 있다. 자격 요건으로 간단하게 스킬 같은 것만 쓰인 곳은 어떤 언어와 프레임워크 등을 주로 쓰는지, 어떤 업무를 하는지, 어떤 방식으로 일하는지 전혀 알 수가 없다. 심지어 채용공고를 올리는 사람도 모르는 경우가 있다.\n이런 경우에는 아무나 왔으면 좋겠다라는 마인드일 경우가 높다. 신중하지 않고 면접도 한 번만 보면서 '야근 잘하나?', '주말에도 출근할 수 있나?'와 같은 질문을 하는 회사는 걸러도 좋다고 생각한다.\n\n#### 채용공고에 포함 되어야 할 것\n1. 기술 스펙\n2. 어떤 업무\n3. 업무 방식\n\n라이브러리 뭐 쓰고, 어떤 언어 쓰고, 업무 도구 뭐쓰고 등등 이런 게 포함되어 JD(Job Discription)를 상세하게 소개한 채용공고를 올린 회사는 이 회사에서 어떤 사람을 원하는지 알수 있다.\n\n### 면접\n#### 면접에서 얻어야 할 것\n면접은 채용 공고의 연장선이다. 채용공고에서 알 수 없었던 궁금한 점을 물어봐야 한다.\n* **직무 면접**에서는 직원을 채용하는 이유(개발자를 채용하는 이유)에 대해서 물어보자.<br>\n    일이 많아서 추가 채용하는 건지? 기존에 있던 분이 나가서 채용하는 건지? 만약 후자라면 같은 직무의 직원은 몇명인지 물어보자.\n    만약에 없다면, 내가 들어가서 모든걸 다 해야한다고 하기 때문에 특히 0~2년차 신입에게는 추천하지 않는다.\n    아직 잘 모르고 배워야할게 많은데 혼자 일하면 성장보다 소모가 크고 내가 잘하고있는지 검증할 수 있는 방법이 없다.\n* **대표 면접**에서는 수익 모델, 회사의 미래, DAU(Daily Active User), MAU(Monthly Active User) 에 대해서 물어보자.\n\n#### 면접에서 어필해야할 것\n나를 뽑아야 하는 이유에 대해서 어필해야 한다.<br>\n회사에서 직원을 뽑는 이유는 월급을 주고 가치를 얻기 위함이기 때문에 내가 어떤 것을 잘하고 회사에서 어떤 것을 할 수 있는 지에 대 어필해야 한다.<br>\n본인은 습득을 잘할 수 있고 소프트웨어 품질을 높이기 위해서 고민을 하고 있고 등등 이런 것들을 어필했다.\n\n### 성장\n\"기록에 남기지 않는 것은 기억에도 남지 않는다.\"\n\n내가 아는 걸 누군가 물어본다면 내가 기록한 것을 보여주자.\n\n본인은 기술 블로그를 이력서에 넣고 면접을 보러 갔는데 면접관이 기술 블로그를 봤다며 기술 면접을 패스한 적도 있다.\n누구든지 볼 수 있게 기록을 공개하고 공유하자.\n\n2017년 2월 → 2019년 9월, 연봉이 2배로 올랐다.\n\n## [세션 2] 이것도 모르고 이직하려고? (허승님 - 영상 스타트업 PM)\n\n> 당장 집가서 노트북 켜게 만들 3가지 이직 노하우\n\n### 회사를 찾는 법\n나의 가치관과 성향이 맞는 곳이 가장 좋다. 내 성향이 어떠한지 생각해보고 회사 기준을 만들자.\n\n#### 회사 찾는법\n- 관심 있던 산업군, 기업들 위주로 뽑아보기\n- 1년치 이상 기사 보면서 회사 상태 파악해보기\n- 제품(개발) 블로그 읽으며 제품 개발 문화 파악해보기\n- 크레딧잡, 블라인드 등을 통해서 회사 분위기와 대우 파악\n- 링크드인, 페이스북 등을 통해서 현직자와 컨택\n\n#### 통념에 대한 생각\n- 퇴사율이 높은 회사<br>\n: 본인에게도 안 좋은 회사라고 꼭 할 수 없다. 단계 마다 회사가 바뀌고 조직의 분위기가 달라질 수 있기 떄문이다.\n- 사수가 없는 회사<br>\n: 성향에 따라 다를 수 있다. 사수가 디렉팅을 모두 해주는게 아니라 보조자 역할만 해주는 곳도 많다. 어느정도 셀프 피드백이 갖춰진 사람이라면 사수가 없는 곳을 가는 곳도 방법이다.\n\n### 내 가치를 알아보자\n시장에서 요구하는 스킬(각 회사들마다 공통적으로 있는 역량, 요새 중요하다고 생각)을 내가 가지고 있는가?\n\n#### 경쟁자산 = 주변 동료들보다 나은 것\n* 프론트와 백엔드 설계\n* 사이드 프로젝트 경험 등\n\n내가 생각하는 경쟁자산을 모두 기록하고 필요한 부분은 수치화하자. 계속 부딪혀 보면서 내 상태와 시장 가치를 알 필요가 있다.\n\n### 협상에 대해 알아보자\n협상을 하려면 연봉 테이블과 내가 가진 패를 알아야 한다.\n- 연봉 테이블\n    - 연봉 범위가 어느 정도인지\n    - 나와 비슷한 사람들은 어느 정도 대우를 받는지\n- 내가 가진 패\n    - 내가 다니는 현 회사에서 누리는 것\n    - 내가 고를 수 있는 회사의 수\n\n#### 어느정도 올리면 괜찮나?\n- 가장 어려운 부분 = 앞자리를 바꾸는 것 (40~50% 인상? 음..)\n- 보통 15% 수준이다. 20% 이상이면 \"와~\" 30% 이상이면 \"대박!!\"\n- (전략적으로) 큰 곳을 갔다가 점프를 하고 다시 움직이는 것도 방법\n- 경쟁사들은 얼마를 주는지 알아보기\n- Glass Door같은 해외 사이트도 활용해보기\n- 본인 직급 + 연차가 비슷한 사람들의 연봉 테이블 알아내기\n\n#### 어떻게 부를까?\n- 협상은 본인이 들고 있는 패가 많을 수록 유리 (합격은 다다익선)\n- 기존 회사에서 누린 것들을 다 리스트업 해보기 (비현금성 복지/현금성 복지 모두 포함)\n- 희망연봉은 희망연봉일 뿐. 이성적인 한도 내에서 부르자\n- 최종 합격 전까지는 과도하게 욕심 부리지 말자\n- 이력서에 희망 연봉을 적어야 한다면 '회사 내규에 따름' 혹은 '면접시 협의'로 쓰자\n- 전 직장 최종 연봉을 적어야 한다면 기본급 + 성과급 형태로 쓰자\n\n### 집에서 해야할일?\n- 당장 생각 없어도 관심있는 회사 소식 파악하자\n- 집에가는 길에 페이스북 링크드인으로 희망 회사 현직자나 업계 실무자 친추걸기\n- 실무 관련 밋업 신청해보기\n- 가고싶은 회사의 JD와 연봉 테이블을 수집해보기\n\n### 이직 후 궁리\n- 회사에서 얻을 수 있는것\n- 개인적으로 배울 수 있는것\n- 역량을 쌓기 위해 긴 호흡이 필요한 것\n\n*→ 이 세가지를 가지고 시장과 늘 sync 하자!*\n\n### 기타사항\n주니어는 임팩트도 중요하고 포텐셜(러닝커브, 그 회사의 관심도)도 중요하다\n\n### 정리\n1. 나에게 적절한 무대 찾아보기 (가치관, 성향 중요)\n2. 시장의 인재상과 내 상태를 끼워 맞춰보기\n3. 협상은 테이블을 파악, 나의 패를 많이 만들기\n4. 시장과 sync 하자\n\n## [세션 3] 21살이 1년 9개월동안 연봉 x% 오른 이야기 (이상훈님 - 로플랫 개발자)\n\n> 2017년 11월 고등학교 3학년 때 입사해서 현재까지 재직중이고 총 세 번의 연봉 협상을 했다. 그 과정을 소개하고자 한다.\n\n### 첫 입사 (2017.11)\n인수인계에 허덕이며 할 일만 열심히 함.\n\n### 첫 연봉 협상 (2018.01)\n입사한지 얼마 안돼서 연봉 협상을 하지 않을 줄 알았는데 4%가 인상됐고 연봉이 오른 후 처음에는 의욕이 솟았는데 일을 하면서 점점 주어진 일말 하는게 큰 매력이 없다고 생각했다.<br>\n그러다가 개인 사이드 프로젝트를 시작했는데 재미있었고 사이드 프로젝트를 하면서 사용한 기술을 회사 프로젝트에 적용해 보기로 했다.\n\n#### 회사 내부 세미나 개최\niOS 개발 파트의 Object-C 언어를 Swift 언어를 써보자고 회사에 제안하고자 회사 내부에서 세미나를 열었다.\n무작정 세미나 자료를 만들고 세미나를 개최했고 회사 동료분들께 우리가 이걸 써야 하는 이유에 대해서 설명했다.\n\n그 결과 예상 외로 긍정적인 반응을 얻었고 이런 세미나가 좋다는 반응도 많이 받았다.\n\n그 이후에 안드로이드 코틀린 세미나도 열고 좋은 반응을 얻었고 이러한 것들이 회사 자체에서 **실적이 되어 연봉 협상에 긍정적인 효과**를 얻었다\n\n### 두 번째 연봉 협상 (2018.07)\n처음보다 연봉이 27%가 인상했는데 회사 업무 하면서 따로 시간내서 세미나 준비 및 새로운 기술 등 제안하면서 적극적인 태도 때문에 연봉이 많이 올랐다고 생각한다.\n\n#### 새로운 기술을 주도\n사내 B2C 서비스가 안드로이드 앱만 있었는데 iOS 개발도 필요하다고 얘기가 나왔고 네이티브 앱과 하이브리드 앱 고민하게 됐다.\n동료들과 상의 끝에 flutter를 사용하기로 했는데 주 업무를 진행하면서 새로운 기술을 학습하고자 하는 사람이 없었다.\n\n본인이 주 업무를 진행하면서 Flutter에 대해 공부하고 프로젝트를 주도했고 2개월 만에 내부 베타를 시작했다.\n\n그리고 회사에서 배운 내용을 외부 행사에서 발표하기도 했다.\n\n### 세 번째 연봉 협상 (2019.05)\n처음보타 연봉이 57%가 인상했다.\n\n### 그리고 많은 실수\n연봉이 많이 오르는 과정에서 성공만 있지는 않았다. 실수도 많이 했다.\n\n* A 프로젝트에 B 프로젝트를 배포하는 대참사 발생\n* DB 터짐: 서비스 20분간 정지\n* iOS 언어 변경하고 나서 안정성에 대한 고객사 클레임 증가\n* Flutter 도입\n    * 외부 자료가 얼마 없다\n    * 플러그인이 안정화가 되지 않았거나 사용할 기능이 없다\n    * 퍼포먼스 이슈가 있었다\n    * 네이티브에 비해서 살짝 느리다\n* 업무 외적인 일로 실수\n\n#### 불안감\n많은 실수를 하면서 회사 내 평판 하락에 대한 불안감이 있었다.<br>\n하지만 나중에 이것이 잘못된 생각이라고 느꼈고 사람은 누구나 실수할 수 있는데 같은 실수만 반복하지 않으면 된다고 생각한다.\n\n### 결론\n업무 외적으로 많은 학습을 하고 다양한 기술을 익히면서 본인을 성장시키자.<br>\n단, 본인이 담당하고 있는 업무에 지장이 없어야 한다. 업무 외적인 것을 챙기기 위해 주 업무에 지장이 생기면 오히려 좋지 않은 영향이 생긴다.\n\n## 패널 토크\n\n#### Q. 스타트업에 있다보니 기술 깊이보다는 넓이만 넓어지는 것 같은 느낌이 드네요. 다른 곳도 똑같은가요?\n* A. 스타트업마다 다르다고 생각한다. 본인이 속한 회사에서는 한 기술만 깊게 파길 원한다면 한 기술만 파고 여러 기술을 다루고 싶다면 그렇게 해도 된다. 본인 성향이나 팀의 성향에 따라 달라지는 것 같다.\n\n#### Q. 개발자가 자주 이직하면 안좋은 것 같은데 몇년 주기가 적당할까요?\n* A. 2~3년마다 움직이는게 자기 성장이나 여러 면에서 좋다고 생각한다. 오히려 너무 오래 다니면 부정적으로 생각하는 경우가 많다. '왜 이렇게 오래다녔지?'라고 생각할 수 있다.\n\n#### Q. 연봉협상에서 내 희망연봉을 얻어낼 수 있는 소소한 팁이 있을까요? (퍼센티지 설정 or 금액 설정 아니면 담당자에게 어필하는 멘트들..?)\n* A. 희망연봉이 적절하다고 가정했을때, 가용할 수 있는 퍼센트 범위 안에서 합리적으로 어필해야 한다. 아무리 일을 열심히해도 표현을 안하면 다른 사람들은 잘 모르기 때문에 본인이 한 일에 대해 알려야 한다.\n\n#### Q. 내년 초에 회사에서 첫 연봉 협상을 하는데요, 보통 연봉 협상이 아니라 통보라고 하던데.. 회사에서 제안한 연봉이 마음에 들지 않을 경우 어떤식으로 어필하고 원하는 연봉을 제안하시나요?\n* A. 본인에 대한 이미지는 어떻고, 어떤 일을 하고 있는지 알고 있는지에 대해서 물어보라. 그리고 회사에서 내가 어떤 역할을 하는지 표현을 해라.\n* A. 협상은 대부분 없고 통보다. 하지만 나간다고 했을 때 붙잡히면 협상이 된다. 실제로 다른 회사에 합격을 한 후 그 회사에서 제시한 연봉보다 높게 협상한 경우도 있다.\n* A. 회사에서 제안한 연봉이 맘에 안들면 나간다고 생각해야 한다. 그리고 회사에서 제안한 연봉에 어떠한 판단 기준이 있었는지 물어보자.\n\n#### Q. 이직하고 싶은데 그만두고 집중해서 준비하는 것과 일단 다니면서 준비하는것 중에 어떤걸 추천하시나요? 주위에서는 모두 다니면서 하라고 하시는데 집중이 잘 안되는 것 같아서 고민이네요.\n* A. 다니면서 하는 게 낫다고 생각한다. 안 다니면 마냥 놀게된다. 회사 다니면서 하면 없는 시간 쪼개서 하게 되니까 오히려 효율이 더 잘 나오게 되는 것 같다.\n\n#### Q. 몸값에 관한 질문은 아니지만 연봉 워라밸 복지 경영진 등이 있을텐데 제일 중요시하는 가치관과 좋지않아도 상관없는 부분이 궁금합니다\n* A. 성장세가 가장 중요하다고 생각한다. 성장세가 좋다면 다른 측면에서도 좋아질 수 있다고 생각한다. 좋지 않아도 상관 없는 부분은 복지라고 생각한다. 특히 본인은 누릴 수 없는 복지는 있어봤자 좋은 것이 없다고 생각한다. 복지보다는 연봉과 워라밸이 중요하다.\n\n#### Q. 개인적으로 이런 개발자가 되자라는 목표와 이런 개발자는 되지말자라는 생각이 있으신가요?\n* A. 본인이 실수를 했을 떄 숨기는 개발자가 되지 말자고 생각한다. 실수 했으면 깔끔하게 인정해야 한다. 그리고 틈틈히 공부를 하는 개발자가 되자고 생각한다. 본인 주 개발언어 외에도 넓게 공부하자. 겉핥기라도!\n\n#### Q. 마지막으로 알려주고 싶은 것이 있나요?\n* A. 학력이랑 개발자는 상관 없다고 생각한다. 좋은 대학을 나와야 개발을 잘한다 이런 생각은 절대 하지 않았으면 좋겠다.\n* A. 회사에 정 주지 마라. 굳이 야근하고 그러지 마라. 나중에 돌아오는 게 없다. 차라리 그 시간에 자기계발을 하자.",
-      "fileAbsolutePath": "/Users/jess2/study/jess2Blog/content/blog/etc./junior_seminar.md",
-      "fields": {
-        "slug": "/etc./junior_seminar/"
       }
     }
   },
@@ -4415,41 +4415,49 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
         "/",
         "/JavaScript/event-bubbling과-event-capturing/",
-        "/etc./junior_seminar/",
-        "/JavaScript/var,-let,-const-비교/",
-        "/etc./notion-for-students-&-teachers/",
         "/JavaScript/hoisting/",
         "/JavaScript/onclick-vs-addeventlistener/",
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx"
-      ],
-      "8df3d8df-54cd-514b-b8f2-6a44c48f3926": [
-        "sq--src-components-bio-index-jsx"
-      ],
-      "22f47c53-923b-57ea-ab93-12b451214ef9": [
-        "sq--src-components-bio-index-jsx"
-      ],
-      "244042d8-07fc-502a-8ba4-8b74f82c6d88": [
-        "/JavaScript/event-bubbling과-event-capturing/"
-      ],
-      "e5bc3f87-8bfa-532a-b3ce-6b5b449ea6f3": [
-        "/etc./junior_seminar/"
-      ],
-      "640b1e07-5ced-5c4f-ac84-60fe4ab44095": [
-        "/JavaScript/var,-let,-const-비교/"
-      ],
-      "5c7ffc30-30dd-5c02-9d74-8934dba4a16a": [
+        "/etc./junior_seminar/",
+        "/JavaScript/var,-let,-const-비교/",
         "/etc./notion-for-students-&-teachers/"
       ],
-      "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8": [
+      "8df3d8df-54cd-514b-b8f2-6a44c48f3926": [],
+      "22f47c53-923b-57ea-ab93-12b451214ef9": [],
+      "244042d8-07fc-502a-8ba4-8b74f82c6d88": [],
+      "e5bc3f87-8bfa-532a-b3ce-6b5b449ea6f3": [],
+      "640b1e07-5ced-5c4f-ac84-60fe4ab44095": [],
+      "5c7ffc30-30dd-5c02-9d74-8934dba4a16a": [],
+      "fc358fec-bc3b-5971-a6a6-11b9e72d5ba8": [],
+      "fe1cf9c2-e9a1-580e-8bf7-f231ad3046e2": [],
+      "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [
+        "sq--src-components-bio-index-jsx"
+      ],
+      "9edcef34-1d9a-5d75-9fef-085654a69a83": [
+        "sq--src-components-bio-index-jsx"
+      ],
+      "413b15ca-f125-5ffc-8a84-acfc020f556a": [
+        "/JavaScript/event-bubbling과-event-capturing/"
+      ],
+      "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": [
         "/JavaScript/hoisting/"
       ],
-      "fe1cf9c2-e9a1-580e-8bf7-f231ad3046e2": [
+      "25c6c20d-d48b-529b-80eb-f7c30b6eed83": [
         "/JavaScript/onclick-vs-addeventlistener/"
+      ],
+      "7509f9e2-b764-57cd-908a-dff4369ab49f": [
+        "/etc./junior_seminar/"
+      ],
+      "0131de86-2b66-5dfd-a184-e4f14464772f": [
+        "/JavaScript/var,-let,-const-비교/"
+      ],
+      "ce5ab02d-de4d-5a37-a4e3-79fe8c5b4a3e": [
+        "/etc./notion-for-students-&-teachers/"
       ]
     },
     "connections": {
@@ -4465,48 +4473,48 @@
     "404-html-516": "298/path---404-html-516-62a-fc6MGSBJamEeaDWhMRt4SYqLVk",
     "sq--src-components-bio-index-jsx": 4037432015,
     "web-gl-new-post-title-37b": "862/path---web-gl-new-post-title-37-b-6b0-tDP0OM8Z3wWetAO25XuYZoN8gM",
-    "about-f34": "201/path---about-f-34-4c2-fp7yBMDtPCWE4vtfcuiSih0hK0",
+    "about-f34": "850/path---about-f-34-4c2-GjfXf6lYxFiDOQacZ1BaHEu7wg",
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "231/path---index-6a9-m624NczJYg31GbRWEqoyzPkno",
+    "index": "229/path---index-6a9-cvUyX2TjCWSdD1Sz2C9O6Y9w3Bc",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "291/path---etc-notion-for-students-teachers-efd-4f3-itvDL8Mo0cygIYZYQLqeYxgY4",
-    "java-script-var-let-const-비교-bb7": "384/path---java-script-var-let-const-비교-bb-7-6bb-1JyZt27CeyC6C4hlQYOrSnTuog",
-    "etc-junior-seminar-cdb": "237/path---etc-junior-seminar-cdb-952-w6CboXXnaL3oUFqIEBb5UpjLywQ",
+    "etc-notion-for-students-teachers-efd": "888/path---etc-notion-for-students-teachers-efd-4f3-6HwH8Z9Jc1jNLXQlkAs6T5H9tE",
+    "java-script-var-let-const-비교-bb7": "858/path---java-script-var-let-const-비교-bb-7-6bb-nCc7BjooLDx2bw3GHHJoKNSQKY",
+    "etc-junior-seminar-cdb": "688/path---etc-junior-seminar-cdb-952-bSOgjIinq40M0pJ6xmIArsq3Q",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
-    "java-script-onclick-vs-addeventlistener-96d": "176/path---java-script-onclick-vs-addeventlistener-96-d-bd0-mhGsBlagixjTFTtoRXQN8e99Gk",
-    "java-script-hoisting-0e5": "233/path---java-script-hoisting-0-e-5-d97-kGtQmJ79wX6LSE2J9EyjciKToM",
-    "java-script-event-bubbling과-event-capturing-c50": "511/path---java-script-event-bubbling과-event-capturing-c-50-e5f-h4KVsvOf54Ya06wTf17fx3WZCQ0"
+    "java-script-onclick-vs-addeventlistener-96d": "159/path---java-script-onclick-vs-addeventlistener-96-d-bd0-o29cKNLqr5JGAmjAZ483xDPw4I",
+    "java-script-hoisting-0e5": "814/path---java-script-hoisting-0-e-5-d97-p17YgtgBldS4e3BoJnZy4gD7TI",
+    "java-script-event-bubbling과-event-capturing-c50": "397/path---java-script-event-bubbling과-event-capturing-c-50-e5f-0PHUkz9x5uWs9xehvjqPymM8Aow"
   },
   "components": {
-    "/Users/jess2/study/jess2Blog/src/templates/blog-post.js": {
+    "/Users/jess2/study/jess2devlog/src/templates/blog-post.js": {
       "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n      siteUrl\n      comment {\n        disqusShortName\n        utterances\n      }\n      sponsor {\n        buyMeACoffeeId\n      }\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 280)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/templates/blog-post.js"
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js"
     },
-    "/Users/jess2/study/jess2Blog/.cache/dev-404-page.js": {
+    "/Users/jess2/study/jess2devlog/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/jess2/study/jess2Blog/.cache/dev-404-page.js"
+      "componentPath": "/Users/jess2/study/jess2devlog/.cache/dev-404-page.js"
     },
-    "/Users/jess2/study/jess2Blog/src/pages/404.js": {
-      "query": "query usersJess2StudyJess2BlogSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/404.js"
+    "/Users/jess2/study/jess2devlog/src/pages/404.js": {
+      "query": "query usersJess2StudyJess2DevlogSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/404.js"
     },
-    "/Users/jess2/study/jess2Blog/src/pages/about.js": {
-      "query": "query usersJess2StudyJess2BlogSrcPagesAboutJs4185716304 {\n  allMarkdownRemark(filter: {frontmatter: {category: {eq: null}}}) {\n    edges {\n      node {\n        id\n        excerpt(pruneLength: 160)\n        html\n        frontmatter {\n          title\n          date(formatString: \"MMMM DD, YYYY\")\n          lang\n        }\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/about.js"
+    "/Users/jess2/study/jess2devlog/src/pages/about.js": {
+      "query": "query usersJess2StudyJess2DevlogSrcPagesAboutJs4185716304 {\n  allMarkdownRemark(filter: {frontmatter: {category: {eq: null}}}) {\n    edges {\n      node {\n        id\n        excerpt(pruneLength: 160)\n        html\n        frontmatter {\n          title\n          date(formatString: \"MMMM DD, YYYY\")\n          lang\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/about.js"
     },
-    "/Users/jess2/study/jess2Blog/src/pages/index.js": {
-      "query": "query usersJess2StudyJess2BlogSrcPagesIndexJs751586297 {\n  site {\n    siteMetadata {\n      title\n      configs {\n        countOfInitialPost\n      }\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: null}}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 200, truncate: true)\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          category\n        }\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/pages/index.js"
+    "/Users/jess2/study/jess2devlog/src/pages/index.js": {
+      "query": "query usersJess2StudyJess2DevlogSrcPagesIndexJs751586297 {\n  site {\n    siteMetadata {\n      title\n      configs {\n        countOfInitialPost\n      }\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: null}}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 200, truncate: true)\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          category\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-bio-index-jsx": {
       "name": "BioQuery",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/components/bio/index.jsx",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/components/bio/index.jsx",
       "id": "sq--src-components-bio-index-jsx",
       "jsonName": "sq--src-components-bio-index-jsx",
       "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/jessieImg.png/\"}) {\n    childImageSharp {\n      fixed(width: 72, height: 72) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      introduction\n      social {\n        twitter\n        github\n        medium\n        facebook\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
@@ -4514,7 +4522,7 @@
     },
     "sq--src-components-head-index-jsx": {
       "name": "DefaultSEOQuery",
-      "componentPath": "/Users/jess2/study/jess2Blog/src/components/head/index.jsx",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/components/head/index.jsx",
       "id": "sq--src-components-head-index-jsx",
       "jsonName": "sq--src-components-head-index-jsx",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
