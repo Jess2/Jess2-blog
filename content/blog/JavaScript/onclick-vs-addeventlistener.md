@@ -1,6 +1,6 @@
 ---
-title: onclick과 addEventListener 비교
-date: 2018-05-15 21:09:70
+title: <JS> onclick과 addEventListener 비교
+date: 2019-09-30 21:09:70
 category: javascript
 ---
 

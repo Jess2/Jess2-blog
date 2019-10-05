@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-event-bubbling과-event-capturing-c50",
+        "path": "/JavaScript/event-bubbling과-event-capturing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-hoisting-0e5",
         "path": "/JavaScript/hoisting/"
     },

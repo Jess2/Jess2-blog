@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Jess2's Devlog`,
+  title: `Jess2.xyz`,
   description: `Blog posted about frontend development`,
   author: `Jess2`,
   introduction: `👩🏻‍💻Frontend Developer`,
-  siteUrl: `https://jess2.io`, // Your blog site url
+  siteUrl: `http://jess2.xyz`, // Your blog site url
   social: {
     twitter: ``,
     github: `jess2`, // Your GitHub account
