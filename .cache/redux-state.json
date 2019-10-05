@@ -4322,7 +4322,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "a353a33a20ab0491f1cf551d1b0dca37",
+        "contentDigest": "6d04c1eb9e1b61da5450c5188ac77099",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/[js]-이벤트-위임.md\"",
@@ -4332,11 +4332,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-이벤트-위임.md",
       "relativePath": "JavaScript/[js]-이벤트-위임.md",
       "extension": "md",
-      "size": 87,
-      "prettySize": "87 B",
-      "modifiedTime": "2019-10-05T11:55:57.804Z",
-      "accessTime": "2019-10-05T11:55:30.490Z",
-      "changeTime": "2019-10-05T11:55:57.804Z",
+      "size": 4077,
+      "prettySize": "4.08 kB",
+      "modifiedTime": "2019-10-05T13:27:09.871Z",
+      "accessTime": "2019-10-05T13:27:04.047Z",
+      "changeTime": "2019-10-05T13:27:09.871Z",
       "birthTime": "2019-10-05T11:54:02.191Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4353,13 +4353,13 @@
       "blksize": 4096,
       "ino": 4430145,
       "blocks": 8,
-      "atimeMs": 1570276530490.4424,
-      "mtimeMs": 1570276557804.2869,
-      "ctimeMs": 1570276557804.2869,
+      "atimeMs": 1570282024046.5854,
+      "mtimeMs": 1570282029871.0283,
+      "ctimeMs": 1570282029871.0283,
       "birthtimeMs": 1570276442190.8757,
-      "atime": "2019-10-05T11:55:30.490Z",
-      "mtime": "2019-10-05T11:55:57.804Z",
-      "ctime": "2019-10-05T11:55:57.804Z",
+      "atime": "2019-10-05T13:27:04.047Z",
+      "mtime": "2019-10-05T13:27:09.871Z",
+      "ctime": "2019-10-05T13:27:09.871Z",
       "birthtime": "2019-10-05T11:54:02.191Z"
     },
     "SitePage /JavaScript/[js]-이벤트-위임/": {
@@ -4468,31 +4468,6 @@
       "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/onclick-vs-addeventlistener.md",
       "fields": {
         "slug": "/JavaScript/onclick-vs-addeventlistener/"
-      }
-    },
-    "9cfd2433-4f4f-5259-8ae3-c754f2708a2f": {
-      "id": "9cfd2433-4f4f-5259-8ae3-c754f2708a2f",
-      "children": [],
-      "parent": "7dd2ebcf-5809-584e-94d7-c295e555e17b",
-      "internal": {
-        "content": "\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "17868b37e6596e0448e283e16cac535a",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 이벤트 위임",
-        "date": "2019-10-05T20:10:26.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-이벤트-위임.md",
-      "fields": {
-        "slug": "/JavaScript/[js]-이벤트-위임/"
       }
     },
     "e921754d-2c79-577f-b252-f41b9f08567b": {
@@ -4734,6 +4709,31 @@
       "fields": {
         "slug": "/JavaScript/event-bubbling과-event-capturing/"
       }
+    },
+    "9cfd2433-4f4f-5259-8ae3-c754f2708a2f": {
+      "id": "9cfd2433-4f4f-5259-8ae3-c754f2708a2f",
+      "children": [],
+      "parent": "7dd2ebcf-5809-584e-94d7-c295e555e17b",
+      "internal": {
+        "content": "\n**이벤트 위임**은 자바스크립트 언어를 사용하는 개발자라면 반드시 알아야 할 개념이다.<br>\n그러나 이벤트 위임에 대해서 알아보기 전에 [여기](https://jess2.xyz/JavaScript/event-bubbling%EA%B3%BC-event-capturing/)에서 **이벤트 버블링과 이벤트 캡쳐링**부터 알아보자.\n\n### 이벤트 위임\n하위 요소들 각각에 이벤트를 붙이지 않고 **상위 요소에 이벤트를 붙여서** 하위 요소들 각각에 이벤트를 붙인 것과 같은 효과를 낸다.\n\n만약 이벤트 위임을 사용하지 않고 하위 요소들 각각에 이벤트를 붙이면 **새로운 하위 요소**가 생겼을 경우 그 요소에는 이벤트가 발생하지 않는 문제가 있기 때문에 우리는 이벤트 위임을 사용해야 한다.\n\n아래와 같이 리스트를 만들고 각 항목을 클릭하면 알림창을 띄우도록 해보자. 여기에서 `ul`태그가 상위 요소이고 `li`태그가 하위 요소이다.\n\n#### \n```html\n<ul>\n  <li>사과</li>\n  <li>바나나</li>\n  <li>포도</li>\n</ul>\n```\n\n```js\n/* 목록 내 항목을 클릭하면 알림창 띄움 */\nlet list = document.querySelectorAll('li');\nlist.forEach(li => {\n  li.addEventListener('click', e => {\n    alert(e.target.innerText + ' is clicked');\n  })\n})\n\n/* 목록에 '감귤' 항목 추가 */\nlet li = document.createElement('li');\nli.appendChild(document.createTextNode(\"감귤\"));\ndocument.querySelector('ul').appendChild(li);\n```\n\n기존의 항목을 클릭하면 알림창이 뜨지만 새롭게 추가된 항목은 클릭해도 알림창이 뜨지 않는다.\n\n클릭 이벤트 리스너를 추가하는 시점에 항목은 `사과`, `바나나`, `포도` 이렇게 세 개였기 때문에 새롭게 추가된 항목인 `감귤`에는 클릭 이벤트 리스너가 등록되지 않았다. 따라서 `감귤`을 클릭해도 알림창이 뜨지 않는 것이다.\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"wvvvgmx\" src=\"https://codepen.io/je_ss2/embed/wvvvgmx?height=265&theme-id=0&default-tab=js,result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/wvvvgmx'>wvvvgmx</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이와 같은 문제는 항목이 새롭게 추가될 때마다 이벤트 리스너를 새롭게 달아줘도 해결할 수 있지만, 우리는 **이벤트 위임**으로 쉽게 해결할 수 있다.\n\n\n### 상위 요소에 이벤트 리스너를 등록하자\n> 하위 요소들 각각에 이벤트를 붙이지 않고 **상위 요소에 이벤트를 붙여서** 하위 요소들 각각에 이벤트를 붙인 것과 같은 효과를 낸다.\n\n상위 요소인 `ul`태그에 클릭 이벤트 리스너를 등록하고 하위 요소인 `li`태그를 클릭하면 어떻게 될까?\n\n```js\n/* 목록 내 항목을 클릭하면 알림창 띄움 */\nlet ul = document.querySelector('ul');\n\nul.addEventListener('click', e => {\n  alert(e.target.innerText + ' is clicked');\n})\n\n/* 목록에 '감귤' 항목 추가 */\nlet li = document.createElement('li');\nli.appendChild(document.createTextNode(\"감귤\"));\ndocument.querySelector('ul').appendChild(li);\n```\n\n이벤트 버블링 때문에 하위 요소인 `li`태그를 클릭해도 `ul`태그에 클릭 이벤트가 전달된다.<br>\n따라서 이제는 새롭게 추가된 항목인 `감귤`을 클릭해도 알림창이 뜬다.\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"MWWWJLW\" src=\"https://codepen.io/je_ss2/embed/MWWWJLW?height=265&theme-id=0&default-tab=js,result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/MWWWJLW'>MWWWJLW</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n\n\n\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0ce43bcf923011930f1f94da19873e5d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 이벤트 위임",
+        "date": "2019-10-05T20:10:26.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n**이벤트 위임**은 자바스크립트 언어를 사용하는 개발자라면 반드시 알아야 할 개념이다.<br>\n그러나 이벤트 위임에 대해서 알아보기 전에 [여기](https://jess2.xyz/JavaScript/event-bubbling%EA%B3%BC-event-capturing/)에서 **이벤트 버블링과 이벤트 캡쳐링**부터 알아보자.\n\n### 이벤트 위임\n하위 요소들 각각에 이벤트를 붙이지 않고 **상위 요소에 이벤트를 붙여서** 하위 요소들 각각에 이벤트를 붙인 것과 같은 효과를 낸다.\n\n만약 이벤트 위임을 사용하지 않고 하위 요소들 각각에 이벤트를 붙이면 **새로운 하위 요소**가 생겼을 경우 그 요소에는 이벤트가 발생하지 않는 문제가 있기 때문에 우리는 이벤트 위임을 사용해야 한다.\n\n아래와 같이 리스트를 만들고 각 항목을 클릭하면 알림창을 띄우도록 해보자. 여기에서 `ul`태그가 상위 요소이고 `li`태그가 하위 요소이다.\n\n#### \n```html\n<ul>\n  <li>사과</li>\n  <li>바나나</li>\n  <li>포도</li>\n</ul>\n```\n\n```js\n/* 목록 내 항목을 클릭하면 알림창 띄움 */\nlet list = document.querySelectorAll('li');\nlist.forEach(li => {\n  li.addEventListener('click', e => {\n    alert(e.target.innerText + ' is clicked');\n  })\n})\n\n/* 목록에 '감귤' 항목 추가 */\nlet li = document.createElement('li');\nli.appendChild(document.createTextNode(\"감귤\"));\ndocument.querySelector('ul').appendChild(li);\n```\n\n기존의 항목을 클릭하면 알림창이 뜨지만 새롭게 추가된 항목은 클릭해도 알림창이 뜨지 않는다.\n\n클릭 이벤트 리스너를 추가하는 시점에 항목은 `사과`, `바나나`, `포도` 이렇게 세 개였기 때문에 새롭게 추가된 항목인 `감귤`에는 클릭 이벤트 리스너가 등록되지 않았다. 따라서 `감귤`을 클릭해도 알림창이 뜨지 않는 것이다.\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"wvvvgmx\" src=\"https://codepen.io/je_ss2/embed/wvvvgmx?height=265&theme-id=0&default-tab=js,result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/wvvvgmx'>wvvvgmx</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이와 같은 문제는 항목이 새롭게 추가될 때마다 이벤트 리스너를 새롭게 달아줘도 해결할 수 있지만, 우리는 **이벤트 위임**으로 쉽게 해결할 수 있다.\n\n\n### 상위 요소에 이벤트 리스너를 등록하자\n> 하위 요소들 각각에 이벤트를 붙이지 않고 **상위 요소에 이벤트를 붙여서** 하위 요소들 각각에 이벤트를 붙인 것과 같은 효과를 낸다.\n\n상위 요소인 `ul`태그에 클릭 이벤트 리스너를 등록하고 하위 요소인 `li`태그를 클릭하면 어떻게 될까?\n\n```js\n/* 목록 내 항목을 클릭하면 알림창 띄움 */\nlet ul = document.querySelector('ul');\n\nul.addEventListener('click', e => {\n  alert(e.target.innerText + ' is clicked');\n})\n\n/* 목록에 '감귤' 항목 추가 */\nlet li = document.createElement('li');\nli.appendChild(document.createTextNode(\"감귤\"));\ndocument.querySelector('ul').appendChild(li);\n```\n\n이벤트 버블링 때문에 하위 요소인 `li`태그를 클릭해도 `ul`태그에 클릭 이벤트가 전달된다.<br>\n따라서 이제는 새롭게 추가된 항목인 `감귤`을 클릭해도 알림창이 뜬다.\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"MWWWJLW\" src=\"https://codepen.io/je_ss2/embed/MWWWJLW?height=265&theme-id=0&default-tab=js,result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/MWWWJLW'>MWWWJLW</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n\n\n\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-이벤트-위임.md",
+      "fields": {
+        "slug": "/JavaScript/[js]-이벤트-위임/"
+      }
     }
   },
   "status": {
@@ -4809,7 +4809,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "841/path---index-6a9-wzCmcEt8gV1uAczCVpVKj518",
+    "index": "825/path---index-6a9-C70MPsLRV2vvyYNflAnjIgmgC9w",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -4820,7 +4820,7 @@
     "java-script-onclick-vs-addeventlistener-96d": "142/path---java-script-onclick-vs-addeventlistener-96-d-bd0-5RQL6EnF15hSoloJpOu167BIXME",
     "java-script-hoisting-0e5": "254/path---java-script-hoisting-0-e-5-d97-ZLvkYjN1AvHiNDbxv9gvdMUHs",
     "java-script-event-bubbling과-event-capturing-c50": "727/path---java-script-event-bubbling과-event-capturing-c-50-e5f-ZkOj8wRRUU8XaG8Q5pZtR1QougU",
-    "java-script-js-이벤트-위임-6f8": "319/path---java-script-js-이벤트-위임-6-f-8-b59-LwcFBym0CQV0JInaQJLCv4J6Y"
+    "java-script-js-이벤트-위임-6f8": "561/path---java-script-js-이벤트-위임-6-f-8-b59-VbTtcU4QMs1rCNQJHI75ghrJ6Z8"
   },
   "components": {
     "/Users/jess2/study/jess2devlog/src/templates/blog-post.js": {
