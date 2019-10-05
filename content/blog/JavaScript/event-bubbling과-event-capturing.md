@@ -1,5 +1,5 @@
 ---
-title: <JS> Event Bubbling과 Event Capturing
+title: "[JS] Event Bubbling과 Event Capturing"
 date: 2019-10-05 11:10:94
 category: JavaScript
 ---
