@@ -43,7 +43,7 @@ document.querySelector('ul').appendChild(li);
 클릭 이벤트 리스너를 추가하는 시점에 항목은 `사과`, `바나나`, `포도` 이렇게 세 개였기 때문에 새롭게 추가된 항목인 `감귤`에는 클릭 이벤트 리스너가 등록되지 않았다. 따라서 `감귤`을 클릭해도 알림창이 뜨지 않는 것이다.
 
 #### 실행 결과
-<iframe height="265" style="width: 100%;" scrolling="no" title="wvvvgmx" src="https://codepen.io/je_ss2/embed/wvvvgmx?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="265" style="width: 100%;" scrolling="no" title="wvvvgmx" src="https://codepen.io/je_ss2/embed/wvvvgmx?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/je_ss2/pen/wvvvgmx'>wvvvgmx</a> by SoyeonJung
   (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -74,7 +74,7 @@ document.querySelector('ul').appendChild(li);
 따라서 이제는 새롭게 추가된 항목인 `감귤`을 클릭해도 알림창이 뜬다.
 
 #### 실행 결과
-<iframe height="265" style="width: 100%;" scrolling="no" title="MWWWJLW" src="https://codepen.io/je_ss2/embed/MWWWJLW?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="265" style="width: 100%;" scrolling="no" title="MWWWJLW" src="https://codepen.io/je_ss2/embed/MWWWJLW?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/je_ss2/pen/MWWWJLW'>MWWWJLW</a> by SoyeonJung
   (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
