@@ -4,6 +4,8 @@ date: 2019-09-30 21:09:70
 category: javascript
 ---
 
+![](images/javascript.png)
+
 자바스크립트에서 클릭 이벤트를 줄 때 어떤 방식을 사용하는가?
 `onclick`을 사용할 수도, `addEventListener`를 사용할 수도 있지만, 어떤 것을 사용하든 이 두 가지가 서로 어떻게 다른 지 알고 있어야 한다.
 

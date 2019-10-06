@@ -4,6 +4,8 @@ date: 2019-09-30 21:09:74
 category: javascript
 ---
 
+![](images/javascript.png)
+
 **Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.
 
 - 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.

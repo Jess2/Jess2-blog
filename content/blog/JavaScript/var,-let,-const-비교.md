@@ -4,6 +4,8 @@ date: 2019-09-22 12:09:37
 category: javascript
 ---
 
+![](images/javascript.png)
+
 JavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.
 
 ### var, let, const 비교

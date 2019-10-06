@@ -1,6 +1,6 @@
 module.exports = [{
       plugin: require('/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images/gatsby-browser.js'),
-      options: {"plugins":[],"maxWidth":590,"linkImagesToOriginal":false},
+      options: {"plugins":[],"maxWidth":741,"linkImagesToOriginal":false},
     },{
       plugin: require('/Users/jess2/study/jess2devlog/node_modules/gatsby-remark-images-medium-zoom/gatsby-browser.js'),
       options: {"plugins":[],"margin":36,"scrollOffset":0},

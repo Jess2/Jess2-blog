@@ -4,6 +4,8 @@ date: 2019-10-06 11:10:50
 category: javascript
 ---
 
+![](images/javascript.png)
+
 `null`과 `undefined`는 비슷해 보이지만 엄연히 다르다. 이 두 개의 개념 차이를 명확히 알아두자.
 
 ### undefined

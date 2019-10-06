@@ -4,6 +4,8 @@ date: 2019-10-05 11:10:94
 category: javascript
 ---
 
+![](images/javascript.png)
+
 버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.
 
 ```html

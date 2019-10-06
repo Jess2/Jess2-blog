@@ -26,6 +26,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-js-크로스-도메인-cross-domain-c53",
+        "path": "/JavaScript/[js]-크로스-도메인(cross-domain)/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-event-bubbling과-event-capturing-c50",
         "path": "/JavaScript/event-bubbling과-event-capturing/"
     },
