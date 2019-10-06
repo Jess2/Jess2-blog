@@ -43,6 +43,12 @@ category: javascript
 </form>
 ```
 
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="eYYYewp" src="https://codepen.io/je_ss2/embed/eYYYewp?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/eYYYewp'>eYYYewp</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 `form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.
 
 그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.
@@ -90,6 +96,12 @@ for (let elem of document.querySelectorAll('*')) {
 }
 ```
 
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="Event Bubbling" src="https://codepen.io/je_ss2/embed/JjjjMjN?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/JjjjMjN'>Event Bubbling</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 `p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.
 
 `addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.
@@ -112,13 +124,18 @@ for(let elem of document.querySelectorAll('*')) {
 }
 ```
 
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="event-capturing" src="https://codepen.io/je_ss2/embed/jOOOYEg?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/jOOOYEg'>event-capturing</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 `p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.
 
 `addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.
 
 ### event.stopPropagation()
 
-기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 아래의 코드를 보자.
+기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 우선 아래의 코드를 보자.
 
 ```html
 <form onclick="alert('form')">
@@ -130,9 +147,15 @@ for(let elem of document.querySelectorAll('*')) {
 </form>
 ```
 
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="event-bubbling-2" src="https://codepen.io/je_ss2/embed/PoooEwy?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/PoooEwy'>event-bubbling-2</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 `form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.
 
-이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.
+이러한 이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.
 
 ```html
 <form onclick="alert('form')">
@@ -143,6 +166,12 @@ for(let elem of document.querySelectorAll('*')) {
   </div>
 </form>
 ```
+
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="stopPropagation-2" src="https://codepen.io/je_ss2/embed/RwwwxNy?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/RwwwxNy'>stopPropagation-2</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 `p`태그에 `onclick="event.stopPropagation()"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.
 
@@ -167,5 +196,11 @@ function alertEvent(event, _tagName) {
 	alert(_tagName);
 }
 ```
+
+#### 실행 결과
+<iframe height="265" style="width: 100%;" scrolling="no" title="Event Bubbling-2" src="https://codepen.io/je_ss2/embed/yLLLpyy?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/je_ss2/pen/yLLLpyy'>Event Bubbling-2</a> by SoyeonJung
+  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.
