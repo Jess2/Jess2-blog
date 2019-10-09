@@ -68,5 +68,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "etc-notion-for-students-teachers-efd",
         "path": "/etc./notion-for-students-&-teachers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "etc-마크다운-문법-markdown-syntax-32a",
+        "path": "/etc./마크다운-문법(markdown-syntax)/"
     }
 ]
