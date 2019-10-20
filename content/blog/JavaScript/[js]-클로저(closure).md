@@ -4,6 +4,8 @@ date: 2019-10-20 10:49:70
 category: javascript
 ---
 
+![](images/javascript.png)
+
 클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.
 
 클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.
