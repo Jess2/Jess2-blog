@@ -3042,12 +3042,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-10-06T10:16:16.305Z",
+      "buildTime": "2019-10-20T10:38:36.358Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "876751ecc2314545b714510fc599c84f",
+        "contentDigest": "f091d11ed2a03a7c01181549e8073968",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3057,7 +3057,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d7ece3a2d96866089adb1023ae6ece28",
+        "contentDigest": "862121627facbaf33367f093004e22c3",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -3069,7 +3069,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-09-21T12:13:24.386Z",
-      "accessTime": "2019-10-06T10:16:22.671Z",
+      "accessTime": "2019-10-20T10:38:43.203Z",
       "changeTime": "2019-09-21T12:13:24.386Z",
       "birthTime": "2019-09-07T02:56:09.622Z",
       "root": "/",
@@ -3087,11 +3087,11 @@
       "blksize": 4096,
       "ino": 3265981,
       "blocks": 0,
-      "atimeMs": 1570356982670.6152,
+      "atimeMs": 1571567923203.4329,
       "mtimeMs": 1569068004385.68,
       "ctimeMs": 1569068004385.68,
       "birthtimeMs": 1567824969621.551,
-      "atime": "2019-10-06T10:16:22.671Z",
+      "atime": "2019-10-20T10:38:43.203Z",
       "mtime": "2019-09-21T12:13:24.386Z",
       "ctime": "2019-09-21T12:13:24.386Z",
       "birthtime": "2019-09-07T02:56:09.622Z"
@@ -3101,7 +3101,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ac14653aeb0738300f8ad44c051eb9c0",
+        "contentDigest": "70d29da10c4d9b33882b84e78a803782",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
@@ -3110,11 +3110,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
       "relativePath": "JavaScript",
       "extension": "",
-      "size": 320,
-      "prettySize": "320 B",
-      "modifiedTime": "2019-10-06T04:13:26.035Z",
-      "accessTime": "2019-10-06T10:16:22.672Z",
-      "changeTime": "2019-10-06T04:13:26.035Z",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2019-10-09T05:11:13.514Z",
+      "accessTime": "2019-10-20T10:38:43.207Z",
+      "changeTime": "2019-10-09T05:11:13.514Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog",
@@ -3124,20 +3124,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 10,
+      "nlink": 11,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1570356982672.405,
-      "mtimeMs": 1570335206034.87,
-      "ctimeMs": 1570335206034.87,
+      "atimeMs": 1571567923206.858,
+      "mtimeMs": 1570597873513.6482,
+      "ctimeMs": 1570597873513.6482,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2019-10-06T10:16:22.672Z",
-      "mtime": "2019-10-06T04:13:26.035Z",
-      "ctime": "2019-10-06T04:13:26.035Z",
+      "atime": "2019-10-20T10:38:43.207Z",
+      "mtime": "2019-10-09T05:11:13.514Z",
+      "ctime": "2019-10-09T05:11:13.514Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
     },
     "30f09798-54d2-5e76-8db9-68b4b63c569c": {
@@ -3145,7 +3145,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a3a14d69c73d99a4d0ee7e996319d991",
+        "contentDigest": "e85489526056cbf7b26938e481bf0957",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
@@ -3157,7 +3157,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-10-06T06:17:03.152Z",
-      "accessTime": "2019-10-06T10:16:22.672Z",
+      "accessTime": "2019-10-20T10:38:43.205Z",
       "changeTime": "2019-10-06T06:17:03.152Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
@@ -3175,11 +3175,11 @@
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1570356982672.384,
+      "atimeMs": 1571567923205.2573,
       "mtimeMs": 1570342623152.2085,
       "ctimeMs": 1570342623152.2085,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2019-10-06T10:16:22.672Z",
+      "atime": "2019-10-20T10:38:43.205Z",
       "mtime": "2019-10-06T06:17:03.152Z",
       "ctime": "2019-10-06T06:17:03.152Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
@@ -3189,7 +3189,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "97bc5a37d916fdc6e261eda171dadf5a",
+        "contentDigest": "d7844463cda34ece099400e84c2936ec",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
@@ -3198,11 +3198,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
       "relativePath": "etc./images",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2019-09-29T07:02:03.958Z",
-      "accessTime": "2019-10-06T10:16:22.674Z",
-      "changeTime": "2019-09-29T07:02:03.958Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-10-09T02:47:34.929Z",
+      "accessTime": "2019-10-20T10:38:43.207Z",
+      "changeTime": "2019-10-09T02:47:34.929Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/etc.",
@@ -3212,20 +3212,20 @@
       "relativeDirectory": "etc.",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1570356982674.4014,
-      "mtimeMs": 1569740523957.9817,
-      "ctimeMs": 1569740523957.9817,
+      "atimeMs": 1571567923207.114,
+      "mtimeMs": 1570589254928.8577,
+      "ctimeMs": 1570589254928.8577,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2019-10-06T10:16:22.674Z",
-      "mtime": "2019-09-29T07:02:03.958Z",
-      "ctime": "2019-09-29T07:02:03.958Z",
+      "atime": "2019-10-20T10:38:43.207Z",
+      "mtime": "2019-10-09T02:47:34.929Z",
+      "ctime": "2019-10-09T02:47:34.929Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
     },
     "e921754d-2c79-577f-b252-f41b9f08567b": {
@@ -3233,7 +3233,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a2e045c0da08dcde042bacb7493fd6a7",
+        "contentDigest": "1b558a6dcb39b6d8d7483de3b15e299f",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript/images\"",
         "owner": "gatsby-source-filesystem"
@@ -3245,7 +3245,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-10-06T04:51:22.012Z",
-      "accessTime": "2019-10-06T10:16:22.674Z",
+      "accessTime": "2019-10-20T10:38:43.210Z",
       "changeTime": "2019-10-06T04:51:22.012Z",
       "birthTime": "2019-10-05T12:03:40.214Z",
       "root": "/",
@@ -3263,11 +3263,11 @@
       "blksize": 4096,
       "ino": 4431629,
       "blocks": 0,
-      "atimeMs": 1570356982674.4214,
+      "atimeMs": 1571567923209.8184,
       "mtimeMs": 1570337482011.6155,
       "ctimeMs": 1570337482011.6155,
       "birthtimeMs": 1570277020214.4775,
-      "atime": "2019-10-06T10:16:22.674Z",
+      "atime": "2019-10-20T10:38:43.210Z",
       "mtime": "2019-10-06T04:51:22.012Z",
       "ctime": "2019-10-06T04:51:22.012Z",
       "birthtime": "2019-10-05T12:03:40.214Z"
@@ -4219,7 +4219,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0731cd47534727c438c0177ebb1586ad",
+        "contentDigest": "05b059e5b327223e418407aa6ea78fca",
         "type": "Directory",
         "description": "Directory \"content/__about\"",
         "owner": "gatsby-source-filesystem"
@@ -4231,7 +4231,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:06:10.676Z",
-      "accessTime": "2019-10-06T10:16:22.719Z",
+      "accessTime": "2019-10-20T10:38:43.257Z",
       "changeTime": "2019-09-21T03:28:26.650Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -4249,11 +4249,11 @@
       "blksize": 4096,
       "ino": 3265999,
       "blocks": 0,
-      "atimeMs": 1570356982719.3936,
+      "atimeMs": 1571567923256.7224,
       "mtimeMs": 1567825570676.0103,
       "ctimeMs": 1569036506649.9487,
       "birthtimeMs": 1567824969620.8088,
-      "atime": "2019-10-06T10:16:22.719Z",
+      "atime": "2019-10-20T10:38:43.257Z",
       "mtime": "2019-09-07T03:06:10.676Z",
       "ctime": "2019-09-21T03:28:26.650Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -4335,7 +4335,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "28838d4b9a3e7851f5ac641096a3ec2c",
+        "contentDigest": "af57ef0a404fcb9d11e7d462a641b6f0",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -4347,7 +4347,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-09-07T03:49:48.848Z",
-      "accessTime": "2019-10-06T10:16:22.724Z",
+      "accessTime": "2019-10-20T10:38:43.264Z",
       "changeTime": "2019-09-21T03:28:26.651Z",
       "birthTime": "2019-09-07T02:56:09.621Z",
       "root": "/",
@@ -4365,11 +4365,11 @@
       "blksize": 4096,
       "ino": 3266001,
       "blocks": 0,
-      "atimeMs": 1570356982723.6494,
+      "atimeMs": 1571567923263.58,
       "mtimeMs": 1567828188848.3962,
       "ctimeMs": 1569036506651.0718,
       "birthtimeMs": 1567824969621.066,
-      "atime": "2019-10-06T10:16:22.724Z",
+      "atime": "2019-10-20T10:38:43.264Z",
       "mtime": "2019-09-07T03:49:48.848Z",
       "ctime": "2019-09-21T03:28:26.651Z",
       "birthtime": "2019-09-07T02:56:09.621Z"
@@ -4628,6 +4628,135 @@
       "ctime": "2019-10-09T03:55:41.884Z",
       "birthtime": "2019-10-06T06:17:03.152Z"
     },
+    "9455c6c5-607f-5a0f-862e-18dd0f4911ed": {
+      "id": "9455c6c5-607f-5a0f-862e-18dd0f4911ed",
+      "children": [
+        "ca41473a-967a-5d65-b802-54bd97cf68e0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "59302c1f078ff50fbc05451b7ab059c7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/blog/etc./images/bunny.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/bunny.jpg",
+      "relativePath": "etc./images/bunny.jpg",
+      "extension": "jpg",
+      "size": 36192,
+      "prettySize": "36.2 kB",
+      "modifiedTime": "2019-10-09T02:47:07.184Z",
+      "accessTime": "2019-10-09T02:47:22.487Z",
+      "changeTime": "2019-10-09T02:47:22.369Z",
+      "birthTime": "2019-10-09T02:47:07.184Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
+      "base": "bunny.jpg",
+      "ext": ".jpg",
+      "name": "bunny",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4571529,
+      "blocks": 72,
+      "atimeMs": 1570589242487.1409,
+      "mtimeMs": 1570589227184.4595,
+      "ctimeMs": 1570589242368.99,
+      "birthtimeMs": 1570589227183.7104,
+      "atime": "2019-10-09T02:47:22.487Z",
+      "mtime": "2019-10-09T02:47:07.184Z",
+      "ctime": "2019-10-09T02:47:22.369Z",
+      "birthtime": "2019-10-09T02:47:07.184Z"
+    },
+    "ca41473a-967a-5d65-b802-54bd97cf68e0": {
+      "id": "ca41473a-967a-5d65-b802-54bd97cf68e0",
+      "children": [],
+      "parent": "9455c6c5-607f-5a0f-862e-18dd0f4911ed",
+      "internal": {
+        "contentDigest": "59302c1f078ff50fbc05451b7ab059c7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "adcdae27-7e53-5f61-8ae6-8099479ffb5c": {
+      "id": "adcdae27-7e53-5f61-8ae6-8099479ffb5c",
+      "children": [],
+      "parent": "68809507-291e-5bd7-870a-c50c7162101b",
+      "internal": {
+        "content": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a0b9df8688c8fdb35bd59a8116fbd05b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "마크다운 문법(Markdown Syntax)",
+        "date": "2019-10-09T12:11:27.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./마크다운-문법(markdown-syntax).md",
+      "fields": {
+        "slug": "/etc./마크다운-문법(markdown-syntax)/"
+      }
+    },
+    "d0a960da-28bf-519f-8adb-e074270b5a67": {
+      "id": "d0a960da-28bf-519f-8adb-e074270b5a67",
+      "children": [
+        "0fe920bc-0410-5dd9-90ff-cfcadd474bdf"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "14b81aba2979b0cb176b8fe266b5111c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/[js]-클로저(closure).md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-클로저(closure).md",
+      "relativePath": "JavaScript/[js]-클로저(closure).md",
+      "extension": "md",
+      "size": 5437,
+      "prettySize": "5.44 kB",
+      "modifiedTime": "2019-10-20T12:02:44.875Z",
+      "accessTime": "2019-10-20T12:02:22.533Z",
+      "changeTime": "2019-10-20T12:02:44.875Z",
+      "birthTime": "2019-10-09T05:11:13.514Z",
+      "root": "/",
+      "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
+      "base": "[js]-클로저(closure).md",
+      "ext": ".md",
+      "name": "[js]-클로저(closure)",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4580336,
+      "blocks": 16,
+      "atimeMs": 1571572942532.8032,
+      "mtimeMs": 1571572964875.0188,
+      "ctimeMs": 1571572964875.0188,
+      "birthtimeMs": 1570597873513.6157,
+      "atime": "2019-10-20T12:02:22.533Z",
+      "mtime": "2019-10-20T12:02:44.875Z",
+      "ctime": "2019-10-20T12:02:44.875Z",
+      "birthtime": "2019-10-09T05:11:13.514Z"
+    },
     "SitePage /etc./마크다운-문법(markdown-syntax)/": {
       "jsonName": "etc-마크다운-문법-markdown-syntax-32a",
       "internalComponentName": "ComponentEtc마크다운문법MarkdownSyntax",
@@ -4646,7 +4775,15 @@
             "category": "javascript"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/[js]-클로저(closure)/"
+          },
+          "frontmatter": {
+            "title": "[JS] 클로저(Closure)",
+            "category": "javascript"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -4656,7 +4793,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "24d7b27f76dd505ed045cc883884b7aa",
+        "contentDigest": "a0f594c294ce7c22f46995de93532055",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5106,86 +5243,62 @@
         "owner": "internal-data-bridge"
       }
     },
-    "9455c6c5-607f-5a0f-862e-18dd0f4911ed": {
-      "id": "9455c6c5-607f-5a0f-862e-18dd0f4911ed",
-      "children": [
-        "ca41473a-967a-5d65-b802-54bd97cf68e0"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "59302c1f078ff50fbc05451b7ab059c7",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"content/blog/etc./images/bunny.jpg\"",
-        "owner": "gatsby-source-filesystem"
+    "SitePage /JavaScript/[js]-클로저(closure)/": {
+      "jsonName": "java-script-js-클로저-closure-7f0",
+      "internalComponentName": "ComponentJavaScriptJs클로저Closure",
+      "path": "/JavaScript/[js]-클로저(closure)/",
+      "component": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/[js]-클로저(closure)/",
+        "previous": {
+          "fields": {
+            "slug": "/etc./마크다운-문법(markdown-syntax)/"
+          },
+          "frontmatter": {
+            "title": "마크다운 문법(Markdown Syntax)",
+            "category": "etc."
+          }
+        },
+        "next": null
       },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./images/bunny.jpg",
-      "relativePath": "etc./images/bunny.jpg",
-      "extension": "jpg",
-      "size": 36192,
-      "prettySize": "36.2 kB",
-      "modifiedTime": "2019-10-09T02:47:07.184Z",
-      "accessTime": "2019-10-09T02:47:22.487Z",
-      "changeTime": "2019-10-09T02:47:22.369Z",
-      "birthTime": "2019-10-09T02:47:07.184Z",
-      "root": "/",
-      "dir": "/Users/jess2/study/jess2devlog/content/blog/etc./images",
-      "base": "bunny.jpg",
-      "ext": ".jpg",
-      "name": "bunny",
-      "relativeDirectory": "etc./images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4571529,
-      "blocks": 72,
-      "atimeMs": 1570589242487.1409,
-      "mtimeMs": 1570589227184.4595,
-      "ctimeMs": 1570589242368.99,
-      "birthtimeMs": 1570589227183.7104,
-      "atime": "2019-10-09T02:47:22.487Z",
-      "mtime": "2019-10-09T02:47:07.184Z",
-      "ctime": "2019-10-09T02:47:22.369Z",
-      "birthtime": "2019-10-09T02:47:07.184Z"
-    },
-    "ca41473a-967a-5d65-b802-54bd97cf68e0": {
-      "id": "ca41473a-967a-5d65-b802-54bd97cf68e0",
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/study/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/[js]-클로저(closure)/",
+      "parent": null,
       "children": [],
-      "parent": "9455c6c5-607f-5a0f-862e-18dd0f4911ed",
       "internal": {
-        "contentDigest": "59302c1f078ff50fbc05451b7ab059c7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
+        "type": "SitePage",
+        "contentDigest": "8e34bb1befb4254de2d13326dd9da23c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
-    "adcdae27-7e53-5f61-8ae6-8099479ffb5c": {
-      "id": "adcdae27-7e53-5f61-8ae6-8099479ffb5c",
+    "0fe920bc-0410-5dd9-90ff-cfcadd474bdf": {
+      "id": "0fe920bc-0410-5dd9-90ff-cfcadd474bdf",
       "children": [],
-      "parent": "68809507-291e-5bd7-870a-c50c7162101b",
+      "parent": "d0a960da-28bf-519f-8adb-e074270b5a67",
       "internal": {
-        "content": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "content": "\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var,-let,-const-%EB%B9%84%EA%B5%90/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다. 아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
         "type": "MarkdownRemark",
-        "contentDigest": "a0b9df8688c8fdb35bd59a8116fbd05b",
+        "contentDigest": "3724ecd4810555c6a632bbc5a2a41164",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "마크다운 문법(Markdown Syntax)",
-        "date": "2019-10-09T12:11:27.000Z",
-        "category": "etc."
+        "title": "[JS] 클로저(Closure)",
+        "date": "2019-10-20T10:50:10.000Z",
+        "category": "javascript"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/etc./마크다운-문법(markdown-syntax).md",
+      "rawMarkdownBody": "\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var,-let,-const-%EB%B9%84%EA%B5%90/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다. 아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/[js]-클로저(closure).md",
       "fields": {
-        "slug": "/etc./마크다운-문법(markdown-syntax)/"
+        "slug": "/JavaScript/[js]-클로저(closure)/"
       }
     }
   },
@@ -5210,7 +5323,8 @@
         "/etc./notion-for-students-&-teachers/",
         "/etc./마크다운-문법(markdown-syntax)/",
         "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx"
+        "sq--src-components-head-index-jsx",
+        "/JavaScript/[js]-클로저(closure)/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [
         "sq--src-components-bio-index-jsx"
@@ -5247,6 +5361,9 @@
       ],
       "adcdae27-7e53-5f61-8ae6-8099479ffb5c": [
         "/etc./마크다운-문법(markdown-syntax)/"
+      ],
+      "0fe920bc-0410-5dd9-90ff-cfcadd474bdf": [
+        "/JavaScript/[js]-클로저(closure)/"
       ]
     },
     "connections": {
@@ -5266,7 +5383,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "878/path---index-6a9-YyKVRZEHRa33RxiM44XkiqORd0",
+    "index": "293/path---index-6a9-59swdfBvnj0TO9DwwWIX2iQnvM",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -5281,7 +5398,8 @@
     "java-script-js-null과-undefined-비교-77b": "323/path---java-script-js-null과-undefined-비교-77-b-405-EFO1Y3nfeq65AORBBo8rxaeuIhA",
     "java-script-js-null과-undefined-비교-727": "649/path---java-script-js-null과-undefined-비교-727-0e3-wX0VmxGikOPK7dQRcIGkWW2je14",
     "java-script-js-크로스-도메인-cross-domain-c53": "567/path---java-script-js-크로스-도메인-cross-domain-c-53-37a-6i8c0CFD2Z7v4k41JYKroEPKNr0",
-    "etc-마크다운-문법-markdown-syntax-32a": "721/path---etc-마크다운-문법-markdown-syntax-32-a-ce9-4HI2a58pT0ptRWS4zyh7ErIEE"
+    "etc-마크다운-문법-markdown-syntax-32a": "91/path---etc-마크다운-문법-markdown-syntax-32-a-ce9-awsicwoPeOaYz6mJ0BWQ4aZCM",
+    "java-script-js-클로저-closure-7f0": "507/path---java-script-js-클로저-closure-7-f-0-bda-18cp1ttEcx05TxuYmtQwVjXKCHo"
   },
   "components": {
     "/Users/jess2/study/jess2devlog/src/templates/blog-post.js": {
