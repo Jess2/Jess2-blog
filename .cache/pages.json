@@ -36,6 +36,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-js-프로토타입-prototype-d2e",
+        "path": "/JavaScript/[js]-프로토타입(prototype)/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-event-bubbling과-event-capturing-c50",
         "path": "/JavaScript/event-bubbling과-event-capturing/"
     },
