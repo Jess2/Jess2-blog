@@ -81,11 +81,6 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "etc-junior-seminar-cdb",
-        "path": "/etc./junior_seminar/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "etc-markdown-syntax-868",
         "path": "/etc./markdown-syntax/"
     },
@@ -93,5 +88,15 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "etc-notion-for-students-teachers-efd",
         "path": "/etc./notion-for-students-&-teachers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "seminar-2018-typescript-korea-meetup-bc0",
+        "path": "/seminar/2018-typescript-korea-meetup/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "seminar-2019-startup-junior-seminar-05f",
+        "path": "/seminar/2019-startup-junior-seminar/"
     }
 ]

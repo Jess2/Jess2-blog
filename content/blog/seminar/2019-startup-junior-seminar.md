@@ -1,10 +1,10 @@
 ---
 title: "[Seminar] 2019 스뽀콘 - '스'타트업 '뽀'시래기 '콘'퍼런스 참석 후기"
 date: 2019-09-29 16:09:76
-category: etc.
+category: seminar
 ---
 
-![](./images/startup_junior_seminar.png)
+![](images/startup_junior_seminar.png)
 
 다른 회사의 주니어들은 어떻게 일하고 성장하고 있는지 알고 싶어서 참석하게 된 '스뽀콘'.<br>
 이 곳에서 들은 내용을 정리하고 공유하고자 한다.
