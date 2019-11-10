@@ -3373,7 +3373,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "c4bb501676211ac500e1a058ba9b678c",
+        "contentDigest": "33411ac1f2cad8a621ec6b31d36f37e2",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/hoisting.md\"",
@@ -3383,11 +3383,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
       "relativePath": "JavaScript/hoisting.md",
       "extension": "md",
-      "size": 2521,
-      "prettySize": "2.52 kB",
-      "modifiedTime": "2019-10-06T04:55:04.566Z",
-      "accessTime": "2019-10-06T04:54:01.480Z",
-      "changeTime": "2019-10-06T04:55:04.566Z",
+      "size": 2544,
+      "prettySize": "2.54 kB",
+      "modifiedTime": "2019-11-10T09:29:42.934Z",
+      "accessTime": "2019-10-06T06:12:07.781Z",
+      "changeTime": "2019-11-10T09:29:42.934Z",
       "birthTime": "2019-09-30T12:48:35.263Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -3404,13 +3404,13 @@
       "blksize": 4096,
       "ino": 4201455,
       "blocks": 8,
-      "atimeMs": 1570337641479.757,
-      "mtimeMs": 1570337704565.6692,
-      "ctimeMs": 1570337704565.6692,
+      "atimeMs": 1570342327781.2302,
+      "mtimeMs": 1573378182934.494,
+      "ctimeMs": 1573378182934.494,
       "birthtimeMs": 1569847715262.665,
-      "atime": "2019-10-06T04:54:01.480Z",
-      "mtime": "2019-10-06T04:55:04.566Z",
-      "ctime": "2019-10-06T04:55:04.566Z",
+      "atime": "2019-10-06T06:12:07.781Z",
+      "mtime": "2019-11-10T09:29:42.934Z",
+      "ctime": "2019-11-10T09:29:42.934Z",
       "birthtime": "2019-09-30T12:48:35.263Z"
     },
     "055c2863-05bd-550a-ba9b-a8fe40aa8f4f": {
@@ -4136,31 +4136,6 @@
         "slug": "/JavaScript/onclick-vs-addeventlistener/"
       }
     },
-    "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": {
-      "id": "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62",
-      "children": [],
-      "parent": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "eae5b439457f22104fb94fe6033d42c5",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 호이스팅(Hoisting)",
-        "date": "2019-09-30T21:10:14.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n**Hoisting**이란, 선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
-      "fields": {
-        "slug": "/JavaScript/hoisting/"
-      }
-    },
     "9455c6c5-607f-5a0f-862e-18dd0f4911ed": {
       "id": "9455c6c5-607f-5a0f-862e-18dd0f4911ed",
       "children": [
@@ -4322,7 +4297,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "6b4f0948369ba836266de1137fe9a7bc",
+        "contentDigest": "a4594abfce3e84a1b36ac0af2dae0d34",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/prototype.md\"",
@@ -4332,11 +4307,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/prototype.md",
       "relativePath": "JavaScript/prototype.md",
       "extension": "md",
-      "size": 5177,
+      "size": 5178,
       "prettySize": "5.18 kB",
-      "modifiedTime": "2019-10-27T10:03:51.574Z",
-      "accessTime": "2019-11-03T12:58:03.141Z",
-      "changeTime": "2019-11-03T12:58:03.031Z",
+      "modifiedTime": "2019-11-10T09:53:50.514Z",
+      "accessTime": "2019-11-03T14:21:59.631Z",
+      "changeTime": "2019-11-10T09:53:50.514Z",
       "birthTime": "2019-10-27T08:21:14.882Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4353,39 +4328,14 @@
       "blksize": 4096,
       "ino": 5087492,
       "blocks": 16,
-      "atimeMs": 1572785883141.2905,
-      "mtimeMs": 1572170631574.0376,
-      "ctimeMs": 1572785883030.5295,
+      "atimeMs": 1572790919631.467,
+      "mtimeMs": 1573379630514.0437,
+      "ctimeMs": 1573379630514.0437,
       "birthtimeMs": 1572164474881.8604,
-      "atime": "2019-11-03T12:58:03.141Z",
-      "mtime": "2019-10-27T10:03:51.574Z",
-      "ctime": "2019-11-03T12:58:03.031Z",
+      "atime": "2019-11-03T14:21:59.631Z",
+      "mtime": "2019-11-10T09:53:50.514Z",
+      "ctime": "2019-11-10T09:53:50.514Z",
       "birthtime": "2019-10-27T08:21:14.882Z"
-    },
-    "1232abdb-337e-50d7-b61c-4727fce09fbc": {
-      "id": "1232abdb-337e-50d7-b61c-4727fce09fbc",
-      "children": [],
-      "parent": "3e5d0ff7-d214-59a0-8636-7cec894925e4",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\n자바스크립트에는 기본적으로 클래스라는 개념이 없기 때문에 상속 기능도 없지만 Prototype을 이용해서 상속 기능을 흉내낼 수는 있다.\n\n객체는 속성을 가질 수 있는데, prototype이라는 속성은 그 용도가 약속되어 있는 특수한 속성이다. prototype에 저장된 속성들은 생성자를 통해서 객체가 만들어질 때 그 객체에 연결된다.\n\n자바스크립트의 모든 객체는 자신을 생성한 객체 원형에 대한 숨겨진 연결을 갖는다. **이 때, 자기 자신을 생성하기 위해 사용된 객체 원형을 프로토타입이라 한다.**\n\n자바스크립트의 모든 객체는 Object 객체의 프로토타입을 기반으로 확장되었기 때문에 이 연결의 끝은 Object 객체의 프로토타입 Object이다.\n\n> 어떠한 객체가 만들어지기 위해 그 객체의 모태가 되는 것을 프로토타입이라고 한다.\n\n```js\nfunction Ultra(){}\nUltra.prototype.ultraProp = true;\n \nfunction Super(){}\nSuper.prototype = new Ultra();\n \nfunction Sub(){}\nSub.prototype = new Super();\n \nvar obj = new Sub();\nconsole.log(o.ultraProp); // 출력결과 > true\n```\n\n생성자 `Sub`를 통해서 만들어진 객체 `obj`에는 `ultraProp`이라는 속성이 존재하지 않는다. 그런데 어떻게 `true` 값이 출력될까?\n\n객체 `obj`가 `Ultra`의 속성인 `ultraProp`에 접근이 가능한 이유는 **prototype 체인**으로 `Sub`와 `Ultra`가 연결되어있기 때문이다.\n\n 내부적으로는 아래와 같은 일이 일어난다.\n\n1. `obj.ultraProp`을 찾는다.\n2. 없다면 `Sub.prototype.ultraProp`을 찾는다.\n3. 없다면 `Super.prototype.ultraProp`을 찾는다.\n4. 없다면 `Ultra.prototype.ultraProp`을 찾는다.\n\n아래의 코드도 보자.\n\n```js\nfunction Person(name) {\n    this.name = name;\n}\nPerson.prototype.name = null;\nPerson.prototype.introduce = function() {\n    return 'My name is ' + this.name;\n}\n \nfunction Programmer(name) {\n    this.name = name;\n}\nProgrammer.prototype = new Person(); //상속\nProgrammer.prototype.coding = function() {\n    return \"hello world\";\n}\n \nvar p1 = new Programmer('jessie');\nconsole.log(p1.introduce()); //출력결과 : My name is jessie\nconsole.log(p1.coding()); //출력결과 : hello world\n```\n`Programmer`는 `Person`을 상속받았기 때문에 `introduce`라는 속성을 갖고 있지 않아도 `Person`의 속성인 `introduce`에 접근이 가능하기 때문에 `p1.introduce()`가 정상적으로 호출되어 출력이 된다.\n\n### 프로토타입으로 메소드 생성 -> 공간 절약\n우리는 아래와 같은 방법으로 생성자 함수와 인스턴스 객체를 만들 수 있다.\n\n```js\n\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n    this.move = function() {\n        console.log(`${this.name} ${this.job} 캐릭터 이동`);\n    }\n}\n \nvar c1 = new Character('Jessie', '개발자');\nc1.move();\n```\n위의 코드에서 `Character`는 생성자 함수이며, `c1`은 인스턴스 객체다. `Character`생성자 함수 내에 존재하는 `name`과 `job`은 속성이고, `move()`는 메소드이다.\n\n이 때 속성은 생성되는 인스턴스마다 다른 값을 적용해야 하므로 개별 영역이 필요하다. 하지만 메소드는 모든 인스턴스가 함께 쓰는 ‘공용체’이기 때문에 인스턴스의 속성으로 상속받기 보다는 별도 공간인 프로토타입에 정의하는 것이 좋다.\n\n프로토타입 속성으로 정의하면 모든 인스턴스에서 하나의 프로토타입 속성만을 참조하기 때문에 인스턴스별로 중복되는 공간을 낭비하지 않을 수 있다.\n\n**따라서 속성은 ‘생성자 함수’에, 메소드는 ‘프로토타입 속성’으로 정의하는 것이 좋다.**\n\n위의 코드를 아래와 같이 수정하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype.move = function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\n```\n그런데 추가해야 할 메소드가 많을 경우, 함수식으로 작성하면 너무 장황해진다. 메소드가 많을 경우에는 아래와 같이 작성하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype = {\n  move: function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n  },\n  attack: function() {\n    console.log(`${this.name} ${this.job} (이)가 공격`);\n  },\n  escape: function() {\n    console.log(`${this.name} ${this.job} (이)가 도망`);\n  },\n  dead: function() {\n    console.log(`${this.name} ${this.job} (이)가 사망`);\n  }\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\nc1.attack();\nc1.escape();\nc1.dead();\n```\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "96893daa234479f48d6c742aee258c11",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 프로토타입(Prototype)",
-        "date": "2019-10-27T17:10:17.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n자바스크립트에는 기본적으로 클래스라는 개념이 없기 때문에 상속 기능도 없지만 Prototype을 이용해서 상속 기능을 흉내낼 수는 있다.\n\n객체는 속성을 가질 수 있는데, prototype이라는 속성은 그 용도가 약속되어 있는 특수한 속성이다. prototype에 저장된 속성들은 생성자를 통해서 객체가 만들어질 때 그 객체에 연결된다.\n\n자바스크립트의 모든 객체는 자신을 생성한 객체 원형에 대한 숨겨진 연결을 갖는다. **이 때, 자기 자신을 생성하기 위해 사용된 객체 원형을 프로토타입이라 한다.**\n\n자바스크립트의 모든 객체는 Object 객체의 프로토타입을 기반으로 확장되었기 때문에 이 연결의 끝은 Object 객체의 프로토타입 Object이다.\n\n> 어떠한 객체가 만들어지기 위해 그 객체의 모태가 되는 것을 프로토타입이라고 한다.\n\n```js\nfunction Ultra(){}\nUltra.prototype.ultraProp = true;\n \nfunction Super(){}\nSuper.prototype = new Ultra();\n \nfunction Sub(){}\nSub.prototype = new Super();\n \nvar obj = new Sub();\nconsole.log(o.ultraProp); // 출력결과 > true\n```\n\n생성자 `Sub`를 통해서 만들어진 객체 `obj`에는 `ultraProp`이라는 속성이 존재하지 않는다. 그런데 어떻게 `true` 값이 출력될까?\n\n객체 `obj`가 `Ultra`의 속성인 `ultraProp`에 접근이 가능한 이유는 **prototype 체인**으로 `Sub`와 `Ultra`가 연결되어있기 때문이다.\n\n 내부적으로는 아래와 같은 일이 일어난다.\n\n1. `obj.ultraProp`을 찾는다.\n2. 없다면 `Sub.prototype.ultraProp`을 찾는다.\n3. 없다면 `Super.prototype.ultraProp`을 찾는다.\n4. 없다면 `Ultra.prototype.ultraProp`을 찾는다.\n\n아래의 코드도 보자.\n\n```js\nfunction Person(name) {\n    this.name = name;\n}\nPerson.prototype.name = null;\nPerson.prototype.introduce = function() {\n    return 'My name is ' + this.name;\n}\n \nfunction Programmer(name) {\n    this.name = name;\n}\nProgrammer.prototype = new Person(); //상속\nProgrammer.prototype.coding = function() {\n    return \"hello world\";\n}\n \nvar p1 = new Programmer('jessie');\nconsole.log(p1.introduce()); //출력결과 : My name is jessie\nconsole.log(p1.coding()); //출력결과 : hello world\n```\n`Programmer`는 `Person`을 상속받았기 때문에 `introduce`라는 속성을 갖고 있지 않아도 `Person`의 속성인 `introduce`에 접근이 가능하기 때문에 `p1.introduce()`가 정상적으로 호출되어 출력이 된다.\n\n### 프로토타입으로 메소드 생성 -> 공간 절약\n우리는 아래와 같은 방법으로 생성자 함수와 인스턴스 객체를 만들 수 있다.\n\n```js\n\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n    this.move = function() {\n        console.log(`${this.name} ${this.job} 캐릭터 이동`);\n    }\n}\n \nvar c1 = new Character('Jessie', '개발자');\nc1.move();\n```\n위의 코드에서 `Character`는 생성자 함수이며, `c1`은 인스턴스 객체다. `Character`생성자 함수 내에 존재하는 `name`과 `job`은 속성이고, `move()`는 메소드이다.\n\n이 때 속성은 생성되는 인스턴스마다 다른 값을 적용해야 하므로 개별 영역이 필요하다. 하지만 메소드는 모든 인스턴스가 함께 쓰는 ‘공용체’이기 때문에 인스턴스의 속성으로 상속받기 보다는 별도 공간인 프로토타입에 정의하는 것이 좋다.\n\n프로토타입 속성으로 정의하면 모든 인스턴스에서 하나의 프로토타입 속성만을 참조하기 때문에 인스턴스별로 중복되는 공간을 낭비하지 않을 수 있다.\n\n**따라서 속성은 ‘생성자 함수’에, 메소드는 ‘프로토타입 속성’으로 정의하는 것이 좋다.**\n\n위의 코드를 아래와 같이 수정하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype.move = function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\n```\n그런데 추가해야 할 메소드가 많을 경우, 함수식으로 작성하면 너무 장황해진다. 메소드가 많을 경우에는 아래와 같이 작성하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype = {\n  move: function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n  },\n  attack: function() {\n    console.log(`${this.name} ${this.job} (이)가 공격`);\n  },\n  escape: function() {\n    console.log(`${this.name} ${this.job} (이)가 도망`);\n  },\n  dead: function() {\n    console.log(`${this.name} ${this.job} (이)가 사망`);\n  }\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\nc1.attack();\nc1.escape();\nc1.dead();\n```\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/prototype.md",
-      "fields": {
-        "slug": "/JavaScript/prototype/"
-      }
     },
     "f1c6b3eb-912a-5acf-b836-1f5271d69098": {
       "id": "f1c6b3eb-912a-5acf-b836-1f5271d69098",
@@ -4394,7 +4344,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "d20bbf514e12edaa67d3019cd3648df3",
+        "contentDigest": "88973edb39d762395a2b11612a4e7bb2",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/bubbling-capturing.md\"",
@@ -4404,11 +4354,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/bubbling-capturing.md",
       "relativePath": "JavaScript/bubbling-capturing.md",
       "extension": "md",
-      "size": 9028,
-      "prettySize": "9.03 kB",
-      "modifiedTime": "2019-10-06T04:55:04.575Z",
-      "accessTime": "2019-11-03T12:58:20.736Z",
-      "changeTime": "2019-11-03T12:58:20.576Z",
+      "size": 9051,
+      "prettySize": "9.05 kB",
+      "modifiedTime": "2019-11-10T09:33:38.689Z",
+      "accessTime": "2019-11-10T09:32:29.841Z",
+      "changeTime": "2019-11-10T09:33:38.689Z",
       "birthTime": "2019-10-05T02:58:24.836Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4425,39 +4375,14 @@
       "blksize": 4096,
       "ino": 4342563,
       "blocks": 24,
-      "atimeMs": 1572785900736.3606,
-      "mtimeMs": 1570337704575.4937,
-      "ctimeMs": 1572785900576.1184,
+      "atimeMs": 1573378349841.4949,
+      "mtimeMs": 1573378418688.6074,
+      "ctimeMs": 1573378418688.6074,
       "birthtimeMs": 1570244304835.7715,
-      "atime": "2019-11-03T12:58:20.736Z",
-      "mtime": "2019-10-06T04:55:04.575Z",
-      "ctime": "2019-11-03T12:58:20.576Z",
+      "atime": "2019-11-10T09:32:29.841Z",
+      "mtime": "2019-11-10T09:33:38.689Z",
+      "ctime": "2019-11-10T09:33:38.689Z",
       "birthtime": "2019-10-05T02:58:24.836Z"
-    },
-    "fa37516e-e2bf-5741-bb2d-e1c0eaa0d04f": {
-      "id": "fa37516e-e2bf-5741-bb2d-e1c0eaa0d04f",
-      "children": [],
-      "parent": "f1c6b3eb-912a-5acf-b836-1f5271d69098",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"eYYYewp\" src=\"https://codepen.io/je_ss2/embed/eYYYewp?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/eYYYewp'>eYYYewp</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling\" src=\"https://codepen.io/je_ss2/embed/JjjjMjN?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/JjjjMjN'>Event Bubbling</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-capturing\" src=\"https://codepen.io/je_ss2/embed/jOOOYEg?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/jOOOYEg'>event-capturing</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 우선 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-bubbling-2\" src=\"https://codepen.io/je_ss2/embed/PoooEwy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/PoooEwy'>event-bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이러한 이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"stopPropagation-2\" src=\"https://codepen.io/je_ss2/embed/RwwwxNy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/RwwwxNy'>stopPropagation-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling-2\" src=\"https://codepen.io/je_ss2/embed/yLLLpyy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yLLLpyy'>Event Bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "b7bcd70f569777dbed73cd288ce24c7a",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
-        "date": "2019-10-05T11:11:34.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n> p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까?\n\n버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"eYYYewp\" src=\"https://codepen.io/je_ss2/embed/eYYYewp?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/eYYYewp'>eYYYewp</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling\" src=\"https://codepen.io/je_ss2/embed/JjjjMjN?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/JjjjMjN'>Event Bubbling</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-capturing\" src=\"https://codepen.io/je_ss2/embed/jOOOYEg?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/jOOOYEg'>event-capturing</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 우선 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-bubbling-2\" src=\"https://codepen.io/je_ss2/embed/PoooEwy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/PoooEwy'>event-bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이러한 이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"stopPropagation-2\" src=\"https://codepen.io/je_ss2/embed/RwwwxNy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/RwwwxNy'>stopPropagation-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling-2\" src=\"https://codepen.io/je_ss2/embed/yLLLpyy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yLLLpyy'>Event Bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/bubbling-capturing.md",
-      "fields": {
-        "slug": "/JavaScript/bubbling-capturing/"
-      }
     },
     "64c3312d-82cf-5bba-bf7e-276b2a8ac430": {
       "id": "64c3312d-82cf-5bba-bf7e-276b2a8ac430",
@@ -4466,7 +4391,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "8463d8e35faba1ba286edfc9f87f488f",
+        "contentDigest": "ec8c7604e6923b3b501d9ff82d8ced94",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/var-let-const.md\"",
@@ -4476,11 +4401,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var-let-const.md",
       "relativePath": "JavaScript/var-let-const.md",
       "extension": "md",
-      "size": 7921,
-      "prettySize": "7.92 kB",
-      "modifiedTime": "2019-10-06T04:55:04.570Z",
-      "accessTime": "2019-11-03T12:58:34.891Z",
-      "changeTime": "2019-11-03T12:58:34.781Z",
+      "size": 8719,
+      "prettySize": "8.72 kB",
+      "modifiedTime": "2019-11-10T09:40:30.514Z",
+      "accessTime": "2019-11-10T09:40:25.435Z",
+      "changeTime": "2019-11-10T09:40:30.514Z",
       "birthTime": "2019-09-21T12:13:48.356Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4496,40 +4421,15 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 3591857,
-      "blocks": 16,
-      "atimeMs": 1572785914890.8044,
-      "mtimeMs": 1570337704569.9927,
-      "ctimeMs": 1572785914780.5715,
+      "blocks": 24,
+      "atimeMs": 1573378825435.1611,
+      "mtimeMs": 1573378830513.8096,
+      "ctimeMs": 1573378830513.8096,
       "birthtimeMs": 1569068028356.4468,
-      "atime": "2019-11-03T12:58:34.891Z",
-      "mtime": "2019-10-06T04:55:04.570Z",
-      "ctime": "2019-11-03T12:58:34.781Z",
+      "atime": "2019-11-10T09:40:25.435Z",
+      "mtime": "2019-11-10T09:40:30.514Z",
+      "ctime": "2019-11-10T09:40:30.514Z",
       "birthtime": "2019-09-21T12:13:48.356Z"
-    },
-    "3f631a7d-9ee3-5ec9-a6b0-5569b244f62e": {
-      "id": "3f631a7d-9ee3-5ec9-a6b0-5569b244f62e",
-      "children": [],
-      "parent": "64c3312d-82cf-5bba-bf7e-276b2a8ac430",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-        "type": "MarkdownRemark",
-        "contentDigest": "a588dbd91466f704a65c6e998121b597",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] var, let, const 비교",
-        "date": "2019-09-22T12:09:37.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var-let-const.md",
-      "fields": {
-        "slug": "/JavaScript/var-let-const/"
-      }
     },
     "a41de908-1342-5cb5-83b8-41b4a3275843": {
       "id": "a41de908-1342-5cb5-83b8-41b4a3275843",
@@ -4538,7 +4438,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "be4f491c99b16d227c3d847d53d845ec",
+        "contentDigest": "d92043bb9a4eb57c85e96b620875eef4",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/closure.md\"",
@@ -4548,11 +4448,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/closure.md",
       "relativePath": "JavaScript/closure.md",
       "extension": "md",
-      "size": 5444,
-      "prettySize": "5.44 kB",
-      "modifiedTime": "2019-11-06T12:46:52.861Z",
-      "accessTime": "2019-11-06T12:43:34.000Z",
-      "changeTime": "2019-11-06T12:46:52.861Z",
+      "size": 6134,
+      "prettySize": "6.13 kB",
+      "modifiedTime": "2019-11-10T09:51:59.682Z",
+      "accessTime": "2019-11-10T09:50:50.786Z",
+      "changeTime": "2019-11-10T09:51:59.682Z",
       "birthTime": "2019-10-09T05:11:13.514Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4569,13 +4469,13 @@
       "blksize": 4096,
       "ino": 4580336,
       "blocks": 16,
-      "atimeMs": 1573044214000.4006,
-      "mtimeMs": 1573044412860.5098,
-      "ctimeMs": 1573044412860.5098,
+      "atimeMs": 1573379450786.3242,
+      "mtimeMs": 1573379519682.4124,
+      "ctimeMs": 1573379519682.4124,
       "birthtimeMs": 1570597873513.6157,
-      "atime": "2019-11-06T12:43:34.000Z",
-      "mtime": "2019-11-06T12:46:52.861Z",
-      "ctime": "2019-11-06T12:46:52.861Z",
+      "atime": "2019-11-10T09:50:50.786Z",
+      "mtime": "2019-11-10T09:51:59.682Z",
+      "ctime": "2019-11-10T09:51:59.682Z",
       "birthtime": "2019-10-09T05:11:13.514Z"
     },
     "fc463f06-6409-53ca-a2ec-cd65dbddaf2b": {
@@ -4585,7 +4485,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "45fdfae7fd11b09688b378e1fff5f018",
+        "contentDigest": "d2347d7730d0a434e228d5087c513e00",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/JavaScript/cross-domain.md\"",
@@ -4595,11 +4495,11 @@
       "absolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/cross-domain.md",
       "relativePath": "JavaScript/cross-domain.md",
       "extension": "md",
-      "size": 2263,
-      "prettySize": "2.26 kB",
-      "modifiedTime": "2019-10-06T06:07:59.900Z",
-      "accessTime": "2019-11-03T12:58:58.446Z",
-      "changeTime": "2019-11-03T12:58:58.335Z",
+      "size": 2246,
+      "prettySize": "2.25 kB",
+      "modifiedTime": "2019-11-10T09:46:09.641Z",
+      "accessTime": "2019-11-10T09:45:47.803Z",
+      "changeTime": "2019-11-10T09:46:09.641Z",
       "birthTime": "2019-10-06T04:13:26.035Z",
       "root": "/",
       "dir": "/Users/jess2/study/jess2devlog/content/blog/JavaScript",
@@ -4616,39 +4516,14 @@
       "blksize": 4096,
       "ino": 4452765,
       "blocks": 8,
-      "atimeMs": 1572785938446.0388,
-      "mtimeMs": 1570342079900.3962,
-      "ctimeMs": 1572785938334.5195,
+      "atimeMs": 1573379147803.08,
+      "mtimeMs": 1573379169641.3584,
+      "ctimeMs": 1573379169641.3584,
       "birthtimeMs": 1570335206034.8562,
-      "atime": "2019-11-03T12:58:58.446Z",
-      "mtime": "2019-10-06T06:07:59.900Z",
-      "ctime": "2019-11-03T12:58:58.335Z",
+      "atime": "2019-11-10T09:45:47.803Z",
+      "mtime": "2019-11-10T09:46:09.641Z",
+      "ctime": "2019-11-10T09:46:09.641Z",
       "birthtime": "2019-10-06T04:13:26.035Z"
-    },
-    "c0066f22-ba25-502c-9ecd-e2ab0f644811": {
-      "id": "c0066f22-ba25-502c-9ecd-e2ab0f644811",
-      "children": [],
-      "parent": "fc463f06-6409-53ca-a2ec-cd65dbddaf2b",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\n크로스 도메인은 쉽게 말해서 **서로 다른 도메인 간의 호출**이다.\n\n만약 내가 개발한 웹 사이트에서만 사용하기 위해 API 서버를 구축하였는데 다른 웹 서비스에서 이 API 서버에 마음대로 접근하여 API를 호출하여 사용할 수 있다면 문제가 된다.\n\n그래서 JavaScript는 **Same Origin Policy(동일 출처 정책)**라는 정책을 두어 다른 도메인의 서버에 요청하는 것을 차단시킨다.\n\n즉, JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.\n\n따라서 JavaScript를 이용하여 AJAX를 통해 다른 도메인의 서버의 URL을 호출하여 데이터를 가져올 수는 없다.\n\n예를 들어 www.google.com 도메인에서 호출된 AJAX는 www.google.com 도메인 내에 있는 URL만을 호출할 수 있고\n\nwww.google.com 도메인에서 www.naver.com 의 URL을 AJAX로 호출할 수 없다.\n\n### 하지만 크로스 도메인을 허용해야 하는 경우가 있다.\n\n예를 들어 하나의 웹 사이트에서는 효율성이나 성능 등의 이유로 각 기능별로 여러 서버를 두는 경우가 많다. (API 서버, WAS 서버, 파일 서버 등)\n\n그런데 이 서버들은 물리적으로 분리된 서버이고 다른 용도로 구축된 서버이기 때문에 당연히 각각 다른 도메인을 가진 서버들이다.\n\n그래서 크로스 도메인 이슈가 발생하기 때문에 서로 간의 AJAX 통신을 할 수가 없다. 그래서 크로스 도메인을 허용해야만 한다.\n\n### 크로스 도메인은 어떻게 허용해야 할까?\n\n> CORS를 활성화 시키면 된다.\n\nCORS란, Cross-Origin Resource Sharing의 약자로 웹 페이지의 제한된 자원을 외부 도메인에서의 요청(접근)을 허용해주는 것이다.\n\nCORS를 이용하여 특정 도메인에서 접근하는 것이 가능하도록 해준다. 즉, 크로스 도메인을 허용해준다.\n\n응답을 받는 서버 쪽 요청 응답 헤더에 `Access-Control-Allow-Origin`으로 허용할 오리진을 지정해주면 크로스 도메인을 허용해 줄 수 있다.\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "9e36f5e153dfb75b2508c92b47bc4865",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 크로스 도메인(Cross Domain)",
-        "date": "2019-10-06T13:10:37.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n크로스 도메인은 쉽게 말해서 **서로 다른 도메인 간의 호출**이다.\n\n만약 내가 개발한 웹 사이트에서만 사용하기 위해 API 서버를 구축하였는데 다른 웹 서비스에서 이 API 서버에 마음대로 접근하여 API를 호출하여 사용할 수 있다면 문제가 된다.\n\n그래서 JavaScript는 **Same Origin Policy(동일 출처 정책)**라는 정책을 두어 다른 도메인의 서버에 요청하는 것을 차단시킨다.\n\n즉, JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.\n\n따라서 JavaScript를 이용하여 AJAX를 통해 다른 도메인의 서버의 URL을 호출하여 데이터를 가져올 수는 없다.\n\n예를 들어 www.google.com 도메인에서 호출된 AJAX는 www.google.com 도메인 내에 있는 URL만을 호출할 수 있고\n\nwww.google.com 도메인에서 www.naver.com 의 URL을 AJAX로 호출할 수 없다.\n\n### 하지만 크로스 도메인을 허용해야 하는 경우가 있다.\n\n예를 들어 하나의 웹 사이트에서는 효율성이나 성능 등의 이유로 각 기능별로 여러 서버를 두는 경우가 많다. (API 서버, WAS 서버, 파일 서버 등)\n\n그런데 이 서버들은 물리적으로 분리된 서버이고 다른 용도로 구축된 서버이기 때문에 당연히 각각 다른 도메인을 가진 서버들이다.\n\n그래서 크로스 도메인 이슈가 발생하기 때문에 서로 간의 AJAX 통신을 할 수가 없다. 그래서 크로스 도메인을 허용해야만 한다.\n\n### 크로스 도메인은 어떻게 허용해야 할까?\n\n> CORS를 활성화 시키면 된다.\n\nCORS란, Cross-Origin Resource Sharing의 약자로 웹 페이지의 제한된 자원을 외부 도메인에서의 요청(접근)을 허용해주는 것이다.\n\nCORS를 이용하여 특정 도메인에서 접근하는 것이 가능하도록 해준다. 즉, 크로스 도메인을 허용해준다.\n\n응답을 받는 서버 쪽 요청 응답 헤더에 `Access-Control-Allow-Origin`으로 허용할 오리진을 지정해주면 크로스 도메인을 허용해 줄 수 있다.\n\n\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/cross-domain.md",
-      "fields": {
-        "slug": "/JavaScript/cross-domain/"
-      }
     },
     "80fd0ab5-0df9-5c31-8d47-6843ef161692": {
       "id": "80fd0ab5-0df9-5c31-8d47-6843ef161692",
@@ -5540,31 +5415,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "5d746886-9a41-5b2e-b755-4ddcbed45f39": {
-      "id": "5d746886-9a41-5b2e-b755-4ddcbed45f39",
-      "children": [],
-      "parent": "a41de908-1342-5cb5-83b8-41b4a3275843",
-      "internal": {
-        "content": "\n![](images/javascript.png)\n\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var-let-const/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다. 아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "88cfd36eb26f2efd1403fd831deb8b54",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[JS] 클로저(Closure)",
-        "date": "2019-10-20T10:50:10.000Z",
-        "category": "javascript"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var-let-const/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다. 아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
-      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/closure.md",
-      "fields": {
-        "slug": "/JavaScript/closure/"
-      }
-    },
     "f568207e-e8e2-519c-ba99-9e45672c83dd": {
       "id": "f568207e-e8e2-519c-ba99-9e45672c83dd",
       "children": [],
@@ -5638,6 +5488,156 @@
       "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/bind.md",
       "fields": {
         "slug": "/JavaScript/bind/"
+      }
+    },
+    "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62": {
+      "id": "9f52f1e3-2dc6-51c1-92f5-73c9410a6b62",
+      "children": [],
+      "parent": "2094c0ed-e3ea-53e0-aa42-19072fb1a52a",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n### 자바스크립트 호이스팅이란?\n선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "5005b4db373fccc3868a5c3f5d80005a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 호이스팅(Hoisting)",
+        "date": "2019-09-30T21:10:14.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n### 자바스크립트 호이스팅이란?\n선언을 현재 스크립트 또는 현재 함수의 맨 위로 이동시키는 JavaScript의 기본 동작이다.\n\n- 변수가 함수 내에서 정의되었을 경우 : 선언이 **함수 내부의 최상위**로 Hoisting 됨.\n- 변수가 함수 밖에 정의되었을 경우 : 선언이 **전역 컨텍스트의 최상위**로 Hoisting 됨.\n\n### 호이스팅 때문에 변수를 선언하기 전에 사용할 수 있다.\n\nJavaScript에서는 변수를 선언하기 전에 사용할 수 있다. 아래에 선언을 해도 선언한 것이 Hoisting 되어 위로 끌어올려지기 때문이다. 아래의 Code-1과 Code-2는 동일한 코드라고 보면 된다.\n\n#### Code-1\n```js\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n \nvar x; // x 선언\n```\n\n#### Code-2\n```js\nvar x; // x 선언\nx = 5; // x에 값을 할당\n \nconsole.log(x); // 5\n```\n### 할당은 호이스팅하지 않고, 선언만 호이스팅한다.\n\nJavaScript는 Hoisting을 할 때, 할당은 Hoisting을 하지 않고 선언만 Hoisting하고, 다음 Code-3과 Code-4는 동일한 코드라고 보면 된다.\n\n#### Code-3\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\n\nconsole.log(x, y); // 5 undefined\n \nvar y = 7; // y를 선언하고 y에 7을 할당\n```\n\n#### Code-4\n```js\nvar x = 5; // x를 선언하고 x에 5를 할당\nvar y; // y를 선언\n \nconsole.log(x, y); // 5 undefined\n\ny = 7; // y에 7을 할당\n```\n위의 Code-3과 Code-4에서 `y`에 할당된 값인 `7`이 출력되지 않고 `undefined`가 출력되는 이유는, 선언만 위쪽으로 끌어 올려지고(Hoisting), 할당은 위로 끌어 올려지지 않기 때문이다.\n\nHosting으로 인해 `y`는 사용되기 전에 선언은 되었지만, 할당이 수행되지 않았기 때문에 `y`값은 `undefined`가 되는 것이다.\n\n### 함수 호이스팅\n\n#### Code-5\n```js\nfoo(); // Hello world!\nfunction foo () {\n    console.log('Hello world!');\n}\n```\n위의 Code-5에서 foo 함수에 대한 선언을 호이스팅하기 때문에 정상 동작한다.\n\n#### Code-6\n```js\nfoo(); // ERROR! foo is not a function\nvar foo = function () {\n    console.log('Hello world!');\n}\n```\n위의 Code-6에서는 변수에 함수리터럴(이름 없이 몸체만 있는 함수)을 할당하고 있기 때문에 변수 선언만 호이스팅 되고 변수에 할당된 함수는 호이스팅 되지 않아 에러가 발생한다.",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/hoisting.md",
+      "fields": {
+        "slug": "/JavaScript/hoisting/"
+      }
+    },
+    "fa37516e-e2bf-5741-bb2d-e1c0eaa0d04f": {
+      "id": "fa37516e-e2bf-5741-bb2d-e1c0eaa0d04f",
+      "children": [],
+      "parent": "f1c6b3eb-912a-5acf-b836-1f5271d69098",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n### p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까? 버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"eYYYewp\" src=\"https://codepen.io/je_ss2/embed/eYYYewp?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/eYYYewp'>eYYYewp</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling\" src=\"https://codepen.io/je_ss2/embed/JjjjMjN?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/JjjjMjN'>Event Bubbling</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-capturing\" src=\"https://codepen.io/je_ss2/embed/jOOOYEg?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/jOOOYEg'>event-capturing</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### 버블링 멈추기 : event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 우선 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-bubbling-2\" src=\"https://codepen.io/je_ss2/embed/PoooEwy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/PoooEwy'>event-bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이러한 이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"stopPropagation-2\" src=\"https://codepen.io/je_ss2/embed/RwwwxNy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/RwwwxNy'>stopPropagation-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling-2\" src=\"https://codepen.io/je_ss2/embed/yLLLpyy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yLLLpyy'>Event Bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1b1290bc918cfa66b442898919499b1c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 이벤트 버블링과 이벤트 캡쳐링",
+        "date": "2019-10-05T11:11:34.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n버블링과 캡쳐링을 본격적으로 알아보기 전에 간단한 코드를 한 번 살펴보자.\n\n```html\n<div onclick=\"alert('The DIV handler!')\">\n  DIV 태그\n  <p>P 태그</p>\n</div>\n```\n\n`div`태그에 `alert('The DIV handler!')`라는 이벤트 핸들러를 할당하였고, `p`태그에는 어떠한 핸들러도 할당하지 않았다.\n\n그런데 `p`태그를 클릭해도 `div`태그에 할당된 핸들러가 실행이 된다.\n\n### p 태그를 클릭했는데 왜 div 태그에 할당된 핸들러가 실행이 되는 것일까? 버블링 때문이다.\n\n자바스크립트의 이벤트 버블링 때문에 위의 코드에서 `div`태그 안에 있는 `p`태그를 클릭하면 `div`태그에 할당된 클릭 이벤트가 발생하는 것이다.\n\n그럼 버블링에 대해서 더 자세히 알아보자.\n\n### 이벤트 버블링\n#### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”\n\n![](./images/event-bubbling.png)\n![](./images/event-bubbling-2.png)\n\n마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"alert('p')\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"eYYYewp\" src=\"https://codepen.io/je_ss2/embed/eYYYewp?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/eYYYewp'>eYYYewp</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그에는 `alert('form')`클릭 이벤트를 줬고, `div`태그에는 `alert('div')`클릭 이벤트를 줬고, `p`태그에는 `alert('p')`클릭 이벤트를 줬다.\n\n그런데 `p`태그는 `div`태그가 감싸고 있고, 또 그 `div`태그는 `form`태그가 감싸고 있다.\n\n따라서 이벤트 버블링으로 인해서 아래와 같은 현상이 나타난다.\n- `p`태그 클릭 : `p -> div -> form`순서로 알림창이 뜬다.\n- `div`태그를 클릭 : `div -> form`순서로 알림창이 뜬다.\n\n왜 하나의 태그를 클릭해도 여러 개의 이벤트가 발생하는 것일까? 브라우저가 이벤트를 감지하는 방식 때문이다.<br>\n브라우저는 특정 화면 요소에서 이벤트가 발생했을 때 그 이벤트를 최상위에 있는 화면 요소까지 이벤트를 전파시킨다.\n\n`p`태그를 클릭하면 `window`에서 부터 `p`태그까지 요소 중간에 있는 이벤트들을 전부 검색해서 따로 메모리에 가지고 있다고 생각하면 된다.\n\n해당 엘리먼트부터 차례대로 위로 올라가면서 이벤트들을 발생시키는 것이 이벤트 버블링이다.\n\n### 이벤트 캡쳐링\n\n그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**\n\n![](./images/event-capturing.png)\n\n`addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.\n\ncapturing 단계에서 이벤트를 catch 하려면 `addEventListener`의 세 번째 요소를 `true`로 설정해줘야 한다.\n\n기본적으로 `addEventListener`의 세 번째 요소를 작성하지 않으면 default 값이 `false`인데, `false`로 설정할 경우, 핸들러는 버블링 단계로 설정된다.\n\n반면에 `true`로 설정할 경우, 핸들러는 캡쳐링 단계로 설정된다.\n\n먼저 `addEventListener`의 세 번째 요소를 작성하지 않았을 경우를 살펴보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName));\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling\" src=\"https://codepen.io/je_ss2/embed/JjjjMjN?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/JjjjMjN'>Event Bubbling</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그를 클릭하면 `P -> DIV -> FORM -> BODY -> HTML`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 작성하지 않아서 기본값인 `false`로 되었기 때문에 핸들러가 버블링 단계로 설정되었기 때문이다.\n\n이번에는 `addEventListener`의 세 번째 요소를 `true`로 작성해보자.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n```js\nfor(let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alert(elem.tagName), true);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-capturing\" src=\"https://codepen.io/je_ss2/embed/jOOOYEg?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/jOOOYEg'>event-capturing</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n`p`태그를 클릭하면 `HTML -> BODY -> FORM -> DIV -> P`순서로 알림창이 열린다.\n\n`addEventListener`의 세 번째 요소를 `true`로 작성했기 때문에 핸들러가 **캡쳐링 단계**로 설정되었기 때문이다.\n\n### 버블링 멈추기 : event.stopPropagation()\n\n기본적으로 이벤트 버블링은 항상 발생하는데 이 이벤트 버블링을 멈추게 할 수 있다. 우선 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"event-bubbling-2\" src=\"https://codepen.io/je_ss2/embed/PoooEwy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/PoooEwy'>event-bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`form`태그와 `div`태그에만 이벤트 핸들러를 주고, `p`태그에는 이벤트 핸들러를 주지 않았지만 이벤트 버블링으로 인해 `p`태그를 클릭하면 `div -> form`순서로 알림창이 뜬다.\n\n이러한 이벤트 버블링이 발생되길 원하지 않는다면 `event.stopPropagation()`을 이용해서 간단하게 멈출 수 있다. 아래의 코드를 보자.\n\n```html\n<form onclick=\"alert('form')\">\n  FORM\n  <div onclick=\"alert('div')\">\n    DIV\n    <p onclick=\"event.stopPropagation()\">P</p>\n  </div>\n</form>\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"stopPropagation-2\" src=\"https://codepen.io/je_ss2/embed/RwwwxNy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/RwwwxNy'>stopPropagation-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n`p`태그에 `onclick=\"event.stopPropagation()\"`를 주면 `p`태그를 클릭해도 아까처럼 이벤트가 발생하지 않는다. 이벤트 버블링이 작동하지 않기 때문이다.\n\n아래와 같이 함수에 `event.stopPropagation()`를 사용해서 어떠한 태그를 클릭해도 이벤트 버블링이 발생하지 않도록 할 수 있다.\n\n```html\n<form>\n  FORM\n  <div>\n    DIV\n    <p>P</p>\n  </div>\n</form>\n```\n```js\nfor (let elem of document.querySelectorAll('*')) {\n    elem.addEventListener(\"click\", e => alertEvent(e, elem.tagName));\n}\n\nfunction alertEvent(event, _tagName) {\n\tevent.stopPropagation();\n\talert(_tagName);\n}\n```\n\n#### 실행 결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Event Bubbling-2\" src=\"https://codepen.io/je_ss2/embed/yLLLpyy?height=265&theme-id=0&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yLLLpyy'>Event Bubbling-2</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n이제 `form`태그를 클릭하면 `form`알림창만 뜨고, `div`태그를 클릭하면 `div`알림창만 뜨고, `p`태그를 클릭하면 `p`알림창만 뜬다.\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/bubbling-capturing.md",
+      "fields": {
+        "slug": "/JavaScript/bubbling-capturing/"
+      }
+    },
+    "3f631a7d-9ee3-5ec9-a6b0-5569b244f62e": {
+      "id": "3f631a7d-9ee3-5ec9-a6b0-5569b244f62e",
+      "children": [],
+      "parent": "64c3312d-82cf-5bba-bf7e-276b2a8ac430",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.  \n그리고 아무런 키워드를 사용하지 않았을 때는 어떻게 되는지 알아보자\n\n### var 키워드 없이 변수를 선언하면 전역 변수가 된다.\n\n따라서 전역 유효범위에 속해지기 때문에 코드 내에서 어디서든 변수에 접근할 수 있게 되는 것이다.\n\n```js\nfunction checkscope (){  \n    var name = \"local\";\n}\n \nfunction checkscope2 (){  \n    name2 = \"global\";\n}\n            \ncheckscope();\ncheckscope2();\nconsole.log(name + \" \" + name2); // global\n```\n\n위의 코드는 `global`만 출력이 된다. 변수 `name`은 함수의 지역변수이기 때문에 함수 밖에서는 사용할 수가 없다. 하지만, `name2`는 `var` 키워드를 붙이지 않아서 전역 변수가 되었기 때문에 함수 밖에서도 사용할 수 있다.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+        "type": "MarkdownRemark",
+        "contentDigest": "f45b9fe2437a46871d9aa5fe1f5ad729",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] var, let, const 비교",
+        "date": "2019-09-22T12:09:37.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\nJavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.  \n그리고 아무런 키워드를 사용하지 않았을 때는 어떻게 되는지 알아보자\n\n### var 키워드 없이 변수를 선언하면 전역 변수가 된다.\n\n따라서 전역 유효범위에 속해지기 때문에 코드 내에서 어디서든 변수에 접근할 수 있게 되는 것이다.\n\n```js\nfunction checkscope (){  \n    var name = \"local\";\n}\n \nfunction checkscope2 (){  \n    name2 = \"global\";\n}\n            \ncheckscope();\ncheckscope2();\nconsole.log(name + \" \" + name2); // global\n```\n\n위의 코드는 `global`만 출력이 된다. 변수 `name`은 함수의 지역변수이기 때문에 함수 밖에서는 사용할 수가 없다. 하지만, `name2`는 `var` 키워드를 붙이지 않아서 전역 변수가 되었기 때문에 함수 밖에서도 사용할 수 있다.\n\n### var, let, const 비교\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n먼저 `var`, `let`, `const`를 비교하면 위와 같다. 위의 표를 보고 무슨 말인지 모르겠다면 선언, 할당, Scope 개념에 대해서 알아볼 필요가 있다.\n\n### 선언과 할당\n선언은 말 그대로 변수를 선언\u001c하는 것이고 변수에 값을 넣는 것을 할당이라고 한다.\n\n우리는 어떠한 값을 사용할 때 변수에 값을 저장해놓고 그 변수 값을 사용할 수 있다. 변수를 사용하려면 변수를 선언(declaration)해야 해야 하는데, JavaScript에서는 변수 선언 키워드로 `var`, `let`, `const`를 사용할 수 있다.\n\nC나 Java 같은 다른 언어에서 사용하는 `int`, `char` 처럼 변수의 타입을 따로 지정하지 않기 때문에 타입 변경(형변환)이 자유롭다. 예를 들어 아래와 같이 변수에 숫자를 넣었다가 문자로 바꿔도 아무 문제가 없다. \n\n```javascript\nvar variable = 10;\nconsole.log(variable); // 10 (숫자)\nvariable = 'Jess2';\nconsole.log(variable); // Jess2 (문자)\n```\n첫 줄의 `var variable`은 `var`라는 변수 선언 키워드로 `variable`이라는 변수를 **'선언'**한 것이다. 그리고 이 변수에 10을 저장한 것을 보고 변수에 값을 **'할당'**했다고 표현한다.\n\n### 재선언과 재할당\n재선언과 재할당은 말 그대로 각각 선언을 다시, 할당을 다시 한다는 것이다.\n```javascript\nvar a; // 선언\na = 10; // 할당\na = 20; // 재할당\nvar a = 30; // 재선언과 재할당\n```\n\n### var\n`var`는 재선언과 재할당이 모두 자유롭다.\n```javascript\nvar a = 10;\nconsole.log(a); // 10\n\nvar a = 20; // 재선언과 재할당\nconsole.log(a); // 20\n```\n\n### let\n`let`은 재선언은 불가능하고 재할당은 가능하다.\n```javascript\nlet b = 10;\nconsole.log(b); // 10\n\nlet b = 20; // 재선언과 재할당\nconsole.log(b); // ERROR! Identifier 'b' has already been declared\n\nb = 20; // 재할당\nconsole.log(b); // 20\n```\n`let`으로 이미 선언한 변수 `b`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다.\n\n### const\n`const`는 말 그대로 변하지 않는 '상수'를 지정하고 싶을 때 사용하는 키워드이기 때문에 재선언과 재할당이 모두 불가능하다.\n```javascript\nconst c = 10;\nconsole.log(c); // 10\n\nconst c = 20; // 재선언과 재할당\nconsole.log(c); // ERROR! Identifier 'c' has already been declared\n\nc = 20; // 재할당\nconsole.log(c); // ERROR! Assignment to constant variable.\n```\n`const`로 이미 선언한 변수 `c`를 재선언하면 이미 선언된 변수라며 `SyntaxError` 에러가 발생한다. 그리고 이미 할당도 되어 있기 때문에 재할당을 시도하면 `TypeError` 에러가 발생한다.\n\n### Block Scope\n그렇다면 이제 Scope 개념에 대해서 알아보자. Scope란, 변수의 **유효 범위**를 뜻한다.\n\nBlock Scope는 말 그대로 한 Block 안에서 선언된 변수는 해당 Block 안에서만 유효(사용)할 수 있다는 것이다. C나 Java는 일반적으로 Block Scope이다.\n\n예를 들어, for문 안에서 사용한 변수는 for문 안에서만 사용이 가능하다. 아래의 Java 코드를 보자.\n```java\nfor (int a = 0; a < 5; a++) {\n    System.out.println(a); // 0, 1, 2, 3, 4\n}\nSystem.out.println(a); // ERROR!\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용하면 에러가 발생한다. Block Scope라서 for문 안에서만 유효하기 때문이다.\n\n### Function Scope\n그렇다면 Function Scope는 무엇인가? 말 그대로 한 Function 안에서 선언된 변수는 해당 Function 안에서 유효(사용)할 수 있다는 것이다. JavaScript의 `var` 키워드는 Function Scope이다. 아래의 JavaScript 코드를 보자.\n\n```javascript\n(function scopeTest () {\n    for (var a = 0; a < 5; a++) {\n        console.log(a); // 0, 1, 2, 3, 4\n    }\n    console.log(a); // 5\n}());\n```\nfor문 안에서 선언된 변수 `a`를 for문 밖에서 사용해도 에러가 발생하지 않는다. `var`는 Function Scope라서 같은 함수 안에 있다면 변수의 유효 범위에 속하기 때문이다.\n\n그런데 이러한 Function Scope를 사용하면 아래와 문제가 발생할 수 있다. 일단 코드를 보자.\n\n```javascript\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0?\n    arr[1](); // 1?\n    arr[2](); // 2?\n    arr[3](); // 3?\n    arr[4](); // 4?\n}());\n```\n먼저 `scopeTest`라는 함수 안에 `arr`이라는 변수를 선언하고 빈 배열을 할당했다.<br>\n그 다음, 반복문을 돌면서 `arr` 배열의 인덱스 값을 출력하는 함수를 할당한다. 예를 들어 `arr[0]`에 할당된 함수를 호출하면 0이 출력되고 `arr[1]`에 할당된 함수를 호출하면 1이 출력되도록 하는 함수이다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력될 거라고 예상하겠지만 전부 5가 출력된다. Scope 안의 최종 `a`인 5를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `a`가 참조할 Scope를 다르게 해줘야 한다.\n> **즉시 실행 함수(IIFE, Immediately Invoked Function Expression)**를 사용하여 해결할 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (var a = 0; a < 5; a++) {\n        (function(_a) {\n            arr[a] = function () {\n                console.log(_a);\n            };\n        }(a));\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n배열에 값을 할당하는 부분만 즉시 실행 함수를 사용하는 방식으로 바꿨다. `a`값이 반복문을 돌면서 즉시 실행 함수의 매개변수로 들어가고 `_a` 값은 Function Scope이기 때문에 이 즉시 실행 함수 안에서만 유효하다.\n\n이제 우리는 `arr[0]()`부터 `arr[4]()`까지 각각 0, 1, 2, 3, 4가 출력되는 것을 확인할 수 있다.\n\n이렇게 Function Scope의 문제점을 즉시 실행 함수를 사용해서 해결할 수 있지만, 애초에 `a`라는 변수가 for문 안에서만 유효한 Block Scope 였다면 이렇게 복잡하게 해결할 필요가 없을 것이다. 이러한 문제는 `var` 키워드 대신에 `let` 키워드를 사용하여 변수를 선언하면 쉽게 해결된다.\n\n### let, const는 Block Scope\n`let`과 `const`는 Function Scope인 `var`와는 다르게 Block Scope이다.\n\n따라서 아래와 같이 `var` 대신에 `let`을 사용한다면 즉시 실행 함수를 사용할 필요 없이 쉽게 원하는 결과를 얻을 수 있다.\n\n```js\n(function scopeTest() {\n    var arr = [];\n\n    for (let a = 0; a < 5; a++) {\n        arr[a] = function () {\n            console.log(a);\n        };\n    }\n\n    arr[0](); // 0\n    arr[1](); // 1\n    arr[2](); // 2\n    arr[3](); // 3\n    arr[4](); // 4\n}());\n```\n\n### 마무리\n글 앞부분에 소개했던 변수 선언 키워드 비교표를 다시 한 번 살펴보면서 정리를 해보자.\n\n|키워드|재선언|재할당|Scope|\n|------|---|---|---|\n|var|가능|가능|Function Scope|\n|let|불가능|가능|Block Scope|\n|const|불가능|불가능|Block Scope|\n\n### Reference\n- https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/var-let-const.md",
+      "fields": {
+        "slug": "/JavaScript/var-let-const/"
+      }
+    },
+    "c0066f22-ba25-502c-9ecd-e2ab0f644811": {
+      "id": "c0066f22-ba25-502c-9ecd-e2ab0f644811",
+      "children": [],
+      "parent": "fc463f06-6409-53ca-a2ec-cd65dbddaf2b",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n크로스 도메인은 쉽게 말해서 **서로 다른 도메인 간의 호출**이다.\n\n만약 내가 개발한 웹 사이트에서만 사용하기 위해 API 서버를 구축하였는데 다른 웹 서비스에서 이 API 서버에 마음대로 접근하여 API를 호출하여 사용할 수 있다면 문제가 된다.\n\n그래서 JavaScript는 **Same Origin Policy(동일 출처 정책)**라는 정책을 두어 다른 도메인의 서버에 요청하는 것을 차단시킨다.\n\n### JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.\n\n따라서 JavaScript를 이용하여 AJAX를 통해 다른 도메인의 서버의 URL을 호출하여 데이터를 가져올 수는 없다.\n\n예를 들어 google.com 도메인에서 호출된 AJAX는 google.com 도메인 내에 있는 URL만을 호출할 수 있고\n\ngoogle.com 도메인에서 naver.com 의 URL을 AJAX로 호출할 수 없다.\n\n### 하지만 크로스 도메인을 허용해야 하는 경우가 있다.\n\n예를 들어 하나의 웹 사이트에서는 효율성이나 성능 등의 이유로 각 기능별로 여러 서버를 두는 경우가 많다. (API 서버, WAS 서버, 파일 서버 등)\n\n그런데 이 서버들은 물리적으로 분리된 서버이고 다른 용도로 구축된 서버이기 때문에 당연히 각각 다른 도메인을 가진 서버들이다.\n\n그래서 크로스 도메인 이슈가 발생하기 때문에 서로 간의 AJAX 통신을 할 수가 없다. 그래서 크로스 도메인을 허용해야만 한다.\n\n### 크로스 도메인은 어떻게 허용해야 할까?\n\n> CORS를 활성화 시키면 된다.\n\nCORS란, Cross-Origin Resource Sharing의 약자로 웹 페이지의 제한된 자원을 외부 도메인에서의 요청(접근)을 허용해주는 것이다.\n\nCORS를 이용하여 특정 도메인에서 접근하는 것이 가능하도록 해준다. 즉, 크로스 도메인을 허용해준다.\n\n응답을 받는 서버 쪽 요청 응답 헤더에 `Access-Control-Allow-Origin`으로 허용할 오리진을 지정해주면 크로스 도메인을 허용해 줄 수 있다.\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "496d0f1d0833494a9d8327f1c98f542d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 크로스 도메인(Cross Domain)",
+        "date": "2019-10-06T13:10:37.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n크로스 도메인은 쉽게 말해서 **서로 다른 도메인 간의 호출**이다.\n\n만약 내가 개발한 웹 사이트에서만 사용하기 위해 API 서버를 구축하였는데 다른 웹 서비스에서 이 API 서버에 마음대로 접근하여 API를 호출하여 사용할 수 있다면 문제가 된다.\n\n그래서 JavaScript는 **Same Origin Policy(동일 출처 정책)**라는 정책을 두어 다른 도메인의 서버에 요청하는 것을 차단시킨다.\n\n### JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.\n\n따라서 JavaScript를 이용하여 AJAX를 통해 다른 도메인의 서버의 URL을 호출하여 데이터를 가져올 수는 없다.\n\n예를 들어 google.com 도메인에서 호출된 AJAX는 google.com 도메인 내에 있는 URL만을 호출할 수 있고\n\ngoogle.com 도메인에서 naver.com 의 URL을 AJAX로 호출할 수 없다.\n\n### 하지만 크로스 도메인을 허용해야 하는 경우가 있다.\n\n예를 들어 하나의 웹 사이트에서는 효율성이나 성능 등의 이유로 각 기능별로 여러 서버를 두는 경우가 많다. (API 서버, WAS 서버, 파일 서버 등)\n\n그런데 이 서버들은 물리적으로 분리된 서버이고 다른 용도로 구축된 서버이기 때문에 당연히 각각 다른 도메인을 가진 서버들이다.\n\n그래서 크로스 도메인 이슈가 발생하기 때문에 서로 간의 AJAX 통신을 할 수가 없다. 그래서 크로스 도메인을 허용해야만 한다.\n\n### 크로스 도메인은 어떻게 허용해야 할까?\n\n> CORS를 활성화 시키면 된다.\n\nCORS란, Cross-Origin Resource Sharing의 약자로 웹 페이지의 제한된 자원을 외부 도메인에서의 요청(접근)을 허용해주는 것이다.\n\nCORS를 이용하여 특정 도메인에서 접근하는 것이 가능하도록 해준다. 즉, 크로스 도메인을 허용해준다.\n\n응답을 받는 서버 쪽 요청 응답 헤더에 `Access-Control-Allow-Origin`으로 허용할 오리진을 지정해주면 크로스 도메인을 허용해 줄 수 있다.\n\n\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/cross-domain.md",
+      "fields": {
+        "slug": "/JavaScript/cross-domain/"
+      }
+    },
+    "5d746886-9a41-5b2e-b755-4ddcbed45f39": {
+      "id": "5d746886-9a41-5b2e-b755-4ddcbed45f39",
+      "children": [],
+      "parent": "a41de908-1342-5cb5-83b8-41b4a3275843",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다. 다시 말해서, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n변수는 크게 지역변수와 전역변수가 있다. 지역변수는 함수 내에서만 생명을 가지고, 함수가 종료되면 함수 내의 변수는 사라진다. 이렇게 함수 단위의 지역으로 변수의 유효 범위가 정해지는 것을 유효 범위(scope)라고 한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var-let-const/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n### 그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다.\n\n아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "afd5f1f2f74b662e813b7c622bc3305e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 클로저(Closure)",
+        "date": "2019-10-20T10:50:10.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n클로저는 유효범위(Scope)를 기억하는 함수이다. 따라서 내부함수가 외부함수의 지역변수를 기억하여 접근할 수 있다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다. 다시 말해서, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n클로저에 대해 더 자세히 알아보기 전에 Scope에 대해 알아보자.\n\n### Scope(유효 범위)\n\nScope는 변수의 **유효 범위**를 뜻한다.\n\n변수는 크게 지역변수와 전역변수가 있다. 지역변수는 함수 내에서만 생명을 가지고, 함수가 종료되면 함수 내의 변수는 사라진다. 이렇게 함수 단위의 지역으로 변수의 유효 범위가 정해지는 것을 유효 범위(scope)라고 한다.\n\n기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.\n\n> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var-let-const/)에서 확인할 수 있다.\n\n그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.\n\n```js\nvar global = 20; // 전역변수\n \nfunction func () {\n    var local = 10; // 지역변수\n    console.log(global); // 20\n    console.log(local); // 10\n}\n \nfunc();\nconsole.log(global); // 20\nconsole.log(local); // ERROR!\n```\n함수 밖의 전역 변수 `global`은 코드 전체에서 값이 유효하지만 함수 내의 지역 변수인 `local`은 함수 밖에서 사용할 수 없다.\n\n**Function Scope**라서 함수가 종료되면 지역 변수의 **Scope가 종료**되기 때문이다.\n\n### 그러나 함수가 종료되어도 변수의 값을 사용할 수 있는데, 그 방법이 바로 **클로저**이다.\n\n아래의 코드를 보자.\n\n```js\n// 외부 함수\nfunction outFunc () {\n  var value = 0;\n  \n  // 내부 함수(클로저)\n  function inFunc () {\n    return value += 1;\n  }\n  \n  return inFunc; // 클로저 함수를 리턴함\n}\n \nvar result = outFunc();\nconsole.log(result()); // 1\nconsole.log(result()); // 2\nconsole.log(result()); // 3\n```\n`var result = outFunc();` 부분에서 리턴 값으로 클로저 함수를 받아서 새로운 변수에 대입하면 `outFunc` 함수가 종료된 후에도 해당 함수의 지역변수 값을 계속 참조하고 접근할 수 있다.\n\n아래의 코드도 보자.\n\n```js\nfunction outFunc () {\n    var value = 'hello world';\n    return function () {\n      console.log(value);\n    }\n}\n \nvar result = outFunc();\nresult(); // hello world\n```\n`var result = outFunc();`에서 `outFunc`함수가 호출되었고, 그 결과가 `result`변수에 담겼다. \n\n`result();`으로 넘어오면서 `outFunc`함수는 종료되었기 때문에 이 `outFunc`함수의 지역변수인 `value`는 소멸될 것 같지만 `result`함수를 호출했을 때 `hello world`가 잘 출력된다. 이것은 외부함수의 지역변수인 `value`가 소멸되지 않았다는 것이다.\n\n이처럼 내부함수는 외부함수의 지역변수에 접근할 수 있고 **외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는다.**\n\n### 클로저\n이쯤에서 클로저에 대해 정리를 해보자면 **클로저는 만들어진 환경을 ‘기억한다’**고 보면 된다.  \n예를 들어 어떤 함수의 리턴 값이 함수일 때 이 리턴된 함수가 클로저이다. 이 리턴된 함수는 외부 함수의 환경을 기억한다.\n\n외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수는 외부함수의 지역변수에 접근할 수 있다.  \n즉, 클로저란 내부함수가 외부함수의 지역변수에 접근할 수 있고 외부함수는 외부함수의 지역변수를 사용하는 내부함수가 소멸될 때까지 소멸되지 않는 특성을 의미한다.\n\n반복문에서도 클로저를 사용할 수 있는데 반복문 안에 익명함수를 만들고 또 그 안에 익명함수를 넣어 사용한다.\n\n### 반복문과 클로저\n\n반복문으로 클로저를 생성할 경우 실수가 빈번하게 발생한다. 다음 코드를 보자.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n\nconsole.log(arr[0]()); // 3\nconsole.log(arr[1]()); // 3\nconsole.log(arr[2]()); // 3\n```\n위 코드는 3만 세 번 출력한다. `arr[0]`, `arr[1]`, `arr[2]` 모두 Scope 안의 최종 `i`인 3를 참조하기 때문이다.\n\n이러한 문제는 Function Scope라서 같은 Scope 안에 있기 때문에 발생한다. 따라서 `i`가 참조할 Scope를 다르게 해줘야 한다.\n\n> 클로저와 즉시 실행 함수(IIFE)를 사용하여 해결할 수 있다.\n\n```js\nvar arr = [];\n \nfor (var i = 0; i < 3; i++) {\n  (function(index){\n    arr[index] = function() {\n      return index;\n    }\n  })(i); // 익명 함수\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n위 코드는 정상적으로 0, 1, 2를 출력한다. for문 안의 처리문을 **즉시 실행 익명 함수**로 분리시키고 **클로저**가 for문의 `i`가 아닌 익명함수의 `index`변수를 참조하도록 했기 때문이다.\n\n### 참고\n\n참고로 ECMAScript 2015 (ES6)의 새로운 변수 선언문인 `let` 키워드로 변수를 선언하면 변수의 스코프가 블록 단위(Block Scope)로 엄격해지므로 이러한 문제가 발생하지 않는다. 아래의 코드를 보자.\n\n```js\nlet arr = [];\n \nfor (let i = 0; i < 3; i++) {\n  arr[i] = function() {\n    return i;\n  }\n}\n \nconsole.log(arr[0]()); // 0\nconsole.log(arr[1]()); // 1\nconsole.log(arr[2]()); // 2\n```\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/closure.md",
+      "fields": {
+        "slug": "/JavaScript/closure/"
+      }
+    },
+    "1232abdb-337e-50d7-b61c-4727fce09fbc": {
+      "id": "1232abdb-337e-50d7-b61c-4727fce09fbc",
+      "children": [],
+      "parent": "3e5d0ff7-d214-59a0-8636-7cec894925e4",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n자바스크립트에는 기본적으로 클래스라는 개념이 없기 때문에 상속 기능도 없지만 Prototype을 이용해서 상속 기능을 흉내낼 수는 있다.\n\n객체는 속성을 가질 수 있는데, prototype이라는 속성은 그 용도가 약속되어 있는 특수한 속성이다. prototype에 저장된 속성들은 생성자를 통해서 객체가 만들어질 때 그 객체에 연결된다.\n\n자바스크립트의 모든 객체는 자신을 생성한 객체 원형에 대한 숨겨진 연결을 갖는다.\n\n### 이 때, 자기 자신을 생성하기 위해 사용된 객체 원형을 프로토타입이라 한다.\n\n자바스크립트의 모든 객체는 Object 객체의 프로토타입을 기반으로 확장되었기 때문에 이 연결의 끝은 Object 객체의 프로토타입 Object이다.\n\n> 어떠한 객체가 만들어지기 위해 그 객체의 모태가 되는 것을 프로토타입이라고 한다.\n\n```js\nfunction Ultra(){}\nUltra.prototype.ultraProp = true;\n \nfunction Super(){}\nSuper.prototype = new Ultra();\n \nfunction Sub(){}\nSub.prototype = new Super();\n \nvar obj = new Sub();\nconsole.log(o.ultraProp); // 출력결과 > true\n```\n\n생성자 `Sub`를 통해서 만들어진 객체 `obj`에는 `ultraProp`이라는 속성이 존재하지 않는다. 그런데 어떻게 `true` 값이 출력될까?\n\n객체 `obj`가 `Ultra`의 속성인 `ultraProp`에 접근이 가능한 이유는 **prototype 체인**으로 `Sub`와 `Ultra`가 연결되어있기 때문이다.\n\n 내부적으로는 아래와 같은 일이 일어난다.\n\n1. `obj.ultraProp`을 찾는다.\n2. 없다면 `Sub.prototype.ultraProp`을 찾는다.\n3. 없다면 `Super.prototype.ultraProp`을 찾는다.\n4. 없다면 `Ultra.prototype.ultraProp`을 찾는다.\n\n아래의 코드도 보자.\n\n```js\nfunction Person(name) {\n    this.name = name;\n}\nPerson.prototype.name = null;\nPerson.prototype.introduce = function() {\n    return 'My name is ' + this.name;\n}\n \nfunction Programmer(name) {\n    this.name = name;\n}\nProgrammer.prototype = new Person(); //상속\nProgrammer.prototype.coding = function() {\n    return \"hello world\";\n}\n \nvar p1 = new Programmer('jessie');\nconsole.log(p1.introduce()); //출력결과 : My name is jessie\nconsole.log(p1.coding()); //출력결과 : hello world\n```\n`Programmer`는 `Person`을 상속받았기 때문에 `introduce`라는 속성을 갖고 있지 않아도 `Person`의 속성인 `introduce`에 접근이 가능하기 때문에 `p1.introduce()`가 정상적으로 호출되어 출력이 된다.\n\n### 프로토타입으로 메소드 생성 -> 공간 절약\n우리는 아래와 같은 방법으로 생성자 함수와 인스턴스 객체를 만들 수 있다.\n\n```js\n\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n    this.move = function() {\n        console.log(`${this.name} ${this.job} 캐릭터 이동`);\n    }\n}\n \nvar c1 = new Character('Jessie', '개발자');\nc1.move();\n```\n위의 코드에서 `Character`는 생성자 함수이며, `c1`은 인스턴스 객체다. `Character`생성자 함수 내에 존재하는 `name`과 `job`은 속성이고, `move()`는 메소드이다.\n\n이 때 속성은 생성되는 인스턴스마다 다른 값을 적용해야 하므로 개별 영역이 필요하다. 하지만 메소드는 모든 인스턴스가 함께 쓰는 ‘공용체’이기 때문에 인스턴스의 속성으로 상속받기 보다는 별도 공간인 프로토타입에 정의하는 것이 좋다.\n\n프로토타입 속성으로 정의하면 모든 인스턴스에서 하나의 프로토타입 속성만을 참조하기 때문에 인스턴스별로 중복되는 공간을 낭비하지 않을 수 있다.\n\n**따라서 속성은 ‘생성자 함수’에, 메소드는 ‘프로토타입 속성’으로 정의하는 것이 좋다.**\n\n위의 코드를 아래와 같이 수정하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype.move = function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\n```\n그런데 추가해야 할 메소드가 많을 경우, 함수식으로 작성하면 너무 장황해진다. 메소드가 많을 경우에는 아래와 같이 작성하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype = {\n  move: function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n  },\n  attack: function() {\n    console.log(`${this.name} ${this.job} (이)가 공격`);\n  },\n  escape: function() {\n    console.log(`${this.name} ${this.job} (이)가 도망`);\n  },\n  dead: function() {\n    console.log(`${this.name} ${this.job} (이)가 사망`);\n  }\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\nc1.attack();\nc1.escape();\nc1.dead();\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9030093f8adbe7aca8282a10a68f8a9e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JS] 프로토타입(Prototype)",
+        "date": "2019-10-27T17:10:17.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n자바스크립트에는 기본적으로 클래스라는 개념이 없기 때문에 상속 기능도 없지만 Prototype을 이용해서 상속 기능을 흉내낼 수는 있다.\n\n객체는 속성을 가질 수 있는데, prototype이라는 속성은 그 용도가 약속되어 있는 특수한 속성이다. prototype에 저장된 속성들은 생성자를 통해서 객체가 만들어질 때 그 객체에 연결된다.\n\n자바스크립트의 모든 객체는 자신을 생성한 객체 원형에 대한 숨겨진 연결을 갖는다.\n\n### 이 때, 자기 자신을 생성하기 위해 사용된 객체 원형을 프로토타입이라 한다.\n\n자바스크립트의 모든 객체는 Object 객체의 프로토타입을 기반으로 확장되었기 때문에 이 연결의 끝은 Object 객체의 프로토타입 Object이다.\n\n> 어떠한 객체가 만들어지기 위해 그 객체의 모태가 되는 것을 프로토타입이라고 한다.\n\n```js\nfunction Ultra(){}\nUltra.prototype.ultraProp = true;\n \nfunction Super(){}\nSuper.prototype = new Ultra();\n \nfunction Sub(){}\nSub.prototype = new Super();\n \nvar obj = new Sub();\nconsole.log(o.ultraProp); // 출력결과 > true\n```\n\n생성자 `Sub`를 통해서 만들어진 객체 `obj`에는 `ultraProp`이라는 속성이 존재하지 않는다. 그런데 어떻게 `true` 값이 출력될까?\n\n객체 `obj`가 `Ultra`의 속성인 `ultraProp`에 접근이 가능한 이유는 **prototype 체인**으로 `Sub`와 `Ultra`가 연결되어있기 때문이다.\n\n 내부적으로는 아래와 같은 일이 일어난다.\n\n1. `obj.ultraProp`을 찾는다.\n2. 없다면 `Sub.prototype.ultraProp`을 찾는다.\n3. 없다면 `Super.prototype.ultraProp`을 찾는다.\n4. 없다면 `Ultra.prototype.ultraProp`을 찾는다.\n\n아래의 코드도 보자.\n\n```js\nfunction Person(name) {\n    this.name = name;\n}\nPerson.prototype.name = null;\nPerson.prototype.introduce = function() {\n    return 'My name is ' + this.name;\n}\n \nfunction Programmer(name) {\n    this.name = name;\n}\nProgrammer.prototype = new Person(); //상속\nProgrammer.prototype.coding = function() {\n    return \"hello world\";\n}\n \nvar p1 = new Programmer('jessie');\nconsole.log(p1.introduce()); //출력결과 : My name is jessie\nconsole.log(p1.coding()); //출력결과 : hello world\n```\n`Programmer`는 `Person`을 상속받았기 때문에 `introduce`라는 속성을 갖고 있지 않아도 `Person`의 속성인 `introduce`에 접근이 가능하기 때문에 `p1.introduce()`가 정상적으로 호출되어 출력이 된다.\n\n### 프로토타입으로 메소드 생성 -> 공간 절약\n우리는 아래와 같은 방법으로 생성자 함수와 인스턴스 객체를 만들 수 있다.\n\n```js\n\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n    this.move = function() {\n        console.log(`${this.name} ${this.job} 캐릭터 이동`);\n    }\n}\n \nvar c1 = new Character('Jessie', '개발자');\nc1.move();\n```\n위의 코드에서 `Character`는 생성자 함수이며, `c1`은 인스턴스 객체다. `Character`생성자 함수 내에 존재하는 `name`과 `job`은 속성이고, `move()`는 메소드이다.\n\n이 때 속성은 생성되는 인스턴스마다 다른 값을 적용해야 하므로 개별 영역이 필요하다. 하지만 메소드는 모든 인스턴스가 함께 쓰는 ‘공용체’이기 때문에 인스턴스의 속성으로 상속받기 보다는 별도 공간인 프로토타입에 정의하는 것이 좋다.\n\n프로토타입 속성으로 정의하면 모든 인스턴스에서 하나의 프로토타입 속성만을 참조하기 때문에 인스턴스별로 중복되는 공간을 낭비하지 않을 수 있다.\n\n**따라서 속성은 ‘생성자 함수’에, 메소드는 ‘프로토타입 속성’으로 정의하는 것이 좋다.**\n\n위의 코드를 아래와 같이 수정하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype.move = function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\n```\n그런데 추가해야 할 메소드가 많을 경우, 함수식으로 작성하면 너무 장황해진다. 메소드가 많을 경우에는 아래와 같이 작성하자.\n\n```js\n//생성자 함수\nfunction Character(name, job) {\n    this.name = name;\n    this.job = job;\n}\n \n//프로토타입으로 메소드 생성\nCharacter.prototype = {\n  move: function() {\n    console.log(`${this.name} ${this.job} 캐릭터 이동`);\n  },\n  attack: function() {\n    console.log(`${this.name} ${this.job} (이)가 공격`);\n  },\n  escape: function() {\n    console.log(`${this.name} ${this.job} (이)가 도망`);\n  },\n  dead: function() {\n    console.log(`${this.name} ${this.job} (이)가 사망`);\n  }\n}\n \n//객체 인스턴스\nvar c1 = new Character('루이스', '기사');\n \n//메소드 실행\nc1.move();\nc1.attack();\nc1.escape();\nc1.dead();\n```\n",
+      "fileAbsolutePath": "/Users/jess2/study/jess2devlog/content/blog/JavaScript/prototype.md",
+      "fields": {
+        "slug": "/JavaScript/prototype/"
       }
     }
   },
@@ -5758,7 +5758,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "655/path---index-6a9-AbvUe4m0ksbppijIs9Mabgxz2I",
+    "index": "557/path---index-6a9-ShDu4SfQKrwYqaty5gEZn48Zpw",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -5767,7 +5767,7 @@
     "etc-junior-seminar-cdb": "887/path---etc-junior-seminar-cdb-952-nYBlakwghaYUnscQxz4zcqhdzA",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
     "java-script-onclick-vs-addeventlistener-96d": "912/path---java-script-onclick-vs-addeventlistener-96-d-bd0-QYLcKfSBOR8u6mCwKKpU0ZlwD4",
-    "java-script-hoisting-0e5": "366/path---java-script-hoisting-0-e-5-d97-1Iyj8t0zWn4tsEYSXzMkvvrlyoQ",
+    "java-script-hoisting-0e5": "363/path---java-script-hoisting-0-e-5-d97-Nyh4BQjlbQ7WuAbM6xY6OhBtAiI",
     "java-script-event-bubbling과-event-capturing-c50": "595/path---java-script-event-bubbling과-event-capturing-c-50-e5f-2vxMXPkVLMzOsf6BU7I2VqUoGss",
     "java-script-js-이벤트-위임-6f8": "743/path---java-script-js-이벤트-위임-6-f-8-b59-yq6CT04vo3Hu5J9mIJvObey6w",
     "java-script-js-null과-undefined-비교-77b": "323/path---java-script-js-null과-undefined-비교-77-b-405-EFO1Y3nfeq65AORBBo8rxaeuIhA",
@@ -5780,11 +5780,11 @@
     "java-script-js-call-apply-6c0": "427/path---java-script-js-call-apply-6-c-0-cd9-JGVnnt3mdQQHeCRJ6hVKMfRzhI",
     "java-script-js-call-apply-d03": "796/path---java-script-js-call-apply-d-03-6cf-BBWyakZ0n19oUabcsVjpXQHpM",
     "java-script-call-apply-9c4": "740/path---java-script-call-apply-9-c-4-15b-1S1DLUWAFEGLTJRr3zq99uGNxg",
-    "java-script-prototype-55c": "828/path---java-script-prototype-55-c-b78-FRPrRPNQGm8adOUykGvp2uwew",
-    "java-script-bubbling-capturing-2d3": "991/path---java-script-bubbling-capturing-2-d-3-d1d-l7s9eAhrW9GZs0oVTSiQzqWYL6w",
-    "java-script-var-let-const-9ec": "60/path---java-script-var-let-const-9-ec-1d7-MLFk01DSNi5wPn0cOX4qiDwgZo",
-    "java-script-closure-c88": "521/path---java-script-closure-c-88-050-xJURkFdIN1AK2ucaxlDeZLb8gk",
-    "java-script-cross-domain-c47": "688/path---java-script-cross-domain-c-47-f84-H3NWRkEIDk5hWir0Wq0OKaMyE",
+    "java-script-prototype-55c": "16/path---java-script-prototype-55-c-b78-EvrbEYHoSkK3sCc21Kgn5OdgYA",
+    "java-script-bubbling-capturing-2d3": "746/path---java-script-bubbling-capturing-2-d-3-d1d-ICLeHgFtqPnI1cgW54HUV7xnQ",
+    "java-script-var-let-const-9ec": "563/path---java-script-var-let-const-9-ec-1d7-uDKdZfPtQigE5VEPH35QUyLCzA4",
+    "java-script-closure-c88": "667/path---java-script-closure-c-88-050-BioMJMaE7lbT2DDxaWRymB3Lg4w",
+    "java-script-cross-domain-c47": "812/path---java-script-cross-domain-c-47-f84-EFmO9OJUTZv7NG0A6axw5IuHkw",
     "java-script-delegation-861": "608/path---java-script-delegation-861-c32-LkRfoVM6TOG1QsVP9GzifRYjiDk",
     "java-script-null-undefined-f19": "716/path---java-script-null-undefined-f-19-cd0-CJyaPAXi8VANcCpRmKoLUzyzYQ",
     "etc-markdown-syntax-868": "249/path---etc-markdown-syntax-868-bb5-rvNEsItytzNck2RFtuPhN3zejzQ",

@@ -6,7 +6,28 @@ category: javascript
 
 ![](images/javascript.png)
 
-JavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.
+JavaScript에서 사용하는 변수 선언 키워드 `var`, `let`, `const`의 차이점에 대해서 알아보고 그 차이점을 알기 위해 필요한 개념인 선언, 할당, Scope에 대해서 알아보자.  
+그리고 아무런 키워드를 사용하지 않았을 때는 어떻게 되는지 알아보자
+
+### var 키워드 없이 변수를 선언하면 전역 변수가 된다.
+
+따라서 전역 유효범위에 속해지기 때문에 코드 내에서 어디서든 변수에 접근할 수 있게 되는 것이다.
+
+```js
+function checkscope (){  
+    var name = "local";
+}
+ 
+function checkscope2 (){  
+    name2 = "global";
+}
+            
+checkscope();
+checkscope2();
+console.log(name + " " + name2); // global
+```
+
+위의 코드는 `global`만 출력이 된다. 변수 `name`은 함수의 지역변수이기 때문에 함수 밖에서는 사용할 수가 없다. 하지만, `name2`는 `var` 키워드를 붙이지 않아서 전역 변수가 되었기 때문에 함수 밖에서도 사용할 수 있다.
 
 ### var, let, const 비교
 |키워드|재선언|재할당|Scope|

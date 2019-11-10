@@ -12,13 +12,13 @@ category: javascript
 
 그래서 JavaScript는 **Same Origin Policy(동일 출처 정책)**라는 정책을 두어 다른 도메인의 서버에 요청하는 것을 차단시킨다.
 
-즉, JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.
+### JavaScript는 동일한 도메인 내에서만 서버 요청을 허용한다는 것이다.
 
 따라서 JavaScript를 이용하여 AJAX를 통해 다른 도메인의 서버의 URL을 호출하여 데이터를 가져올 수는 없다.
 
-예를 들어 www.google.com 도메인에서 호출된 AJAX는 www.google.com 도메인 내에 있는 URL만을 호출할 수 있고
+예를 들어 google.com 도메인에서 호출된 AJAX는 google.com 도메인 내에 있는 URL만을 호출할 수 있고
 
-www.google.com 도메인에서 www.naver.com 의 URL을 AJAX로 호출할 수 없다.
+google.com 도메인에서 naver.com 의 URL을 AJAX로 호출할 수 없다.
 
 ### 하지만 크로스 도메인을 허용해야 하는 경우가 있다.
 
