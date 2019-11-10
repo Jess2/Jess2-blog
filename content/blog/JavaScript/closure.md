@@ -16,7 +16,7 @@ Scope는 변수의 **유효 범위**를 뜻한다.
 
 기본적으로 `var`로 선언한 변수는 이 변수를 포함하고 있는 **함수** 내 어디서든 유효하다. 하지만 `let`으로 선언한 변수는 이 변수를 포함하고 있는 **블록** 내에서만 유효하다.
 
-> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var,-let,-const-%EB%B9%84%EA%B5%90/)에서 확인할 수 있다.
+> Scope에 대한 더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/var-let-const/)에서 확인할 수 있다.
 
 그럼 함수 내에서 유효한 **Function Scope**를 가지도록 `var`로 전역변수와 지역변수를 선언해보자.
 

@@ -7,7 +7,7 @@ category: javascript
 ![](images/javascript.png)
 
 **이벤트 위임**은 자바스크립트 언어를 사용하는 개발자라면 반드시 알아야 할 개념이다.<br>
-그러나 이벤트 위임에 대해서 알아보기 전에 [여기](https://jess2.xyz/JavaScript/event-bubbling%EA%B3%BC-event-capturing/)에서 **이벤트 버블링과 이벤트 캡쳐링**부터 알아보자.
+그러나 이벤트 위임에 대해서 알아보기 전에 [여기](https://jess2.xyz/JavaScript/bubbling-capturing/)에서 **이벤트 버블링과 이벤트 캡쳐링**부터 알아보자.
 
 ### 이벤트 위임
 하위 요소들 각각에 이벤트를 붙이지 않고 **상위 요소에 이벤트를 붙여서** 하위 요소들 각각에 이벤트를 붙인 것과 같은 효과를 낸다.

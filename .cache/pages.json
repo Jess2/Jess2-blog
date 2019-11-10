@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-bind-b6a",
+        "path": "/JavaScript/bind/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-bubbling-capturing-2d3",
         "path": "/JavaScript/bubbling-capturing/"
     },

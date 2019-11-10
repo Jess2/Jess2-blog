@@ -65,17 +65,17 @@ console.log(sum.call(this, 2, 3)); // 5
 console.log(sum.apply(this, [2, 3])); // 5
 ```
 
-기본적으로 `Function Object`는 `call`과 `apply`메소드를 가지고 있는데 `sum`도 `Function Object`의 인스턴스이기 때문에 `call`과 `apply`를 호출할 수 있다.
+기본적으로 Function 객체는 call과 apply 메소드를 가지고 있는데 `sum`도 Function 객체의 인스턴스이기 때문에 call과 apply를 호출할 수 있다.
 
-`call`과 `apply`는 비슷하지만 매개변수를 전달하는 방식이 다르다.
+call과 apply는 비슷하지만 매개변수를 전달하는 방식이 다르다.
 
-`arguments 객체`를 그대로 전달해도 되거나 매개변수로 전달할 데이터가 이미 배열 형태로 준비되어 있다면 `apply`가 나을 것이고 그렇지 않다면 `call`이 나을 것이다.
+arguments 객체를 그대로 전달해도 되거나 매개변수로 전달할 데이터가 이미 배열 형태로 준비되어 있다면 apply가 나을 것이고 그렇지 않다면 call이 나을 것이다.
 
 #### 전달할 매개변수가 없다면 두 메소드는 완전히 동일하다.
 
-그런데 왜 굳이 `call`과 `apply`와 같은 방식을 사용하여 함수를 호출해야 하는가?
+> 그런데 왜 굳이 call과 apply와 같은 방식을 사용하여 함수를 호출해야 하는가?
 
-`call`과 `apply`를 사용하여 함수를 호출하면 **그 함수를 해당 객체의 메소드로 만들어 버린다.**
+### call과 apply를 사용하여 함수를 호출하면 그 함수를 해당 객체의 메소드로 만들어 버린다.
 
 ### Example
 
@@ -123,9 +123,9 @@ func.apply(obj); // OBJECT
 - **func()**
     - 일반적인 함수 호출 방법으로 함수를 호출했다. `func`함수 내의 `this`는 `window` 객체를 가리키기 때문에 `window.title`인 `WINDOW`가 출력된다.
 - **func.call(this)**
-    - `call`을 사용하여 함수를 호출했고 인자로 `this`를 넘겼다. 여기서 `this`는 `window` 객체를 가리키기 때문에 **함수 `func`는 `window`의 메소드**가 되는 것이다. 따라서 `func`내의 `this`는 `window` 객체를 가리키기 때문에 `window.title`인 `WINDOW`가 출력된다.
+    - call을 사용하여 함수를 호출했고 인자로 `this`를 넘겼다. 여기서 `this`는 `window` 객체를 가리키기 때문에 **함수 `func`는 `window`의 메소드**가 되는 것이다. 따라서 `func`내의 `this`는 `window` 객체를 가리키기 때문에 `window.title`인 `WINDOW`가 출력된다.
 - **func.call(obj)**
-    - `call`을 사용하여 함수를 호출했고 인자로 `obj` 객체를 넘겼다. 따라서 함수 `func`는 `obj`객체의 메소드가 되기 때문에 `func`내의 `this`는 `obj` 객체를 가리키므로 `obj.title`인 `OBJECT`가 출력된다.
+    - call을 사용하여 함수를 호출했고 인자로 `obj` 객체를 넘겼다. 따라서 함수 `func`는 `obj`객체의 메소드가 되기 때문에 `func`내의 `this`는 `obj` 객체를 가리키므로 `obj.title`인 `OBJECT`가 출력된다.
 - **func.apply(this)**
     - `func.call(this)`와 같은 원리로 `WINDOW`가 출력된다.
 - **func.apply(obj)**
