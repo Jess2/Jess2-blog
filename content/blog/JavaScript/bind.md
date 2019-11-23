@@ -14,7 +14,7 @@ Function 객체에서 기본적으로 가지고 있는 메소드 call, apply와 
 
 그러나 bind는 **해당 함수를 "나중에" 이벤트에서 유용한 특정 컨텍스트로 호출**할 때 사용된다.
 
-#### 정리
+#### 비교
 - call과 apply
     - 즉시 함수를 호출
 - bind
@@ -24,13 +24,6 @@ Function 객체에서 기본적으로 가지고 있는 메소드 call, apply와 
 ```js
 func.bind(thisArg[, arg1[, arg2[, ...]]])
 ```
-
-#### 매개변수
-- thisArg
-    - 현재 객체로 사용될 객체
-- arg1, arg2, ...
-    - 메소드에 전달될 인수
-
 
 ### Example 
 

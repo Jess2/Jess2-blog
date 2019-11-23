@@ -27,23 +27,11 @@ console.log(sum(2, 3)); // 5
 fun.call(thisArg[, arg1[, arg2[, ...]]])
 ```
 
-#### 매개변수
-- thisArg
-    - 현재 객체로 사용될 객체
-- arg1, arg2, ...
-    - 메소드에 전달될 인수
-
 ### apply
 #### 구문
 ```js
 fun.apply(thisArg, [argsArray])
 ```
-
-#### 매개변수
-- thisArg
-    - 현재 객체로 사용될 객체
-- argsArray
-    - 함수에 전달될 인수 집합
 
 ### call과 apply 비교
 #### 공통점
