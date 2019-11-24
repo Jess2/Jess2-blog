@@ -155,10 +155,18 @@ h3, h4, h5, h6 {
   line-height: inherit;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 ul {
   margin-bottom: 13px;
 }
 
 li > ul {
   margin-bottom: calc(0.8125rem / 2) !important;
+}
+
+.colorscripter-code {
+  margin: 1.5em 0;
 }
