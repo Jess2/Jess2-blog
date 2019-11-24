@@ -1,6 +1,6 @@
 ---
 title: "[Seminar] 2018 TypeScript Korea MeetUp"
-date: 2019-11-10 18:11:57
+date: 2018-01-18 18:11:57
 category: seminar
 ---
 

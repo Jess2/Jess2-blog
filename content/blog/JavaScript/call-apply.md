@@ -27,7 +27,7 @@ console.log(sum(2, 3)); // 5
 
 #### 차이점
 - call과 apply는 지원되는 인수의 타입만 제외하면 매우 유사하지만 apply는 인수(파라미터)의 리스트 대신 인수들의 배열을 사용할 수 있다. 배열 리터럴이나 Array 객체를 사용할 수 있다.
-    - `func.apply(this, ['eat', 'bananas']`
+    - `func.apply(this, ['eat', 'bananas'])`
     - `func.apply(this, new Array('eat', 'bananas'))` 
 
 ### Example
