@@ -16,6 +16,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-ajax-xml-json-817",
+        "path": "/JavaScript/ajax-xml-json/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-bind-b6a",
         "path": "/JavaScript/bind/"
     },

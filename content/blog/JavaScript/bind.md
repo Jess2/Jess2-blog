@@ -6,7 +6,7 @@ category: javascript
 
 ![](images/javascript.png)
 
-bind는 새로운 바인딩한 함수를 만든다. 바인딩한 함수는 원본 함수 객체를 감싸는 함수이다. call, apply와 비교하며 알아보자.
+JavaScript의 bind는 새로운 바인딩한 함수를 만든다. 바인딩한 함수는 원본 함수 객체를 감싸는 함수이다. call, apply와 비교하며 알아보자.
 
 우선 call과 apply는 **함수를 "즉시" 호출하고 컨텍스트를 수정**할 때 사용된다. 즉, 그냥 함수가 실행되도록 도와주는 것이다. (더 자세한 설명은 [여기](https://jess2.xyz/JavaScript/call-apply/)에서 확인할 수 있다.)
 

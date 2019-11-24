@@ -6,7 +6,7 @@ category: javascript
 
 ![](images/javascript.png)
 
-call과 apply는 **함수를 호출**하는데 사용되는 메소드이다.  
+JavaScript의 call과 apply는 **함수를 호출**하는데 사용되는 메소드이다.  
 더 자세히 알아보기 전에 먼저 **함수의 기본적인 호출 방법**에 대해 알아보자.
 
 ```js

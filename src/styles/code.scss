@@ -33,7 +33,6 @@ pre[class*='language-'] {
   word-break: normal;
   word-wrap: normal;
   line-height: 1.6;
-  font-size: 13px;
 
   -moz-tab-size: 2;
   -o-tab-size: 2;
@@ -46,6 +45,14 @@ pre[class*='language-'] {
 
   -ms-overflow-style: none; // IE 10+
   overflow: -moz-scrollbars-none; // Firefox
+}
+
+code {
+  font-size: 13px;
+}
+
+pre code {
+  font-size: 16px;
 }
 
 pre[class*='language-']::-webkit-scrollbar {
