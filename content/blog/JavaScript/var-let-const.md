@@ -1,5 +1,5 @@
 ---
-title: "[JS] var, let, const 비교"
+title: "[JavaScript] var, let, const 비교"
 date: 2019-09-22 12:09:37
 category: javascript
 ---

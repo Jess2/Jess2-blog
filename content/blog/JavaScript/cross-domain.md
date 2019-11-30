@@ -1,5 +1,5 @@
 ---
-title: "[JS] 크로스 도메인(Cross Domain)"
+title: "[JavaScript] 크로스 도메인(Cross Domain)"
 date: 2019-10-06 13:10:37
 category: javascript
 ---

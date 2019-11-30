@@ -1,5 +1,5 @@
 ---
-title: "[JS] 프로토타입(Prototype)"
+title: "[JavaScript] 프로토타입(Prototype)"
 date: 2019-10-27 17:10:17
 category: javascript
 ---

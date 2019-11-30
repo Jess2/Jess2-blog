@@ -1,5 +1,5 @@
 ---
-title: "[JS] 클로저(Closure)"
+title: "[JavaScript] 클로저(Closure)"
 date: 2019-10-20 10:49:70
 category: javascript
 ---

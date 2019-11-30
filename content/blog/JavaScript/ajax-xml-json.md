@@ -1,5 +1,5 @@
 ---
-title: "[JS] Ajax 와 XML / JSON"
+title: "[JavaScript] Ajax 와 XML / JSON"
 date: 2019-11-24 15:11:56
 category: javascript
 ---

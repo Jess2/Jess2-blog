@@ -1,5 +1,5 @@
 ---
-title: "[JS] 함수의 호출 방법 - call과 apply"
+title: "[JavaScript] 함수의 호출 방법 - call과 apply"
 date: 2019-11-03 21:11:74
 category: javascript
 ---

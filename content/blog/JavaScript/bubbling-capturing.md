@@ -1,5 +1,5 @@
 ---
-title: "[JS] 이벤트 버블링과 이벤트 캡쳐링"
+title: "[JavaScript] 이벤트 버블링과 이벤트 캡쳐링"
 date: 2019-10-05 11:10:94
 category: javascript
 ---

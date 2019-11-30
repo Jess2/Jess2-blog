@@ -1,5 +1,5 @@
 ---
-title: "[JS] null과 undefined 비교"
+title: "[JavaScript] null과 undefined 비교"
 date: 2019-10-06 11:10:50
 category: javascript
 ---

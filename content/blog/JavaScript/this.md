@@ -1,5 +1,5 @@
 ---
-title: "[JS] this"
+title: "[JavaScript] this"
 date: 2019-11-30 15:11:15
 category: javascript
 ---

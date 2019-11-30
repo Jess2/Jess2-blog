@@ -1,5 +1,5 @@
 ---
-title: "[JS] bind"
+title: "[JavaScript] bind"
 date: 2019-11-06 21:11:41
 category: javascript
 ---
