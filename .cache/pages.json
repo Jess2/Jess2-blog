@@ -71,6 +71,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-this-f77",
+        "path": "/JavaScript/this/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-var-let-const-9ec",
         "path": "/JavaScript/var-let-const/"
     },
