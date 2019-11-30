@@ -4949,7 +4949,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "e237802137826756955ecb0fd47e7afb",
+        "contentDigest": "f114db84b498831bef1d78357bb0281f",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/__about/resume-en.md\"",
@@ -4959,11 +4959,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/__about/resume-en.md",
       "relativePath": "resume-en.md",
       "extension": "md",
-      "size": 200,
-      "prettySize": "200 B",
-      "modifiedTime": "2019-09-22T07:24:20.439Z",
-      "accessTime": "2019-11-23T02:21:32.572Z",
-      "changeTime": "2019-09-22T07:24:20.439Z",
+      "size": 397,
+      "prettySize": "397 B",
+      "modifiedTime": "2019-11-24T08:39:56.366Z",
+      "accessTime": "2019-11-24T08:39:29.087Z",
+      "changeTime": "2019-11-24T08:39:56.366Z",
       "birthTime": "2019-09-07T03:06:10.675Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/__about",
@@ -4980,39 +4980,14 @@
       "blksize": 4096,
       "ino": 3266000,
       "blocks": 8,
-      "atimeMs": 1574475692571.9028,
-      "mtimeMs": 1569137060439.3071,
-      "ctimeMs": 1569137060439.3071,
+      "atimeMs": 1574584769086.7517,
+      "mtimeMs": 1574584796365.7988,
+      "ctimeMs": 1574584796365.7988,
       "birthtimeMs": 1567825570674.826,
-      "atime": "2019-11-23T02:21:32.572Z",
-      "mtime": "2019-09-22T07:24:20.439Z",
-      "ctime": "2019-09-22T07:24:20.439Z",
+      "atime": "2019-11-24T08:39:29.087Z",
+      "mtime": "2019-11-24T08:39:56.366Z",
+      "ctime": "2019-11-24T08:39:56.366Z",
       "birthtime": "2019-09-07T03:06:10.675Z"
-    },
-    "89f2e987-e85a-5e9e-8568-263870cce0b6": {
-      "id": "89f2e987-e85a-5e9e-8568-263870cce0b6",
-      "children": [],
-      "parent": "c66ffdf3-32e3-56dd-bfd3-546449814c3c",
-      "internal": {
-        "content": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "90d3c66a87cabb0941c108ace7beaf8d",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "about",
-        "date": "2019-01-27T16:21:13.000Z",
-        "lang": "en"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Soyeon Jung (Jess2)\n\n<div align=\"center\">\n\n_Thank you for reading my resume. If you want to contact me, Please send me an email._\n\n</div>\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/__about/resume-en.md",
-      "fields": {
-        "slug": "/resume-en/"
-      }
     },
     "e984a26d-2a1e-5fb4-b12e-9d6dee18c848": {
       "id": "e984a26d-2a1e-5fb4-b12e-9d6dee18c848",
@@ -6010,6 +5985,31 @@
       "fields": {
         "slug": "/JavaScript/ajax-xml-json/"
       }
+    },
+    "89f2e987-e85a-5e9e-8568-263870cce0b6": {
+      "id": "89f2e987-e85a-5e9e-8568-263870cce0b6",
+      "children": [],
+      "parent": "c66ffdf3-32e3-56dd-bfd3-546449814c3c",
+      "internal": {
+        "content": "\n# 👩🏻‍💻 SOYEON JUNG (@Jess2)\nThank you for reading my blog.  \nIf you want to contact me, Please send me an email.\n\n|||\n|-|-|\n|Email|<a href=\"mailto:jess2.jsy@gmail.com\">jess2.jsy@gmail.com</a>|\n|GitHub|https://github.com/jess2|\n|Facebook|https://www.facebook.com/jesssss2|\n|LinkedIn|https://www.linkedin.com/in/devsoyeonjung/|\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b6a26860cddd254a2b71fe69dcc80c33",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "about",
+        "date": "2019-01-27T16:21:13.000Z",
+        "lang": "en"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# 👩🏻‍💻 SOYEON JUNG (@Jess2)\nThank you for reading my blog.  \nIf you want to contact me, Please send me an email.\n\n|||\n|-|-|\n|Email|<a href=\"mailto:jess2.jsy@gmail.com\">jess2.jsy@gmail.com</a>|\n|GitHub|https://github.com/jess2|\n|Facebook|https://www.facebook.com/jesssss2|\n|LinkedIn|https://www.linkedin.com/in/devsoyeonjung/|\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/__about/resume-en.md",
+      "fields": {
+        "slug": "/resume-en/"
+      }
     }
   },
   "status": {
@@ -6033,8 +6033,6 @@
         "/etc./junior_seminar/",
         "/seminar/images/junior_seminar/",
         "/seminar/junior_seminar/",
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx",
         "/404/",
         "/404.html",
         "/",
@@ -6053,7 +6051,9 @@
         "/seminar/2019-startup-junior-seminar/",
         "/JavaScript/var-let-const/",
         "/etc./notion-for-students-&-teachers/",
-        "/JavaScript/ajax-xml-json/"
+        "/JavaScript/ajax-xml-json/",
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -6156,7 +6156,7 @@
     "404-html-516": "298/path---404-html-516-62a-fc6MGSBJamEeaDWhMRt4SYqLVk",
     "sq--src-components-bio-index-jsx": 4037432015,
     "web-gl-new-post-title-37b": "862/path---web-gl-new-post-title-37-b-6b0-tDP0OM8Z3wWetAO25XuYZoN8gM",
-    "about-f34": "598/path---about-f-34-4c2-TcZsnaqjMqIEmGK4wReAaFCCzbo",
+    "about-f34": "501/path---about-f-34-4c2-LZbTguglyloi6eP0cjXGjHkO0M",
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
