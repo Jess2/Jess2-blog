@@ -108,5 +108,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "seminar-2019-startup-junior-seminar-05f",
         "path": "/seminar/2019-startup-junior-seminar/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-vue-setting-fd2",
+        "path": "/vue/vue-setting/"
     }
 ]
