@@ -5468,7 +5468,15 @@
             "category": "javascript"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vue/vue-architecture/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 프로젝트 추천 구조",
+            "category": "vue"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -5478,7 +5486,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "01ae57517d335613fa1f9054292912e7",
+        "contentDigest": "cc0c640dd5b9e0616ca8e3ae0bc26098",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -6381,6 +6389,224 @@
       "fields": {
         "slug": "/vue/vue-setting/"
       }
+    },
+    "9e578b5d-61c4-50d9-8590-80a3c6d2080b": {
+      "id": "9e578b5d-61c4-50d9-8590-80a3c6d2080b",
+      "children": [
+        "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f0a4ae65ee31194544843195dfcaa8f9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/vue-architecture.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/vue-architecture.md",
+      "relativePath": "vue/vue-architecture.md",
+      "extension": "md",
+      "size": 3757,
+      "prettySize": "3.76 kB",
+      "modifiedTime": "2020-02-09T15:47:01.124Z",
+      "accessTime": "2020-02-09T15:46:29.722Z",
+      "changeTime": "2020-02-09T15:47:01.124Z",
+      "birthTime": "2020-02-09T15:39:45.902Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "vue-architecture.md",
+      "ext": ".md",
+      "name": "vue-architecture",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6246253,
+      "blocks": 8,
+      "atimeMs": 1581263189722.3872,
+      "mtimeMs": 1581263221123.7773,
+      "ctimeMs": 1581263221123.7773,
+      "birthtimeMs": 1581262785902.2478,
+      "atime": "2020-02-09T15:46:29.722Z",
+      "mtime": "2020-02-09T15:47:01.124Z",
+      "ctime": "2020-02-09T15:47:01.124Z",
+      "birthtime": "2020-02-09T15:39:45.902Z"
+    },
+    "SitePage /vue/vue-architecture/": {
+      "jsonName": "vue-vue-architecture-1a4",
+      "internalComponentName": "ComponentVueVueArchitecture",
+      "path": "/vue/vue-architecture/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/vue-architecture/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/vue-setting/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 프로젝트 생성 및 환경 설정",
+            "category": "vue"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/vue/npm-router/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 라우터 설정",
+            "category": "vue"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/vue-architecture/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cefff52755757c0de7f584708fe5a5db",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3a175792-aafb-50fa-9d5c-5160cd5b50a6": {
+      "id": "3a175792-aafb-50fa-9d5c-5160cd5b50a6",
+      "children": [
+        "46c34736-835f-5909-b0dd-0de52eca753f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "132f3038af8a6132a79456581a45c07f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/npm-router.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/npm-router.md",
+      "relativePath": "vue/npm-router.md",
+      "extension": "md",
+      "size": 2215,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2020-02-09T15:52:33.775Z",
+      "accessTime": "2020-02-09T15:52:16.650Z",
+      "changeTime": "2020-02-09T15:52:33.775Z",
+      "birthTime": "2020-02-09T15:45:22.243Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "npm-router.md",
+      "ext": ".md",
+      "name": "npm-router",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6246675,
+      "blocks": 8,
+      "atimeMs": 1581263536649.8035,
+      "mtimeMs": 1581263553774.681,
+      "ctimeMs": 1581263553774.681,
+      "birthtimeMs": 1581263122243.4827,
+      "atime": "2020-02-09T15:52:16.650Z",
+      "mtime": "2020-02-09T15:52:33.775Z",
+      "ctime": "2020-02-09T15:52:33.775Z",
+      "birthtime": "2020-02-09T15:45:22.243Z"
+    },
+    "SitePage /vue/npm-router/": {
+      "jsonName": "vue-npm-router-8fa",
+      "internalComponentName": "ComponentVueNpmRouter",
+      "path": "/vue/npm-router/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/npm-router/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/vue-architecture/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 프로젝트 추천 구조",
+            "category": "vue"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/npm-router/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a204c3dccab04e60e317bfc8afc0c0c6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd": {
+      "id": "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd",
+      "children": [],
+      "parent": "9e578b5d-61c4-50d9-8590-80a3c6d2080b",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n프로젝트 구조에는 정답이 없다고 생각하지만, 아래와 같은 구조를 추천한다.\n\n### Vue.js 프로젝트 추천 구조\n\n        ├── build\n        |    ├── build.js\n        |\t\t ├── check-versions.js\n        |\t\t ├── logo.png\n        |\t\t ├── utils.js\n        |\t\t ├── vue-loader.conf.js\n        |\t\t ├── webpack.base.conf.js\n        |\t\t ├── webpack.dev.conf.js\n        |\t\t └── webpack.prod.conf.js\n        |\n        ├── config\n        |\t\t ├── dev.env.js\n        |\t\t ├── index.js\n        |\t\t └── prod.env.js\n        |\n        ├── dist\n        |\t\t ├── static\n        |\t\t └── index.html\n        |\n        ├── node_modules\n        |\n        ├── src   \n        | \t ├── assets\n        |\t \t |    ├── css\n        |\t\t |    |   └── App.scss\n        |\t\t |    ├── font \n        |\t\t |    └── images\n        |\t\t ├── components\n        |\t\t |    ├── RangeCustom\n        |\t\t |    |    ├── RangeCustom.scss\n        |\t\t |    |    └── RangeCustom.vue\n        |\t\t |    └── Sidebar\n        |\t\t |         ├── Sidebar.scss\n        |\t\t |         └── Sidebar.vue \n        |\t\t ├── pages\n        |\t\t |    ├── Login\n        |\t\t |    |    ├── components\n        |\t\t |    |    ├── Login.scss\n        |\t\t |    |    └── Login.vue\n        |\t\t |    └── Products \n        |\t\t |         ├── components\n        |\t\t |         ├── Products.scss\n        |\t\t |         └── Products.vue\n        |\t\t ├── router\n        |\t\t |    └── index.js\n        |\t\t ├── store\n        |\t\t |    ├── modules \n        |\t\t |    └── store.js\n        |\t\t ├── App.vue\n        |\t\t └── main.js\n        |\n        ├── static\n        |\t\t └── favicon.ico\n        |\n        ├── index.html\n        ├── package-lock.json\n        └── package.json\n\n\n1. **build**\n    - 배포시 관련 설정들이 들어있는 폴더.\n    - webpack.config.js : webpack 설정 파일. webpack 빌드를 위해 필요한 로직들을 정의 하는 파일이다. webpack의 핵심 파일이라고 생각하면 된다. 이 파일에는 webpack의 core인 entry, output, loaders, plugins의 정보가 들어간다.\n2. **config**\n    - 프로젝트에서 사용되는 설정이 모여 있는 폴더.\n    - dev.env.js : `npm run dev` 명령어를 입력하면 적용되는 설정이다.\n    - prod.env.js : `npm run build` 로 배포 버전에 적용되는 설정이다.\n3. **dist**\n    - `npm run build` 명령어를 입력하면 dist 폴더가 자동으로 생성되며, webpack이 dist 폴더에 빌드 결과물을 생성한다.\n4. **node_modules** : npm으로 설치되는 서드파트 라이브러리들이 모여있는 폴더.\n5. **src** \n    - assets : 공용 css 파일이나 이미지 파일 등을 모아놓는 폴더\n    - shared-components : 여러 페이지에서 공용으로 사용하는 컴포넌트를 모아놓는 폴더\n    - pages : Single Application Page\n    - router : 라우터 설정 관리\n    - store: Vue.js 상태 관리\n    - App.vue : 최상위 vue 파일\n    - main.js : vue 인스턴스를 새로 만들고 시작하는 부분으로, 전역으로 처리해야 할 일이 있으면 여기서 처리한다.\n6. **static**\n7. **index.html**\n    - HTML 시작 페이지이다.\n8. **package.json**\n    - npm 의존성 모듈 목록 및 프로젝트 기본 설정들이 포함되어 있다. 개발모드로 실행하는 것과 배포를 할 수 있는 명령어들이 정의되어 있다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "af42fbb728d91150230183beea2f2c9b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] 프로젝트 추천 구조",
+        "date": "2020-02-09T23:02:20.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n프로젝트 구조에는 정답이 없다고 생각하지만, 아래와 같은 구조를 추천한다.\n\n### Vue.js 프로젝트 추천 구조\n\n        ├── build\n        |    ├── build.js\n        |\t\t ├── check-versions.js\n        |\t\t ├── logo.png\n        |\t\t ├── utils.js\n        |\t\t ├── vue-loader.conf.js\n        |\t\t ├── webpack.base.conf.js\n        |\t\t ├── webpack.dev.conf.js\n        |\t\t └── webpack.prod.conf.js\n        |\n        ├── config\n        |\t\t ├── dev.env.js\n        |\t\t ├── index.js\n        |\t\t └── prod.env.js\n        |\n        ├── dist\n        |\t\t ├── static\n        |\t\t └── index.html\n        |\n        ├── node_modules\n        |\n        ├── src   \n        | \t ├── assets\n        |\t \t |    ├── css\n        |\t\t |    |   └── App.scss\n        |\t\t |    ├── font \n        |\t\t |    └── images\n        |\t\t ├── components\n        |\t\t |    ├── RangeCustom\n        |\t\t |    |    ├── RangeCustom.scss\n        |\t\t |    |    └── RangeCustom.vue\n        |\t\t |    └── Sidebar\n        |\t\t |         ├── Sidebar.scss\n        |\t\t |         └── Sidebar.vue \n        |\t\t ├── pages\n        |\t\t |    ├── Login\n        |\t\t |    |    ├── components\n        |\t\t |    |    ├── Login.scss\n        |\t\t |    |    └── Login.vue\n        |\t\t |    └── Products \n        |\t\t |         ├── components\n        |\t\t |         ├── Products.scss\n        |\t\t |         └── Products.vue\n        |\t\t ├── router\n        |\t\t |    └── index.js\n        |\t\t ├── store\n        |\t\t |    ├── modules \n        |\t\t |    └── store.js\n        |\t\t ├── App.vue\n        |\t\t └── main.js\n        |\n        ├── static\n        |\t\t └── favicon.ico\n        |\n        ├── index.html\n        ├── package-lock.json\n        └── package.json\n\n\n1. **build**\n    - 배포시 관련 설정들이 들어있는 폴더.\n    - webpack.config.js : webpack 설정 파일. webpack 빌드를 위해 필요한 로직들을 정의 하는 파일이다. webpack의 핵심 파일이라고 생각하면 된다. 이 파일에는 webpack의 core인 entry, output, loaders, plugins의 정보가 들어간다.\n2. **config**\n    - 프로젝트에서 사용되는 설정이 모여 있는 폴더.\n    - dev.env.js : `npm run dev` 명령어를 입력하면 적용되는 설정이다.\n    - prod.env.js : `npm run build` 로 배포 버전에 적용되는 설정이다.\n3. **dist**\n    - `npm run build` 명령어를 입력하면 dist 폴더가 자동으로 생성되며, webpack이 dist 폴더에 빌드 결과물을 생성한다.\n4. **node_modules** : npm으로 설치되는 서드파트 라이브러리들이 모여있는 폴더.\n5. **src** \n    - assets : 공용 css 파일이나 이미지 파일 등을 모아놓는 폴더\n    - shared-components : 여러 페이지에서 공용으로 사용하는 컴포넌트를 모아놓는 폴더\n    - pages : Single Application Page\n    - router : 라우터 설정 관리\n    - store: Vue.js 상태 관리\n    - App.vue : 최상위 vue 파일\n    - main.js : vue 인스턴스를 새로 만들고 시작하는 부분으로, 전역으로 처리해야 할 일이 있으면 여기서 처리한다.\n6. **static**\n7. **index.html**\n    - HTML 시작 페이지이다.\n8. **package.json**\n    - npm 의존성 모듈 목록 및 프로젝트 기본 설정들이 포함되어 있다. 개발모드로 실행하는 것과 배포를 할 수 있는 명령어들이 정의되어 있다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/vue-architecture.md",
+      "fields": {
+        "slug": "/vue/vue-architecture/"
+      }
+    },
+    "46c34736-835f-5909-b0dd-0de52eca753f": {
+      "id": "46c34736-835f-5909-b0dd-0de52eca753f",
+      "children": [],
+      "parent": "3a175792-aafb-50fa-9d5c-5160cd5b50a6",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "5407a8049c21f8379a74fa3c76264dd4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] 라우터 설정",
+        "date": "2020-02-10T00:02:11.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/npm-router.md",
+      "fields": {
+        "slug": "/vue/npm-router/"
+      }
     }
   },
   "status": {
@@ -6426,7 +6652,9 @@
         "/JavaScript/this/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx",
-        "/vue/vue-setting/"
+        "/vue/vue-setting/",
+        "/vue/vue-architecture/",
+        "/vue/npm-router/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -6520,6 +6748,12 @@
       ],
       "286a6602-558f-5a52-a78d-159c635da6f0": [
         "/vue/vue-setting/"
+      ],
+      "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd": [
+        "/vue/vue-architecture/"
+      ],
+      "46c34736-835f-5909-b0dd-0de52eca753f": [
+        "/vue/npm-router/"
       ]
     },
     "connections": {
@@ -6539,7 +6773,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "854/path---index-6a9-EBJufwqJAFfZ8Q8OC2xonJezvc",
+    "index": "141/path---index-6a9-6vDf3urNoKZqulnmdWH4ywGfLM",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -6576,7 +6810,9 @@
     "seminar-2019-startup-junior-seminar-05f": "48/path---seminar-2019-startup-junior-seminar-05-f-da3-FxGzmWD9bwsrFVnW6ZZrF6Q8nBo",
     "java-script-ajax-xml-json-817": "90/path---java-script-ajax-xml-json-817-498-89S6cKwQOV5eQjFPt5cmHyenFI",
     "java-script-this-f77": "128/path---java-script-this-f-77-455-oYPNROgJNJYEjfHX6fxSG1xDZX8",
-    "vue-vue-setting-fd2": "106/path---vue-vue-setting-fd-2-921-egXBMikShGv12gixxKkMQo3Vy6o"
+    "vue-vue-setting-fd2": "92/path---vue-vue-setting-fd-2-921-pXPwcSG4pBrdh4ODNa4mWKDiT8",
+    "vue-vue-architecture-1a4": "656/path---vue-vue-architecture-1-a-4-713-QI0EYzfrsvbvNRCZznaH2ElHuFQ",
+    "vue-npm-router-8fa": "729/path---vue-npm-router-8-fa-04d-HvLk4GnQNSsU7j7sldsOX7K0HK4"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {

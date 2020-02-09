@@ -111,6 +111,16 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-npm-router-8fa",
+        "path": "/vue/npm-router/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-vue-architecture-1a4",
+        "path": "/vue/vue-architecture/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-vue-setting-fd2",
         "path": "/vue/vue-setting/"
     }
