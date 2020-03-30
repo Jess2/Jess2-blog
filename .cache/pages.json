@@ -111,6 +111,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-create-component-a17",
+        "path": "/vue/create-component/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-npm-router-8fa",
         "path": "/vue/npm-router/"
     },
