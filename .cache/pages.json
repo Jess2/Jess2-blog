@@ -111,6 +111,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-component-props-788",
+        "path": "/vue/component-props/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-create-component-a17",
         "path": "/vue/create-component/"
     },

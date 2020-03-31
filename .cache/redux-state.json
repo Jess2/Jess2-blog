@@ -2278,12 +2278,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-30T11:43:00.326Z",
+      "buildTime": "2020-03-31T11:38:57.296Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5f1443048e16324816b4f4b028c8d0a8",
+        "contentDigest": "71a13fa4f9c54125a5f63535e35b4d98",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -5364,7 +5364,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3da1bbed47a0d3921befae31e8731736",
+        "contentDigest": "45f684a41f0c36d7d976af20793ec2c1",
         "type": "Directory",
         "description": "Directory \"content/blog/vue\"",
         "owner": "gatsby-source-filesystem"
@@ -5373,11 +5373,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue",
       "relativePath": "vue",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2020-03-30T11:42:52.042Z",
-      "accessTime": "2020-03-30T11:43:04.039Z",
-      "changeTime": "2020-03-30T11:42:52.042Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2020-03-31T11:37:30.594Z",
+      "accessTime": "2020-03-31T11:37:33.728Z",
+      "changeTime": "2020-03-31T11:37:30.594Z",
       "birthTime": "2020-01-19T11:19:50.813Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/blog",
@@ -5387,20 +5387,20 @@
       "relativeDirectory": "",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5940017,
       "blocks": 0,
-      "atimeMs": 1585568584038.563,
-      "mtimeMs": 1585568572042.1611,
-      "ctimeMs": 1585568572042.1611,
+      "atimeMs": 1585654653728.4915,
+      "mtimeMs": 1585654650593.9514,
+      "ctimeMs": 1585654650593.9514,
       "birthtimeMs": 1579432790812.8513,
-      "atime": "2020-03-30T11:43:04.039Z",
-      "mtime": "2020-03-30T11:42:52.042Z",
-      "ctime": "2020-03-30T11:42:52.042Z",
+      "atime": "2020-03-31T11:37:33.728Z",
+      "mtime": "2020-03-31T11:37:30.594Z",
+      "ctime": "2020-03-31T11:37:30.594Z",
       "birthtime": "2020-01-19T11:19:50.813Z"
     },
     "1f779e36-4f40-5a42-a3f8-cb867d75e66e": {
@@ -5455,7 +5455,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "83dbc3cc0dbe0e30cd77eea829826849",
+        "contentDigest": "08a62b4a3f5f6881254ccf9f432f8bbf",
         "type": "Directory",
         "description": "Directory \"content/blog/vue/images\"",
         "owner": "gatsby-source-filesystem"
@@ -5464,11 +5464,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/images",
       "relativePath": "vue/images",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2020-01-19T11:39:22.869Z",
-      "accessTime": "2020-02-08T04:20:48.203Z",
-      "changeTime": "2020-01-19T11:39:22.869Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-03-30T11:44:59.698Z",
+      "accessTime": "2020-03-30T11:44:59.950Z",
+      "changeTime": "2020-03-30T11:44:59.698Z",
       "birthTime": "2020-01-19T11:39:11.052Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
@@ -5478,20 +5478,20 @@
       "relativeDirectory": "vue",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5941648,
       "blocks": 0,
-      "atimeMs": 1581135648202.5554,
-      "mtimeMs": 1579433962868.6362,
-      "ctimeMs": 1579433962868.6362,
+      "atimeMs": 1585568699949.8496,
+      "mtimeMs": 1585568699698.2275,
+      "ctimeMs": 1585568699698.2275,
       "birthtimeMs": 1579433951052.052,
-      "atime": "2020-02-08T04:20:48.203Z",
-      "mtime": "2020-01-19T11:39:22.869Z",
-      "ctime": "2020-01-19T11:39:22.869Z",
+      "atime": "2020-03-30T11:44:59.950Z",
+      "mtime": "2020-03-30T11:44:59.698Z",
+      "ctime": "2020-03-30T11:44:59.698Z",
       "birthtime": "2020-01-19T11:39:11.052Z"
     },
     "b675b37f-66cc-52b4-a91d-4e088e2b6b00": {
@@ -5767,6 +5767,168 @@
       "ctime": "2020-03-30T11:48:07.063Z",
       "birthtime": "2020-03-30T11:42:52.042Z"
     },
+    "db9a43ad-8992-514c-842b-845b4626bf9f": {
+      "id": "db9a43ad-8992-514c-842b-845b4626bf9f",
+      "children": [
+        "8b2e1352-622d-5c7a-8e01-e86a11361ffa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8e0a59bb8ce3fa5cd23ad69653f7d88b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/vue/images/bc.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/images/bc.png",
+      "relativePath": "vue/images/bc.png",
+      "extension": "png",
+      "size": 12471,
+      "prettySize": "12.5 kB",
+      "modifiedTime": "2020-03-30T11:44:19.590Z",
+      "accessTime": "2020-03-30T11:44:59.003Z",
+      "changeTime": "2020-03-30T11:44:59.698Z",
+      "birthTime": "2020-03-30T11:44:19.588Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue/images",
+      "base": "bc.png",
+      "ext": ".png",
+      "name": "bc",
+      "relativeDirectory": "vue/images",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8737158,
+      "blocks": 32,
+      "atimeMs": 1585568699002.6917,
+      "mtimeMs": 1585568659590.2239,
+      "ctimeMs": 1585568699698.2275,
+      "birthtimeMs": 1585568659588.4912,
+      "atime": "2020-03-30T11:44:59.003Z",
+      "mtime": "2020-03-30T11:44:19.590Z",
+      "ctime": "2020-03-30T11:44:59.698Z",
+      "birthtime": "2020-03-30T11:44:19.588Z"
+    },
+    "8b2e1352-622d-5c7a-8e01-e86a11361ffa": {
+      "id": "8b2e1352-622d-5c7a-8e01-e86a11361ffa",
+      "children": [],
+      "parent": "db9a43ad-8992-514c-842b-845b4626bf9f",
+      "internal": {
+        "contentDigest": "8e0a59bb8ce3fa5cd23ad69653f7d88b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e7c904b4-722c-583a-910e-cfd3c2bd9a71": {
+      "id": "e7c904b4-722c-583a-910e-cfd3c2bd9a71",
+      "children": [],
+      "parent": "1be841da-a16a-5195-9aaa-52f777568e5d",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\nvue-cli로 프로젝트를 생성하면 src 폴더 안에 components 폴더가 기본으로 존재한다. 이 components 폴더 안에는 여러 페이지에서 공용으로 쓰이는 popup이나 header, footer 같은 컴포넌트들을 모아 놓을 것이다.\n\n이제 src 폴더 안에 pages라는 폴더를 새로 생성하자. 이 pages 폴더 안에는 실제 페이지 단위로 쓰이는 컴포넌트들을 모아 놓을 것이다.\n\n그러면 본격적으로 컴포넌트를 하나 만들어보자. 로그인 페이지를 만들 것이다. 아래와 같이 pages 폴더 안에 login 폴더를 만들고 그 안에 Login.vue 파일과 Login.scss 파일을 만들자.\n\n![](images/bc.png)\n\n파일을 다 만들었다면 Login.vue 에 아래와 같이 코드를 작성하자.\n\n```html\n<template>\n  <div class=\"login\">\n    <h1>{{ msg }}</h1>\n  </div>\n</template>\n\n<script>\nexport default {\n  name: 'Login',\n  data () {\n    return {\n      msg: 'Login Page'\n    }\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Login\";\n</style>\n```\n\nvue 파일은 크게 세 부분으로 나뉜다. template, script, style.\n\n- **template** : html 코드를 작성\n- **script** : JavaScript 코드를 작성\n- **style** : css 코드를 작성. (보통 style 태그 안에 직접 css 코드를 작성하진 않고 별도로 만든 css 파일을 import 시킨다.)\n\n그럼 방금 만든 Login 컴포넌트의 라우터 설정을 해보자. 라우터 설정 방법은 [여기](https://jess2.xyz/vue/npm-router)에 정리되어 있다.\n\nsrc/router/index.js 에 아래와 같이 라우터 설정을 하면 된다.\n\n```js\nimport Vue from 'vue'\nimport Router from 'vue-router'\nimport HelloWorld from '@/components/HelloWorld'\nimport Login from '@/pages/login/Login'\n\nVue.use(Router)\n\nexport default new Router({\n  routes: [\n    {\n      path: '/',\n      name: 'HelloWorld',\n      component: HelloWorld\n    },\n    {\n      path: '/login',\n      name: 'Login',\n      component: Login\n    }\n  ]\n})\n```\n\n라우터 설정까지 마쳤다면, 터미널을 열어 `npm run dev` 명령어를 입력한다. 그러면 [http://localhost:8080/#/](http://localhost:8080/#/) 페이지가 자동으로 열리고 기본적으로 HelloWorld 컴포넌트가 렌더링된다.\n\n브라우저 주소창에 [http://localhost:8080/#/login](http://localhost:8080/#/login) 을 입력하여 접속하면 Login 컴포넌트가 렌더링 되는 것을 확인할 수 있다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "8296d306ee7ce0041b521c294ec63ea3",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] 컴포넌트 생성",
+        "date": "2020-03-30T20:04:00.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 프로젝트를 생성하면 src 폴더 안에 components 폴더가 기본으로 존재한다. 이 components 폴더 안에는 여러 페이지에서 공용으로 쓰이는 popup이나 header, footer 같은 컴포넌트들을 모아 놓을 것이다.\n\n이제 src 폴더 안에 pages라는 폴더를 새로 생성하자. 이 pages 폴더 안에는 실제 페이지 단위로 쓰이는 컴포넌트들을 모아 놓을 것이다.\n\n그러면 본격적으로 컴포넌트를 하나 만들어보자. 로그인 페이지를 만들 것이다. 아래와 같이 pages 폴더 안에 login 폴더를 만들고 그 안에 Login.vue 파일과 Login.scss 파일을 만들자.\n\n![](images/bc.png)\n\n파일을 다 만들었다면 Login.vue 에 아래와 같이 코드를 작성하자.\n\n```html\n<template>\n  <div class=\"login\">\n    <h1>{{ msg }}</h1>\n  </div>\n</template>\n\n<script>\nexport default {\n  name: 'Login',\n  data () {\n    return {\n      msg: 'Login Page'\n    }\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Login\";\n</style>\n```\n\nvue 파일은 크게 세 부분으로 나뉜다. template, script, style.\n\n- **template** : html 코드를 작성\n- **script** : JavaScript 코드를 작성\n- **style** : css 코드를 작성. (보통 style 태그 안에 직접 css 코드를 작성하진 않고 별도로 만든 css 파일을 import 시킨다.)\n\n그럼 방금 만든 Login 컴포넌트의 라우터 설정을 해보자. 라우터 설정 방법은 [여기](https://jess2.xyz/vue/npm-router)에 정리되어 있다.\n\nsrc/router/index.js 에 아래와 같이 라우터 설정을 하면 된다.\n\n```js\nimport Vue from 'vue'\nimport Router from 'vue-router'\nimport HelloWorld from '@/components/HelloWorld'\nimport Login from '@/pages/login/Login'\n\nVue.use(Router)\n\nexport default new Router({\n  routes: [\n    {\n      path: '/',\n      name: 'HelloWorld',\n      component: HelloWorld\n    },\n    {\n      path: '/login',\n      name: 'Login',\n      component: Login\n    }\n  ]\n})\n```\n\n라우터 설정까지 마쳤다면, 터미널을 열어 `npm run dev` 명령어를 입력한다. 그러면 [http://localhost:8080/#/](http://localhost:8080/#/) 페이지가 자동으로 열리고 기본적으로 HelloWorld 컴포넌트가 렌더링된다.\n\n브라우저 주소창에 [http://localhost:8080/#/login](http://localhost:8080/#/login) 을 입력하여 접속하면 Login 컴포넌트가 렌더링 되는 것을 확인할 수 있다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/create-component.md",
+      "fields": {
+        "slug": "/vue/create-component/"
+      }
+    },
+    "450b7486-b254-55b2-822e-f83a65e871e3": {
+      "id": "450b7486-b254-55b2-822e-f83a65e871e3",
+      "children": [
+        "828df96d-8905-5b80-ba82-b7820955cf9d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "123c1b4e1ad93a81351f95209d731e6b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/component-props.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/component-props.md",
+      "relativePath": "vue/component-props.md",
+      "extension": "md",
+      "size": 3387,
+      "prettySize": "3.39 kB",
+      "modifiedTime": "2020-03-31T11:42:55.859Z",
+      "accessTime": "2020-03-31T11:42:43.541Z",
+      "changeTime": "2020-03-31T11:42:55.859Z",
+      "birthTime": "2020-03-31T11:37:30.594Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "component-props.md",
+      "ext": ".md",
+      "name": "component-props",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8745477,
+      "blocks": 8,
+      "atimeMs": 1585654963540.6514,
+      "mtimeMs": 1585654975859.0254,
+      "ctimeMs": 1585654975859.0254,
+      "birthtimeMs": 1585654650593.9363,
+      "atime": "2020-03-31T11:42:43.541Z",
+      "mtime": "2020-03-31T11:42:55.859Z",
+      "ctime": "2020-03-31T11:42:55.859Z",
+      "birthtime": "2020-03-31T11:37:30.594Z"
+    },
+    "SitePage /vue/component-props/": {
+      "jsonName": "vue-component-props-788",
+      "internalComponentName": "ComponentVueComponentProps",
+      "path": "/vue/component-props/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/component-props/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/create-component/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 컴포넌트 생성",
+            "category": "vue"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/component-props/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "14d3422a4ab464de3b448f84b53d23de",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /vue/create-component/": {
       "jsonName": "vue-create-component-a17",
       "internalComponentName": "ComponentVueCreateComponent",
@@ -5785,7 +5947,15 @@
             "category": "vue"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vue/component-props/"
+          },
+          "frontmatter": {
+            "title": "[vue.js] 하위 컴포넌트 등록과 Props",
+            "category": "vue"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -5795,7 +5965,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "66dbd8623e5c0c250c9a80f39fc8dd11",
+        "contentDigest": "f5f4de45b1c0a9e730c881a8204e5c68",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -6696,86 +6866,29 @@
         "owner": "internal-data-bridge"
       }
     },
-    "db9a43ad-8992-514c-842b-845b4626bf9f": {
-      "id": "db9a43ad-8992-514c-842b-845b4626bf9f",
-      "children": [
-        "8b2e1352-622d-5c7a-8e01-e86a11361ffa"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "8e0a59bb8ce3fa5cd23ad69653f7d88b",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/vue/images/bc.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/images/bc.png",
-      "relativePath": "vue/images/bc.png",
-      "extension": "png",
-      "size": 12471,
-      "prettySize": "12.5 kB",
-      "modifiedTime": "2020-03-30T11:44:19.590Z",
-      "accessTime": "2020-03-30T11:44:59.003Z",
-      "changeTime": "2020-03-30T11:44:59.698Z",
-      "birthTime": "2020-03-30T11:44:19.588Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue/images",
-      "base": "bc.png",
-      "ext": ".png",
-      "name": "bc",
-      "relativeDirectory": "vue/images",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8737158,
-      "blocks": 32,
-      "atimeMs": 1585568699002.6917,
-      "mtimeMs": 1585568659590.2239,
-      "ctimeMs": 1585568699698.2275,
-      "birthtimeMs": 1585568659588.4912,
-      "atime": "2020-03-30T11:44:59.003Z",
-      "mtime": "2020-03-30T11:44:19.590Z",
-      "ctime": "2020-03-30T11:44:59.698Z",
-      "birthtime": "2020-03-30T11:44:19.588Z"
-    },
-    "8b2e1352-622d-5c7a-8e01-e86a11361ffa": {
-      "id": "8b2e1352-622d-5c7a-8e01-e86a11361ffa",
+    "828df96d-8905-5b80-ba82-b7820955cf9d": {
+      "id": "828df96d-8905-5b80-ba82-b7820955cf9d",
       "children": [],
-      "parent": "db9a43ad-8992-514c-842b-845b4626bf9f",
+      "parent": "450b7486-b254-55b2-822e-f83a65e871e3",
       "internal": {
-        "contentDigest": "8e0a59bb8ce3fa5cd23ad69653f7d88b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "e7c904b4-722c-583a-910e-cfd3c2bd9a71": {
-      "id": "e7c904b4-722c-583a-910e-cfd3c2bd9a71",
-      "children": [],
-      "parent": "1be841da-a16a-5195-9aaa-52f777568e5d",
-      "internal": {
-        "content": "\n![](images/vue.png)\n\nvue-cli로 프로젝트를 생성하면 src 폴더 안에 components 폴더가 기본으로 존재한다. 이 components 폴더 안에는 여러 페이지에서 공용으로 쓰이는 popup이나 header, footer 같은 컴포넌트들을 모아 놓을 것이다.\n\n이제 src 폴더 안에 pages라는 폴더를 새로 생성하자. 이 pages 폴더 안에는 실제 페이지 단위로 쓰이는 컴포넌트들을 모아 놓을 것이다.\n\n그러면 본격적으로 컴포넌트를 하나 만들어보자. 로그인 페이지를 만들 것이다. 아래와 같이 pages 폴더 안에 login 폴더를 만들고 그 안에 Login.vue 파일과 Login.scss 파일을 만들자.\n\n![](images/bc.png)\n\n파일을 다 만들었다면 Login.vue 에 아래와 같이 코드를 작성하자.\n\n```html\n<template>\n  <div class=\"login\">\n    <h1>{{ msg }}</h1>\n  </div>\n</template>\n\n<script>\nexport default {\n  name: 'Login',\n  data () {\n    return {\n      msg: 'Login Page'\n    }\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Login\";\n</style>\n```\n\nvue 파일은 크게 세 부분으로 나뉜다. template, script, style.\n\n- **template** : html 코드를 작성\n- **script** : JavaScript 코드를 작성\n- **style** : css 코드를 작성. (보통 style 태그 안에 직접 css 코드를 작성하진 않고 별도로 만든 css 파일을 import 시킨다.)\n\n그럼 방금 만든 Login 컴포넌트의 라우터 설정을 해보자. 라우터 설정 방법은 [여기](https://jess2.xyz/vue/npm-router)에 정리되어 있다.\n\nsrc/router/index.js 에 아래와 같이 라우터 설정을 하면 된다.\n\n```js\nimport Vue from 'vue'\nimport Router from 'vue-router'\nimport HelloWorld from '@/components/HelloWorld'\nimport Login from '@/pages/login/Login'\n\nVue.use(Router)\n\nexport default new Router({\n  routes: [\n    {\n      path: '/',\n      name: 'HelloWorld',\n      component: HelloWorld\n    },\n    {\n      path: '/login',\n      name: 'Login',\n      component: Login\n    }\n  ]\n})\n```\n\n라우터 설정까지 마쳤다면, 터미널을 열어 `npm run dev` 명령어를 입력한다. 그러면 [http://localhost:8080/#/](http://localhost:8080/#/) 페이지가 자동으로 열리고 기본적으로 HelloWorld 컴포넌트가 렌더링된다.\n\n브라우저 주소창에 [http://localhost:8080/#/login](http://localhost:8080/#/login) 을 입력하여 접속하면 Login 컴포넌트가 렌더링 되는 것을 확인할 수 있다.",
+        "content": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
         "type": "MarkdownRemark",
-        "contentDigest": "8296d306ee7ce0041b521c294ec63ea3",
+        "contentDigest": "5ed66c4ebe8f64fcae172f95d263cc7b",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "[Vue.js] 컴포넌트 생성",
-        "date": "2020-03-30T20:04:00.000Z",
+        "title": "[vue.js] 하위 컴포넌트 등록과 Props",
+        "date": "2020-03-31T20:03:31.000Z",
         "category": "vue"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 프로젝트를 생성하면 src 폴더 안에 components 폴더가 기본으로 존재한다. 이 components 폴더 안에는 여러 페이지에서 공용으로 쓰이는 popup이나 header, footer 같은 컴포넌트들을 모아 놓을 것이다.\n\n이제 src 폴더 안에 pages라는 폴더를 새로 생성하자. 이 pages 폴더 안에는 실제 페이지 단위로 쓰이는 컴포넌트들을 모아 놓을 것이다.\n\n그러면 본격적으로 컴포넌트를 하나 만들어보자. 로그인 페이지를 만들 것이다. 아래와 같이 pages 폴더 안에 login 폴더를 만들고 그 안에 Login.vue 파일과 Login.scss 파일을 만들자.\n\n![](images/bc.png)\n\n파일을 다 만들었다면 Login.vue 에 아래와 같이 코드를 작성하자.\n\n```html\n<template>\n  <div class=\"login\">\n    <h1>{{ msg }}</h1>\n  </div>\n</template>\n\n<script>\nexport default {\n  name: 'Login',\n  data () {\n    return {\n      msg: 'Login Page'\n    }\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Login\";\n</style>\n```\n\nvue 파일은 크게 세 부분으로 나뉜다. template, script, style.\n\n- **template** : html 코드를 작성\n- **script** : JavaScript 코드를 작성\n- **style** : css 코드를 작성. (보통 style 태그 안에 직접 css 코드를 작성하진 않고 별도로 만든 css 파일을 import 시킨다.)\n\n그럼 방금 만든 Login 컴포넌트의 라우터 설정을 해보자. 라우터 설정 방법은 [여기](https://jess2.xyz/vue/npm-router)에 정리되어 있다.\n\nsrc/router/index.js 에 아래와 같이 라우터 설정을 하면 된다.\n\n```js\nimport Vue from 'vue'\nimport Router from 'vue-router'\nimport HelloWorld from '@/components/HelloWorld'\nimport Login from '@/pages/login/Login'\n\nVue.use(Router)\n\nexport default new Router({\n  routes: [\n    {\n      path: '/',\n      name: 'HelloWorld',\n      component: HelloWorld\n    },\n    {\n      path: '/login',\n      name: 'Login',\n      component: Login\n    }\n  ]\n})\n```\n\n라우터 설정까지 마쳤다면, 터미널을 열어 `npm run dev` 명령어를 입력한다. 그러면 [http://localhost:8080/#/](http://localhost:8080/#/) 페이지가 자동으로 열리고 기본적으로 HelloWorld 컴포넌트가 렌더링된다.\n\n브라우저 주소창에 [http://localhost:8080/#/login](http://localhost:8080/#/login) 을 입력하여 접속하면 Login 컴포넌트가 렌더링 되는 것을 확인할 수 있다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/create-component.md",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/component-props.md",
       "fields": {
-        "slug": "/vue/create-component/"
+        "slug": "/vue/component-props/"
       }
     }
   },
@@ -6823,9 +6936,10 @@
         "/vue/vue-setting/",
         "/vue/vue-architecture/",
         "/vue/npm-router/",
-        "sq--src-components-head-index-jsx",
+        "/vue/create-component/",
         "sq--src-components-bio-index-jsx",
-        "/vue/create-component/"
+        "sq--src-components-head-index-jsx",
+        "/vue/component-props/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -6928,6 +7042,9 @@
       ],
       "e7c904b4-722c-583a-910e-cfd3c2bd9a71": [
         "/vue/create-component/"
+      ],
+      "828df96d-8905-5b80-ba82-b7820955cf9d": [
+        "/vue/component-props/"
       ]
     },
     "connections": {
@@ -6947,7 +7064,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "380/path---index-6a9-ztqdoX0yMacFGcbm7IT36Mnv5Y",
+    "index": "517/path---index-6a9-MLir58Tsp2vt6sRJakYOsNO5CU",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -6987,7 +7104,8 @@
     "vue-vue-setting-fd2": "92/path---vue-vue-setting-fd-2-921-pXPwcSG4pBrdh4ODNa4mWKDiT8",
     "vue-vue-architecture-1a4": "656/path---vue-vue-architecture-1-a-4-713-QI0EYzfrsvbvNRCZznaH2ElHuFQ",
     "vue-npm-router-8fa": "960/path---vue-npm-router-8-fa-04d-Coe2DwEtMgRmO3RbH9K2jJtEvo",
-    "vue-create-component-a17": "392/path---vue-create-component-a-17-378-hdjKjqQyHlCTYhuPArZj4Q29uT0"
+    "vue-create-component-a17": "811/path---vue-create-component-a-17-378-BLwqeOO5t72DP2jZ6ZIyjOnVVY",
+    "vue-component-props-788": "318/path---vue-component-props-788-fa5-j9MSuKgckWDOkM1CQgPUTKA9w0E"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {
