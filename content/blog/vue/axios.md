@@ -9,7 +9,7 @@ category: vue
 클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  
 **Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**
 
-### 1. npm 설치
+### 1. NPM 으로 Axios 설치
 
 ```shell script
 $ npm i axios
