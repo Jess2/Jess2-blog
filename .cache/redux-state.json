@@ -6851,7 +6851,15 @@
             "category": "vue"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vue/axios/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
+            "category": "vue"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -6861,7 +6869,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2f73516f70b3d271a4439cb3b51aa20",
+        "contentDigest": "04e90eed4fd842da0b88b601e3ff1b62",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -7003,6 +7011,111 @@
       "fields": {
         "slug": "/vue/refs/"
       }
+    },
+    "510ce698-b8c6-53b0-8093-6002a398974e": {
+      "id": "510ce698-b8c6-53b0-8093-6002a398974e",
+      "children": [
+        "887102b1-ae83-5c74-8c7d-e28964e77713"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "670c874a0f7757ab8f9c5001d1ac83cc",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/axios.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
+      "relativePath": "vue/axios.md",
+      "extension": "md",
+      "size": 1917,
+      "prettySize": "1.92 kB",
+      "modifiedTime": "2020-04-01T11:29:31.977Z",
+      "accessTime": "2020-04-01T11:28:32.970Z",
+      "changeTime": "2020-04-01T11:29:31.977Z",
+      "birthTime": "2020-04-01T11:09:03.545Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "axios.md",
+      "ext": ".md",
+      "name": "axios",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8754137,
+      "blocks": 8,
+      "atimeMs": 1585740512970.3494,
+      "mtimeMs": 1585740571976.502,
+      "ctimeMs": 1585740571976.502,
+      "birthtimeMs": 1585739343545.0488,
+      "atime": "2020-04-01T11:28:32.970Z",
+      "mtime": "2020-04-01T11:29:31.977Z",
+      "ctime": "2020-04-01T11:29:31.977Z",
+      "birthtime": "2020-04-01T11:09:03.545Z"
+    },
+    "SitePage /vue/axios/": {
+      "jsonName": "vue-axios-58c",
+      "internalComponentName": "ComponentVueAxios",
+      "path": "/vue/axios/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/axios/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/refs/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] refs로 DOM 직접 접근하기",
+            "category": "vue"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/axios/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c585f330739a9948cdee9efa436b1875",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "887102b1-ae83-5c74-8c7d-e28964e77713": {
+      "id": "887102b1-ae83-5c74-8c7d-e28964e77713",
+      "children": [],
+      "parent": "510ce698-b8c6-53b0-8093-6002a398974e",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. npm 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c4beb24f51513ddcbb81eb0c42bbf789",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
+        "date": "2020-04-01T20:17:15.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. npm 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
+      "fields": {
+        "slug": "/vue/axios/"
+      }
     }
   },
   "status": {
@@ -7054,7 +7167,8 @@
         "/vue/component-props/",
         "/vue/refs/",
         "/vue/npm-router/",
-        "/vue/router/"
+        "/vue/router/",
+        "/vue/axios/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -7164,6 +7278,9 @@
       ],
       "4fbae6e5-9aae-536e-a4ee-9979c517c296": [
         "/vue/router/"
+      ],
+      "887102b1-ae83-5c74-8c7d-e28964e77713": [
+        "/vue/axios/"
       ]
     },
     "connections": {
@@ -7183,7 +7300,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "220/path---index-6a9-zPbZW1FL8MNCNV0PCq6lx358UpM",
+    "index": "647/path---index-6a9-z0AaXzZwxTsmphjvFJU8TqFl2Y",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -7225,8 +7342,9 @@
     "vue-npm-router-8fa": "698/path---vue-npm-router-8-fa-04d-Xym1s9TAK8eVJ4G9JustEVGplzM",
     "vue-create-component-a17": "440/path---vue-create-component-a-17-378-QAXRKrTdDweWDOggkCat7f3fUBA",
     "vue-component-props-788": "192/path---vue-component-props-788-fa5-2TWBJsmgCWsA7VQnO7mG6QeTPuQ",
-    "vue-refs-489": "135/path---vue-refs-489-5a0-Rc3wKkxg5k88kmfmAN8RjjaJgc",
-    "vue-router-08c": "407/path---vue-router-08-c-174-a0RjtWcmNE7NYSsBmidHkng3EyI"
+    "vue-refs-489": "509/path---vue-refs-489-5a0-BL3uYS0tHnUnBdAeitvqSHVKKd0",
+    "vue-router-08c": "407/path---vue-router-08-c-174-a0RjtWcmNE7NYSsBmidHkng3EyI",
+    "vue-axios-58c": "699/path---vue-axios-58-c-b12-qt8FcUi3z6ds5E7tPFp4TYT8nj8"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {
