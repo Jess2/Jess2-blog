@@ -121,8 +121,13 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "vue-npm-router-8fa",
-        "path": "/vue/npm-router/"
+        "jsonName": "vue-refs-489",
+        "path": "/vue/refs/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-router-08c",
+        "path": "/vue/router/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

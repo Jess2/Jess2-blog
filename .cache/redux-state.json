@@ -5623,53 +5623,6 @@
       "ctime": "2020-02-09T15:47:01.124Z",
       "birthtime": "2020-02-09T15:39:45.902Z"
     },
-    "3a175792-aafb-50fa-9d5c-5160cd5b50a6": {
-      "id": "3a175792-aafb-50fa-9d5c-5160cd5b50a6",
-      "children": [
-        "46c34736-835f-5909-b0dd-0de52eca753f"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "132f3038af8a6132a79456581a45c07f",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/vue/npm-router.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/npm-router.md",
-      "relativePath": "vue/npm-router.md",
-      "extension": "md",
-      "size": 2215,
-      "prettySize": "2.21 kB",
-      "modifiedTime": "2020-02-09T15:52:33.775Z",
-      "accessTime": "2020-02-09T15:52:16.650Z",
-      "changeTime": "2020-02-09T15:52:33.775Z",
-      "birthTime": "2020-02-09T15:45:22.243Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
-      "base": "npm-router.md",
-      "ext": ".md",
-      "name": "npm-router",
-      "relativeDirectory": "vue",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 6246675,
-      "blocks": 8,
-      "atimeMs": 1581263536649.8035,
-      "mtimeMs": 1581263553774.681,
-      "ctimeMs": 1581263553774.681,
-      "birthtimeMs": 1581263122243.4827,
-      "atime": "2020-02-09T15:52:16.650Z",
-      "mtime": "2020-02-09T15:52:33.775Z",
-      "ctime": "2020-02-09T15:52:33.775Z",
-      "birthtime": "2020-02-09T15:45:22.243Z"
-    },
     "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd": {
       "id": "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd",
       "children": [],
@@ -5693,31 +5646,6 @@
       "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/vue-architecture.md",
       "fields": {
         "slug": "/vue/vue-architecture/"
-      }
-    },
-    "46c34736-835f-5909-b0dd-0de52eca753f": {
-      "id": "46c34736-835f-5909-b0dd-0de52eca753f",
-      "children": [],
-      "parent": "3a175792-aafb-50fa-9d5c-5160cd5b50a6",
-      "internal": {
-        "content": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "5407a8049c21f8379a74fa3c76264dd4",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[Vue.js] 라우터 설정",
-        "date": "2020-02-10T00:02:11.000Z",
-        "category": "vue"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/npm-router.md",
-      "fields": {
-        "slug": "/vue/npm-router/"
       }
     },
     "1be841da-a16a-5195-9aaa-52f777568e5d": {
@@ -5914,7 +5842,15 @@
             "category": "vue"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vue/refs/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] refs로 DOM 직접 접근하기",
+            "category": "vue"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -5924,7 +5860,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "14d3422a4ab464de3b448f84b53d23de",
+        "contentDigest": "c67290943c0799614a6211a8702a8c65",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5940,7 +5876,7 @@
         "slug": "/vue/create-component/",
         "previous": {
           "fields": {
-            "slug": "/vue/npm-router/"
+            "slug": "/vue/router/"
           },
           "frontmatter": {
             "title": "[Vue.js] 라우터 설정",
@@ -5965,48 +5901,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f5f4de45b1c0a9e730c881a8204e5c68",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /vue/npm-router/": {
-      "jsonName": "vue-npm-router-8fa",
-      "internalComponentName": "ComponentVueNpmRouter",
-      "path": "/vue/npm-router/",
-      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/vue/npm-router/",
-        "previous": {
-          "fields": {
-            "slug": "/vue/vue-architecture/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] 프로젝트 추천 구조",
-            "category": "vue"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/vue/create-component/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] 컴포넌트 생성",
-            "category": "vue"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "id": "SitePage /vue/npm-router/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e164c3e9a414f9366cc212aa5d73a43e",
+        "contentDigest": "549915648ec2402365c579d34aaa0579",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -6031,7 +5926,7 @@
         },
         "next": {
           "fields": {
-            "slug": "/vue/npm-router/"
+            "slug": "/vue/router/"
           },
           "frontmatter": {
             "title": "[Vue.js] 라우터 설정",
@@ -6047,7 +5942,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cefff52755757c0de7f584708fe5a5db",
+        "contentDigest": "a3a9a70a249daf9e91760e5823ebc88e",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -6890,6 +6785,224 @@
       "fields": {
         "slug": "/vue/component-props/"
       }
+    },
+    "9fb474fc-fd92-5085-a0a8-9590b38a26f7": {
+      "id": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
+      "children": [
+        "aaaa5022-ab42-5753-ad83-618cad57e7a8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e5175f43a589875875109b6da0fa11b2",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/refs.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
+      "relativePath": "vue/refs.md",
+      "extension": "md",
+      "size": 733,
+      "prettySize": "733 B",
+      "modifiedTime": "2020-04-01T11:06:59.195Z",
+      "accessTime": "2020-04-01T11:06:25.836Z",
+      "changeTime": "2020-04-01T11:06:59.195Z",
+      "birthTime": "2020-04-01T11:02:24.760Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "refs.md",
+      "ext": ".md",
+      "name": "refs",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8753581,
+      "blocks": 8,
+      "atimeMs": 1585739185835.7085,
+      "mtimeMs": 1585739219194.5493,
+      "ctimeMs": 1585739219194.5493,
+      "birthtimeMs": 1585738944759.9875,
+      "atime": "2020-04-01T11:06:25.836Z",
+      "mtime": "2020-04-01T11:06:59.195Z",
+      "ctime": "2020-04-01T11:06:59.195Z",
+      "birthtime": "2020-04-01T11:02:24.760Z"
+    },
+    "SitePage /vue/refs/": {
+      "jsonName": "vue-refs-489",
+      "internalComponentName": "ComponentVueRefs",
+      "path": "/vue/refs/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/refs/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/component-props/"
+          },
+          "frontmatter": {
+            "title": "[vue.js] 하위 컴포넌트 등록과 Props",
+            "category": "vue"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/refs/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f2f73516f70b3d271a4439cb3b51aa20",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9c88f94a-b309-541f-91b3-3f364a7173dd": {
+      "id": "9c88f94a-b309-541f-91b3-3f364a7173dd",
+      "children": [
+        "4fbae6e5-9aae-536e-a4ee-9979c517c296"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "132f3038af8a6132a79456581a45c07f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/router.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
+      "relativePath": "vue/router.md",
+      "extension": "md",
+      "size": 2215,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2020-02-09T15:52:33.775Z",
+      "accessTime": "2020-02-09T15:59:25.544Z",
+      "changeTime": "2020-04-01T11:03:38.081Z",
+      "birthTime": "2020-02-09T15:45:22.243Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "router.md",
+      "ext": ".md",
+      "name": "router",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6246675,
+      "blocks": 8,
+      "atimeMs": 1581263965544.0708,
+      "mtimeMs": 1581263553774.681,
+      "ctimeMs": 1585739018080.9897,
+      "birthtimeMs": 1581263122243.4827,
+      "atime": "2020-02-09T15:59:25.544Z",
+      "mtime": "2020-02-09T15:52:33.775Z",
+      "ctime": "2020-04-01T11:03:38.081Z",
+      "birthtime": "2020-02-09T15:45:22.243Z"
+    },
+    "4fbae6e5-9aae-536e-a4ee-9979c517c296": {
+      "id": "4fbae6e5-9aae-536e-a4ee-9979c517c296",
+      "children": [],
+      "parent": "9c88f94a-b309-541f-91b3-3f364a7173dd",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "f9ab9af812da7cf92d3564f259a68e9f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] 라우터 설정",
+        "date": "2020-02-10T00:02:11.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
+      "fields": {
+        "slug": "/vue/router/"
+      }
+    },
+    "SitePage /vue/router/": {
+      "jsonName": "vue-router-08c",
+      "internalComponentName": "ComponentVueRouter",
+      "path": "/vue/router/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/router/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/vue-architecture/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 프로젝트 추천 구조",
+            "category": "vue"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/vue/create-component/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 컴포넌트 생성",
+            "category": "vue"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/router/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3bacfd712040718132f944ee92897761",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "aaaa5022-ab42-5753-ad83-618cad57e7a8": {
+      "id": "aaaa5022-ab42-5753-ad83-618cad57e7a8",
+      "children": [],
+      "parent": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ea8ad010480a5679ebd635687e0af6aa",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] refs로 DOM 직접 접근하기",
+        "date": "2020-04-01T20:05:25.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
+      "fields": {
+        "slug": "/vue/refs/"
+      }
     }
   },
   "status": {
@@ -6935,11 +7048,13 @@
         "/JavaScript/this/",
         "/vue/vue-setting/",
         "/vue/vue-architecture/",
-        "/vue/npm-router/",
         "/vue/create-component/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx",
-        "/vue/component-props/"
+        "/vue/component-props/",
+        "/vue/refs/",
+        "/vue/npm-router/",
+        "/vue/router/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -7037,14 +7152,18 @@
       "d1ef568a-3800-5bdd-8daf-195bc0ddc6bd": [
         "/vue/vue-architecture/"
       ],
-      "46c34736-835f-5909-b0dd-0de52eca753f": [
-        "/vue/npm-router/"
-      ],
+      "46c34736-835f-5909-b0dd-0de52eca753f": [],
       "e7c904b4-722c-583a-910e-cfd3c2bd9a71": [
         "/vue/create-component/"
       ],
       "828df96d-8905-5b80-ba82-b7820955cf9d": [
         "/vue/component-props/"
+      ],
+      "aaaa5022-ab42-5753-ad83-618cad57e7a8": [
+        "/vue/refs/"
+      ],
+      "4fbae6e5-9aae-536e-a4ee-9979c517c296": [
+        "/vue/router/"
       ]
     },
     "connections": {
@@ -7064,7 +7183,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "517/path---index-6a9-MLir58Tsp2vt6sRJakYOsNO5CU",
+    "index": "220/path---index-6a9-zPbZW1FL8MNCNV0PCq6lx358UpM",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -7102,10 +7221,12 @@
     "java-script-ajax-xml-json-817": "90/path---java-script-ajax-xml-json-817-498-89S6cKwQOV5eQjFPt5cmHyenFI",
     "java-script-this-f77": "128/path---java-script-this-f-77-455-oYPNROgJNJYEjfHX6fxSG1xDZX8",
     "vue-vue-setting-fd2": "92/path---vue-vue-setting-fd-2-921-pXPwcSG4pBrdh4ODNa4mWKDiT8",
-    "vue-vue-architecture-1a4": "656/path---vue-vue-architecture-1-a-4-713-QI0EYzfrsvbvNRCZznaH2ElHuFQ",
-    "vue-npm-router-8fa": "960/path---vue-npm-router-8-fa-04d-Coe2DwEtMgRmO3RbH9K2jJtEvo",
-    "vue-create-component-a17": "811/path---vue-create-component-a-17-378-BLwqeOO5t72DP2jZ6ZIyjOnVVY",
-    "vue-component-props-788": "318/path---vue-component-props-788-fa5-j9MSuKgckWDOkM1CQgPUTKA9w0E"
+    "vue-vue-architecture-1a4": "385/path---vue-vue-architecture-1-a-4-713-22iTAgso2IR95y6509zbMmyaL4",
+    "vue-npm-router-8fa": "698/path---vue-npm-router-8-fa-04d-Xym1s9TAK8eVJ4G9JustEVGplzM",
+    "vue-create-component-a17": "440/path---vue-create-component-a-17-378-QAXRKrTdDweWDOggkCat7f3fUBA",
+    "vue-component-props-788": "192/path---vue-component-props-788-fa5-2TWBJsmgCWsA7VQnO7mG6QeTPuQ",
+    "vue-refs-489": "135/path---vue-refs-489-5a0-Rc3wKkxg5k88kmfmAN8RjjaJgc",
+    "vue-router-08c": "407/path---vue-router-08-c-174-a0RjtWcmNE7NYSsBmidHkng3EyI"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {
