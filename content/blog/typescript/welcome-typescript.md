@@ -19,11 +19,11 @@ ESNext는 ES5의 모든 문법을 포함하고, 타입스크립트는 ESNext의 
 타입스크립트의 타입 기능을 이용해 구현하면 타입스크립트 컴파일러(TSC)는 문제의 원인이 무엇인지 친절하게 알려주기 때문에 오류의 원인을 쉽게 알 수 있다.
 
 ```typescript
-function makePerson(name, age) {}
+function makePerson(name, age) {} // js 방식
+
+function makePerson(name: string, age: number) {} // ts 방식
 
 makePerson(32, "Jessie")
-
-function makePerson(name: string, age: number) {}
 ```
 
 
