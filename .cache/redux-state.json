@@ -2278,12 +2278,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-31T11:38:57.296Z",
+      "buildTime": "2020-04-11T02:44:52.879Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "71a13fa4f9c54125a5f63535e35b4d98",
+        "contentDigest": "fc2d45e65fa721de14f0d4176e6c2bf7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3057,7 +3057,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b6ca6471c5944b82bc4fab18b00744db",
+        "contentDigest": "7ce973701a8d209229ed9afaa27dd21a",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -3066,11 +3066,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2020-01-19T11:19:50.813Z",
-      "accessTime": "2020-02-25T13:51:27.318Z",
-      "changeTime": "2020-01-19T11:19:50.813Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2020-04-11T02:44:32.342Z",
+      "accessTime": "2020-04-11T02:44:45.245Z",
+      "changeTime": "2020-04-11T02:44:32.342Z",
       "birthTime": "2019-09-07T02:56:09.622Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content",
@@ -3080,20 +3080,20 @@
       "relativeDirectory": "..",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3265981,
       "blocks": 0,
-      "atimeMs": 1582638687318.432,
-      "mtimeMs": 1579432790812.8677,
-      "ctimeMs": 1579432790812.8677,
+      "atimeMs": 1586573085245.135,
+      "mtimeMs": 1586573072342.1675,
+      "ctimeMs": 1586573072342.1675,
       "birthtimeMs": 1567824969621.551,
-      "atime": "2020-02-25T13:51:27.318Z",
-      "mtime": "2020-01-19T11:19:50.813Z",
-      "ctime": "2020-01-19T11:19:50.813Z",
+      "atime": "2020-04-11T02:44:45.245Z",
+      "mtime": "2020-04-11T02:44:32.342Z",
+      "ctime": "2020-04-11T02:44:32.342Z",
       "birthtime": "2019-09-07T02:56:09.622Z"
     },
     "a5dff75e-0bc7-5f44-9955-dec6a5d799c7": {
@@ -5364,7 +5364,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "45f684a41f0c36d7d976af20793ec2c1",
+        "contentDigest": "42f2bf5e9cbcc0577ea2634ddd9a77ba",
         "type": "Directory",
         "description": "Directory \"content/blog/vue\"",
         "owner": "gatsby-source-filesystem"
@@ -5373,11 +5373,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue",
       "relativePath": "vue",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2020-03-31T11:37:30.594Z",
-      "accessTime": "2020-03-31T11:37:33.728Z",
-      "changeTime": "2020-03-31T11:37:30.594Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2020-04-01T11:09:03.545Z",
+      "accessTime": "2020-04-01T11:09:07.109Z",
+      "changeTime": "2020-04-01T11:09:03.545Z",
       "birthTime": "2020-01-19T11:19:50.813Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/blog",
@@ -5387,20 +5387,20 @@
       "relativeDirectory": "",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5940017,
       "blocks": 0,
-      "atimeMs": 1585654653728.4915,
-      "mtimeMs": 1585654650593.9514,
-      "ctimeMs": 1585654650593.9514,
+      "atimeMs": 1585739347108.5225,
+      "mtimeMs": 1585739343545.0718,
+      "ctimeMs": 1585739343545.0718,
       "birthtimeMs": 1579432790812.8513,
-      "atime": "2020-03-31T11:37:33.728Z",
-      "mtime": "2020-03-31T11:37:30.594Z",
-      "ctime": "2020-03-31T11:37:30.594Z",
+      "atime": "2020-04-01T11:09:07.109Z",
+      "mtime": "2020-04-01T11:09:03.545Z",
+      "ctime": "2020-04-01T11:09:03.545Z",
       "birthtime": "2020-01-19T11:19:50.813Z"
     },
     "1f779e36-4f40-5a42-a3f8-cb867d75e66e": {
@@ -5824,6 +5824,453 @@
       "ctime": "2020-03-31T11:42:55.859Z",
       "birthtime": "2020-03-31T11:37:30.594Z"
     },
+    "828df96d-8905-5b80-ba82-b7820955cf9d": {
+      "id": "828df96d-8905-5b80-ba82-b7820955cf9d",
+      "children": [],
+      "parent": "450b7486-b254-55b2-822e-f83a65e871e3",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "5ed66c4ebe8f64fcae172f95d263cc7b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[vue.js] 하위 컴포넌트 등록과 Props",
+        "date": "2020-03-31T20:03:31.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/component-props.md",
+      "fields": {
+        "slug": "/vue/component-props/"
+      }
+    },
+    "9fb474fc-fd92-5085-a0a8-9590b38a26f7": {
+      "id": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
+      "children": [
+        "aaaa5022-ab42-5753-ad83-618cad57e7a8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e5175f43a589875875109b6da0fa11b2",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/refs.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
+      "relativePath": "vue/refs.md",
+      "extension": "md",
+      "size": 733,
+      "prettySize": "733 B",
+      "modifiedTime": "2020-04-01T11:06:59.195Z",
+      "accessTime": "2020-04-01T11:06:25.836Z",
+      "changeTime": "2020-04-01T11:06:59.195Z",
+      "birthTime": "2020-04-01T11:02:24.760Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "refs.md",
+      "ext": ".md",
+      "name": "refs",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8753581,
+      "blocks": 8,
+      "atimeMs": 1585739185835.7085,
+      "mtimeMs": 1585739219194.5493,
+      "ctimeMs": 1585739219194.5493,
+      "birthtimeMs": 1585738944759.9875,
+      "atime": "2020-04-01T11:06:25.836Z",
+      "mtime": "2020-04-01T11:06:59.195Z",
+      "ctime": "2020-04-01T11:06:59.195Z",
+      "birthtime": "2020-04-01T11:02:24.760Z"
+    },
+    "9c88f94a-b309-541f-91b3-3f364a7173dd": {
+      "id": "9c88f94a-b309-541f-91b3-3f364a7173dd",
+      "children": [
+        "4fbae6e5-9aae-536e-a4ee-9979c517c296"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "132f3038af8a6132a79456581a45c07f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/router.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
+      "relativePath": "vue/router.md",
+      "extension": "md",
+      "size": 2215,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2020-02-09T15:52:33.775Z",
+      "accessTime": "2020-02-09T15:59:25.544Z",
+      "changeTime": "2020-04-01T11:03:38.081Z",
+      "birthTime": "2020-02-09T15:45:22.243Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "router.md",
+      "ext": ".md",
+      "name": "router",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6246675,
+      "blocks": 8,
+      "atimeMs": 1581263965544.0708,
+      "mtimeMs": 1581263553774.681,
+      "ctimeMs": 1585739018080.9897,
+      "birthtimeMs": 1581263122243.4827,
+      "atime": "2020-02-09T15:59:25.544Z",
+      "mtime": "2020-02-09T15:52:33.775Z",
+      "ctime": "2020-04-01T11:03:38.081Z",
+      "birthtime": "2020-02-09T15:45:22.243Z"
+    },
+    "4fbae6e5-9aae-536e-a4ee-9979c517c296": {
+      "id": "4fbae6e5-9aae-536e-a4ee-9979c517c296",
+      "children": [],
+      "parent": "9c88f94a-b309-541f-91b3-3f364a7173dd",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "f9ab9af812da7cf92d3564f259a68e9f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] 라우터 설정",
+        "date": "2020-02-10T00:02:11.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
+      "fields": {
+        "slug": "/vue/router/"
+      }
+    },
+    "aaaa5022-ab42-5753-ad83-618cad57e7a8": {
+      "id": "aaaa5022-ab42-5753-ad83-618cad57e7a8",
+      "children": [],
+      "parent": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ea8ad010480a5679ebd635687e0af6aa",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] refs로 DOM 직접 접근하기",
+        "date": "2020-04-01T20:05:25.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
+      "fields": {
+        "slug": "/vue/refs/"
+      }
+    },
+    "510ce698-b8c6-53b0-8093-6002a398974e": {
+      "id": "510ce698-b8c6-53b0-8093-6002a398974e",
+      "children": [
+        "887102b1-ae83-5c74-8c7d-e28964e77713"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "03bb9513f4c2fc1a04a752eb63bb30e3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/axios.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
+      "relativePath": "vue/axios.md",
+      "extension": "md",
+      "size": 1930,
+      "prettySize": "1.93 kB",
+      "modifiedTime": "2020-04-01T11:31:47.799Z",
+      "accessTime": "2020-04-01T11:31:39.166Z",
+      "changeTime": "2020-04-01T11:31:47.799Z",
+      "birthTime": "2020-04-01T11:09:03.545Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
+      "base": "axios.md",
+      "ext": ".md",
+      "name": "axios",
+      "relativeDirectory": "vue",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8754137,
+      "blocks": 8,
+      "atimeMs": 1585740699165.8843,
+      "mtimeMs": 1585740707798.6626,
+      "ctimeMs": 1585740707798.6626,
+      "birthtimeMs": 1585739343545.0488,
+      "atime": "2020-04-01T11:31:39.166Z",
+      "mtime": "2020-04-01T11:31:47.799Z",
+      "ctime": "2020-04-01T11:31:47.799Z",
+      "birthtime": "2020-04-01T11:09:03.545Z"
+    },
+    "887102b1-ae83-5c74-8c7d-e28964e77713": {
+      "id": "887102b1-ae83-5c74-8c7d-e28964e77713",
+      "children": [],
+      "parent": "510ce698-b8c6-53b0-8093-6002a398974e",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. NPM 으로 Axios 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "eb83f957c43ba40545d130242441ad5a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
+        "date": "2020-04-01T20:17:15.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. NPM 으로 Axios 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
+      "fields": {
+        "slug": "/vue/axios/"
+      }
+    },
+    "93b5de1c-0d76-5694-bdf2-c28599ff6801": {
+      "id": "93b5de1c-0d76-5694-bdf2-c28599ff6801",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2546563ea5b2f99ff19768ce77e9d9e3",
+        "type": "Directory",
+        "description": "Directory \"content/blog/typescript\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/typescript",
+      "relativePath": "typescript",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-04-11T02:44:41.829Z",
+      "accessTime": "2020-04-11T02:44:44.410Z",
+      "changeTime": "2020-04-11T02:44:41.829Z",
+      "birthTime": "2020-04-11T02:44:32.342Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog",
+      "base": "typescript",
+      "ext": "",
+      "name": "typescript",
+      "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8918352,
+      "blocks": 0,
+      "atimeMs": 1586573084409.545,
+      "mtimeMs": 1586573081829.4692,
+      "ctimeMs": 1586573081829.4692,
+      "birthtimeMs": 1586573072342.152,
+      "atime": "2020-04-11T02:44:44.410Z",
+      "mtime": "2020-04-11T02:44:41.829Z",
+      "ctime": "2020-04-11T02:44:41.829Z",
+      "birthtime": "2020-04-11T02:44:32.342Z"
+    },
+    "493d3e8e-9a14-50bb-ade5-bb6c88e55728": {
+      "id": "493d3e8e-9a14-50bb-ade5-bb6c88e55728",
+      "children": [
+        "2f41ab23-d3e5-544e-8ab2-c729fee0907f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a068c77a421188f134b67bd9194d3121",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/typescript/welcome-typescript.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/typescript/welcome-typescript.md",
+      "relativePath": "typescript/welcome-typescript.md",
+      "extension": "md",
+      "size": 7521,
+      "prettySize": "7.52 kB",
+      "modifiedTime": "2020-04-11T03:05:55.850Z",
+      "accessTime": "2020-04-11T03:05:42.070Z",
+      "changeTime": "2020-04-11T03:05:55.850Z",
+      "birthTime": "2020-04-11T02:44:41.829Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/typescript",
+      "base": "welcome-typescript.md",
+      "ext": ".md",
+      "name": "welcome-typescript",
+      "relativeDirectory": "typescript",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8918355,
+      "blocks": 16,
+      "atimeMs": 1586574342069.8435,
+      "mtimeMs": 1586574355850.3167,
+      "ctimeMs": 1586574355850.3167,
+      "birthtimeMs": 1586573081829.4563,
+      "atime": "2020-04-11T03:05:42.070Z",
+      "mtime": "2020-04-11T03:05:55.850Z",
+      "ctime": "2020-04-11T03:05:55.850Z",
+      "birthtime": "2020-04-11T02:44:41.829Z"
+    },
+    "SitePage /typescript/welcome-typescript/": {
+      "jsonName": "typescript-welcome-typescript-f8d",
+      "internalComponentName": "ComponentTypescriptWelcomeTypescript",
+      "path": "/typescript/welcome-typescript/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/typescript/welcome-typescript/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/axios/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
+            "category": "vue"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /typescript/welcome-typescript/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "862d3e9b51387deca78b19fc8c2ef835",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /vue/axios/": {
+      "jsonName": "vue-axios-58c",
+      "internalComponentName": "ComponentVueAxios",
+      "path": "/vue/axios/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/axios/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/refs/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] refs로 DOM 직접 접근하기",
+            "category": "vue"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/typescript/welcome-typescript/"
+          },
+          "frontmatter": {
+            "title": "[TypeScript] 타입스크립트 소개 및 주요 개념",
+            "category": "typescript"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/axios/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "394866d964941b6307d8c7c9ad601589",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /vue/refs/": {
+      "jsonName": "vue-refs-489",
+      "internalComponentName": "ComponentVueRefs",
+      "path": "/vue/refs/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/refs/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/component-props/"
+          },
+          "frontmatter": {
+            "title": "[vue.js] 하위 컴포넌트 등록과 Props",
+            "category": "vue"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/vue/axios/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
+            "category": "vue"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/refs/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "04e90eed4fd842da0b88b601e3ff1b62",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /vue/component-props/": {
       "jsonName": "vue-component-props-788",
       "internalComponentName": "ComponentVueComponentProps",
@@ -5902,6 +6349,47 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "549915648ec2402365c579d34aaa0579",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /vue/router/": {
+      "jsonName": "vue-router-08c",
+      "internalComponentName": "ComponentVueRouter",
+      "path": "/vue/router/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/router/",
+        "previous": {
+          "fields": {
+            "slug": "/vue/vue-architecture/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 프로젝트 추천 구조",
+            "category": "vue"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/vue/create-component/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] 컴포넌트 생성",
+            "category": "vue"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /vue/router/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3bacfd712040718132f944ee92897761",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -6761,60 +7249,79 @@
         "owner": "internal-data-bridge"
       }
     },
-    "828df96d-8905-5b80-ba82-b7820955cf9d": {
-      "id": "828df96d-8905-5b80-ba82-b7820955cf9d",
+    "33f8bf03-b034-5c35-95d9-8bfb9210da01": {
+      "id": "33f8bf03-b034-5c35-95d9-8bfb9210da01",
       "children": [],
-      "parent": "450b7486-b254-55b2-822e-f83a65e871e3",
-      "internal": {
-        "content": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "5ed66c4ebe8f64fcae172f95d263cc7b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[vue.js] 하위 컴포넌트 등록과 Props",
-        "date": "2020-03-31T20:03:31.000Z",
-        "category": "vue"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\n웹 사이트에서 하나의 vue 파일만으로 하나의 페이지를 만들 수도 있지만, 다른 컴포넌트들을 하위 컴포넌트로 등록하여 만들 수 있다.\n\n그런데, 하위 컴포넌트를 등록하여 만들 때는 데이터 전달이 필요하다.\n\n예를 들어, A라는 페이지에서 팝업을 띄워야할 때 '팝업 컴포넌트'를 A 컴포넌트의 하위 컴포넌트로 등록할 수 있는데, A 컴포넌트에서 B 요소를 클릭할 때 B 요소의 정보를 팝업으로 띄우고 C 요소를 클릭할 때 C 요소의 정보를 팝업으로 띄워야 한다고 가정한다면, A 컴포넌트에서 팝업 컴포넌트로 B 요소의 정보와 C 요소의 정보를 보내야 한다. 즉, 데이터 전달이 필요하다.\n\n데이터 전달은 Props로 처리할 수 있다.\n\n실제 코드를 보며 자세히 살펴보자.\n\nParents.vue 컴포넌트에서 Child.vue 컴포넌트를 하위 컴포넌트로 등록해보자.\n\n#### Parents.vue\n\n```html\n<template>\n  <div>\n    <child-component :contents=\"ParentsContents\" @close=\"closeChild\"></child-component> // 1\n  </div>\n</template>\n\n<script>\nimport ChildComponent from '@/components/child/Child' // 2\n\nexport default {\n  name: 'Parents',\n  data () {\n    return {\n      ParentsContents: \"This is ParentsContents\", // 3\n    }\n  },\n   methods: {\n      closeChild (isClose) { // 4\n        if (isClose) {\n            console.log('닫기')\n        } else {\n            console.log('닫지 않기')\n        }\n     }\n  },\n  components: {\n    ChildComponent // 5\n  }\n}\n</script>\n\n<style scoped lang=\"scss\">\n  @import \"Parents\"\n</style>\n```\n\n- 1 : `<child-component>` 태그 위치에 Child 컴포넌트가 그려진다.\n    - `:contents=\"ParentsContents\"` 는 Child 컴포넌트에 `contents` 라는 이름으로 Props 전달을 하는데, 이 `contents`에 `ParentsContents` 값을 보낸다는 뜻이다.\n    - `@close=\"closeChild\"` 는 Child 컴포넌트에서 `close`를 `emit` 할 경우, `CloseChild` 라는 메소드를 호출하라는 뜻이다.\n- 2 : Child 컴포넌트를 `ChildComponent` 라는 이름으로 import 한다.\n- 3 : Child 컴포넌트에 Props로 보낼 `ParentsContents` 변수 정의 부분이다.\n- 4 : Child 컴포넌트에서 `close` 를 `emit` 할 경우, 호출되는 `closeChild` 메소드 정의 부분이다.\n- 5 : `ChildComponent`를 Parents 컴포넌트의 하위 컴포넌트로 등록하는 부분이다.\n\n#### Child.vue\n\n```html\n<template>\n  <div>\n    {{ contents }} // 1\n    <button @click=\"closeFunc\">닫기</button> // 2\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'PopUp',\n    props: {\n      contents: { // 3\n        type: String,\n        required: true,\n      },\n    },\n    data () {\n      return {\n      }\n    },\n    methods: {\n        closeFunc () {\n            this.$emit('close', true) // 4\n        }\n    }\n  }\n</script>\n\n<style lang=\"scss\">\n  @import \"PopUp\"\n</style>\n```\n\n- 1 : Parents 컴포넌트에서 Props로 받은 `contents` 를 출력한다.\n- 2 : 닫기 버튼을 누르면 `closeFunc` 메소드가 호출된다.\n- 3 : Parents 컴포넌트에서 받은 Props를 정의하는 부분이다.\n- 4 : 닫기 버튼을 누르면 호출되는 `closeFunc` 메소드 정의 부분이다. `close`를 `emit`한다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/component-props.md",
-      "fields": {
-        "slug": "/vue/component-props/"
-      }
-    },
-    "9fb474fc-fd92-5085-a0a8-9590b38a26f7": {
-      "id": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
-      "children": [
-        "aaaa5022-ab42-5753-ad83-618cad57e7a8"
-      ],
       "parent": null,
       "internal": {
-        "contentDigest": "e5175f43a589875875109b6da0fa11b2",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/vue/refs.md\"",
+        "contentDigest": "f4f93f3478d7fd01c4d6616dce1345ae",
+        "type": "Directory",
+        "description": "Directory \"content/blog/typescript/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
-      "relativePath": "vue/refs.md",
-      "extension": "md",
-      "size": 733,
-      "prettySize": "733 B",
-      "modifiedTime": "2020-04-01T11:06:59.195Z",
-      "accessTime": "2020-04-01T11:06:25.836Z",
-      "changeTime": "2020-04-01T11:06:59.195Z",
-      "birthTime": "2020-04-01T11:02:24.760Z",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/typescript/images",
+      "relativePath": "typescript/images",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2020-04-11T02:53:53.688Z",
+      "accessTime": "2020-04-11T02:53:53.688Z",
+      "changeTime": "2020-04-11T02:53:53.688Z",
+      "birthTime": "2020-04-11T02:53:53.688Z",
       "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
-      "base": "refs.md",
-      "ext": ".md",
-      "name": "refs",
-      "relativeDirectory": "vue",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/typescript",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "typescript",
+      "dev": 16777222,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8919672,
+      "blocks": 0,
+      "atimeMs": 1586573633687.8772,
+      "mtimeMs": 1586573633687.8772,
+      "ctimeMs": 1586573633687.8772,
+      "birthtimeMs": 1586573633687.8772,
+      "atime": "2020-04-11T02:53:53.688Z",
+      "mtime": "2020-04-11T02:53:53.688Z",
+      "ctime": "2020-04-11T02:53:53.688Z",
+      "birthtime": "2020-04-11T02:53:53.688Z"
+    },
+    "42a49fc8-2b5e-51f8-99f4-dbc0bb63babb": {
+      "id": "42a49fc8-2b5e-51f8-99f4-dbc0bb63babb",
+      "children": [
+        "5000cd27-a2cb-55b8-adf3-89c406f06d68"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dbddbf8d5f5f6e62d986d33f4e9f2a97",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/typescript/images/typescript.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/typescript/images/typescript.png",
+      "relativePath": "typescript/images/typescript.png",
+      "extension": "png",
+      "size": 33613,
+      "prettySize": "33.6 kB",
+      "modifiedTime": "2020-04-11T02:52:40.822Z",
+      "accessTime": "2020-04-11T02:52:43.171Z",
+      "changeTime": "2020-04-11T02:54:03.826Z",
+      "birthTime": "2020-04-11T02:52:40.804Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/typescript/images",
+      "base": "typescript.png",
+      "ext": ".png",
+      "name": "typescript",
+      "relativeDirectory": "typescript/images",
       "dev": 16777222,
       "mode": 33188,
       "nlink": 1,
@@ -6822,299 +7329,50 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8753581,
-      "blocks": 8,
-      "atimeMs": 1585739185835.7085,
-      "mtimeMs": 1585739219194.5493,
-      "ctimeMs": 1585739219194.5493,
-      "birthtimeMs": 1585738944759.9875,
-      "atime": "2020-04-01T11:06:25.836Z",
-      "mtime": "2020-04-01T11:06:59.195Z",
-      "ctime": "2020-04-01T11:06:59.195Z",
-      "birthtime": "2020-04-01T11:02:24.760Z"
+      "ino": 8919526,
+      "blocks": 72,
+      "atimeMs": 1586573563170.8445,
+      "mtimeMs": 1586573560822.1995,
+      "ctimeMs": 1586573643826.002,
+      "birthtimeMs": 1586573560804.389,
+      "atime": "2020-04-11T02:52:43.171Z",
+      "mtime": "2020-04-11T02:52:40.822Z",
+      "ctime": "2020-04-11T02:54:03.826Z",
+      "birthtime": "2020-04-11T02:52:40.804Z"
     },
-    "SitePage /vue/refs/": {
-      "jsonName": "vue-refs-489",
-      "internalComponentName": "ComponentVueRefs",
-      "path": "/vue/refs/",
-      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/vue/refs/",
-        "previous": {
-          "fields": {
-            "slug": "/vue/component-props/"
-          },
-          "frontmatter": {
-            "title": "[vue.js] 하위 컴포넌트 등록과 Props",
-            "category": "vue"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/vue/axios/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
-            "category": "vue"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "id": "SitePage /vue/refs/",
-      "parent": null,
+    "5000cd27-a2cb-55b8-adf3-89c406f06d68": {
+      "id": "5000cd27-a2cb-55b8-adf3-89c406f06d68",
       "children": [],
+      "parent": "42a49fc8-2b5e-51f8-99f4-dbc0bb63babb",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "04e90eed4fd842da0b88b601e3ff1b62",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
+        "contentDigest": "dbddbf8d5f5f6e62d986d33f4e9f2a97",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
-    "9c88f94a-b309-541f-91b3-3f364a7173dd": {
-      "id": "9c88f94a-b309-541f-91b3-3f364a7173dd",
-      "children": [
-        "4fbae6e5-9aae-536e-a4ee-9979c517c296"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "132f3038af8a6132a79456581a45c07f",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/vue/router.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
-      "relativePath": "vue/router.md",
-      "extension": "md",
-      "size": 2215,
-      "prettySize": "2.21 kB",
-      "modifiedTime": "2020-02-09T15:52:33.775Z",
-      "accessTime": "2020-02-09T15:59:25.544Z",
-      "changeTime": "2020-04-01T11:03:38.081Z",
-      "birthTime": "2020-02-09T15:45:22.243Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
-      "base": "router.md",
-      "ext": ".md",
-      "name": "router",
-      "relativeDirectory": "vue",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 6246675,
-      "blocks": 8,
-      "atimeMs": 1581263965544.0708,
-      "mtimeMs": 1581263553774.681,
-      "ctimeMs": 1585739018080.9897,
-      "birthtimeMs": 1581263122243.4827,
-      "atime": "2020-02-09T15:59:25.544Z",
-      "mtime": "2020-02-09T15:52:33.775Z",
-      "ctime": "2020-04-01T11:03:38.081Z",
-      "birthtime": "2020-02-09T15:45:22.243Z"
-    },
-    "4fbae6e5-9aae-536e-a4ee-9979c517c296": {
-      "id": "4fbae6e5-9aae-536e-a4ee-9979c517c296",
+    "2f41ab23-d3e5-544e-8ab2-c729fee0907f": {
+      "id": "2f41ab23-d3e5-544e-8ab2-c729fee0907f",
       "children": [],
-      "parent": "9c88f94a-b309-541f-91b3-3f364a7173dd",
+      "parent": "493d3e8e-9a14-50bb-ade5-bb6c88e55728",
       "internal": {
-        "content": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
+        "content": "\n![](images/typescript.png)\n\n자바스크립트는 현재 세 가지 종류가 있다.\n\n웹 브라우저에서 동작하는 표준 자바스크립트인 ES5, 2015년부터 매년 새로운 버전을 발표하는 ESNext, 그리고 ESNext에 타입 기능을 추가한 타입스크립트.\n\nESNext는 ES5의 모든 문법을 포함하고, 타입스크립트는 ESNext의 모든 문법을 포함한다. 따라서 타입스크립트로 개발했더라도 타입 기능을 사용하지 않는다면 ESNext 소스나 마찬가지다.\n\n타입스크립트는 마이크로소프트가 개발하고 유지하고 있는 오픈소스 프로그래밍 언어로, 2012년 말 처음 발표 되었다. 구글의 Angular.js 팀이 앵귤러 버전 2를 만들면서 타입스크립트를 채택한 이후부터 널리 알려졌다. 요즘에는 리액트나 뷰도 타입스크립트를 사용해 개발되고 있다.\n\n### 자바스크립트에 타입 기능이 있으면 좋은 이유\n\n타입스크립트의 타입 기능을 이용해 구현하면 타입스크립트 컴파일러(TSC)는 문제의 원인이 무엇인지 친절하게 알려주기 때문에 오류의 원인을 쉽게 알 수 있다.\n\n```typescript\nfunction makePerson(name, age) {}\n\nmakePerson(32, \"Jessie\")\n\nfunction makePerson(name: string, age: number) {}\n```\n\n\n### 트랜스파일\n\nESNext 자바스크립트 소스코드는 바벨(Babel)이라는 트랜스파일러(transpiler)를 거치면 ES5 자바스크립트 코드로 변환된다.\n\n바벨과 유사하게 타입스크립트 소스코드는 TSC(TypeScript Compiler)라는 트랜스파일러를 통해 ES5 자바스크립트 코드로 변환된다.\n\n여기서 트랜스 파일러란, 어떤 프로그래밍 언어로 작성된 소스코드를 또 다른 프로그래밍 언어로 된 소스코드로 바꿔주는 프로그램이다. 트랜스파일러는 텍스트로 된 소스코드를 바이너리 코드로 바꿔주는 컴파일러와 구분하기 위해 생긴 용어이다.\n\n타입스크립트는 ESNext 문법을 대부분 지원하므로 타입스크립트를 다루려면 ESNext 문법을 알아야 한다. 그리고 타입스크립트에만 고유한 문법도 있다.\n\n### ESNext 주요 문법\n\n1. 비구조화 할당\n2. 화살표 함수\n3. 클래스\n4. 모듈\n5. 생성기\n6. Promise와 async/awiat 구문\n\n### 타입스크립트 고유 문법\n\n1. 타입 주석과 타입 추론\n2. 인터페이스\n3. 튜플\n4. 제네릭 타입\n5. 대수 타입\n\n### 1. 타입 주석과 타입 추론\n\n```typescript\nlet n: number = 1;\nlet m = 2;\n```\n\n- 타입 주석(type annotation) : 변수 `n`뒤의 콜론(:)과 타입 이름\n- 타입 추론(type inference) : 2행처럼 타입 부분을 생략할 수도 있다. 타입스크립트는 변수와 타입부분이 생략되면 대입 연산자의 오른쪽 값을 분석해 왼쪽 변수의 타입을 결정한다.\n   \n타입스크립트의 타입 추론 기능은 자바스크립트 소스코드와 호환성을 보장하는 데 큰 역할을 한다. 타입 추론 덕분에 자바스크립트로 작성된 `.js` 파일을 확장자만 `.ts`로 바꾸면 타입스크립트 환경에서도 바로 동작한다.\n\n```typescript\nlet n: number = 1;\nlet b: boolean = true;\nlet s: string = \"hello\";\nlet o: object = {};\n\nn = \"world\"; // 타입 불일치 오류 발생\nb = 1; // 타입 불일치 오류 발생\ns = false; // 타입 불일치 오류 발생\n```\n\n타입스크립트는 자바스크립트와 다르게 `let`으로 선언한 변숫값은 타입 주석으로 명시한 타입에 해당하는 값으로만 바꿀 수 있다.\n\n#### any 타입\n\n타입스크립트는 자바스크립트와 호환을 위해 `any`라는 이름의 타입을 제공한다. 다음 코드에서 변수 `a`는 타입이 `any`이므로 값의 타입과 무관하게 어떤 종류의 값도 저장할 수 있다.\n\n```typescript\nlet a: any = 0;\na = \"hello\"; // 가능\na = true; // 가능\na = {}; // 가능\n```\n\n### 2. 인터페이스\n\n타입스크립트는 객체의 타입을 정의할 수 있게 해주는 `interface`라는 키워드를 제공한다. 인터페이스는 객체의 타입을 정의하는 것이 목적이므로 다음처럼 객체를 의미하는 중괄호 {} 로 속성과 속성의 타입 주석을 나열하는 형태로 사용한다.\n\n```typescript\ninterface Person {\n    name: string\n    age: number\n};\n\nlet person: Person = { name: \"Jessie\", age: 29 };\n```\n\n인터페이스 속성에 맞지 않으면 아래와 같이 오류가 발생한다.\n\n```typescript\ninterface IPerson {\n    name: string\n    age: number\n}\n\nlet good: IPerson = { name: 'Jessie', age: 29 };\n\nlet bad1: IPerson = { name: 'Jessie' }; // age 속성이 없으므로 오류\nlet bad2: IPerson = { age: 29 }; // name 속성이 없으므로 오류\nlet bad3: IPerson = {}; // name과 age 속성이 없으므로 오류\nlet bad4: IPerson = { name: 'Jessie', age: 29, etc: true }; // etc 속성이 있어서 오류\n```\n\n#### 선택 속성 구문\n\n인터페이스를 설계할 때 어떤 속성은 반드시 있어야 하지만, 어떤 속성은 있어도 되고 없어도 되는 형태로 만들고 싶을 때가 있다. 이러한 속성을 선택 속성(optional property)이라고 한다.\n\n```typescript\ninterface IPerson2 {\n    name: string // 필수 속성\n    age: number // 필수 속성\n    etc?: boolean // 선택 속성\n}\nlet good1: IPerson2 = { name: 'Jessie', age: 29 };\nlet good2: IPerson2 = { name: 'Jessie', age: 29, etc: true };\n```\n\n#### 익명 인터페이스\n\n타입스크립트는 `interface` 키워드도 사용하지 않고 인터페이스의 이름도 없는 인터페이스를 만들 수 있다. 이를 익명 인터페이스(anonymous interface)라고 한다.\n\n```typescript\nlet ai: {\n    name: string\n    age: number\n    etc?: boolean\n} = {name: 'Jessie', age: 29}\n\nfunction printMe(me: {name: string, age: number, etc?: boolean}) {\n    console.log(me.etc ? `${me.name} ${me.age} ${me.etc}` : `${me.name} ${me.age}`)\n}\nprintMe(ai); // Jessie 29\n```\n\n### 3. 튜플\n\n튜플은 물리적으로는 배열과 같다. 다만, 배열에 저장되는 아이템의 데이터 타입이 모두 같으면 배열, 다르면 튜플이다.\n\n- 배열 : 저장되는 아이템의 데이터 타입이 모두 같을 경우\n- 튜플 : 저장되는 아이템의 데이터 타입이 다를 경우\n\n```typescript\nlet numberArray: number[] = [1,2,3]; // 배열\nlet tuple: [boolean, number, string] = [true, 1, 'Ok']; // 튜플\n```\n\n### 4. 제네릭 타입\n\n다양한 타입을 한꺼번에 취급할 수 있게 해준다.\n\n```typescript\nclass Container<T> {\n    constructor(public value: T) { }\n}\nlet numberContainer: Container<number> = new Container<number>(1);\nlet stringContainer: Container<string> = new Container<string>('Hello world');\n```\n\n`Container` 클래스는 `value` 속성을 포함한다. 이 클래스는 `Container<number>`, `Container<string>`, `Container<number[]>`, `Container<boolean>`처럼 여러가지 타입을 대상으로 동작할 수 있다.\n\n이것을 제네릭 타입(generic type)이라고 한다.\n\n### 5. 대수 타입\n\n다른 자료형의 값을 가지는 자료형을 의미한다.\n\n대수 타입에는 크게 합집합 타입과 교집합 타입 두 가지가 있다. 합집합 타입은 `|` 기호를, 교집합 타입은 `&` 기호를 사용한다.\n\n```typescript\ntype NumberOrString = number | string;\ntype AnimalAndPersion = Animal & Persion;\n```\n",
         "type": "MarkdownRemark",
-        "contentDigest": "f9ab9af812da7cf92d3564f259a68e9f",
+        "contentDigest": "dc97d76b9d2950aa89791882d3cc2bf7",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "[Vue.js] 라우터 설정",
-        "date": "2020-02-10T00:02:11.000Z",
-        "category": "vue"
+        "title": "[TypeScript] 타입스크립트 소개 및 주요 개념",
+        "date": "2020-04-11T11:05:22.000Z",
+        "category": "typescript"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\nvue-cli로 생성한 vue.js 프로젝트의 App.vue 파일의 html 코드 부분을 보면 기본적으로 아래와 같이 작성되어 있다.\n\n* App.vue\n\n    ```html\n    <template>\n        <div id=\"app\">\n            <img src=\"./assets/logo.png\">\n            <router-view/>\n        </div>\n    </template>\n    ```\n\n위 코드에서 `<router-view/>` 부분에는 `src/router/index.js`의 라우터 설정에 따라 다른 컴포넌트가 보여지게 된다.\n\n그렇다면 src/router/index.js를 살펴보자.\n\n* src/router/index.js\n\n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        }\n      ]\n    })\n    ```\n\n기본적으로 `path`가 `/`일 경우에는 HelloWorld 컴포넌트를 렌더링하도록 설정되어 있다.\n\n만약, base url이 [http://localhost:8080/#/](https://localhost:8080/#/) 이라면 [http://localhost:8080/#/](https://localhost:8080/#/) 에 접속했을 때 최상위 vue 파일인 App.vue의 `<router-view/>` 부분에 HelloWorld 컴포넌트가 렌더링된다.\n\n그렇다면 List라는 컴포넌트가 있다고 가정하고 아래와 같이 라우터 설정을 해보자.\n\n* src/router/index.js\n    \n    ```js\n    import Vue from 'vue'\n    import Router from 'vue-router'\n    import HelloWorld from '@/components/HelloWorld'\n    import List from '@/components/List' // List 컴포넌트 import\n    \n    Vue.use(Router)\n    \n    export default new Router({\n      routes: [\n        {\n          path: '/',\n          name: 'HelloWorld',\n          component: HelloWorld\n        },\n        {\n          path: '/list',\n          name: 'List',\n          component: List\n        }\n      ]\n    })\n    ```\n\nbase url이 [http://localhost:8080/#/](http://localhost:8080/#/) 이라면 [http://localhost:8080/#/list](http://localhost:8080/#/list) 에 접속했을 때 App.vue 의`<router-view/>` 부분에 List 컴포넌트가 렌더링된다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/router.md",
+      "rawMarkdownBody": "\n![](images/typescript.png)\n\n자바스크립트는 현재 세 가지 종류가 있다.\n\n웹 브라우저에서 동작하는 표준 자바스크립트인 ES5, 2015년부터 매년 새로운 버전을 발표하는 ESNext, 그리고 ESNext에 타입 기능을 추가한 타입스크립트.\n\nESNext는 ES5의 모든 문법을 포함하고, 타입스크립트는 ESNext의 모든 문법을 포함한다. 따라서 타입스크립트로 개발했더라도 타입 기능을 사용하지 않는다면 ESNext 소스나 마찬가지다.\n\n타입스크립트는 마이크로소프트가 개발하고 유지하고 있는 오픈소스 프로그래밍 언어로, 2012년 말 처음 발표 되었다. 구글의 Angular.js 팀이 앵귤러 버전 2를 만들면서 타입스크립트를 채택한 이후부터 널리 알려졌다. 요즘에는 리액트나 뷰도 타입스크립트를 사용해 개발되고 있다.\n\n### 자바스크립트에 타입 기능이 있으면 좋은 이유\n\n타입스크립트의 타입 기능을 이용해 구현하면 타입스크립트 컴파일러(TSC)는 문제의 원인이 무엇인지 친절하게 알려주기 때문에 오류의 원인을 쉽게 알 수 있다.\n\n```typescript\nfunction makePerson(name, age) {}\n\nmakePerson(32, \"Jessie\")\n\nfunction makePerson(name: string, age: number) {}\n```\n\n\n### 트랜스파일\n\nESNext 자바스크립트 소스코드는 바벨(Babel)이라는 트랜스파일러(transpiler)를 거치면 ES5 자바스크립트 코드로 변환된다.\n\n바벨과 유사하게 타입스크립트 소스코드는 TSC(TypeScript Compiler)라는 트랜스파일러를 통해 ES5 자바스크립트 코드로 변환된다.\n\n여기서 트랜스 파일러란, 어떤 프로그래밍 언어로 작성된 소스코드를 또 다른 프로그래밍 언어로 된 소스코드로 바꿔주는 프로그램이다. 트랜스파일러는 텍스트로 된 소스코드를 바이너리 코드로 바꿔주는 컴파일러와 구분하기 위해 생긴 용어이다.\n\n타입스크립트는 ESNext 문법을 대부분 지원하므로 타입스크립트를 다루려면 ESNext 문법을 알아야 한다. 그리고 타입스크립트에만 고유한 문법도 있다.\n\n### ESNext 주요 문법\n\n1. 비구조화 할당\n2. 화살표 함수\n3. 클래스\n4. 모듈\n5. 생성기\n6. Promise와 async/awiat 구문\n\n### 타입스크립트 고유 문법\n\n1. 타입 주석과 타입 추론\n2. 인터페이스\n3. 튜플\n4. 제네릭 타입\n5. 대수 타입\n\n### 1. 타입 주석과 타입 추론\n\n```typescript\nlet n: number = 1;\nlet m = 2;\n```\n\n- 타입 주석(type annotation) : 변수 `n`뒤의 콜론(:)과 타입 이름\n- 타입 추론(type inference) : 2행처럼 타입 부분을 생략할 수도 있다. 타입스크립트는 변수와 타입부분이 생략되면 대입 연산자의 오른쪽 값을 분석해 왼쪽 변수의 타입을 결정한다.\n   \n타입스크립트의 타입 추론 기능은 자바스크립트 소스코드와 호환성을 보장하는 데 큰 역할을 한다. 타입 추론 덕분에 자바스크립트로 작성된 `.js` 파일을 확장자만 `.ts`로 바꾸면 타입스크립트 환경에서도 바로 동작한다.\n\n```typescript\nlet n: number = 1;\nlet b: boolean = true;\nlet s: string = \"hello\";\nlet o: object = {};\n\nn = \"world\"; // 타입 불일치 오류 발생\nb = 1; // 타입 불일치 오류 발생\ns = false; // 타입 불일치 오류 발생\n```\n\n타입스크립트는 자바스크립트와 다르게 `let`으로 선언한 변숫값은 타입 주석으로 명시한 타입에 해당하는 값으로만 바꿀 수 있다.\n\n#### any 타입\n\n타입스크립트는 자바스크립트와 호환을 위해 `any`라는 이름의 타입을 제공한다. 다음 코드에서 변수 `a`는 타입이 `any`이므로 값의 타입과 무관하게 어떤 종류의 값도 저장할 수 있다.\n\n```typescript\nlet a: any = 0;\na = \"hello\"; // 가능\na = true; // 가능\na = {}; // 가능\n```\n\n### 2. 인터페이스\n\n타입스크립트는 객체의 타입을 정의할 수 있게 해주는 `interface`라는 키워드를 제공한다. 인터페이스는 객체의 타입을 정의하는 것이 목적이므로 다음처럼 객체를 의미하는 중괄호 {} 로 속성과 속성의 타입 주석을 나열하는 형태로 사용한다.\n\n```typescript\ninterface Person {\n    name: string\n    age: number\n};\n\nlet person: Person = { name: \"Jessie\", age: 29 };\n```\n\n인터페이스 속성에 맞지 않으면 아래와 같이 오류가 발생한다.\n\n```typescript\ninterface IPerson {\n    name: string\n    age: number\n}\n\nlet good: IPerson = { name: 'Jessie', age: 29 };\n\nlet bad1: IPerson = { name: 'Jessie' }; // age 속성이 없으므로 오류\nlet bad2: IPerson = { age: 29 }; // name 속성이 없으므로 오류\nlet bad3: IPerson = {}; // name과 age 속성이 없으므로 오류\nlet bad4: IPerson = { name: 'Jessie', age: 29, etc: true }; // etc 속성이 있어서 오류\n```\n\n#### 선택 속성 구문\n\n인터페이스를 설계할 때 어떤 속성은 반드시 있어야 하지만, 어떤 속성은 있어도 되고 없어도 되는 형태로 만들고 싶을 때가 있다. 이러한 속성을 선택 속성(optional property)이라고 한다.\n\n```typescript\ninterface IPerson2 {\n    name: string // 필수 속성\n    age: number // 필수 속성\n    etc?: boolean // 선택 속성\n}\nlet good1: IPerson2 = { name: 'Jessie', age: 29 };\nlet good2: IPerson2 = { name: 'Jessie', age: 29, etc: true };\n```\n\n#### 익명 인터페이스\n\n타입스크립트는 `interface` 키워드도 사용하지 않고 인터페이스의 이름도 없는 인터페이스를 만들 수 있다. 이를 익명 인터페이스(anonymous interface)라고 한다.\n\n```typescript\nlet ai: {\n    name: string\n    age: number\n    etc?: boolean\n} = {name: 'Jessie', age: 29}\n\nfunction printMe(me: {name: string, age: number, etc?: boolean}) {\n    console.log(me.etc ? `${me.name} ${me.age} ${me.etc}` : `${me.name} ${me.age}`)\n}\nprintMe(ai); // Jessie 29\n```\n\n### 3. 튜플\n\n튜플은 물리적으로는 배열과 같다. 다만, 배열에 저장되는 아이템의 데이터 타입이 모두 같으면 배열, 다르면 튜플이다.\n\n- 배열 : 저장되는 아이템의 데이터 타입이 모두 같을 경우\n- 튜플 : 저장되는 아이템의 데이터 타입이 다를 경우\n\n```typescript\nlet numberArray: number[] = [1,2,3]; // 배열\nlet tuple: [boolean, number, string] = [true, 1, 'Ok']; // 튜플\n```\n\n### 4. 제네릭 타입\n\n다양한 타입을 한꺼번에 취급할 수 있게 해준다.\n\n```typescript\nclass Container<T> {\n    constructor(public value: T) { }\n}\nlet numberContainer: Container<number> = new Container<number>(1);\nlet stringContainer: Container<string> = new Container<string>('Hello world');\n```\n\n`Container` 클래스는 `value` 속성을 포함한다. 이 클래스는 `Container<number>`, `Container<string>`, `Container<number[]>`, `Container<boolean>`처럼 여러가지 타입을 대상으로 동작할 수 있다.\n\n이것을 제네릭 타입(generic type)이라고 한다.\n\n### 5. 대수 타입\n\n다른 자료형의 값을 가지는 자료형을 의미한다.\n\n대수 타입에는 크게 합집합 타입과 교집합 타입 두 가지가 있다. 합집합 타입은 `|` 기호를, 교집합 타입은 `&` 기호를 사용한다.\n\n```typescript\ntype NumberOrString = number | string;\ntype AnimalAndPersion = Animal & Persion;\n```\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/typescript/welcome-typescript.md",
       "fields": {
-        "slug": "/vue/router/"
-      }
-    },
-    "SitePage /vue/router/": {
-      "jsonName": "vue-router-08c",
-      "internalComponentName": "ComponentVueRouter",
-      "path": "/vue/router/",
-      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/vue/router/",
-        "previous": {
-          "fields": {
-            "slug": "/vue/vue-architecture/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] 프로젝트 추천 구조",
-            "category": "vue"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/vue/create-component/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] 컴포넌트 생성",
-            "category": "vue"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "id": "SitePage /vue/router/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3bacfd712040718132f944ee92897761",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "aaaa5022-ab42-5753-ad83-618cad57e7a8": {
-      "id": "aaaa5022-ab42-5753-ad83-618cad57e7a8",
-      "children": [],
-      "parent": "9fb474fc-fd92-5085-a0a8-9590b38a26f7",
-      "internal": {
-        "content": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "ea8ad010480a5679ebd635687e0af6aa",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[Vue.js] refs로 DOM 직접 접근하기",
-        "date": "2020-04-01T20:05:25.000Z",
-        "category": "vue"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\n순수 JavaScript나 jQuery로 DOM에 직접 접근할 수도 있지만, refs를 사용할 수도 있다.\n\n컴포넌트가 mounted될 때, `input`에 focus를 줘보자. \n\n### 방법 1. jQuery\n\n아래와 같이 jQuery로 `input`에 focus를 줄 수 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" id=\"idInput\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    $('#idInput').focus()\n}\n```\n\n### 방법 2. refs\n\n아래와 같이 refs를 사용하여 `input`에 focus를 줄 수도 있다.\n\n#### HTML\n\n```html\n<input type=\"text\" ref=\"idRef\" />\n```\n\n#### JavaScript\n\n```js\nmounted () {\n    this.$refs.idRef.focus()\n}\n```\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/refs.md",
-      "fields": {
-        "slug": "/vue/refs/"
-      }
-    },
-    "510ce698-b8c6-53b0-8093-6002a398974e": {
-      "id": "510ce698-b8c6-53b0-8093-6002a398974e",
-      "children": [
-        "887102b1-ae83-5c74-8c7d-e28964e77713"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "670c874a0f7757ab8f9c5001d1ac83cc",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/vue/axios.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
-      "relativePath": "vue/axios.md",
-      "extension": "md",
-      "size": 1917,
-      "prettySize": "1.92 kB",
-      "modifiedTime": "2020-04-01T11:29:31.977Z",
-      "accessTime": "2020-04-01T11:28:32.970Z",
-      "changeTime": "2020-04-01T11:29:31.977Z",
-      "birthTime": "2020-04-01T11:09:03.545Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/vue",
-      "base": "axios.md",
-      "ext": ".md",
-      "name": "axios",
-      "relativeDirectory": "vue",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8754137,
-      "blocks": 8,
-      "atimeMs": 1585740512970.3494,
-      "mtimeMs": 1585740571976.502,
-      "ctimeMs": 1585740571976.502,
-      "birthtimeMs": 1585739343545.0488,
-      "atime": "2020-04-01T11:28:32.970Z",
-      "mtime": "2020-04-01T11:29:31.977Z",
-      "ctime": "2020-04-01T11:29:31.977Z",
-      "birthtime": "2020-04-01T11:09:03.545Z"
-    },
-    "SitePage /vue/axios/": {
-      "jsonName": "vue-axios-58c",
-      "internalComponentName": "ComponentVueAxios",
-      "path": "/vue/axios/",
-      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/vue/axios/",
-        "previous": {
-          "fields": {
-            "slug": "/vue/refs/"
-          },
-          "frontmatter": {
-            "title": "[Vue.js] refs로 DOM 직접 접근하기",
-            "category": "vue"
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
-      "id": "SitePage /vue/axios/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c585f330739a9948cdee9efa436b1875",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "887102b1-ae83-5c74-8c7d-e28964e77713": {
-      "id": "887102b1-ae83-5c74-8c7d-e28964e77713",
-      "children": [],
-      "parent": "510ce698-b8c6-53b0-8093-6002a398974e",
-      "internal": {
-        "content": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. npm 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "c4beb24f51513ddcbb81eb0c42bbf789",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[Vue.js] Axios를 이용하여 서버와 통신하기",
-        "date": "2020-04-01T20:17:15.000Z",
-        "category": "vue"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/vue.png)\n\n클라이언트에서 서버와의 통신이 필요할 때 Ajax나 XML을 이용할 수 있는데,  \n**Axios는 Ajax 요청을 하도록 도와주는 라이브러리다.**\n\n### 1. npm 설치\n\n```shell script\n$ npm i axios\n```\n\n### 2. main.js 에 import 및 설정\n\n```js\nimport axios from 'axios'\n\naxios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';\naxios.defaults.headers.post['Content-Type'] = 'application/json';\naxios.defaults.timeout = 100000;\naxios.defaults.baseURL = '{url}'\n\n// 캐싱 방지\naxios.defaults.headers.get['Cache-Control'] = 'no-cache';\naxios.defaults.headers.get['Pragma'] = 'no-cache';\n\nVue.prototype.$http = axios;\n```\n\n### 3. GET - 서버로 부터 데이터 Read 요청하기\n\n```js\n// 연락처 리스트 가져오기\ngetContacts () {\n  this.$http.get(`/contacts`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 4. POST - 서버로 데이터 Create 요청하기\n\n```js\n// 연락처 추가하기\npostContact () {\n  this.$http.post(`/contacts`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 5. PUT - 서버로 데이터 Update 요청하기\n\n```js\n// 연락처 추가하기\nputContact () {\n  this.$http.post(`/contacts/${id}`, {\n    \"name\": \"Jess2\",\n    \"phone\": \"010-2222-3333\"\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n\n### 6. DELETE - 서버로 데이터 Delete 요청하기\n\n```js\n// 연락처 추가하기\ndeleteContact () {\n  this.$http.delete(`/contacts/${id}`, {\n  }).then(result => {\n    this.targets = result.data;\n  }).catch(error => {\n    console.log(error);\n  })\n}\n```\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/vue/axios.md",
-      "fields": {
-        "slug": "/vue/axios/"
+        "slug": "/typescript/welcome-typescript/"
       }
     }
   },
@@ -7162,13 +7420,14 @@
         "/vue/vue-setting/",
         "/vue/vue-architecture/",
         "/vue/create-component/",
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx",
         "/vue/component-props/",
         "/vue/refs/",
         "/vue/npm-router/",
         "/vue/router/",
-        "/vue/axios/"
+        "/vue/axios/",
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx",
+        "/typescript/welcome-typescript/"
       ],
       "6e0035dc-e924-580e-ba87-98dd1e9ff0e0": [],
       "9edcef34-1d9a-5d75-9fef-085654a69a83": [],
@@ -7281,6 +7540,9 @@
       ],
       "887102b1-ae83-5c74-8c7d-e28964e77713": [
         "/vue/axios/"
+      ],
+      "2f41ab23-d3e5-544e-8ab2-c729fee0907f": [
+        "/typescript/welcome-typescript/"
       ]
     },
     "connections": {
@@ -7300,7 +7562,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "647/path---index-6a9-z0AaXzZwxTsmphjvFJU8TqFl2Y",
+    "index": "375/path---index-6a9-EoFfX0NIeIgpJzWaCi4V0VJY8",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -7344,7 +7606,8 @@
     "vue-component-props-788": "192/path---vue-component-props-788-fa5-2TWBJsmgCWsA7VQnO7mG6QeTPuQ",
     "vue-refs-489": "509/path---vue-refs-489-5a0-BL3uYS0tHnUnBdAeitvqSHVKKd0",
     "vue-router-08c": "407/path---vue-router-08-c-174-a0RjtWcmNE7NYSsBmidHkng3EyI",
-    "vue-axios-58c": "699/path---vue-axios-58-c-b12-qt8FcUi3z6ds5E7tPFp4TYT8nj8"
+    "vue-axios-58c": "896/path---vue-axios-58-c-b12-aDmImyEC5Pc4eh195xpUTXqQFJg",
+    "typescript-welcome-typescript-f8d": "840/path---typescript-welcome-typescript-f-8-d-938-mxJ0CWhLg30mHPrfLGy10zVNiPg"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {

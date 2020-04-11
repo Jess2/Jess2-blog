@@ -111,6 +111,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "typescript-welcome-typescript-f8d",
+        "path": "/typescript/welcome-typescript/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-axios-58c",
         "path": "/vue/axios/"
     },
