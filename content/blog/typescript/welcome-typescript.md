@@ -2,7 +2,6 @@
 title: "[TypeScript] 타입스크립트 소개 및 주요 개념"
 date: 2020-04-11 11:04:82
 category: typescript
-image: "typescript.png"
 ---
 
 ![](images/typescript.png)

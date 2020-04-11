@@ -15,10 +15,16 @@ module.exports = {
   keywords: [
     `blog`,
     `javascript`,
+    `typescript`,
     `web`,
     `vue`,
+    `react`,
     `frontend`,
     `development`,
+    `IT`,
+    `프론트엔드`,
+    `개발`,
+    `자바스크립트`
   ],
   comment: {
     disqusShortName: 'https-jess2-netlify-com', // Your disqus-short-name. check disqus.com.
