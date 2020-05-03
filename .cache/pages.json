@@ -51,6 +51,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-ecmascript-2020-c9c",
+        "path": "/JavaScript/ecmascript-2020/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-hoisting-0e5",
         "path": "/JavaScript/hoisting/"
     },
