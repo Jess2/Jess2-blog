@@ -7,6 +7,7 @@ category: css
 ![](images/css.png)
 
 CSS 만으로 서서히 나타나고 서서히 사라지는 애니메이션을 구현할 수 있다.
+
 우선, 애니메이션 속성에 대해 알아보자.
 
 ### Animation
