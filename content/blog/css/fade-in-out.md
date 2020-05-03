@@ -77,6 +77,8 @@ Animation 속성은 애니메이션에 이름을 지정하거나 지속시간, �
   (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.
+
 ### Fade Out
 
 Fade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까지 주면 된다. (from: 1, to: 0)
@@ -132,3 +134,5 @@ Fade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까
   See the Pen <a href='https://codepen.io/je_ss2/pen/bGVYgPB'>Fade Out</a> by SoyeonJung
   (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.
