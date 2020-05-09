@@ -3048,12 +3048,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-05-03T09:35:58.650Z",
+      "buildTime": "2020-05-09T06:16:44.072Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f1b54504f42a2dfbe440fd62ce4dd7c3",
+        "contentDigest": "9ae00838553eed5de52e458e80a188ed",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -6479,7 +6479,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b423ddfcf83c16ad204184d238f4e3ce",
+        "contentDigest": "50a02d200b7b6a45dd7a99171647d346",
         "type": "Directory",
         "description": "Directory \"content/blog/css\"",
         "owner": "gatsby-source-filesystem"
@@ -6488,11 +6488,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css",
       "relativePath": "css",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2020-05-03T09:35:50.417Z",
-      "accessTime": "2020-05-03T09:35:54.807Z",
-      "changeTime": "2020-05-03T09:35:50.417Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-05-03T09:42:01.090Z",
+      "accessTime": "2020-05-03T09:42:01.367Z",
+      "changeTime": "2020-05-03T09:42:01.090Z",
       "birthTime": "2020-05-03T09:35:37.454Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/blog",
@@ -6502,20 +6502,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 9740219,
       "blocks": 0,
-      "atimeMs": 1588498554807.391,
-      "mtimeMs": 1588498550416.98,
-      "ctimeMs": 1588498550416.98,
+      "atimeMs": 1588498921366.8972,
+      "mtimeMs": 1588498921089.9744,
+      "ctimeMs": 1588498921089.9744,
       "birthtimeMs": 1588498537454.4688,
-      "atime": "2020-05-03T09:35:54.807Z",
-      "mtime": "2020-05-03T09:35:50.417Z",
-      "ctime": "2020-05-03T09:35:50.417Z",
+      "atime": "2020-05-03T09:42:01.367Z",
+      "mtime": "2020-05-03T09:42:01.090Z",
+      "ctime": "2020-05-03T09:42:01.090Z",
       "birthtime": "2020-05-03T09:35:37.454Z"
     },
     "ff17ba1c-6e60-5c22-a7d4-7260172c921c": {
@@ -6525,7 +6525,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "acf778f213ba2a6143671d3606b96f43",
+        "contentDigest": "4fc9d6e1db0231fb0295acbcb1ac276a",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/css/fade-in-out.md\"",
@@ -6535,11 +6535,11 @@
       "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/fade-in-out.md",
       "relativePath": "css/fade-in-out.md",
       "extension": "md",
-      "size": 3757,
-      "prettySize": "3.76 kB",
-      "modifiedTime": "2020-05-03T10:12:20.265Z",
-      "accessTime": "2020-05-03T10:11:57.026Z",
-      "changeTime": "2020-05-03T10:12:20.265Z",
+      "size": 3933,
+      "prettySize": "3.93 kB",
+      "modifiedTime": "2020-05-03T10:14:13.058Z",
+      "accessTime": "2020-05-03T10:13:35.657Z",
+      "changeTime": "2020-05-03T10:14:13.058Z",
       "birthTime": "2020-05-03T09:35:50.417Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2devlog/content/blog/css",
@@ -6556,14 +6556,140 @@
       "blksize": 4096,
       "ino": 9740221,
       "blocks": 8,
-      "atimeMs": 1588500717025.6404,
-      "mtimeMs": 1588500740265.1719,
-      "ctimeMs": 1588500740265.1719,
+      "atimeMs": 1588500815657.2778,
+      "mtimeMs": 1588500853058.081,
+      "ctimeMs": 1588500853058.081,
       "birthtimeMs": 1588498550416.965,
-      "atime": "2020-05-03T10:11:57.026Z",
-      "mtime": "2020-05-03T10:12:20.265Z",
-      "ctime": "2020-05-03T10:12:20.265Z",
+      "atime": "2020-05-03T10:13:35.657Z",
+      "mtime": "2020-05-03T10:14:13.058Z",
+      "ctime": "2020-05-03T10:14:13.058Z",
       "birthtime": "2020-05-03T09:35:50.417Z"
+    },
+    "3af6d308-47b2-5985-86a1-8901ef3343bf": {
+      "id": "3af6d308-47b2-5985-86a1-8901ef3343bf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "79ba83acefc81ba50162c28d98d6e034",
+        "type": "Directory",
+        "description": "Directory \"content/blog/css/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/images",
+      "relativePath": "css/images",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-05-03T09:42:35.457Z",
+      "accessTime": "2020-05-03T09:42:35.767Z",
+      "changeTime": "2020-05-03T09:42:35.457Z",
+      "birthTime": "2020-05-03T09:42:01.090Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/css",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "css",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9786164,
+      "blocks": 0,
+      "atimeMs": 1588498955766.9226,
+      "mtimeMs": 1588498955456.7385,
+      "ctimeMs": 1588498955456.7385,
+      "birthtimeMs": 1588498921089.953,
+      "atime": "2020-05-03T09:42:35.767Z",
+      "mtime": "2020-05-03T09:42:35.457Z",
+      "ctime": "2020-05-03T09:42:35.457Z",
+      "birthtime": "2020-05-03T09:42:01.090Z"
+    },
+    "088320d4-753a-51a0-abb6-0d7aea4eb2d5": {
+      "id": "088320d4-753a-51a0-abb6-0d7aea4eb2d5",
+      "children": [
+        "89dc3239-0f72-54bf-87d3-bd334496190a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a57cee6fedec9eb2dcb707f33708f676",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/css/images/css.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/images/css.png",
+      "relativePath": "css/images/css.png",
+      "extension": "png",
+      "size": 32737,
+      "prettySize": "32.7 kB",
+      "modifiedTime": "2020-05-03T09:42:24.244Z",
+      "accessTime": "2020-05-03T09:42:29.450Z",
+      "changeTime": "2020-05-03T09:42:35.457Z",
+      "birthTime": "2020-05-03T09:42:24.192Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/css/images",
+      "base": "css.png",
+      "ext": ".png",
+      "name": "css",
+      "relativeDirectory": "css/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9786199,
+      "blocks": 64,
+      "atimeMs": 1588498949449.533,
+      "mtimeMs": 1588498944243.8867,
+      "ctimeMs": 1588498955456.7385,
+      "birthtimeMs": 1588498944192.469,
+      "atime": "2020-05-03T09:42:29.450Z",
+      "mtime": "2020-05-03T09:42:24.244Z",
+      "ctime": "2020-05-03T09:42:35.457Z",
+      "birthtime": "2020-05-03T09:42:24.192Z"
+    },
+    "89dc3239-0f72-54bf-87d3-bd334496190a": {
+      "id": "89dc3239-0f72-54bf-87d3-bd334496190a",
+      "children": [],
+      "parent": "088320d4-753a-51a0-abb6-0d7aea4eb2d5",
+      "internal": {
+        "contentDigest": "a57cee6fedec9eb2dcb707f33708f676",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "67f13185-5163-5a15-9842-8ca6e03d38d0": {
+      "id": "67f13185-5163-5a15-9842-8ca6e03d38d0",
+      "children": [],
+      "parent": "ff17ba1c-6e60-5c22-a7d4-7260172c921c",
+      "internal": {
+        "content": "\n![](images/css.png)\n\nCSS 만으로 서서히 나타나고 서서히 사라지는 애니메이션을 구현할 수 있다.\n\n우선, 애니메이션 속성에 대해 알아보자.\n\n### Animation\nAnimation 속성은 애니메이션에 이름을 지정하거나 지속시간, 속도 조절 등을 지정할 수 있는 속성을 가지고 있다.\n\n#### 애니메이션 속성 종류\n- `animation-name` : @keyframes 이름 (예제에서는 fadeOut 을 사용)\n- `animation-duratuion` : 타임 프레임의 길이, 키프레임이 동작하는 시간을 설정할 때 사용\n- `animation-timing-function` : 애니메이션 속도 조절 / 그래프 ( linear / ease / ease-in / ease-out / ease-in-out / cubic-bezier )\n- `animation-delay` : 애니메이션을 시작하기 전 지연시간 설정\n- `animation-iteration-count` : 반복 횟수 지정\n- `animation-direction` : 반복 방향 설정 ( 정방향 / 역방향 / 번갈아가며)\n- `animation-fill-mode` : 애니메이션 시작 / 끝 상태 제어 ( none / forwords / backwords / both )\n\n### Fade In\n\n`opacity`를 애니메이션으로 n초 동안 0에서 1까지 주면 된다. (from: 0, to: 1)\n\n```css\n.fade-in-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadein 3s;\n  -moz-animation: fadein 3s; /* Firefox */\n  -webkit-animation: fadein 3s; /* Safari and Chrome */\n  -o-animation: fadein 3s; /* Opera */\n}\n@keyframes fadein {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-moz-keyframes fadein { /* Firefox */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-webkit-keyframes fadein { /* Safari and Chrome */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-o-keyframes fadein { /* Opera */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n```\n\n### Fade In 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade In\" src=\"https://codepen.io/je_ss2/embed/zYvPNLj?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/zYvPNLj'>Fade In</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.\n\n### Fade Out\n\nFade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까지 주면 된다. (from: 1, to: 0)\n\n```css\n.fade-out-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadeout 3s;\n  -moz-animation: fadeout 3s; /* Firefox */\n  -webkit-animation: fadeout 3s; /* Safari and Chrome */\n  -o-animation: fadeout 3s; /* Opera */\n  animation-fill-mode: forwards;\n}\n@keyframes fadeout {\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-moz-keyframes fadeout { /* Firefox */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-webkit-keyframes fadeout { /* Safari and Chrome */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-o-keyframes fadeout { /* Opera */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n```\n\n### Fade Out 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade Out\" src=\"https://codepen.io/je_ss2/embed/bGVYgPB?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/bGVYgPB'>Fade Out</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "fa72d8df4fe6f11e064781dbb41d25c3",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[CSS] Fade In / Fade Out Animation 추가하기",
+        "date": "2020-05-03T18:06:21.000Z",
+        "category": "css"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/css.png)\n\nCSS 만으로 서서히 나타나고 서서히 사라지는 애니메이션을 구현할 수 있다.\n\n우선, 애니메이션 속성에 대해 알아보자.\n\n### Animation\nAnimation 속성은 애니메이션에 이름을 지정하거나 지속시간, 속도 조절 등을 지정할 수 있는 속성을 가지고 있다.\n\n#### 애니메이션 속성 종류\n- `animation-name` : @keyframes 이름 (예제에서는 fadeOut 을 사용)\n- `animation-duratuion` : 타임 프레임의 길이, 키프레임이 동작하는 시간을 설정할 때 사용\n- `animation-timing-function` : 애니메이션 속도 조절 / 그래프 ( linear / ease / ease-in / ease-out / ease-in-out / cubic-bezier )\n- `animation-delay` : 애니메이션을 시작하기 전 지연시간 설정\n- `animation-iteration-count` : 반복 횟수 지정\n- `animation-direction` : 반복 방향 설정 ( 정방향 / 역방향 / 번갈아가며)\n- `animation-fill-mode` : 애니메이션 시작 / 끝 상태 제어 ( none / forwords / backwords / both )\n\n### Fade In\n\n`opacity`를 애니메이션으로 n초 동안 0에서 1까지 주면 된다. (from: 0, to: 1)\n\n```css\n.fade-in-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadein 3s;\n  -moz-animation: fadein 3s; /* Firefox */\n  -webkit-animation: fadein 3s; /* Safari and Chrome */\n  -o-animation: fadein 3s; /* Opera */\n}\n@keyframes fadein {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-moz-keyframes fadein { /* Firefox */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-webkit-keyframes fadein { /* Safari and Chrome */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-o-keyframes fadein { /* Opera */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n```\n\n### Fade In 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade In\" src=\"https://codepen.io/je_ss2/embed/zYvPNLj?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/zYvPNLj'>Fade In</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.\n\n### Fade Out\n\nFade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까지 주면 된다. (from: 1, to: 0)\n\n```css\n.fade-out-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadeout 3s;\n  -moz-animation: fadeout 3s; /* Firefox */\n  -webkit-animation: fadeout 3s; /* Safari and Chrome */\n  -o-animation: fadeout 3s; /* Opera */\n  animation-fill-mode: forwards;\n}\n@keyframes fadeout {\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-moz-keyframes fadeout { /* Firefox */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-webkit-keyframes fadeout { /* Safari and Chrome */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-o-keyframes fadeout { /* Opera */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n```\n\n### Fade Out 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade Out\" src=\"https://codepen.io/je_ss2/embed/bGVYgPB?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/bGVYgPB'>Fade Out</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n- 우측 하단의 'Rerun' 버튼을 누르면 실행 결과를 다시 볼 수 있다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/fade-in-out.md",
+      "fields": {
+        "slug": "/css/fade-in-out/"
+      }
     },
     "SitePage /css/fade-in-out/": {
       "jsonName": "css-fade-in-out-17f",
@@ -6583,7 +6709,15 @@
             "category": "javascript"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/web/storage/"
+          },
+          "frontmatter": {
+            "title": "[WEB] cookies, localStorage, sessionStorage 비교",
+            "category": "web"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -6593,7 +6727,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "170d1c0a8797815ceb48ce09625189d0",
+        "contentDigest": "46af01f6607721c319f9905648f189c8",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -7740,32 +7874,32 @@
         "owner": "internal-data-bridge"
       }
     },
-    "3af6d308-47b2-5985-86a1-8901ef3343bf": {
-      "id": "3af6d308-47b2-5985-86a1-8901ef3343bf",
+    "c960314f-3170-5b21-b16d-a65e5c15e98a": {
+      "id": "c960314f-3170-5b21-b16d-a65e5c15e98a",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3874e98f1e3c2c9883c4adab17ade15c",
+        "contentDigest": "f91e9d3dad37ee89544e96124007cfba",
         "type": "Directory",
-        "description": "Directory \"content/blog/css/images\"",
+        "description": "Directory \"content/blog/web\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/images",
-      "relativePath": "css/images",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web",
+      "relativePath": "web",
       "extension": "",
       "size": 64,
       "prettySize": "64 B",
-      "modifiedTime": "2020-05-03T09:42:01.090Z",
-      "accessTime": "2020-05-03T09:42:01.090Z",
-      "changeTime": "2020-05-03T09:42:01.090Z",
-      "birthTime": "2020-05-03T09:42:01.090Z",
+      "modifiedTime": "2020-05-09T06:18:36.749Z",
+      "accessTime": "2020-05-09T06:18:36.749Z",
+      "changeTime": "2020-05-09T06:18:36.749Z",
+      "birthTime": "2020-05-09T06:18:36.749Z",
       "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/css",
-      "base": "images",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog",
+      "base": "web",
       "ext": "",
-      "name": "images",
-      "relativeDirectory": "css",
+      "name": "web",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
       "nlink": 2,
@@ -7773,46 +7907,46 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 9786164,
+      "ino": 9940505,
       "blocks": 0,
-      "atimeMs": 1588498921089.953,
-      "mtimeMs": 1588498921089.953,
-      "ctimeMs": 1588498921089.953,
-      "birthtimeMs": 1588498921089.953,
-      "atime": "2020-05-03T09:42:01.090Z",
-      "mtime": "2020-05-03T09:42:01.090Z",
-      "ctime": "2020-05-03T09:42:01.090Z",
-      "birthtime": "2020-05-03T09:42:01.090Z"
+      "atimeMs": 1589005116749.382,
+      "mtimeMs": 1589005116749.382,
+      "ctimeMs": 1589005116749.382,
+      "birthtimeMs": 1589005116749.382,
+      "atime": "2020-05-09T06:18:36.749Z",
+      "mtime": "2020-05-09T06:18:36.749Z",
+      "ctime": "2020-05-09T06:18:36.749Z",
+      "birthtime": "2020-05-09T06:18:36.749Z"
     },
-    "088320d4-753a-51a0-abb6-0d7aea4eb2d5": {
-      "id": "088320d4-753a-51a0-abb6-0d7aea4eb2d5",
+    "764d761f-53eb-51d5-a20e-4cff0ab61bc6": {
+      "id": "764d761f-53eb-51d5-a20e-4cff0ab61bc6",
       "children": [
-        "89dc3239-0f72-54bf-87d3-bd334496190a"
+        "4a7263fa-5230-5da2-88da-680dd6038f38"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "a57cee6fedec9eb2dcb707f33708f676",
+        "contentDigest": "f29f4b31eca9f1be04a377d50bd4f7ef",
         "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/css/images/css.png\"",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/web/storage.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/images/css.png",
-      "relativePath": "css/images/css.png",
-      "extension": "png",
-      "size": 32737,
-      "prettySize": "32.7 kB",
-      "modifiedTime": "2020-05-03T09:42:24.244Z",
-      "accessTime": "2020-05-03T09:42:29.450Z",
-      "changeTime": "2020-05-03T09:42:35.457Z",
-      "birthTime": "2020-05-03T09:42:24.192Z",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web/storage.md",
+      "relativePath": "web/storage.md",
+      "extension": "md",
+      "size": 6016,
+      "prettySize": "6.02 kB",
+      "modifiedTime": "2020-05-09T08:08:06.729Z",
+      "accessTime": "2020-05-09T08:07:48.996Z",
+      "changeTime": "2020-05-09T08:08:06.729Z",
+      "birthTime": "2020-05-09T06:18:43.446Z",
       "root": "/",
-      "dir": "/Users/jess2/projects/jess2devlog/content/blog/css/images",
-      "base": "css.png",
-      "ext": ".png",
-      "name": "css",
-      "relativeDirectory": "css/images",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/web",
+      "base": "storage.md",
+      "ext": ".md",
+      "name": "storage",
+      "relativeDirectory": "web",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -7820,50 +7954,231 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 9786199,
-      "blocks": 64,
-      "atimeMs": 1588498949449.533,
-      "mtimeMs": 1588498944243.8867,
-      "ctimeMs": 1588498955456.7385,
-      "birthtimeMs": 1588498944192.469,
-      "atime": "2020-05-03T09:42:29.450Z",
-      "mtime": "2020-05-03T09:42:24.244Z",
-      "ctime": "2020-05-03T09:42:35.457Z",
-      "birthtime": "2020-05-03T09:42:24.192Z"
+      "ino": 9940507,
+      "blocks": 16,
+      "atimeMs": 1589011668996.422,
+      "mtimeMs": 1589011686728.5396,
+      "ctimeMs": 1589011686728.5396,
+      "birthtimeMs": 1589005123446.0754,
+      "atime": "2020-05-09T08:07:48.996Z",
+      "mtime": "2020-05-09T08:08:06.729Z",
+      "ctime": "2020-05-09T08:08:06.729Z",
+      "birthtime": "2020-05-09T06:18:43.446Z"
     },
-    "89dc3239-0f72-54bf-87d3-bd334496190a": {
-      "id": "89dc3239-0f72-54bf-87d3-bd334496190a",
+    "SitePage /web/storage/": {
+      "jsonName": "web-storage-5f1",
+      "internalComponentName": "ComponentWebStorage",
+      "path": "/web/storage/",
+      "component": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/web/storage/",
+        "previous": {
+          "fields": {
+            "slug": "/css/fade-in-out/"
+          },
+          "frontmatter": {
+            "title": "[CSS] Fade In / Fade Out Animation 추가하기",
+            "category": "css"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js",
+      "id": "SitePage /web/storage/",
+      "parent": null,
       "children": [],
-      "parent": "088320d4-753a-51a0-abb6-0d7aea4eb2d5",
       "internal": {
-        "contentDigest": "a57cee6fedec9eb2dcb707f33708f676",
+        "type": "SitePage",
+        "contentDigest": "fabb3b1e425f9f1ede828ccf4c556928",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "beae4a33-7907-557e-ba48-52eb9c7bb0c4": {
+      "id": "beae4a33-7907-557e-ba48-52eb9c7bb0c4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9ade4d94a752f2ece5e9dc8ee3ddc51a",
+        "type": "Directory",
+        "description": "Directory \"content/blog/web/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web/images",
+      "relativePath": "web/images",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2020-05-09T06:20:23.069Z",
+      "accessTime": "2020-05-09T06:20:23.069Z",
+      "changeTime": "2020-05-09T06:20:23.069Z",
+      "birthTime": "2020-05-09T06:20:23.069Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/web",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "web",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9940660,
+      "blocks": 0,
+      "atimeMs": 1589005223069.2656,
+      "mtimeMs": 1589005223069.2656,
+      "ctimeMs": 1589005223069.2656,
+      "birthtimeMs": 1589005223069.2656,
+      "atime": "2020-05-09T06:20:23.069Z",
+      "mtime": "2020-05-09T06:20:23.069Z",
+      "ctime": "2020-05-09T06:20:23.069Z",
+      "birthtime": "2020-05-09T06:20:23.069Z"
+    },
+    "1cc81121-3d38-59c0-8775-b4d3b999342b": {
+      "id": "1cc81121-3d38-59c0-8775-b4d3b999342b",
+      "children": [
+        "21af73ee-3c14-5682-bf6a-0bfec91581b0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6f7b1c2f5ba43ec4bad057c877afac3c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/web.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web/images/web.png",
+      "relativePath": "web/images/web.png",
+      "extension": "png",
+      "size": 25444,
+      "prettySize": "25.4 kB",
+      "modifiedTime": "2020-05-09T06:20:04.007Z",
+      "accessTime": "2020-05-09T06:20:05.025Z",
+      "changeTime": "2020-05-09T06:27:17.831Z",
+      "birthTime": "2020-05-09T06:20:03.985Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/web/images",
+      "base": "web.png",
+      "ext": ".png",
+      "name": "web",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9940612,
+      "blocks": 56,
+      "atimeMs": 1589005205025.1821,
+      "mtimeMs": 1589005204006.6865,
+      "ctimeMs": 1589005637830.8484,
+      "birthtimeMs": 1589005203984.5,
+      "atime": "2020-05-09T06:20:05.025Z",
+      "mtime": "2020-05-09T06:20:04.007Z",
+      "ctime": "2020-05-09T06:27:17.831Z",
+      "birthtime": "2020-05-09T06:20:03.985Z"
+    },
+    "21af73ee-3c14-5682-bf6a-0bfec91581b0": {
+      "id": "21af73ee-3c14-5682-bf6a-0bfec91581b0",
+      "children": [],
+      "parent": "1cc81121-3d38-59c0-8775-b4d3b999342b",
+      "internal": {
+        "contentDigest": "6f7b1c2f5ba43ec4bad057c877afac3c",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "67f13185-5163-5a15-9842-8ca6e03d38d0": {
-      "id": "67f13185-5163-5a15-9842-8ca6e03d38d0",
-      "children": [],
-      "parent": "ff17ba1c-6e60-5c22-a7d4-7260172c921c",
+    "7afbddef-bcc6-518c-b544-e3aaf639dc6c": {
+      "id": "7afbddef-bcc6-518c-b544-e3aaf639dc6c",
+      "children": [
+        "e11221a8-a159-5fc9-bae6-7226fceb327d"
+      ],
+      "parent": null,
       "internal": {
-        "content": "\n![](images/css.png)\n\nCSS 만으로 서서히 나타나고 서서히 사라지는 애니메이션을 구현할 수 있다.\n\n우선, 애니메이션 속성에 대해 알아보자.\n\n### Animation\nAnimation 속성은 애니메이션에 이름을 지정하거나 지속시간, 속도 조절 등을 지정할 수 있는 속성을 가지고 있다.\n\n#### 애니메이션 속성 종류\n- `animation-name` : @keyframes 이름 (예제에서는 fadeOut 을 사용)\n- `animation-duratuion` : 타임 프레임의 길이, 키프레임이 동작하는 시간을 설정할 때 사용\n- `animation-timing-function` : 애니메이션 속도 조절 / 그래프 ( linear / ease / ease-in / ease-out / ease-in-out / cubic-bezier )\n- `animation-delay` : 애니메이션을 시작하기 전 지연시간 설정\n- `animation-iteration-count` : 반복 횟수 지정\n- `animation-direction` : 반복 방향 설정 ( 정방향 / 역방향 / 번갈아가며)\n- `animation-fill-mode` : 애니메이션 시작 / 끝 상태 제어 ( none / forwords / backwords / both )\n\n### Fade In\n\n`opacity`를 애니메이션으로 n초 동안 0에서 1까지 주면 된다. (from: 0, to: 1)\n\n```css\n.fade-in-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadein 3s;\n  -moz-animation: fadein 3s; /* Firefox */\n  -webkit-animation: fadein 3s; /* Safari and Chrome */\n  -o-animation: fadein 3s; /* Opera */\n}\n@keyframes fadein {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-moz-keyframes fadein { /* Firefox */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-webkit-keyframes fadein { /* Safari and Chrome */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-o-keyframes fadein { /* Opera */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n```\n\n### Fade In 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade In\" src=\"https://codepen.io/je_ss2/embed/zYvPNLj?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/zYvPNLj'>Fade In</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n### Fade Out\n\nFade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까지 주면 된다. (from: 1, to: 0)\n\n```css\n.fade-out-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadeout 3s;\n  -moz-animation: fadeout 3s; /* Firefox */\n  -webkit-animation: fadeout 3s; /* Safari and Chrome */\n  -o-animation: fadeout 3s; /* Opera */\n  animation-fill-mode: forwards;\n}\n@keyframes fadeout {\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-moz-keyframes fadeout { /* Firefox */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-webkit-keyframes fadeout { /* Safari and Chrome */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-o-keyframes fadeout { /* Opera */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n```\n\n### Fade Out 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade Out\" src=\"https://codepen.io/je_ss2/embed/bGVYgPB?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/bGVYgPB'>Fade Out</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>",
+        "contentDigest": "6929ef40b355f9d4f32388994ccef62b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/localStorage.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web/images/localStorage.png",
+      "relativePath": "web/images/localStorage.png",
+      "extension": "png",
+      "size": 253981,
+      "prettySize": "254 kB",
+      "modifiedTime": "2020-05-09T07:00:13.928Z",
+      "accessTime": "2020-05-09T07:00:36.080Z",
+      "changeTime": "2020-05-09T07:00:36.002Z",
+      "birthTime": "2020-05-09T07:00:13.927Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2devlog/content/blog/web/images",
+      "base": "localStorage.png",
+      "ext": ".png",
+      "name": "localStorage",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9943039,
+      "blocks": 504,
+      "atimeMs": 1589007636079.6191,
+      "mtimeMs": 1589007613927.5293,
+      "ctimeMs": 1589007636001.5757,
+      "birthtimeMs": 1589007613927.3296,
+      "atime": "2020-05-09T07:00:36.080Z",
+      "mtime": "2020-05-09T07:00:13.928Z",
+      "ctime": "2020-05-09T07:00:36.002Z",
+      "birthtime": "2020-05-09T07:00:13.927Z"
+    },
+    "e11221a8-a159-5fc9-bae6-7226fceb327d": {
+      "id": "e11221a8-a159-5fc9-bae6-7226fceb327d",
+      "children": [],
+      "parent": "7afbddef-bcc6-518c-b544-e3aaf639dc6c",
+      "internal": {
+        "contentDigest": "6929ef40b355f9d4f32388994ccef62b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4a7263fa-5230-5da2-88da-680dd6038f38": {
+      "id": "4a7263fa-5230-5da2-88da-680dd6038f38",
+      "children": [],
+      "parent": "764d761f-53eb-51d5-a20e-4cff0ab61bc6",
+      "internal": {
+        "content": "\n![](images/web.png)\n\n### Storage\n웹 개발을 하다보면 스토리지가 필요할 때가 있다. 스토리지에 대해 알아보자.\n\nHTML5에서 추가된 Storage는 `Window` 객체의 하위 객체로,  \n영구 저장인 `localStorage`와 브라우저 탭 별로 유효한 `sessionStorage`라는 두 가지 저장 방식을 제공한다.\n\n### cookies vs localStorage vs sessionStorage\n\n||cookies|localStorage|sessionStorage|\n|---|---|---|---|\n|Capacity|4kb|10mb|5mb|\n|Browsers|HTML4, HTML5|HTML5|HTML5|\n|Accessible from|Any Window|Any Window|Same tab|\n|Expires|Manually set|Never|On tab close|\n|Storage Location|Browser, Server|Browser|Browser|\n|Sent with requests|O|X|X|\n\n- 로컬 스토리지와 세션 스토리지는 유효 기간 외에는 사용하는 데 큰 차이가 없다.\n\n### 스토리지 method 및 property\n데이터를 저장하고 조회하기 위해 사용되는 메서드와 속성을 정리해 보고 예시를 살펴보자.  \n스토리지는 `key`와 `value`의 형태로 이루어지며 `key`는 원하는 `value`를 가져오는 데 사용된다.\n\n|method/property&nbsp;|기능|\n|---|---|\n|setItem(key, value)|해당 키 값으로 데이터를 저장한다.|\n|getItem(key)|해당 키 값의 이름을 가진 데이터를 가져온다.|\n|removeItem(key)|해당 키 값의 이름을 가진 데이터를 삭제한다.|\n|key(index)|해당 인덱스 값을 가진 키의 이름을 가져온다.|\n|clear()|모든 데이터를 삭제한다.|\n|length|저장된 데이터 수를 가져온다.|\n\n### 데이터 저장 및 조회\n애플리케이션을 실행할 때 서버에 저장하지 않아도 되는 환경 설정을 로컬 스토리지에 저장하면 서버와의 통신할 필요가 없으므로 성능상으로도 이점이 있다.\n\n```js\n// key, value 쌍으로 저장\nlocalStorage.setItem('name', 'jess2');\n\n// key로 조회\nlet userName = localStorage.getItem('name'); \nconsole.log(userName); // jess2\n```\n- 로컬 스토리지에 `name`이라는 key 값으로 `jess2`라는 value를 저장한 다음 다시 저장한 key 값으로 데이터를 조회한다.\n\n### 데이터 삭제\n데이터 삭제도 다음과 같이 `removeItem()` 메서드로 간단하게 처리할 수 있다.\n```js\nlocalStorage.removeItem('name');\n```\n\n### 크롬 개발자 도구로 스토리지 확인하기\n크롬 개발자 도구에서 Application 탭을 클릭하면 Storage > Local Storage 에서 저장한 데이터의 키와 값을 확인할 수 있다.\n![](images/localStorage.png)\n\n### Example\n다음은 `textarea`의 글자색과 배경색을 **스토리지에 저장(`setItem`)하고 조회(`getItem`)**하는 예제이다.\n\n```html\n<textarea name=\"txt\" id=\"txt\" cols=\"30\" rows=\"10\"></textarea><br/>\n<label for=\"textcolor\">change text color</label>\n<input type=\"color\" id=\"textcolor\"/><br/>\n<label for=\"bgcolor\">change bg color</label>\n<input type=\"color\" id=\"bgcolor\"/><br/>\n\n<button id=\"set_color\">set color</button> <!--색상 설정 저장 버튼-->\n<button id=\"get_color\">get color</button> <!--색상 설정 읽기 버튼-->\n```\n```js\n//글 상자에 글자를 입력\n$('#txt').val('글상자 영역의 색상 값을 저장합니다.');\n\n//글자색 변경 시 글상자의 글자색에 적용\n$('#textcolor').change(function(){\n  let color = $(this).val();\n  $('#txt').css('color', color);\n});\n\n//배경색 변경시 글상자의 배경색에 적용\n$('#bgcolor').change(function(){\n  let color = $(this).val();\n  $('#txt').css('backgroundColor', color);\n});\n\n//글자색과 배경색을 로컬 스토리지에 저장\n$('#set_color').click(function(){\n  let bgcolor = $('#bgcolor').val();\n  let textcolor = $('#textcolor').val();\n  let obj = {\n    bgcolor : bgcolor,\n    textcolor : textcolor\n  }\n  localStorage.setItem('color', JSON.stringify(obj));\n});\n\n//로컬 스토리지에 저장한 환경 설정을 조회\n$('#get_color').click(function(){\n  let color = JSON.parse(localStorage.getItem('color'));\n  $('#txt').css({\n    'backgroundColor' : color.bgcolor,\n    'color' : color.textcolor\n  });\n});\n```\n1. color picker 입력 요소를 통해 색상이 변경되면 텍스트 영역의 색상이 변경되도록 한다.\n2. 현재 컬러 입력 요소(글자색과 배경색)에 지정된 색상 값을 `val()`메서드로 읽어서 각각의 키 값(bgcolor, textcolor)을 지정해 로컬 스토리지에 저장한다.\n3. 자바스크립트에서는 데이터를 외부(웹 스토리지나 서버 등)와 주고받는 경우 JSON 표준 형식을 이용한다. 데이터를 내보낼 경우에는 먼저 데이터를 문자열(string)로 변환해 주어야 한다. 따라서 객체 형태의 데이터를 스트링으로 변환하기 위해 `JSON.stringify()`메서드를 사용해 문자열로 변환시켜 저장한다.\n4. 환경 설정으로 저장한 로컬 스토리지의 키 값으로 글상자 `#txt`의 색상 값을 읽어 와 다시 글상자에 스타일로 적용한다.\n5. `JSON.parse()`를 이용해 문자열을 객체로 변환하여 가져온다. 이러한 형식은 자바스크립트 뿐만 아니라 독립적인 데이터 포맷(JSON)으로 다양한 프로그래밍 언어에서 표준(AJAX 통신)으로 사용된다.\n\n### 실행결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"yEJRdO\" src=\"https://codepen.io/je_ss2/embed/yEJRdO?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yEJRdO'>yEJRdO</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n색상을 선택한 뒤 set color 버튼을 클릭하면 로컬스토리지에 선택한 색상이 저장된다.  \n색상을 변경한 뒤에 get color 버튼을 클릭하면 로컬 스토리지에 저장되었던 색상을 읽어온다.\n\n### Reference\n- https://www.youtube.com/watch?v=AwicscsvGLg",
         "type": "MarkdownRemark",
-        "contentDigest": "af6997b0b74c16eaaab2b1910b652606",
+        "contentDigest": "35faac3ec3d8917afb94920474cc2e1a",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "[CSS] Fade In / Fade Out Animation 추가하기",
-        "date": "2020-05-03T18:06:21.000Z",
-        "category": "css"
+        "title": "[WEB] cookies, localStorage, sessionStorage 비교",
+        "date": "2020-05-09T15:06:09.000Z",
+        "category": "web"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/css.png)\n\nCSS 만으로 서서히 나타나고 서서히 사라지는 애니메이션을 구현할 수 있다.\n\n우선, 애니메이션 속성에 대해 알아보자.\n\n### Animation\nAnimation 속성은 애니메이션에 이름을 지정하거나 지속시간, 속도 조절 등을 지정할 수 있는 속성을 가지고 있다.\n\n#### 애니메이션 속성 종류\n- `animation-name` : @keyframes 이름 (예제에서는 fadeOut 을 사용)\n- `animation-duratuion` : 타임 프레임의 길이, 키프레임이 동작하는 시간을 설정할 때 사용\n- `animation-timing-function` : 애니메이션 속도 조절 / 그래프 ( linear / ease / ease-in / ease-out / ease-in-out / cubic-bezier )\n- `animation-delay` : 애니메이션을 시작하기 전 지연시간 설정\n- `animation-iteration-count` : 반복 횟수 지정\n- `animation-direction` : 반복 방향 설정 ( 정방향 / 역방향 / 번갈아가며)\n- `animation-fill-mode` : 애니메이션 시작 / 끝 상태 제어 ( none / forwords / backwords / both )\n\n### Fade In\n\n`opacity`를 애니메이션으로 n초 동안 0에서 1까지 주면 된다. (from: 0, to: 1)\n\n```css\n.fade-in-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadein 3s;\n  -moz-animation: fadein 3s; /* Firefox */\n  -webkit-animation: fadein 3s; /* Safari and Chrome */\n  -o-animation: fadein 3s; /* Opera */\n}\n@keyframes fadein {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-moz-keyframes fadein { /* Firefox */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-webkit-keyframes fadein { /* Safari and Chrome */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n@-o-keyframes fadein { /* Opera */\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n```\n\n### Fade In 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade In\" src=\"https://codepen.io/je_ss2/embed/zYvPNLj?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/zYvPNLj'>Fade In</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n### Fade Out\n\nFade In과 반대로 `opacity`를 애니메이션으로 n초 동안 1에서 0까지 주면 된다. (from: 1, to: 0)\n\n```css\n.fade-out-box {\n  display: inline-block;\n  background: yellow;\n  padding: 10px;\n  animation: fadeout 3s;\n  -moz-animation: fadeout 3s; /* Firefox */\n  -webkit-animation: fadeout 3s; /* Safari and Chrome */\n  -o-animation: fadeout 3s; /* Opera */\n  animation-fill-mode: forwards;\n}\n@keyframes fadeout {\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-moz-keyframes fadeout { /* Firefox */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-webkit-keyframes fadeout { /* Safari and Chrome */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n@-o-keyframes fadeout { /* Opera */\n    from {\n        opacity: 1;\n    }\n    to {\n        opacity: 0;\n    }\n}\n```\n\n### Fade Out 실행 결과\n\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"Fade Out\" src=\"https://codepen.io/je_ss2/embed/bGVYgPB?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\" loading=\"lazy\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/bGVYgPB'>Fade Out</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/css/fade-in-out.md",
+      "rawMarkdownBody": "\n![](images/web.png)\n\n### Storage\n웹 개발을 하다보면 스토리지가 필요할 때가 있다. 스토리지에 대해 알아보자.\n\nHTML5에서 추가된 Storage는 `Window` 객체의 하위 객체로,  \n영구 저장인 `localStorage`와 브라우저 탭 별로 유효한 `sessionStorage`라는 두 가지 저장 방식을 제공한다.\n\n### cookies vs localStorage vs sessionStorage\n\n||cookies|localStorage|sessionStorage|\n|---|---|---|---|\n|Capacity|4kb|10mb|5mb|\n|Browsers|HTML4, HTML5|HTML5|HTML5|\n|Accessible from|Any Window|Any Window|Same tab|\n|Expires|Manually set|Never|On tab close|\n|Storage Location|Browser, Server|Browser|Browser|\n|Sent with requests|O|X|X|\n\n- 로컬 스토리지와 세션 스토리지는 유효 기간 외에는 사용하는 데 큰 차이가 없다.\n\n### 스토리지 method 및 property\n데이터를 저장하고 조회하기 위해 사용되는 메서드와 속성을 정리해 보고 예시를 살펴보자.  \n스토리지는 `key`와 `value`의 형태로 이루어지며 `key`는 원하는 `value`를 가져오는 데 사용된다.\n\n|method/property&nbsp;|기능|\n|---|---|\n|setItem(key, value)|해당 키 값으로 데이터를 저장한다.|\n|getItem(key)|해당 키 값의 이름을 가진 데이터를 가져온다.|\n|removeItem(key)|해당 키 값의 이름을 가진 데이터를 삭제한다.|\n|key(index)|해당 인덱스 값을 가진 키의 이름을 가져온다.|\n|clear()|모든 데이터를 삭제한다.|\n|length|저장된 데이터 수를 가져온다.|\n\n### 데이터 저장 및 조회\n애플리케이션을 실행할 때 서버에 저장하지 않아도 되는 환경 설정을 로컬 스토리지에 저장하면 서버와의 통신할 필요가 없으므로 성능상으로도 이점이 있다.\n\n```js\n// key, value 쌍으로 저장\nlocalStorage.setItem('name', 'jess2');\n\n// key로 조회\nlet userName = localStorage.getItem('name'); \nconsole.log(userName); // jess2\n```\n- 로컬 스토리지에 `name`이라는 key 값으로 `jess2`라는 value를 저장한 다음 다시 저장한 key 값으로 데이터를 조회한다.\n\n### 데이터 삭제\n데이터 삭제도 다음과 같이 `removeItem()` 메서드로 간단하게 처리할 수 있다.\n```js\nlocalStorage.removeItem('name');\n```\n\n### 크롬 개발자 도구로 스토리지 확인하기\n크롬 개발자 도구에서 Application 탭을 클릭하면 Storage > Local Storage 에서 저장한 데이터의 키와 값을 확인할 수 있다.\n![](images/localStorage.png)\n\n### Example\n다음은 `textarea`의 글자색과 배경색을 **스토리지에 저장(`setItem`)하고 조회(`getItem`)**하는 예제이다.\n\n```html\n<textarea name=\"txt\" id=\"txt\" cols=\"30\" rows=\"10\"></textarea><br/>\n<label for=\"textcolor\">change text color</label>\n<input type=\"color\" id=\"textcolor\"/><br/>\n<label for=\"bgcolor\">change bg color</label>\n<input type=\"color\" id=\"bgcolor\"/><br/>\n\n<button id=\"set_color\">set color</button> <!--색상 설정 저장 버튼-->\n<button id=\"get_color\">get color</button> <!--색상 설정 읽기 버튼-->\n```\n```js\n//글 상자에 글자를 입력\n$('#txt').val('글상자 영역의 색상 값을 저장합니다.');\n\n//글자색 변경 시 글상자의 글자색에 적용\n$('#textcolor').change(function(){\n  let color = $(this).val();\n  $('#txt').css('color', color);\n});\n\n//배경색 변경시 글상자의 배경색에 적용\n$('#bgcolor').change(function(){\n  let color = $(this).val();\n  $('#txt').css('backgroundColor', color);\n});\n\n//글자색과 배경색을 로컬 스토리지에 저장\n$('#set_color').click(function(){\n  let bgcolor = $('#bgcolor').val();\n  let textcolor = $('#textcolor').val();\n  let obj = {\n    bgcolor : bgcolor,\n    textcolor : textcolor\n  }\n  localStorage.setItem('color', JSON.stringify(obj));\n});\n\n//로컬 스토리지에 저장한 환경 설정을 조회\n$('#get_color').click(function(){\n  let color = JSON.parse(localStorage.getItem('color'));\n  $('#txt').css({\n    'backgroundColor' : color.bgcolor,\n    'color' : color.textcolor\n  });\n});\n```\n1. color picker 입력 요소를 통해 색상이 변경되면 텍스트 영역의 색상이 변경되도록 한다.\n2. 현재 컬러 입력 요소(글자색과 배경색)에 지정된 색상 값을 `val()`메서드로 읽어서 각각의 키 값(bgcolor, textcolor)을 지정해 로컬 스토리지에 저장한다.\n3. 자바스크립트에서는 데이터를 외부(웹 스토리지나 서버 등)와 주고받는 경우 JSON 표준 형식을 이용한다. 데이터를 내보낼 경우에는 먼저 데이터를 문자열(string)로 변환해 주어야 한다. 따라서 객체 형태의 데이터를 스트링으로 변환하기 위해 `JSON.stringify()`메서드를 사용해 문자열로 변환시켜 저장한다.\n4. 환경 설정으로 저장한 로컬 스토리지의 키 값으로 글상자 `#txt`의 색상 값을 읽어 와 다시 글상자에 스타일로 적용한다.\n5. `JSON.parse()`를 이용해 문자열을 객체로 변환하여 가져온다. 이러한 형식은 자바스크립트 뿐만 아니라 독립적인 데이터 포맷(JSON)으로 다양한 프로그래밍 언어에서 표준(AJAX 통신)으로 사용된다.\n\n### 실행결과\n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"yEJRdO\" src=\"https://codepen.io/je_ss2/embed/yEJRdO?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/yEJRdO'>yEJRdO</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n색상을 선택한 뒤 set color 버튼을 클릭하면 로컬스토리지에 선택한 색상이 저장된다.  \n색상을 변경한 뒤에 get color 버튼을 클릭하면 로컬 스토리지에 저장되었던 색상을 읽어온다.\n\n### Reference\n- https://www.youtube.com/watch?v=AwicscsvGLg",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2devlog/content/blog/web/storage.md",
       "fields": {
-        "slug": "/css/fade-in-out/"
+        "slug": "/web/storage/"
       }
     }
   },
@@ -7903,9 +8218,10 @@
         "/etc./notion-for-students-&-teachers/",
         "/seminar/2018-typescript-korea-meetup/",
         "/JavaScript/ecmascript-2020/",
+        "/css/fade-in-out/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx",
-        "/css/fade-in-out/"
+        "/web/storage/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [
         "sq--src-components-bio-index-jsx"
@@ -7993,6 +8309,9 @@
       ],
       "67f13185-5163-5a15-9842-8ca6e03d38d0": [
         "/css/fade-in-out/"
+      ],
+      "4a7263fa-5230-5da2-88da-680dd6038f38": [
+        "/web/storage/"
       ]
     },
     "connections": {
@@ -8012,7 +8331,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "223/path---index-6a9-k4hvH5ML40HkpFuXNRJBLOqd8XQ",
+    "index": "658/path---index-6a9-EXkA6qoLjNb7JBS5raF62zpybY",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -8059,7 +8378,8 @@
     "vue-axios-58c": "896/path---vue-axios-58-c-b12-aDmImyEC5Pc4eh195xpUTXqQFJg",
     "typescript-welcome-typescript-f8d": "834/path---typescript-welcome-typescript-f-8-d-938-Zcha15p0WkcySysnCLkfMQp6F0",
     "java-script-ecmascript-2020-c9c": "154/path---java-script-ecmascript-2020-c-9-c-9b7-8bGhhexdkjhBN4cSqoL9qu0qupE",
-    "css-fade-in-out-17f": "624/path---css-fade-in-out-17-f-e45-xCFQsnuGq27IECpyPbp2wZ6BJk"
+    "css-fade-in-out-17f": "402/path---css-fade-in-out-17-f-e45-NtH2TUx6R0uVa6PcxJl5bTncZKc",
+    "web-storage-5f1": "595/path---web-storage-5-f-1-bf0-lid4iS944RXrW3ZHNiMeWwBqbY"
   },
   "components": {
     "/Users/jess2/projects/jess2devlog/src/templates/blog-post.js": {

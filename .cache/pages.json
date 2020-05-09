@@ -158,5 +158,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-vue-setting-fd2",
         "path": "/vue/vue-setting/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "web-storage-5f1",
+        "path": "/web/storage/"
     }
 ]
