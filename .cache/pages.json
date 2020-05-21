@@ -116,6 +116,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "etc-webstorm-shortcut-a08",
+        "path": "/etc./webstorm-shortcut/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "seminar-2018-typescript-korea-meetup-bc0",
         "path": "/seminar/2018-typescript-korea-meetup/"
     },

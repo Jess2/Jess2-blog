@@ -4333,7 +4333,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "978350db0f228fb3ff8072c79d8cd040",
+        "contentDigest": "c6c99962ad63e4ecc6066fab10ebc6a9",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/etc./markdown-syntax.md\"",
@@ -4343,11 +4343,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./markdown-syntax.md",
       "relativePath": "etc./markdown-syntax.md",
       "extension": "md",
-      "size": 4408,
-      "prettySize": "4.41 kB",
-      "modifiedTime": "2019-11-24T05:53:27.627Z",
-      "accessTime": "2019-11-24T06:16:54.697Z",
-      "changeTime": "2019-11-24T05:53:27.627Z",
+      "size": 4445,
+      "prettySize": "4.45 kB",
+      "modifiedTime": "2020-05-21T12:00:39.066Z",
+      "accessTime": "2020-05-21T12:00:29.506Z",
+      "changeTime": "2020-05-21T12:00:39.066Z",
       "birthTime": "2019-10-06T06:17:03.152Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
@@ -4364,13 +4364,13 @@
       "blksize": 4096,
       "ino": 4470830,
       "blocks": 16,
-      "atimeMs": 1574576214697.2656,
-      "mtimeMs": 1574574807627.2314,
-      "ctimeMs": 1574574807627.2314,
+      "atimeMs": 1590062429506.3726,
+      "mtimeMs": 1590062439065.7734,
+      "ctimeMs": 1590062439065.7734,
       "birthtimeMs": 1570342623152.147,
-      "atime": "2019-11-24T06:16:54.697Z",
-      "mtime": "2019-11-24T05:53:27.627Z",
-      "ctime": "2019-11-24T05:53:27.627Z",
+      "atime": "2020-05-21T12:00:29.506Z",
+      "mtime": "2020-05-21T12:00:39.066Z",
+      "ctime": "2020-05-21T12:00:39.066Z",
       "birthtime": "2019-10-06T06:17:03.152Z"
     },
     "60f7cb21-fb34-58bd-8d89-f071f0e7aa51": {
@@ -5273,7 +5273,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "bc5d9af8f469e9d05090041516f2fdbb",
+        "contentDigest": "1c828b2b3bb6c83462e6d5586ada4834",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/etc./notion-for-students-&-teachers.md\"",
@@ -5283,11 +5283,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./notion-for-students-&-teachers.md",
       "relativePath": "etc./notion-for-students-&-teachers.md",
       "extension": "md",
-      "size": 1167,
-      "prettySize": "1.17 kB",
-      "modifiedTime": "2019-10-27T08:17:52.120Z",
-      "accessTime": "2019-11-24T06:16:56.386Z",
-      "changeTime": "2019-10-27T08:17:52.120Z",
+      "size": 1176,
+      "prettySize": "1.18 kB",
+      "modifiedTime": "2020-05-21T12:00:39.072Z",
+      "accessTime": "2020-05-21T12:00:29.548Z",
+      "changeTime": "2020-05-21T12:00:39.072Z",
       "birthTime": "2019-09-21T09:41:51.163Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
@@ -5304,13 +5304,13 @@
       "blksize": 4096,
       "ino": 3578801,
       "blocks": 8,
-      "atimeMs": 1574576216385.5657,
-      "mtimeMs": 1572164272119.7952,
-      "ctimeMs": 1572164272119.7952,
+      "atimeMs": 1590062429548.3728,
+      "mtimeMs": 1590062439072.4136,
+      "ctimeMs": 1590062439072.4136,
       "birthtimeMs": 1569058911162.5479,
-      "atime": "2019-11-24T06:16:56.386Z",
-      "mtime": "2019-10-27T08:17:52.120Z",
-      "ctime": "2019-10-27T08:17:52.120Z",
+      "atime": "2020-05-21T12:00:29.548Z",
+      "mtime": "2020-05-21T12:00:39.072Z",
+      "ctime": "2020-05-21T12:00:39.072Z",
       "birthtime": "2019-09-21T09:41:51.163Z"
     },
     "120cc534-e63f-5ca2-86d3-978d8d2bff64": {
@@ -6103,31 +6103,6 @@
         "slug": "/JavaScript/prototype/"
       }
     },
-    "aa07ca72-eced-5e9a-937b-56dca59119a9": {
-      "id": "aa07ca72-eced-5e9a-937b-56dca59119a9",
-      "children": [],
-      "parent": "e088b1df-52f0-512b-9329-87ac67a0ec0e",
-      "internal": {
-        "content": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "b6da8cb68cf638dedbec1c8d62031586",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "마크다운 문법(Markdown Syntax)",
-        "date": "2019-10-09T12:11:27.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./markdown-syntax.md",
-      "fields": {
-        "slug": "/etc./markdown-syntax/"
-      }
-    },
     "4a2d1d41-b1b0-5c86-9550-12d2a52fd194": {
       "id": "4a2d1d41-b1b0-5c86-9550-12d2a52fd194",
       "children": [],
@@ -6501,31 +6476,6 @@
       "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/seminar/2019-startup-junior-seminar.md",
       "fields": {
         "slug": "/seminar/2019-startup-junior-seminar/"
-      }
-    },
-    "df8d1a07-348d-5322-8d47-94b713fc84cf": {
-      "id": "df8d1a07-348d-5322-8d47-94b713fc84cf",
-      "children": [],
-      "parent": "b499b866-2ed1-5dae-88d6-cba786e3aefe",
-      "internal": {
-        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2b466487a65b06e359a54c9929864c0b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Notion is FREE for students & teachers",
-        "date": "2019-09-21T18:10:14.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./notion-for-students-&-teachers.md",
-      "fields": {
-        "slug": "/etc./notion-for-students-&-teachers/"
       }
     },
     "21641a8f-a5ef-5331-ba74-764f884f1103": {
@@ -7067,11 +7017,11 @@
         "slug": "/JavaScript/variable-regex/",
         "previous": {
           "fields": {
-            "slug": "/web/storage/"
+            "slug": "/etc./webstorm-shortcut/"
           },
           "frontmatter": {
-            "title": "[WEB] cookies, localStorage, sessionStorage 비교",
-            "category": "web"
+            "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
+            "category": "etc."
           }
         },
         "next": null
@@ -7084,7 +7034,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c87a8d31108831dfb07358a97cebc971",
+        "contentDigest": "2d834c20d0055b884c63a3ddccd92465",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -7109,11 +7059,11 @@
         },
         "next": {
           "fields": {
-            "slug": "/JavaScript/variable-regex/"
+            "slug": "/etc./webstorm-shortcut/"
           },
           "frontmatter": {
-            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
-            "category": "javascript"
+            "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
+            "category": "etc."
           }
         }
       },
@@ -7125,7 +7075,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2d154736e324d68abb27bfdf968b210d",
+        "contentDigest": "29a3dc4d1002258d6def9b749b8be3b5",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -7759,7 +7709,7 @@
             "slug": "/etc./markdown-syntax/"
           },
           "frontmatter": {
-            "title": "마크다운 문법(Markdown Syntax)",
+            "title": "[etc.] 마크다운 문법(Markdown Syntax)",
             "category": "etc."
           }
         },
@@ -7781,7 +7731,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dede652fabf86586543090e8595cc715",
+        "contentDigest": "06507373987f64de9b9bf319b3ff4098",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -7850,7 +7800,7 @@
             "slug": "/etc./markdown-syntax/"
           },
           "frontmatter": {
-            "title": "마크다운 문법(Markdown Syntax)",
+            "title": "[etc.] 마크다운 문법(Markdown Syntax)",
             "category": "etc."
           }
         }
@@ -7863,7 +7813,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e741b0e5075128c2f75ab0abd804a271",
+        "contentDigest": "3b8f998fa7fe2756382c729cd9599039",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -8128,7 +8078,7 @@
             "slug": "/etc./notion-for-students-&-teachers/"
           },
           "frontmatter": {
-            "title": "Notion is FREE for students & teachers",
+            "title": "[etc.] Notion is FREE for students & teachers",
             "category": "etc."
           }
         },
@@ -8150,7 +8100,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2fb837a33266867fb092596127c777bb",
+        "contentDigest": "9bc8f32245501eab25fb77b08090623d",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -8211,7 +8161,7 @@
             "slug": "/etc./notion-for-students-&-teachers/"
           },
           "frontmatter": {
-            "title": "Notion is FREE for students & teachers",
+            "title": "[etc.] Notion is FREE for students & teachers",
             "category": "etc."
           }
         }
@@ -8224,7 +8174,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f178784276ddec4b1cdbf2d7148300df",
+        "contentDigest": "a21f2979820176847468929074eaffa7",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -8337,6 +8287,397 @@
       "fields": {
         "slug": "/JavaScript/variable-regex/"
       }
+    },
+    "b181c37a-f881-5480-be27-e6119cc74a2b": {
+      "id": "b181c37a-f881-5480-be27-e6119cc74a2b",
+      "children": [
+        "2a3e0f96-c8f8-56c2-b287-c74afb4461c1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "15c532994c4d6574abc7df497210fe65",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/etc./webstorm-shortcut.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
+      "relativePath": "etc./webstorm-shortcut.md",
+      "extension": "md",
+      "size": 1215,
+      "prettySize": "1.22 kB",
+      "modifiedTime": "2020-05-21T14:07:26.765Z",
+      "accessTime": "2020-05-21T14:06:16.302Z",
+      "changeTime": "2020-05-21T14:07:26.765Z",
+      "birthTime": "2020-05-21T11:53:42.117Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
+      "base": "webstorm-shortcut.md",
+      "ext": ".md",
+      "name": "webstorm-shortcut",
+      "relativeDirectory": "etc.",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10399824,
+      "blocks": 8,
+      "atimeMs": 1590069976301.728,
+      "mtimeMs": 1590070046764.6775,
+      "ctimeMs": 1590070046764.6775,
+      "birthtimeMs": 1590062022117.0508,
+      "atime": "2020-05-21T14:06:16.302Z",
+      "mtime": "2020-05-21T14:07:26.765Z",
+      "ctime": "2020-05-21T14:07:26.765Z",
+      "birthtime": "2020-05-21T11:53:42.117Z"
+    },
+    "SitePage /etc./webstorm-shortcut/": {
+      "jsonName": "etc-webstorm-shortcut-a08",
+      "internalComponentName": "ComponentEtcWebstormShortcut",
+      "path": "/etc./webstorm-shortcut/",
+      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/etc./webstorm-shortcut/",
+        "previous": {
+          "fields": {
+            "slug": "/web/storage/"
+          },
+          "frontmatter": {
+            "title": "[WEB] cookies, localStorage, sessionStorage 비교",
+            "category": "web"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/variable-regex/"
+          },
+          "frontmatter": {
+            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
+            "category": "javascript"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /etc./webstorm-shortcut/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91a63ac2d9e29abad014ae354bf14b5",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d199547d-e548-525a-94d3-3566855d7739": {
+      "id": "d199547d-e548-525a-94d3-3566855d7739",
+      "children": [
+        "c914b543-dc96-5fd4-a0e0-1024d9b35706"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/webstorm.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/webstorm.png",
+      "relativePath": "etc./images/webstorm.png",
+      "extension": "png",
+      "size": 39888,
+      "prettySize": "39.9 kB",
+      "modifiedTime": "2020-05-21T11:58:49.711Z",
+      "accessTime": "2020-05-21T11:58:50.837Z",
+      "changeTime": "2020-05-21T11:59:03.612Z",
+      "birthTime": "2020-05-21T11:58:49.695Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "webstorm.png",
+      "ext": ".png",
+      "name": "webstorm",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400262,
+      "blocks": 80,
+      "atimeMs": 1590062330837.241,
+      "mtimeMs": 1590062329711.4248,
+      "ctimeMs": 1590062343612.1785,
+      "birthtimeMs": 1590062329694.503,
+      "atime": "2020-05-21T11:58:50.837Z",
+      "mtime": "2020-05-21T11:58:49.711Z",
+      "ctime": "2020-05-21T11:59:03.612Z",
+      "birthtime": "2020-05-21T11:58:49.695Z"
+    },
+    "63ff32fd-1ab4-525c-83b5-0c87f5576733": {
+      "id": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
+      "children": [
+        "1b984cd2-783f-5a1a-8843-e07607bf5ec2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/markdown.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/markdown.png",
+      "relativePath": "etc./images/markdown.png",
+      "extension": "png",
+      "size": 35696,
+      "prettySize": "35.7 kB",
+      "modifiedTime": "2020-05-21T11:56:20.695Z",
+      "accessTime": "2020-05-21T11:56:21.743Z",
+      "changeTime": "2020-05-21T11:59:03.701Z",
+      "birthTime": "2020-05-21T11:56:20.677Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "markdown.png",
+      "ext": ".png",
+      "name": "markdown",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400014,
+      "blocks": 72,
+      "atimeMs": 1590062181742.8213,
+      "mtimeMs": 1590062180695.3582,
+      "ctimeMs": 1590062343701.3274,
+      "birthtimeMs": 1590062180676.9524,
+      "atime": "2020-05-21T11:56:21.743Z",
+      "mtime": "2020-05-21T11:56:20.695Z",
+      "ctime": "2020-05-21T11:59:03.701Z",
+      "birthtime": "2020-05-21T11:56:20.677Z"
+    },
+    "c914b543-dc96-5fd4-a0e0-1024d9b35706": {
+      "id": "c914b543-dc96-5fd4-a0e0-1024d9b35706",
+      "children": [],
+      "parent": "d199547d-e548-525a-94d3-3566855d7739",
+      "internal": {
+        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1b984cd2-783f-5a1a-8843-e07607bf5ec2": {
+      "id": "1b984cd2-783f-5a1a-8843-e07607bf5ec2",
+      "children": [],
+      "parent": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
+      "internal": {
+        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "df8d1a07-348d-5322-8d47-94b713fc84cf": {
+      "id": "df8d1a07-348d-5322-8d47-94b713fc84cf",
+      "children": [],
+      "parent": "b499b866-2ed1-5dae-88d6-cba786e3aefe",
+      "internal": {
+        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c1ec9365e0345eccf96e6729eac9b303",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] Notion is FREE for students & teachers",
+        "date": "2019-09-21T18:10:14.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./notion-for-students-&-teachers.md",
+      "fields": {
+        "slug": "/etc./notion-for-students-&-teachers/"
+      }
+    },
+    "aa07ca72-eced-5e9a-937b-56dca59119a9": {
+      "id": "aa07ca72-eced-5e9a-937b-56dca59119a9",
+      "children": [],
+      "parent": "e088b1df-52f0-512b-9329-87ac67a0ec0e",
+      "internal": {
+        "content": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f51b6281a02bdac96c9d8b9e54db226a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] 마크다운 문법(Markdown Syntax)",
+        "date": "2019-10-09T12:11:27.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./markdown-syntax.md",
+      "fields": {
+        "slug": "/etc./markdown-syntax/"
+      }
+    },
+    "0a340eb7-a197-5f5d-8feb-009d0dfbd710": {
+      "id": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
+      "children": [
+        "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/2.png",
+      "relativePath": "etc./images/2.png",
+      "extension": "png",
+      "size": 75524,
+      "prettySize": "75.5 kB",
+      "modifiedTime": "2020-05-21T12:01:22.105Z",
+      "accessTime": "2020-05-21T12:01:24.549Z",
+      "changeTime": "2020-05-21T12:01:57.417Z",
+      "birthTime": "2020-05-21T12:01:20.975Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "2.png",
+      "ext": ".png",
+      "name": "2",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400716,
+      "blocks": 264,
+      "atimeMs": 1590062484549.2466,
+      "mtimeMs": 1590062482105.014,
+      "ctimeMs": 1590062517416.8442,
+      "birthtimeMs": 1590062480974.8914,
+      "atime": "2020-05-21T12:01:24.549Z",
+      "mtime": "2020-05-21T12:01:22.105Z",
+      "ctime": "2020-05-21T12:01:57.417Z",
+      "birthtime": "2020-05-21T12:01:20.975Z"
+    },
+    "eac20f71-3c96-583b-99e7-c76666568eb3": {
+      "id": "eac20f71-3c96-583b-99e7-c76666568eb3",
+      "children": [
+        "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/1.png",
+      "relativePath": "etc./images/1.png",
+      "extension": "png",
+      "size": 60659,
+      "prettySize": "60.7 kB",
+      "modifiedTime": "2020-05-21T12:01:10.716Z",
+      "accessTime": "2020-05-21T12:01:16.153Z",
+      "changeTime": "2020-05-21T12:01:57.427Z",
+      "birthTime": "2020-05-21T12:01:10.297Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "1.png",
+      "ext": ".png",
+      "name": "1",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400701,
+      "blocks": 120,
+      "atimeMs": 1590062476153.4797,
+      "mtimeMs": 1590062470715.5327,
+      "ctimeMs": 1590062517426.9744,
+      "birthtimeMs": 1590062470297.141,
+      "atime": "2020-05-21T12:01:16.153Z",
+      "mtime": "2020-05-21T12:01:10.716Z",
+      "ctime": "2020-05-21T12:01:57.427Z",
+      "birthtime": "2020-05-21T12:01:10.297Z"
+    },
+    "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d": {
+      "id": "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d",
+      "children": [],
+      "parent": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
+      "internal": {
+        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e": {
+      "id": "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e",
+      "children": [],
+      "parent": "eac20f71-3c96-583b-99e7-c76666568eb3",
+      "internal": {
+        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": {
+      "id": "2a3e0f96-c8f8-56c2-b287-c74afb4461c1",
+      "children": [],
+      "parent": "b181c37a-f881-5480-be27-e6119cc74a2b",
+      "internal": {
+        "content": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```html\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "4ca4db5859c36a439b29d86e5ed19629",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
+        "date": "2020-05-21T20:05:18.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```html\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
+      "fields": {
+        "slug": "/etc./webstorm-shortcut/"
+      }
     }
   },
   "status": {
@@ -8380,7 +8721,8 @@
         "/JavaScript/var-let-const/",
         "/etc./notion-for-students-&-teachers/",
         "/seminar/2018-typescript-korea-meetup/",
-        "/cs/quick-sort/"
+        "/cs/quick-sort/",
+        "/etc./webstorm-shortcut/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
@@ -8505,6 +8847,9 @@
       ],
       "ec943c7d-fd44-5cad-8ad0-66ab87b293a5": [
         "/seminar/2018-typescript-korea-meetup/"
+      ],
+      "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": [
+        "/etc./webstorm-shortcut/"
       ]
     },
     "connections": {
@@ -8524,11 +8869,11 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "28/path---index-6a9-IfIaiG1UHcK7GCM4klpcrgZVI",
+    "index": "781/path---index-6a9-k9XMvqzmcHaKmCVAs4yn6SBOvc",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
-    "etc-notion-for-students-teachers-efd": "453/path---etc-notion-for-students-teachers-efd-4f3-SRvggm7XXyMrCupERLt4068CHA",
+    "etc-notion-for-students-teachers-efd": "948/path---etc-notion-for-students-teachers-efd-4f3-VtQpMNi0ncZshLcNJa9kAjxY",
     "java-script-var-let-const-비교-bb7": "51/path---java-script-var-let-const-비교-bb-7-6bb-YG1XTSVqR8R9VLS6uyp54mcI",
     "etc-junior-seminar-cdb": "355/path---etc-junior-seminar-cdb-952-4WPIC4a1Owo1tfz1JyWiahvNpQ",
     "java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717": "90/path---java-script-자바스크립트에서-클릭-이벤트를-줄-때-어떤-방식을-사용하는가-717-85b-SXl5nhRDSVpglGiMZuGVXBlFHo",
@@ -8548,14 +8893,14 @@
     "java-script-call-apply-9c4": "563/path---java-script-call-apply-9-c-4-15b-K7VTs62ieVW7XeG0l05J1BWdxCQ",
     "java-script-prototype-55c": "740/path---java-script-prototype-55-c-b78-r91TbF115Bwxof3nXr97Q36vk",
     "java-script-bubbling-capturing-2d3": "560/path---java-script-bubbling-capturing-2-d-3-d1d-QHcoUj45H4YvmfjgXC04e8V1oYQ",
-    "java-script-var-let-const-9ec": "957/path---java-script-var-let-const-9-ec-1d7-KeNyYLdBRC2YfsQsdLNc46c",
-    "java-script-closure-c88": "101/path---java-script-closure-c-88-050-Pg2DEwfOkMmTHhK7eEwriDsHDw",
-    "java-script-cross-domain-c47": "351/path---java-script-cross-domain-c-47-f84-NyLtKRxIIKmukuzy54yZsWyHuro",
+    "java-script-var-let-const-9ec": "169/path---java-script-var-let-const-9-ec-1d7-GKWSCRvjsYX0k6BmtstVWJFUI",
+    "java-script-closure-c88": "31/path---java-script-closure-c-88-050-BdBZuqsUDigLBOlUuoe2aBwH4yM",
+    "java-script-cross-domain-c47": "993/path---java-script-cross-domain-c-47-f84-1wRRtUvcuXV5R1EoTLYxwj5dxQ",
     "java-script-delegation-861": "538/path---java-script-delegation-861-c32-Pwj7b3DiAccWtFsoiNN4K0YmHU",
     "java-script-null-undefined-f19": "814/path---java-script-null-undefined-f-19-cd0-MF0A1G5ybVPba3zzoHdck3zMA",
-    "etc-markdown-syntax-868": "254/path---etc-markdown-syntax-868-bb5-89H4vCTSX3x1AFELqbJFnMAtaE",
+    "etc-markdown-syntax-868": "879/path---etc-markdown-syntax-868-bb5-P9sAOmmyGcxEKVsCDaPNPLj9P0",
     "java-script-bind-b6a": "126/path---java-script-bind-b-6-a-57b-bcN4XGqpjgcg4O2Rpr7m2PYlDSI",
-    "seminar-2018-typescript-korea-meetup-bc0": "893/path---seminar-2018-typescript-korea-meetup-bc-0-512-tCTozvFb71TQxWgIDN7jywuKuU",
+    "seminar-2018-typescript-korea-meetup-bc0": "658/path---seminar-2018-typescript-korea-meetup-bc-0-512-OtEs4EAYXD276erHsI2yKIxbUM",
     "seminar-images-junior-seminar-756": "642/path---seminar-images-junior-seminar-756-09a-HNV6JotlpGxczLYMrJQWmG0DWu0",
     "seminar-junior-seminar-800": "984/path---seminar-junior-seminar-800-707-iBH1KoNHHZfa1ARt2uCmeAGITI",
     "seminar-2019-startup-junior-seminar-05f": "2/path---seminar-2019-startup-junior-seminar-05-f-da3-VnakkenmQBePKUYrCSAuO8DtzM",
@@ -8572,9 +8917,10 @@
     "typescript-welcome-typescript-f8d": "722/path---typescript-welcome-typescript-f-8-d-938-skQfAPZubd2u4sbQUeZAjLPM1g",
     "java-script-ecmascript-2020-c9c": "227/path---java-script-ecmascript-2020-c-9-c-9b7-obX2JNdZfrjll2uaHRpl7M7Yc",
     "css-fade-in-out-17f": "83/path---css-fade-in-out-17-f-e45-YAgw8FmMp2moAtWvETQySfAAjE",
-    "web-storage-5f1": "758/path---web-storage-5-f-1-bf0-y7p3eqygWJY2nskOwTBP41cZzmU",
+    "web-storage-5f1": "96/path---web-storage-5-f-1-bf0-xpSJSw8481rJ3D2IMnelAxKwJ8A",
     "cs-quick-sort-8a5": "795/path---cs-quick-sort-8-a-5-1f1-YUN48eL7oM1mVK6VCstCH0bvGQ",
-    "java-script-variable-regex-4a7": "467/path---java-script-variable-regex-4-a-7-012-YeNbx0NAOMHEVpRGQmyLmz3VZo"
+    "java-script-variable-regex-4a7": "149/path---java-script-variable-regex-4-a-7-012-8rpGNagff0LIYdM3KecMx6rzY",
+    "etc-webstorm-shortcut-a08": "341/path---etc-webstorm-shortcut-a-08-72f-HfxkNSnrbfG5HpwNF5Nl7z5V2g"
   },
   "components": {
     "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js": {

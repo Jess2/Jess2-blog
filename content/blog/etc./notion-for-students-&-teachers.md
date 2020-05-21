@@ -1,5 +1,5 @@
 ---
-title: Notion is FREE for students & teachers
+title: "[etc.] Notion is FREE for students & teachers"
 date: 2019-09-21 18:09:74
 category: etc.
 ---
