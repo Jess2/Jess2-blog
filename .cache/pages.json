@@ -85,6 +85,11 @@
         "path": "/JavaScript/var-let-const/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-variable-regex-4a7",
+        "path": "/JavaScript/variable-regex/"
+    },
+    {
         "componentChunkName": "component---src-pages-about-js",
         "jsonName": "about-f34",
         "path": "/about/"
