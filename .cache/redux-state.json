@@ -8303,7 +8303,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "15c532994c4d6574abc7df497210fe65",
+        "contentDigest": "411c522f204106bedfee53b2a5c357f5",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/etc./webstorm-shortcut.md\"",
@@ -8313,11 +8313,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
       "relativePath": "etc./webstorm-shortcut.md",
       "extension": "md",
-      "size": 1215,
-      "prettySize": "1.22 kB",
-      "modifiedTime": "2020-05-21T14:07:26.765Z",
-      "accessTime": "2020-05-21T14:06:16.302Z",
-      "changeTime": "2020-05-21T14:07:26.765Z",
+      "size": 1211,
+      "prettySize": "1.21 kB",
+      "modifiedTime": "2020-05-23T03:10:55.408Z",
+      "accessTime": "2020-05-21T14:07:29.386Z",
+      "changeTime": "2020-05-23T03:10:55.408Z",
       "birthTime": "2020-05-21T11:53:42.117Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
@@ -8334,13 +8334,13 @@
       "blksize": 4096,
       "ino": 10399824,
       "blocks": 8,
-      "atimeMs": 1590069976301.728,
-      "mtimeMs": 1590070046764.6775,
-      "ctimeMs": 1590070046764.6775,
+      "atimeMs": 1590070049385.9575,
+      "mtimeMs": 1590203455408.2305,
+      "ctimeMs": 1590203455408.2305,
       "birthtimeMs": 1590062022117.0508,
-      "atime": "2020-05-21T14:06:16.302Z",
-      "mtime": "2020-05-21T14:07:26.765Z",
-      "ctime": "2020-05-21T14:07:26.765Z",
+      "atime": "2020-05-21T14:07:29.386Z",
+      "mtime": "2020-05-23T03:10:55.408Z",
+      "ctime": "2020-05-23T03:10:55.408Z",
       "birthtime": "2020-05-21T11:53:42.117Z"
     },
     "SitePage /etc./webstorm-shortcut/": {
@@ -8660,31 +8660,6 @@
         "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": {
-      "id": "2a3e0f96-c8f8-56c2-b287-c74afb4461c1",
-      "children": [],
-      "parent": "b181c37a-f881-5480-be27-e6119cc74a2b",
-      "internal": {
-        "content": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```html\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
-        "type": "MarkdownRemark",
-        "contentDigest": "4ca4db5859c36a439b29d86e5ed19629",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
-        "date": "2020-05-21T20:05:18.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```html\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
-      "fields": {
-        "slug": "/etc./webstorm-shortcut/"
       }
     },
     "440702f2-1784-5052-a666-f7d3abfc326b": {
@@ -9019,6 +8994,31 @@
       "fields": {
         "slug": "/web/browser-rendering/"
       }
+    },
+    "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": {
+      "id": "2a3e0f96-c8f8-56c2-b287-c74afb4461c1",
+      "children": [],
+      "parent": "b181c37a-f881-5480-be27-e6119cc74a2b",
+      "internal": {
+        "content": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "5f8d6ec72375ebcce73c9c31b5b4f662",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
+        "date": "2020-05-21T20:05:18.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
+      "fields": {
+        "slug": "/etc./webstorm-shortcut/"
+      }
     }
   },
   "status": {
@@ -9265,7 +9265,7 @@
     "web-storage-5f1": "96/path---web-storage-5-f-1-bf0-xpSJSw8481rJ3D2IMnelAxKwJ8A",
     "cs-quick-sort-8a5": "795/path---cs-quick-sort-8-a-5-1f1-YUN48eL7oM1mVK6VCstCH0bvGQ",
     "java-script-variable-regex-4a7": "388/path---java-script-variable-regex-4-a-7-012-rJsIRl6WmTsj6NBj8Xc9mRJns",
-    "etc-webstorm-shortcut-a08": "341/path---etc-webstorm-shortcut-a-08-72f-HfxkNSnrbfG5HpwNF5Nl7z5V2g",
+    "etc-webstorm-shortcut-a08": "440/path---etc-webstorm-shortcut-a-08-72f-4Jm4UiwS4lOL8xvHaSGOup0XRN8",
     "web-browser-rendering-e8b": "839/path---web-browser-rendering-e-8-b-155-Zefks7NBsuwnU3bLFQVckJMVo"
   },
   "components": {
