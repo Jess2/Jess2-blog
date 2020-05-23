@@ -171,6 +171,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "web-browser-rendering-e8b",
+        "path": "/web/browser-rendering/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "web-storage-5f1",
         "path": "/web/storage/"
     }
