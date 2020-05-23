@@ -24,7 +24,7 @@ category: etc.
 - default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.
 
 ### 4. Vue 추천 단축어
-```
+```vue
 <template>
   <div class="">
   </div>
