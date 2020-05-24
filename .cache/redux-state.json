@@ -2284,12 +2284,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-05-21T11:46:30.869Z",
+      "buildTime": "2020-05-24T04:53:03.972Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1791c4f1907b49e58255a509b8510b50",
+        "contentDigest": "f55b69c7d272504897416779ee2d7e28",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3107,7 +3107,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "628566cb665a01db6692c7f213245b68",
+        "contentDigest": "15122b37b76d0a6dbb0b3a86e4c408d0",
         "type": "Directory",
         "description": "Directory \"content/blog/JavaScript\"",
         "owner": "gatsby-source-filesystem"
@@ -3116,11 +3116,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript",
       "relativePath": "JavaScript",
       "extension": "",
-      "size": 576,
-      "prettySize": "576 B",
-      "modifiedTime": "2020-05-21T11:16:39.899Z",
-      "accessTime": "2020-05-21T11:16:44.429Z",
-      "changeTime": "2020-05-21T11:16:39.899Z",
+      "size": 608,
+      "prettySize": "608 B",
+      "modifiedTime": "2020-05-24T04:52:15.709Z",
+      "accessTime": "2020-05-24T04:52:20.472Z",
+      "changeTime": "2020-05-24T04:52:15.709Z",
       "birthTime": "2019-09-21T12:13:24.386Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog",
@@ -3130,20 +3130,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 18,
+      "nlink": 19,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3591848,
       "blocks": 0,
-      "atimeMs": 1590059804429.0032,
-      "mtimeMs": 1590059799899.1091,
-      "ctimeMs": 1590059799899.1091,
+      "atimeMs": 1590295940472.3887,
+      "mtimeMs": 1590295935709.431,
+      "ctimeMs": 1590295935709.431,
       "birthtimeMs": 1569068004385.6665,
-      "atime": "2020-05-21T11:16:44.429Z",
-      "mtime": "2020-05-21T11:16:39.899Z",
-      "ctime": "2020-05-21T11:16:39.899Z",
+      "atime": "2020-05-24T04:52:20.472Z",
+      "mtime": "2020-05-24T04:52:15.709Z",
+      "ctime": "2020-05-24T04:52:15.709Z",
       "birthtime": "2019-09-21T12:13:24.386Z"
     },
     "c5de9dd6-7464-5109-a0c9-1de9506ab760": {
@@ -3151,7 +3151,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "670a01e333d3c2c6c86b9ed191c0502b",
+        "contentDigest": "5f8399c75e764dff8577786d252a731f",
         "type": "Directory",
         "description": "Directory \"content/blog/cs\"",
         "owner": "gatsby-source-filesystem"
@@ -3160,11 +3160,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/cs",
       "relativePath": "cs",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2020-05-09T09:27:45.787Z",
-      "accessTime": "2020-05-09T09:27:48.726Z",
-      "changeTime": "2020-05-09T09:27:45.787Z",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2020-05-21T11:47:52.648Z",
+      "accessTime": "2020-05-21T11:47:52.733Z",
+      "changeTime": "2020-05-21T11:47:52.648Z",
       "birthTime": "2020-05-09T09:27:40.440Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog",
@@ -3174,20 +3174,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 2,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 9951909,
       "blocks": 0,
-      "atimeMs": 1589016468726.297,
-      "mtimeMs": 1589016465786.9536,
-      "ctimeMs": 1589016465786.9536,
+      "atimeMs": 1590061672733.265,
+      "mtimeMs": 1590061672647.847,
+      "ctimeMs": 1590061672647.847,
       "birthtimeMs": 1589016460439.5269,
-      "atime": "2020-05-09T09:27:48.726Z",
-      "mtime": "2020-05-09T09:27:45.787Z",
-      "ctime": "2020-05-09T09:27:45.787Z",
+      "atime": "2020-05-21T11:47:52.733Z",
+      "mtime": "2020-05-21T11:47:52.648Z",
+      "ctime": "2020-05-21T11:47:52.648Z",
       "birthtime": "2020-05-09T09:27:40.440Z"
     },
     "ca994939-78c7-5ca5-8b1e-5b24b57a62a6": {
@@ -3239,7 +3239,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6b302a70a5269c1c6586f5105f14cd58",
+        "contentDigest": "36000406a2a103deeda8d1da62eedb08",
         "type": "Directory",
         "description": "Directory \"content/blog/etc.\"",
         "owner": "gatsby-source-filesystem"
@@ -3248,11 +3248,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
       "relativePath": "etc.",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2019-11-10T10:04:33.231Z",
-      "accessTime": "2020-02-08T23:17:17.119Z",
-      "changeTime": "2019-11-10T10:04:33.231Z",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2020-05-23T03:28:23.829Z",
+      "accessTime": "2020-05-23T03:28:28.996Z",
+      "changeTime": "2020-05-23T03:28:23.829Z",
       "birthTime": "2019-09-21T09:37:41.248Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog",
@@ -3262,20 +3262,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3577594,
       "blocks": 0,
-      "atimeMs": 1581203837118.959,
-      "mtimeMs": 1573380273231.396,
-      "ctimeMs": 1573380273231.396,
+      "atimeMs": 1590204508995.9197,
+      "mtimeMs": 1590204503829.4526,
+      "ctimeMs": 1590204503829.4526,
       "birthtimeMs": 1569058661247.5537,
-      "atime": "2020-02-08T23:17:17.119Z",
-      "mtime": "2019-11-10T10:04:33.231Z",
-      "ctime": "2019-11-10T10:04:33.231Z",
+      "atime": "2020-05-23T03:28:28.996Z",
+      "mtime": "2020-05-23T03:28:23.829Z",
+      "ctime": "2020-05-23T03:28:23.829Z",
       "birthtime": "2019-09-21T09:37:41.248Z"
     },
     "83b42277-7f2b-5cb3-8bb0-2af8890a3567": {
@@ -3415,7 +3415,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8f33dfadb01b314e5cf183c70766c89d",
+        "contentDigest": "79fcb2335285d0320cf71db7f0fb63e5",
         "type": "Directory",
         "description": "Directory \"content/blog/web\"",
         "owner": "gatsby-source-filesystem"
@@ -3424,11 +3424,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web",
       "relativePath": "web",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2020-05-09T06:20:23.069Z",
-      "accessTime": "2020-05-09T06:20:23.756Z",
-      "changeTime": "2020-05-09T06:20:23.069Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2020-05-23T02:43:56.699Z",
+      "accessTime": "2020-05-23T02:44:00.315Z",
+      "changeTime": "2020-05-23T02:43:56.699Z",
       "birthTime": "2020-05-09T06:18:36.749Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog",
@@ -3438,20 +3438,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 9940505,
       "blocks": 0,
-      "atimeMs": 1589005223755.7236,
-      "mtimeMs": 1589005223069.2888,
-      "ctimeMs": 1589005223069.2888,
+      "atimeMs": 1590201840314.7556,
+      "mtimeMs": 1590201836699.276,
+      "ctimeMs": 1590201836699.276,
       "birthtimeMs": 1589005116749.382,
-      "atime": "2020-05-09T06:20:23.756Z",
-      "mtime": "2020-05-09T06:20:23.069Z",
-      "ctime": "2020-05-09T06:20:23.069Z",
+      "atime": "2020-05-23T02:44:00.315Z",
+      "mtime": "2020-05-23T02:43:56.699Z",
+      "ctime": "2020-05-23T02:43:56.699Z",
       "birthtime": "2020-05-09T06:18:36.749Z"
     },
     "b6be614e-2ebf-51f3-a860-561e98e84d54": {
@@ -3459,7 +3459,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c228bab512e7d06cd6f62f377d87b4f6",
+        "contentDigest": "7f2493d48a0d72d8d321379e2927c3fb",
         "type": "Directory",
         "description": "Directory \"content/blog/etc./images\"",
         "owner": "gatsby-source-filesystem"
@@ -3468,11 +3468,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
       "relativePath": "etc./images",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2019-11-10T10:06:19.801Z",
-      "accessTime": "2020-02-25T06:21:20.665Z",
-      "changeTime": "2019-11-10T10:06:19.801Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2020-05-21T12:01:57.427Z",
+      "accessTime": "2020-05-21T12:01:57.647Z",
+      "changeTime": "2020-05-21T12:01:57.427Z",
       "birthTime": "2019-09-21T09:49:20.123Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
@@ -3482,20 +3482,20 @@
       "relativeDirectory": "etc.",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 3579486,
       "blocks": 0,
-      "atimeMs": 1582611680665.4607,
-      "mtimeMs": 1573380379801.2712,
-      "ctimeMs": 1573380379801.2712,
+      "atimeMs": 1590062517646.7573,
+      "mtimeMs": 1590062517426.9744,
+      "ctimeMs": 1590062517426.9744,
       "birthtimeMs": 1569059360123.4927,
-      "atime": "2020-02-25T06:21:20.665Z",
-      "mtime": "2019-11-10T10:06:19.801Z",
-      "ctime": "2019-11-10T10:06:19.801Z",
+      "atime": "2020-05-21T12:01:57.647Z",
+      "mtime": "2020-05-21T12:01:57.427Z",
+      "ctime": "2020-05-21T12:01:57.427Z",
       "birthtime": "2019-09-21T09:49:20.123Z"
     },
     "80e86d8d-b84e-53a9-9eb5-1b6305aab34f": {
@@ -3591,7 +3591,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ee655753c301d3360c0fa40608eb1c1b",
+        "contentDigest": "763907672e8f949bffab666c84d324b8",
         "type": "Directory",
         "description": "Directory \"content/blog/web/images\"",
         "owner": "gatsby-source-filesystem"
@@ -3600,11 +3600,11 @@
       "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
       "relativePath": "web/images",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2020-05-09T07:00:36.002Z",
-      "accessTime": "2020-05-09T07:00:36.064Z",
-      "changeTime": "2020-05-09T07:00:36.002Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2020-05-23T02:47:13.237Z",
+      "accessTime": "2020-05-23T02:47:13.323Z",
+      "changeTime": "2020-05-23T02:47:13.237Z",
       "birthTime": "2020-05-09T06:20:23.069Z",
       "root": "/",
       "dir": "/Users/jess2/projects/jess2xyz/content/blog/web",
@@ -3614,20 +3614,20 @@
       "relativeDirectory": "web",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 9940660,
       "blocks": 0,
-      "atimeMs": 1589007636063.9753,
-      "mtimeMs": 1589007636001.576,
-      "ctimeMs": 1589007636001.576,
+      "atimeMs": 1590202033323.2463,
+      "mtimeMs": 1590202033237.0183,
+      "ctimeMs": 1590202033237.0183,
       "birthtimeMs": 1589005223069.2656,
-      "atime": "2020-05-09T07:00:36.064Z",
-      "mtime": "2020-05-09T07:00:36.002Z",
-      "ctime": "2020-05-09T07:00:36.002Z",
+      "atime": "2020-05-23T02:47:13.323Z",
+      "mtime": "2020-05-23T02:47:13.237Z",
+      "ctime": "2020-05-23T02:47:13.237Z",
       "birthtime": "2020-05-09T06:20:23.069Z"
     },
     "49758053-74db-5bb5-b5f1-f980ab270f1b": {
@@ -7006,6 +7006,802 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "9cf45a4b-a2de-582e-8a41-454b596076b3": {
+      "id": "9cf45a4b-a2de-582e-8a41-454b596076b3",
+      "children": [],
+      "parent": "8e010e03-5e17-5a17-a299-3060058290a8",
+      "internal": {
+        "content": "\n![](images/javascript.png)\n\n정규표현식(Regular Expression)은 문자열을 처리하는 방법 중의 하나로 특정한 조건의 문자를 '검색'하거나 '치환'하는 과정을 매우 간편하게 처리 할 수 있도록 하는 수단이다.\n\n정규표현식 사용 방법을 간단하게 알아보자.\n\n```js\nlet pattern1 = /a/;\n\nlet variableWord = 'a';\nlet pattern2 = new RegExp(variableWord);\n```\n\n- 위의 예제에서 1행과 같이 정규 표현식을 쓸 수도, 3~4행과 같이 쓸 수도 있다.\n- 변하지 않는 특정 문자열을 찾을 때는 1행과 같은 방식을 많이 사용하지만,  \n변할 수 있는 문자열을 찾을 때는 3~4행과 같은 방식을 사용할 수 있다.\n\n<br>\n아래의 코드를 보자.  \n\n`abcabaAbcabbbcAbc`라는 문자열 중에 `Abc`라는 모든 문자열을 `___`로 바꾸려고 한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nconsole.log(text.replace(/Abc/g, '___')); // abcaba___abbbc___\nconsole.log(text.replace(/pattern/g, '___')); // abcabaAbcabbbcAbc\n```\n\n- 4행에서는 `Abc`라는 모든 문자열을 `___`로 잘 치환된다.\n- 그러나 5행에서는 `pattern`이라는 변수를 사용하여 `Abc`라는 모든 문자열을 `___`로 치환하고 싶지만, `pattern`이 변수로 인식되지 않고 하나의 문자열 값으로 인식되기 때문에 원하는 결과를 얻을 수 없다.\n\n<br>\n변할 수 있는 문자열을 찾을 때는 정규 표현식 객체 생성자를 이용하여 패턴을 정의한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nlet regexOne = new RegExp(pattern); // 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾음\nlet regexAll = new RegExp(pattern, \"g\"); // 모든 패턴을 찾음\nlet regexAllCase = new RegExp(pattern, \"gi\"); // 대소문자 구분 없이 모든 패턴을 찾음\n\nconsole.log(text.replace(regexOne, '___')); // abcaba___abbbcAbc\nconsole.log(text.replace(regexAll, '___')); // abcaba___abbbc___\nconsole.log(text.replace(regexAllCase, '___')); // ___aba___abbbc___\nconsole.log(text); // abcabaAbcabbbcAbc\n```\n- 8행 : 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾는다.\n- 9행 : 일치하는 모든 패턴을 찾는다.\n- 10행 : 대소문자 구분 없이 모든 패턴을 찾는다.\n- 11행 : text값 자체는 변경되지 않는다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "0bef17b13795f9c589ac77069a1378da",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
+        "date": "2020-05-21T20:05:26.000Z",
+        "category": "javascript"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/javascript.png)\n\n정규표현식(Regular Expression)은 문자열을 처리하는 방법 중의 하나로 특정한 조건의 문자를 '검색'하거나 '치환'하는 과정을 매우 간편하게 처리 할 수 있도록 하는 수단이다.\n\n정규표현식 사용 방법을 간단하게 알아보자.\n\n```js\nlet pattern1 = /a/;\n\nlet variableWord = 'a';\nlet pattern2 = new RegExp(variableWord);\n```\n\n- 위의 예제에서 1행과 같이 정규 표현식을 쓸 수도, 3~4행과 같이 쓸 수도 있다.\n- 변하지 않는 특정 문자열을 찾을 때는 1행과 같은 방식을 많이 사용하지만,  \n변할 수 있는 문자열을 찾을 때는 3~4행과 같은 방식을 사용할 수 있다.\n\n<br>\n아래의 코드를 보자.  \n\n`abcabaAbcabbbcAbc`라는 문자열 중에 `Abc`라는 모든 문자열을 `___`로 바꾸려고 한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nconsole.log(text.replace(/Abc/g, '___')); // abcaba___abbbc___\nconsole.log(text.replace(/pattern/g, '___')); // abcabaAbcabbbcAbc\n```\n\n- 4행에서는 `Abc`라는 모든 문자열을 `___`로 잘 치환된다.\n- 그러나 5행에서는 `pattern`이라는 변수를 사용하여 `Abc`라는 모든 문자열을 `___`로 치환하고 싶지만, `pattern`이 변수로 인식되지 않고 하나의 문자열 값으로 인식되기 때문에 원하는 결과를 얻을 수 없다.\n\n<br>\n변할 수 있는 문자열을 찾을 때는 정규 표현식 객체 생성자를 이용하여 패턴을 정의한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nlet regexOne = new RegExp(pattern); // 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾음\nlet regexAll = new RegExp(pattern, \"g\"); // 모든 패턴을 찾음\nlet regexAllCase = new RegExp(pattern, \"gi\"); // 대소문자 구분 없이 모든 패턴을 찾음\n\nconsole.log(text.replace(regexOne, '___')); // abcaba___abbbcAbc\nconsole.log(text.replace(regexAll, '___')); // abcaba___abbbc___\nconsole.log(text.replace(regexAllCase, '___')); // ___aba___abbbc___\nconsole.log(text); // abcabaAbcabbbcAbc\n```\n- 8행 : 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾는다.\n- 9행 : 일치하는 모든 패턴을 찾는다.\n- 10행 : 대소문자 구분 없이 모든 패턴을 찾는다.\n- 11행 : text값 자체는 변경되지 않는다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript/variable-regex.md",
+      "fields": {
+        "slug": "/JavaScript/variable-regex/"
+      }
+    },
+    "d199547d-e548-525a-94d3-3566855d7739": {
+      "id": "d199547d-e548-525a-94d3-3566855d7739",
+      "children": [
+        "c914b543-dc96-5fd4-a0e0-1024d9b35706"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/webstorm.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/webstorm.png",
+      "relativePath": "etc./images/webstorm.png",
+      "extension": "png",
+      "size": 39888,
+      "prettySize": "39.9 kB",
+      "modifiedTime": "2020-05-21T11:58:49.711Z",
+      "accessTime": "2020-05-21T11:58:50.837Z",
+      "changeTime": "2020-05-21T11:59:03.612Z",
+      "birthTime": "2020-05-21T11:58:49.695Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "webstorm.png",
+      "ext": ".png",
+      "name": "webstorm",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400262,
+      "blocks": 80,
+      "atimeMs": 1590062330837.241,
+      "mtimeMs": 1590062329711.4248,
+      "ctimeMs": 1590062343612.1785,
+      "birthtimeMs": 1590062329694.503,
+      "atime": "2020-05-21T11:58:50.837Z",
+      "mtime": "2020-05-21T11:58:49.711Z",
+      "ctime": "2020-05-21T11:59:03.612Z",
+      "birthtime": "2020-05-21T11:58:49.695Z"
+    },
+    "63ff32fd-1ab4-525c-83b5-0c87f5576733": {
+      "id": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
+      "children": [
+        "1b984cd2-783f-5a1a-8843-e07607bf5ec2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/markdown.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/markdown.png",
+      "relativePath": "etc./images/markdown.png",
+      "extension": "png",
+      "size": 35696,
+      "prettySize": "35.7 kB",
+      "modifiedTime": "2020-05-21T11:56:20.695Z",
+      "accessTime": "2020-05-21T11:56:21.743Z",
+      "changeTime": "2020-05-21T11:59:03.701Z",
+      "birthTime": "2020-05-21T11:56:20.677Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "markdown.png",
+      "ext": ".png",
+      "name": "markdown",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400014,
+      "blocks": 72,
+      "atimeMs": 1590062181742.8213,
+      "mtimeMs": 1590062180695.3582,
+      "ctimeMs": 1590062343701.3274,
+      "birthtimeMs": 1590062180676.9524,
+      "atime": "2020-05-21T11:56:21.743Z",
+      "mtime": "2020-05-21T11:56:20.695Z",
+      "ctime": "2020-05-21T11:59:03.701Z",
+      "birthtime": "2020-05-21T11:56:20.677Z"
+    },
+    "c914b543-dc96-5fd4-a0e0-1024d9b35706": {
+      "id": "c914b543-dc96-5fd4-a0e0-1024d9b35706",
+      "children": [],
+      "parent": "d199547d-e548-525a-94d3-3566855d7739",
+      "internal": {
+        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1b984cd2-783f-5a1a-8843-e07607bf5ec2": {
+      "id": "1b984cd2-783f-5a1a-8843-e07607bf5ec2",
+      "children": [],
+      "parent": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
+      "internal": {
+        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "df8d1a07-348d-5322-8d47-94b713fc84cf": {
+      "id": "df8d1a07-348d-5322-8d47-94b713fc84cf",
+      "children": [],
+      "parent": "b499b866-2ed1-5dae-88d6-cba786e3aefe",
+      "internal": {
+        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c1ec9365e0345eccf96e6729eac9b303",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] Notion is FREE for students & teachers",
+        "date": "2019-09-21T18:10:14.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./notion-for-students-&-teachers.md",
+      "fields": {
+        "slug": "/etc./notion-for-students-&-teachers/"
+      }
+    },
+    "aa07ca72-eced-5e9a-937b-56dca59119a9": {
+      "id": "aa07ca72-eced-5e9a-937b-56dca59119a9",
+      "children": [],
+      "parent": "e088b1df-52f0-512b-9329-87ac67a0ec0e",
+      "internal": {
+        "content": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f51b6281a02bdac96c9d8b9e54db226a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] 마크다운 문법(Markdown Syntax)",
+        "date": "2019-10-09T12:11:27.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./markdown-syntax.md",
+      "fields": {
+        "slug": "/etc./markdown-syntax/"
+      }
+    },
+    "0a340eb7-a197-5f5d-8feb-009d0dfbd710": {
+      "id": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
+      "children": [
+        "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/2.png",
+      "relativePath": "etc./images/2.png",
+      "extension": "png",
+      "size": 75524,
+      "prettySize": "75.5 kB",
+      "modifiedTime": "2020-05-21T12:01:22.105Z",
+      "accessTime": "2020-05-21T12:01:24.549Z",
+      "changeTime": "2020-05-21T12:01:57.417Z",
+      "birthTime": "2020-05-21T12:01:20.975Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "2.png",
+      "ext": ".png",
+      "name": "2",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400716,
+      "blocks": 264,
+      "atimeMs": 1590062484549.2466,
+      "mtimeMs": 1590062482105.014,
+      "ctimeMs": 1590062517416.8442,
+      "birthtimeMs": 1590062480974.8914,
+      "atime": "2020-05-21T12:01:24.549Z",
+      "mtime": "2020-05-21T12:01:22.105Z",
+      "ctime": "2020-05-21T12:01:57.417Z",
+      "birthtime": "2020-05-21T12:01:20.975Z"
+    },
+    "eac20f71-3c96-583b-99e7-c76666568eb3": {
+      "id": "eac20f71-3c96-583b-99e7-c76666568eb3",
+      "children": [
+        "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/etc./images/1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/1.png",
+      "relativePath": "etc./images/1.png",
+      "extension": "png",
+      "size": 60659,
+      "prettySize": "60.7 kB",
+      "modifiedTime": "2020-05-21T12:01:10.716Z",
+      "accessTime": "2020-05-21T12:01:16.153Z",
+      "changeTime": "2020-05-21T12:01:57.427Z",
+      "birthTime": "2020-05-21T12:01:10.297Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
+      "base": "1.png",
+      "ext": ".png",
+      "name": "1",
+      "relativeDirectory": "etc./images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10400701,
+      "blocks": 120,
+      "atimeMs": 1590062476153.4797,
+      "mtimeMs": 1590062470715.5327,
+      "ctimeMs": 1590062517426.9744,
+      "birthtimeMs": 1590062470297.141,
+      "atime": "2020-05-21T12:01:16.153Z",
+      "mtime": "2020-05-21T12:01:10.716Z",
+      "ctime": "2020-05-21T12:01:57.427Z",
+      "birthtime": "2020-05-21T12:01:10.297Z"
+    },
+    "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d": {
+      "id": "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d",
+      "children": [],
+      "parent": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
+      "internal": {
+        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e": {
+      "id": "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e",
+      "children": [],
+      "parent": "eac20f71-3c96-583b-99e7-c76666568eb3",
+      "internal": {
+        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "440702f2-1784-5052-a666-f7d3abfc326b": {
+      "id": "440702f2-1784-5052-a666-f7d3abfc326b",
+      "children": [
+        "d313ae8b-99bd-5e19-b5f6-5a33421971f1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8d1a9659e6986f979d523aefb4658d04",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/web/browser-rendering.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/browser-rendering.md",
+      "relativePath": "web/browser-rendering.md",
+      "extension": "md",
+      "size": 8052,
+      "prettySize": "8.05 kB",
+      "modifiedTime": "2020-05-23T03:27:57.230Z",
+      "accessTime": "2020-05-23T03:09:44.766Z",
+      "changeTime": "2020-05-23T03:27:57.230Z",
+      "birthTime": "2020-05-23T02:43:56.699Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web",
+      "base": "browser-rendering.md",
+      "ext": ".md",
+      "name": "browser-rendering",
+      "relativeDirectory": "web",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10525743,
+      "blocks": 16,
+      "atimeMs": 1590203384765.525,
+      "mtimeMs": 1590204477229.718,
+      "ctimeMs": 1590204477229.718,
+      "birthtimeMs": 1590201836699.2544,
+      "atime": "2020-05-23T03:09:44.766Z",
+      "mtime": "2020-05-23T03:27:57.230Z",
+      "ctime": "2020-05-23T03:27:57.230Z",
+      "birthtime": "2020-05-23T02:43:56.699Z"
+    },
+    "1f2214ae-074a-5b5e-b30a-82b91094a08d": {
+      "id": "1f2214ae-074a-5b5e-b30a-82b91094a08d",
+      "children": [
+        "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "88fd9ddd882cbf67770fddb6ca8b20ba",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/browser.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser.png",
+      "relativePath": "web/images/browser.png",
+      "extension": "png",
+      "size": 237768,
+      "prettySize": "238 kB",
+      "modifiedTime": "2020-05-23T02:45:52.488Z",
+      "accessTime": "2020-05-23T02:46:00.044Z",
+      "changeTime": "2020-05-23T02:46:35.174Z",
+      "birthTime": "2020-05-23T02:45:51.926Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
+      "base": "browser.png",
+      "ext": ".png",
+      "name": "browser",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10525943,
+      "blocks": 472,
+      "atimeMs": 1590201960044.0525,
+      "mtimeMs": 1590201952488.147,
+      "ctimeMs": 1590201995174.0361,
+      "birthtimeMs": 1590201951926.1282,
+      "atime": "2020-05-23T02:46:00.044Z",
+      "mtime": "2020-05-23T02:45:52.488Z",
+      "ctime": "2020-05-23T02:46:35.174Z",
+      "birthtime": "2020-05-23T02:45:51.926Z"
+    },
+    "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463": {
+      "id": "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463",
+      "children": [],
+      "parent": "1f2214ae-074a-5b5e-b30a-82b91094a08d",
+      "internal": {
+        "contentDigest": "88fd9ddd882cbf67770fddb6ca8b20ba",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5081f353-2464-52c3-a192-23200f80607f": {
+      "id": "5081f353-2464-52c3-a192-23200f80607f",
+      "children": [
+        "50bd88d8-908f-595b-855a-f2148988bc37"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d2d1cc118210528da72cc1e2ef152eec",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/browser2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser2.png",
+      "relativePath": "web/images/browser2.png",
+      "extension": "png",
+      "size": 11863,
+      "prettySize": "11.9 kB",
+      "modifiedTime": "2020-05-23T02:46:02.626Z",
+      "accessTime": "2020-05-23T02:46:38.202Z",
+      "changeTime": "2020-05-23T02:47:00.332Z",
+      "birthTime": "2020-05-23T02:46:02.625Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
+      "base": "browser2.png",
+      "ext": ".png",
+      "name": "browser2",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10525958,
+      "blocks": 24,
+      "atimeMs": 1590201998201.7585,
+      "mtimeMs": 1590201962625.812,
+      "ctimeMs": 1590202020332.2974,
+      "birthtimeMs": 1590201962624.9722,
+      "atime": "2020-05-23T02:46:38.202Z",
+      "mtime": "2020-05-23T02:46:02.626Z",
+      "ctime": "2020-05-23T02:47:00.332Z",
+      "birthtime": "2020-05-23T02:46:02.625Z"
+    },
+    "50bd88d8-908f-595b-855a-f2148988bc37": {
+      "id": "50bd88d8-908f-595b-855a-f2148988bc37",
+      "children": [],
+      "parent": "5081f353-2464-52c3-a192-23200f80607f",
+      "internal": {
+        "contentDigest": "d2d1cc118210528da72cc1e2ef152eec",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "89a579ca-4a30-5d10-99f7-1df4482b5daf": {
+      "id": "89a579ca-4a30-5d10-99f7-1df4482b5daf",
+      "children": [
+        "c29204c3-f6a6-5c1f-8d92-9183b2f4db81"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "341548d8f4cf8fb4d707a6ce9b8627e8",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/browser3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser3.png",
+      "relativePath": "web/images/browser3.png",
+      "extension": "png",
+      "size": 14581,
+      "prettySize": "14.6 kB",
+      "modifiedTime": "2020-05-23T02:46:10.590Z",
+      "accessTime": "2020-05-23T02:46:38.154Z",
+      "changeTime": "2020-05-23T02:47:08.103Z",
+      "birthTime": "2020-05-23T02:46:10.589Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
+      "base": "browser3.png",
+      "ext": ".png",
+      "name": "browser3",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10525968,
+      "blocks": 32,
+      "atimeMs": 1590201998154.1846,
+      "mtimeMs": 1590201970589.6616,
+      "ctimeMs": 1590202028103.1672,
+      "birthtimeMs": 1590201970589.2568,
+      "atime": "2020-05-23T02:46:38.154Z",
+      "mtime": "2020-05-23T02:46:10.590Z",
+      "ctime": "2020-05-23T02:47:08.103Z",
+      "birthtime": "2020-05-23T02:46:10.589Z"
+    },
+    "c29204c3-f6a6-5c1f-8d92-9183b2f4db81": {
+      "id": "c29204c3-f6a6-5c1f-8d92-9183b2f4db81",
+      "children": [],
+      "parent": "89a579ca-4a30-5d10-99f7-1df4482b5daf",
+      "internal": {
+        "contentDigest": "341548d8f4cf8fb4d707a6ce9b8627e8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "12fe9530-a0b9-5118-9fc6-48e667dfaa5f": {
+      "id": "12fe9530-a0b9-5118-9fc6-48e667dfaa5f",
+      "children": [
+        "2d4e6663-3a6d-5972-b91b-19425b8d4f4a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0c389301ba794f3ca7b491572d73971d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/web/images/browser4.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser4.png",
+      "relativePath": "web/images/browser4.png",
+      "extension": "png",
+      "size": 34944,
+      "prettySize": "34.9 kB",
+      "modifiedTime": "2020-05-23T02:46:15.969Z",
+      "accessTime": "2020-05-23T02:47:10.690Z",
+      "changeTime": "2020-05-23T02:47:13.237Z",
+      "birthTime": "2020-05-23T02:46:15.823Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
+      "base": "browser4.png",
+      "ext": ".png",
+      "name": "browser4",
+      "relativeDirectory": "web/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10525979,
+      "blocks": 72,
+      "atimeMs": 1590202030690.2275,
+      "mtimeMs": 1590201975969.4033,
+      "ctimeMs": 1590202033237.018,
+      "birthtimeMs": 1590201975823.1562,
+      "atime": "2020-05-23T02:47:10.690Z",
+      "mtime": "2020-05-23T02:46:15.969Z",
+      "ctime": "2020-05-23T02:47:13.237Z",
+      "birthtime": "2020-05-23T02:46:15.823Z"
+    },
+    "2d4e6663-3a6d-5972-b91b-19425b8d4f4a": {
+      "id": "2d4e6663-3a6d-5972-b91b-19425b8d4f4a",
+      "children": [],
+      "parent": "12fe9530-a0b9-5118-9fc6-48e667dfaa5f",
+      "internal": {
+        "contentDigest": "0c389301ba794f3ca7b491572d73971d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d313ae8b-99bd-5e19-b5f6-5a33421971f1": {
+      "id": "d313ae8b-99bd-5e19-b5f6-5a33421971f1",
+      "children": [],
+      "parent": "440702f2-1784-5052-a666-f7d3abfc326b",
+      "internal": {
+        "content": "\n![](images/web.png)\n\n### 브라우저 주요 기능\n\n사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것이며 자원은 보통 HTML 문서지만 PDF나 이미지 또는 다른 형태일 수 있다.\n\n브라우저는 HTML과 CSS 명세에 따라 HTML 파일을 해석해서 표시하는데 이 명세는 웹 표준화 기구인 W3C에서 정한다.\n\n### 브라우저의 주요 구성 요소\n\n1. 사용자 인터페이스\n2. 브라우저 엔진 : 사용자 인터페이스와 렌더링 엔진 사이의 동작을 제어  \n3. **<u>렌더링 엔진 : 요청한 콘텐츠를 표시. 예를들어 HTML 을 요청하면 HTML과 CSS를 파싱하여 화면에 표시</u>**\n4. 통신 : HTTP 요청과 같은 네트워크 호출에 사용됨.\n5. UI 백엔드 : OS 사용자 인터페이스 체계를 사용.\n6. 자바스크립트 해석기 : 자바스크립트 코드를 해석하고 실행\n7. 자료 저장소\n\n### 렌더링 엔진\n\n렌더링 엔진의 역할은 요청 받은 내용을 브라우저 화면에 표시한다.\n\n렌더링 엔진은 HTML 및 XML 문서와 이미지를 표시할 수 있고 플러그인이나 브라우저 확장 기능을 이용해서  PDF와 같은 다른 유형도 표시할 수 있다.\n\n### 렌더링 엔진 종류 중 하나인 '웹킷' 동작 과정\n\n![](./images/browser.png)\n\n### 동작 과정\n\n렌더링 엔진은 통신으로부터 요청한 문서의 내용을 얻는 것으로 시작하는데 문서의 내용은 보통 8KB 단위로 전송된다.\n\n1. DOM 트리 구축을 위한 HTML 파싱\n2. 렌더 트리 구축\n3. 렌더 트리 배치\n4. 렌더 트리 그리기\n\n렌더링 엔진은 HTML 문서를 파싱하고 콘텐츠 트리 내부에서 태그를 DOM 노드로 변환한다.\n\n그 다음, 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다.\n\n스타일 정보와 HTML 표시 규칙은 **렌더 트리**를 생성한다.\n\n렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시한다.\n\n렌더 트리 생성이 끝나면 배치가 시작되는데 이것은 각 노드가 화면의 정확한 위치에 표시되는 것을 의미한다.\n\n그 다음은 UI 백엔드에서 렌더 트리의 각 노드를 가로지르며 형상을 만들어내는 그리기 과정이다.\n\n### 1. DOM(Document Object Model), CSSOM(CSS Object Model) 생성\n\n서버로부터 받은 HTML, CSS를 다운로드 받는다.\n\nHTML, CSS는 단순한 텍스트 파일이므로 연산과 관리가 유리하도록 Object Model로 만들게 된다.\n\nHTML, CSS 파일은 각각 DOM Tree와 CSSOM으로 만들어진다.\n\n#### DOM\n![](./images/browser2.png)\n\n#### CSSOM\n![](./images/browser3.png)\n\n### 2. Render Tree 생성\n\nDOM Tree와 CSSOM Tree가 만들어졌으면 그 다음으로는 이 둘을 이용하여 Render Tree를 생성한다.\n\n순수한 요소들의 구조와 텍스트만 존재하는 DOM Tree와는 달리 Render Tree에는 스타일 정보가 설정되어 있으며 실제 화면에 표시되는 노드들로만 구성된다.\n\n![](./images/browser4.png)\n\n`display: none` 속성이 설정된 노드는 화면에 어떠한 공간도 차지하지 않는다.\n\n따라서 Render Tree를 만드는 과정에서 제외된다.\n\n`visibility: invisible`은 `display:none`과 비슷하게 동작하지만, 공간은 차지하고 요소가 보이지 않게만 하기 때문에 Render Tree에 포함된다.\n\n### 3. Layout\n\nLayout 단계는 브라우저의 뷰포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산한다.\n\n즉, 생성된 Render Tree 노드들이 가지고 있는 스타일과 속성에 따라서 브라우저 화면의 어느 위치에 어느 크기로 출력될지 계산하는 단계.\n\nLayout 단계를 통해 %, vh, vw와 같이 상대적인 위치, 크기 속성은 실제 화면에 그려지는 pixel 단위로 변환된다.\n\n여기서 뷰포트란, 그래픽이 표시되는 브라우저의 영역, 크기를 말한다.\n\n뷰포트는 모바일의 경우 디스플레이의 크기, pc의 경우 브라우저 창의 크기에 따라 달라진다.\n\n그리고 화면에 그려지는 각 요소들의 크기와 위치는 %, vh, vw와 같이 상대적으로 계산하여 그려지는 경우가 많기 때문에 viewport 크기가 달라질 경우 매번 계산을 다시해야 한다.\n\n### 4. Paint\n\nLayout 계산이 완료되면 이제 요소들로 실제 화면을 그리게 된다.\n\n이전 단계에서 이미 요소들의 위치와 크기, 스타일 계산이 완료된 Render Tree를 이용해 실제 픽셀값을 채워넣는다.\n\n이 때 텍스트, 색, 이미지, 그림자 효과 등이 모두 처리되어 그려진다.\n\n이 때 처리해야 하는 스타일이 복잡할수록, Paint 단계에 소요되는 시간이 늘어나게 된다.\n\n예를 들면, 단순한 단색 표현보다 그라데이션이나 그림자 효과 등이 painting 소요시간이 오래걸린다.\n\n### 5. Reflow (Layout 다시 수행)\n\n위에서 언급된 렌더링 과정을 거친 뒤에 최종적으로 페이지가 그려진다고 해서 렌더링 과정이 다 끝난 것이 아니다.\n\n어떠한 액션이나 이벤트에 따라 html 요소의 크기나 위치 등 레이아웃 수치를 수정하면 그에 영향을 받는 자식 노드나 부모 노드들을 포함하여 layout 과정을 다시 수행한다.\n\n이렇게 되면 Render Tree와 각 요소들의 크기와 위치를 다시 계산하게 되는데 이 과정을 Reflow 라고 한다.\n\n```js\n// reflow 발생 예제\nfunction reflow() { \n\tdocument.getElementById('content').style.width = '600px'; \n}\n```\n\n- 페이지 초기 렌더링 (최초 Layout 과정)\n- 윈도우 리사이징 (Viewport 크기 변경)\n- 노드 추가 또는 제거\n- 요소의 위치, 크기 변경 (left, top, margin, padding, border, width, height 등)\n- 폰트 변경과 이미지 크기 변경 등\n\n### 6. Repaint (Paint 다시 수행)\n\nReflow만 수행되면 실제 화면에 반영되지 않는다.\n\n위에서 언급된 렌더링 과정과 같이 Render Tree를 다시 화면에 그려주는 과정이 필요하다.\n\n결국은 Paint 단계가 다시 수행되는 것이며 이를 Repaint라고 한다.\n\n하지만 무조건 Reflow가 일어나야 Repaint가 일어나는 것은 아니다.\n\nbackground-color, visibility와 같이 레이아웃에는 영향을 주지 않는 스타일 속성이 변경되었을 때는 Reflow(계산)를 수행할 필요가 없기 때문에 Repaint만 수행한다.\n\n### Reflow, Repaint 줄이기\n\n#### 1. 사용하지 않는 노드에는 `visibility: invisible` 보다 `display: none` 사용하기\n\n`visibility: invisible`은 레이아웃 공간을 차지하기 때문에 reflow 대상이 된다.\n\n하지만 `display: none`은 레이아웃 공간을 차지하지 않아 Render Tree에서 아예 제외되어 reflow 대상이 되지 않는다.\n\n따라서 사용하지 않는 노드에는 reflow 대상이 되지 않는 `display: none`을 사용하는 것이 좋다.\n\n#### 2. Reflow, Repaint가 발생하는 속성 사용 피하기\n\nReflow Repaint가 일어나지 않는 `transform`, `opacitiy`와 같은 속성도 있다.\n\n따라서 `left`, `right`, `width`, `height` 보다 `transform`을, `visibility/display` 보다 `opacitiy`를 사용하는 것이 성능 개선에 도움이 된다.\n\n### Virtual Dom\n\n일반적으로 dom에 접근하여 여러번의 속성 변화, 여러번의 스타일 변화를 수행하면 그에따라 여러번의 Reflow, Repaint가 발생한다. \n\n**하지만 Virtual DOM은 이렇게 변화가 일어나 Reflow, Repaint가 필요한 것들을 한번에 묶어서 dom에 전달한다.** \n\n따라서 처리되는 Reflow, Repaint의 규모가 커질 수는 있지만 한번만 연산을 수행하게 된다.\n\n이를 통해 여러번 Reflow, Repaint를 수행하며 연산이 반복적으로 일어나는 부분이 줄어들어 성능이 개선되는 것이다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "15ecfd801267f2e7be881dd4aaea581b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[WEB] 브라우저 렌더링 원리 알아보기",
+        "date": "2020-05-23T11:06:37.000Z",
+        "category": "web"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/web.png)\n\n### 브라우저 주요 기능\n\n사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것이며 자원은 보통 HTML 문서지만 PDF나 이미지 또는 다른 형태일 수 있다.\n\n브라우저는 HTML과 CSS 명세에 따라 HTML 파일을 해석해서 표시하는데 이 명세는 웹 표준화 기구인 W3C에서 정한다.\n\n### 브라우저의 주요 구성 요소\n\n1. 사용자 인터페이스\n2. 브라우저 엔진 : 사용자 인터페이스와 렌더링 엔진 사이의 동작을 제어  \n3. **<u>렌더링 엔진 : 요청한 콘텐츠를 표시. 예를들어 HTML 을 요청하면 HTML과 CSS를 파싱하여 화면에 표시</u>**\n4. 통신 : HTTP 요청과 같은 네트워크 호출에 사용됨.\n5. UI 백엔드 : OS 사용자 인터페이스 체계를 사용.\n6. 자바스크립트 해석기 : 자바스크립트 코드를 해석하고 실행\n7. 자료 저장소\n\n### 렌더링 엔진\n\n렌더링 엔진의 역할은 요청 받은 내용을 브라우저 화면에 표시한다.\n\n렌더링 엔진은 HTML 및 XML 문서와 이미지를 표시할 수 있고 플러그인이나 브라우저 확장 기능을 이용해서  PDF와 같은 다른 유형도 표시할 수 있다.\n\n### 렌더링 엔진 종류 중 하나인 '웹킷' 동작 과정\n\n![](./images/browser.png)\n\n### 동작 과정\n\n렌더링 엔진은 통신으로부터 요청한 문서의 내용을 얻는 것으로 시작하는데 문서의 내용은 보통 8KB 단위로 전송된다.\n\n1. DOM 트리 구축을 위한 HTML 파싱\n2. 렌더 트리 구축\n3. 렌더 트리 배치\n4. 렌더 트리 그리기\n\n렌더링 엔진은 HTML 문서를 파싱하고 콘텐츠 트리 내부에서 태그를 DOM 노드로 변환한다.\n\n그 다음, 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다.\n\n스타일 정보와 HTML 표시 규칙은 **렌더 트리**를 생성한다.\n\n렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시한다.\n\n렌더 트리 생성이 끝나면 배치가 시작되는데 이것은 각 노드가 화면의 정확한 위치에 표시되는 것을 의미한다.\n\n그 다음은 UI 백엔드에서 렌더 트리의 각 노드를 가로지르며 형상을 만들어내는 그리기 과정이다.\n\n### 1. DOM(Document Object Model), CSSOM(CSS Object Model) 생성\n\n서버로부터 받은 HTML, CSS를 다운로드 받는다.\n\nHTML, CSS는 단순한 텍스트 파일이므로 연산과 관리가 유리하도록 Object Model로 만들게 된다.\n\nHTML, CSS 파일은 각각 DOM Tree와 CSSOM으로 만들어진다.\n\n#### DOM\n![](./images/browser2.png)\n\n#### CSSOM\n![](./images/browser3.png)\n\n### 2. Render Tree 생성\n\nDOM Tree와 CSSOM Tree가 만들어졌으면 그 다음으로는 이 둘을 이용하여 Render Tree를 생성한다.\n\n순수한 요소들의 구조와 텍스트만 존재하는 DOM Tree와는 달리 Render Tree에는 스타일 정보가 설정되어 있으며 실제 화면에 표시되는 노드들로만 구성된다.\n\n![](./images/browser4.png)\n\n`display: none` 속성이 설정된 노드는 화면에 어떠한 공간도 차지하지 않는다.\n\n따라서 Render Tree를 만드는 과정에서 제외된다.\n\n`visibility: invisible`은 `display:none`과 비슷하게 동작하지만, 공간은 차지하고 요소가 보이지 않게만 하기 때문에 Render Tree에 포함된다.\n\n### 3. Layout\n\nLayout 단계는 브라우저의 뷰포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산한다.\n\n즉, 생성된 Render Tree 노드들이 가지고 있는 스타일과 속성에 따라서 브라우저 화면의 어느 위치에 어느 크기로 출력될지 계산하는 단계.\n\nLayout 단계를 통해 %, vh, vw와 같이 상대적인 위치, 크기 속성은 실제 화면에 그려지는 pixel 단위로 변환된다.\n\n여기서 뷰포트란, 그래픽이 표시되는 브라우저의 영역, 크기를 말한다.\n\n뷰포트는 모바일의 경우 디스플레이의 크기, pc의 경우 브라우저 창의 크기에 따라 달라진다.\n\n그리고 화면에 그려지는 각 요소들의 크기와 위치는 %, vh, vw와 같이 상대적으로 계산하여 그려지는 경우가 많기 때문에 viewport 크기가 달라질 경우 매번 계산을 다시해야 한다.\n\n### 4. Paint\n\nLayout 계산이 완료되면 이제 요소들로 실제 화면을 그리게 된다.\n\n이전 단계에서 이미 요소들의 위치와 크기, 스타일 계산이 완료된 Render Tree를 이용해 실제 픽셀값을 채워넣는다.\n\n이 때 텍스트, 색, 이미지, 그림자 효과 등이 모두 처리되어 그려진다.\n\n이 때 처리해야 하는 스타일이 복잡할수록, Paint 단계에 소요되는 시간이 늘어나게 된다.\n\n예를 들면, 단순한 단색 표현보다 그라데이션이나 그림자 효과 등이 painting 소요시간이 오래걸린다.\n\n### 5. Reflow (Layout 다시 수행)\n\n위에서 언급된 렌더링 과정을 거친 뒤에 최종적으로 페이지가 그려진다고 해서 렌더링 과정이 다 끝난 것이 아니다.\n\n어떠한 액션이나 이벤트에 따라 html 요소의 크기나 위치 등 레이아웃 수치를 수정하면 그에 영향을 받는 자식 노드나 부모 노드들을 포함하여 layout 과정을 다시 수행한다.\n\n이렇게 되면 Render Tree와 각 요소들의 크기와 위치를 다시 계산하게 되는데 이 과정을 Reflow 라고 한다.\n\n```js\n// reflow 발생 예제\nfunction reflow() { \n\tdocument.getElementById('content').style.width = '600px'; \n}\n```\n\n- 페이지 초기 렌더링 (최초 Layout 과정)\n- 윈도우 리사이징 (Viewport 크기 변경)\n- 노드 추가 또는 제거\n- 요소의 위치, 크기 변경 (left, top, margin, padding, border, width, height 등)\n- 폰트 변경과 이미지 크기 변경 등\n\n### 6. Repaint (Paint 다시 수행)\n\nReflow만 수행되면 실제 화면에 반영되지 않는다.\n\n위에서 언급된 렌더링 과정과 같이 Render Tree를 다시 화면에 그려주는 과정이 필요하다.\n\n결국은 Paint 단계가 다시 수행되는 것이며 이를 Repaint라고 한다.\n\n하지만 무조건 Reflow가 일어나야 Repaint가 일어나는 것은 아니다.\n\nbackground-color, visibility와 같이 레이아웃에는 영향을 주지 않는 스타일 속성이 변경되었을 때는 Reflow(계산)를 수행할 필요가 없기 때문에 Repaint만 수행한다.\n\n### Reflow, Repaint 줄이기\n\n#### 1. 사용하지 않는 노드에는 `visibility: invisible` 보다 `display: none` 사용하기\n\n`visibility: invisible`은 레이아웃 공간을 차지하기 때문에 reflow 대상이 된다.\n\n하지만 `display: none`은 레이아웃 공간을 차지하지 않아 Render Tree에서 아예 제외되어 reflow 대상이 되지 않는다.\n\n따라서 사용하지 않는 노드에는 reflow 대상이 되지 않는 `display: none`을 사용하는 것이 좋다.\n\n#### 2. Reflow, Repaint가 발생하는 속성 사용 피하기\n\nReflow Repaint가 일어나지 않는 `transform`, `opacitiy`와 같은 속성도 있다.\n\n따라서 `left`, `right`, `width`, `height` 보다 `transform`을, `visibility/display` 보다 `opacitiy`를 사용하는 것이 성능 개선에 도움이 된다.\n\n### Virtual Dom\n\n일반적으로 dom에 접근하여 여러번의 속성 변화, 여러번의 스타일 변화를 수행하면 그에따라 여러번의 Reflow, Repaint가 발생한다. \n\n**하지만 Virtual DOM은 이렇게 변화가 일어나 Reflow, Repaint가 필요한 것들을 한번에 묶어서 dom에 전달한다.** \n\n따라서 처리되는 Reflow, Repaint의 규모가 커질 수는 있지만 한번만 연산을 수행하게 된다.\n\n이를 통해 여러번 Reflow, Repaint를 수행하며 연산이 반복적으로 일어나는 부분이 줄어들어 성능이 개선되는 것이다.",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/browser-rendering.md",
+      "fields": {
+        "slug": "/web/browser-rendering/"
+      }
+    },
+    "b181c37a-f881-5480-be27-e6119cc74a2b": {
+      "id": "b181c37a-f881-5480-be27-e6119cc74a2b",
+      "children": [
+        "2a3e0f96-c8f8-56c2-b287-c74afb4461c1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ea8e2c32a3a2456ba65873190a730ea9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/etc./webstorm-shortcut.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
+      "relativePath": "etc./webstorm-shortcut.md",
+      "extension": "md",
+      "size": 1214,
+      "prettySize": "1.21 kB",
+      "modifiedTime": "2020-05-23T03:34:26.836Z",
+      "accessTime": "2020-05-23T03:28:52.886Z",
+      "changeTime": "2020-05-23T03:34:26.836Z",
+      "birthTime": "2020-05-23T03:28:23.829Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
+      "base": "webstorm-shortcut.md",
+      "ext": ".md",
+      "name": "webstorm-shortcut",
+      "relativeDirectory": "etc.",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10529468,
+      "blocks": 8,
+      "atimeMs": 1590204532886.068,
+      "mtimeMs": 1590204866835.8481,
+      "ctimeMs": 1590204866835.8481,
+      "birthtimeMs": 1590204503829.4348,
+      "atime": "2020-05-23T03:28:52.886Z",
+      "mtime": "2020-05-23T03:34:26.836Z",
+      "ctime": "2020-05-23T03:34:26.836Z",
+      "birthtime": "2020-05-23T03:28:23.829Z"
+    },
+    "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": {
+      "id": "2a3e0f96-c8f8-56c2-b287-c74afb4461c1",
+      "children": [],
+      "parent": "b181c37a-f881-5480-be27-e6119cc74a2b",
+      "internal": {
+        "content": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```vue\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "422c1066ee2eb0317afa95490c4427f8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
+        "date": "2020-05-21T20:05:18.000Z",
+        "category": "etc."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```vue\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
+      "fields": {
+        "slug": "/etc./webstorm-shortcut/"
+      }
+    },
+    "312924ae-c311-5584-b136-65fe7ef09f71": {
+      "id": "312924ae-c311-5584-b136-65fe7ef09f71",
+      "children": [
+        "ecbeaecd-fcff-5f99-93a8-40fd7305f901"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9f2c5686ffac375ce8d907b1ef6c3fe8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/JavaScript/array-methods.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript/array-methods.md",
+      "relativePath": "JavaScript/array-methods.md",
+      "extension": "md",
+      "size": 6485,
+      "prettySize": "6.49 kB",
+      "modifiedTime": "2020-05-24T04:58:38.027Z",
+      "accessTime": "2020-05-24T04:58:29.561Z",
+      "changeTime": "2020-05-24T04:58:38.027Z",
+      "birthTime": "2020-05-24T04:52:15.709Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript",
+      "base": "array-methods.md",
+      "ext": ".md",
+      "name": "array-methods",
+      "relativeDirectory": "JavaScript",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10547445,
+      "blocks": 16,
+      "atimeMs": 1590296309561.229,
+      "mtimeMs": 1590296318027.2822,
+      "ctimeMs": 1590296318027.2822,
+      "birthtimeMs": 1590295935709.4133,
+      "atime": "2020-05-24T04:58:29.561Z",
+      "mtime": "2020-05-24T04:58:38.027Z",
+      "ctime": "2020-05-24T04:58:38.027Z",
+      "birthtime": "2020-05-24T04:52:15.709Z"
+    },
+    "SitePage /JavaScript/array-methods/": {
+      "jsonName": "java-script-array-methods-912",
+      "internalComponentName": "ComponentJavaScriptArrayMethods",
+      "path": "/JavaScript/array-methods/",
+      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/JavaScript/array-methods/",
+        "previous": {
+          "fields": {
+            "slug": "/web/browser-rendering/"
+          },
+          "frontmatter": {
+            "title": "[WEB] 브라우저 렌더링 원리 알아보기",
+            "category": "web"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /JavaScript/array-methods/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "42641ed64b9c76f0174888252ec0bd8c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /web/browser-rendering/": {
+      "jsonName": "web-browser-rendering-e8b",
+      "internalComponentName": "ComponentWebBrowserRendering",
+      "path": "/web/browser-rendering/",
+      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/web/browser-rendering/",
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/variable-regex/"
+          },
+          "frontmatter": {
+            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
+            "category": "javascript"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/array-methods/"
+          },
+          "frontmatter": {
+            "title": "[JavaScript] 주요 메소드 정리 - Array",
+            "category": "javascript"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /web/browser-rendering/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fdc96650db0971502c6134638faa1fa8",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /JavaScript/variable-regex/": {
       "jsonName": "java-script-variable-regex-4a7",
       "internalComponentName": "ComponentJavaScriptVariableRegex",
@@ -7043,6 +7839,47 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "339d0b9a0c92aea43454c98072ed7af5",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /etc./webstorm-shortcut/": {
+      "jsonName": "etc-webstorm-shortcut-a08",
+      "internalComponentName": "ComponentEtcWebstormShortcut",
+      "path": "/etc./webstorm-shortcut/",
+      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/etc./webstorm-shortcut/",
+        "previous": {
+          "fields": {
+            "slug": "/web/storage/"
+          },
+          "frontmatter": {
+            "title": "[WEB] cookies, localStorage, sessionStorage 비교",
+            "category": "web"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/JavaScript/variable-regex/"
+          },
+          "frontmatter": {
+            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
+            "category": "javascript"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /etc./webstorm-shortcut/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91a63ac2d9e29abad014ae354bf14b5",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -8271,753 +9108,29 @@
         "owner": "internal-data-bridge"
       }
     },
-    "9cf45a4b-a2de-582e-8a41-454b596076b3": {
-      "id": "9cf45a4b-a2de-582e-8a41-454b596076b3",
+    "ecbeaecd-fcff-5f99-93a8-40fd7305f901": {
+      "id": "ecbeaecd-fcff-5f99-93a8-40fd7305f901",
       "children": [],
-      "parent": "8e010e03-5e17-5a17-a299-3060058290a8",
+      "parent": "312924ae-c311-5584-b136-65fe7ef09f71",
       "internal": {
-        "content": "\n![](images/javascript.png)\n\n정규표현식(Regular Expression)은 문자열을 처리하는 방법 중의 하나로 특정한 조건의 문자를 '검색'하거나 '치환'하는 과정을 매우 간편하게 처리 할 수 있도록 하는 수단이다.\n\n정규표현식 사용 방법을 간단하게 알아보자.\n\n```js\nlet pattern1 = /a/;\n\nlet variableWord = 'a';\nlet pattern2 = new RegExp(variableWord);\n```\n\n- 위의 예제에서 1행과 같이 정규 표현식을 쓸 수도, 3~4행과 같이 쓸 수도 있다.\n- 변하지 않는 특정 문자열을 찾을 때는 1행과 같은 방식을 많이 사용하지만,  \n변할 수 있는 문자열을 찾을 때는 3~4행과 같은 방식을 사용할 수 있다.\n\n<br>\n아래의 코드를 보자.  \n\n`abcabaAbcabbbcAbc`라는 문자열 중에 `Abc`라는 모든 문자열을 `___`로 바꾸려고 한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nconsole.log(text.replace(/Abc/g, '___')); // abcaba___abbbc___\nconsole.log(text.replace(/pattern/g, '___')); // abcabaAbcabbbcAbc\n```\n\n- 4행에서는 `Abc`라는 모든 문자열을 `___`로 잘 치환된다.\n- 그러나 5행에서는 `pattern`이라는 변수를 사용하여 `Abc`라는 모든 문자열을 `___`로 치환하고 싶지만, `pattern`이 변수로 인식되지 않고 하나의 문자열 값으로 인식되기 때문에 원하는 결과를 얻을 수 없다.\n\n<br>\n변할 수 있는 문자열을 찾을 때는 정규 표현식 객체 생성자를 이용하여 패턴을 정의한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nlet regexOne = new RegExp(pattern); // 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾음\nlet regexAll = new RegExp(pattern, \"g\"); // 모든 패턴을 찾음\nlet regexAllCase = new RegExp(pattern, \"gi\"); // 대소문자 구분 없이 모든 패턴을 찾음\n\nconsole.log(text.replace(regexOne, '___')); // abcaba___abbbcAbc\nconsole.log(text.replace(regexAll, '___')); // abcaba___abbbc___\nconsole.log(text.replace(regexAllCase, '___')); // ___aba___abbbc___\nconsole.log(text); // abcabaAbcabbbcAbc\n```\n- 8행 : 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾는다.\n- 9행 : 일치하는 모든 패턴을 찾는다.\n- 10행 : 대소문자 구분 없이 모든 패턴을 찾는다.\n- 11행 : text값 자체는 변경되지 않는다.",
+        "content": "\n### 1. concat() - 배열 합치기\n\n`array.concat([value1[, value2[, ...[, valueN]]]])`\n\n- 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환한다.\n- 기존 배열이나 값을 변경시키지 않는다.\n\n```js\nlet arr1 = [1, 2, 3, 4];\nlet arr2 = [5, 6];\nlet arr3 = [7, 8];\n\nconsole.log(arr1.concat(arr2)); // [1, 2, 3, 4, 5, 6];\nconsole.log(arr1.concat(arr2, arr3)); // [1, 2, 3, 4, 5, 6, 7, 8];\nconsole.log(arr1); // [1, 2, 3, 4]\nconsole.log(arr2); // [5, 6]\nconsole.log(arr3); // [7, 8]\n```\n\n### 2. push, unshift - 배열에 항목 추가하기 \n\n- `push()` : 배열 끝에 항목 추가\n- `unshift()` : 배열 앞에 항목 추가\n- 반환 값 : 호출한 배열의 새로운 length 속성\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다'];\n\nconsole.log(arr.push('라')); // 4\nconsole.log(arr); // ['가', '나', '다', '라']\n\nconsole.log(arr.unshift('마')); // 5\nconsole.log(arr); // ['마', '가', '나', '다', '라']\n```\n\n### 3. pop, shift - 배열에서 항목 제거하기\n\n- `pop()` : 배열 끝에 항목 제거\n- `shift()` : 배열 앞에 항목 제거\n- 반환 값 : 제거한 항목\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다'];\n\nconsole.log(arr.pop()); // 다\nconsole.log(arr); // ['가', '나']\n\nconsole.log(arr.shift()); // 가\nconsole.log(arr); // ['가']\n```\n\n### 4. splice() - 배열 요소를 삭제 또는 교체하거나 추가하기\n\n`array.splice(start[, deleteCount[, item1[, item2[, ...]]]])`\n\n- `start` : 배열의 변경을 시작할 인덱스\n- `deleteCount` : 배열에서 삭제할 요소의 수\n- `item1, item2, ...` : 배열에 추가할 요소 (아무 요소도 지정하지 않으면 배열에 추가하지 않고 삭제만 한다)\n- 반환 값 : 제거한 요소를 담은 배열\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다', '라'];\n\n// 삭제 후 추가\nconsole.log(arr.splice(2, 1, '마')); // ['다']\nconsole.log(arr); // ['가', '나', '마', '라']\n\n// 추가만\nconsole.log(arr.splice(1, 0, '바')); // []\nconsole.log(arr); // ['가', '바', '나', '마', '라']\n\n// 삭제만\nconsole.log(arr.splice(0, 2)); // ['가', '바']\nconsole.log(arr); // ['나', '마', '라']\n```\n\n### 5. slice() - 배열의 일부분으로 새로운 배열 만들기\n\n`arr.slice([begin[, end]])`\n\n- 배열의 `begin`부터 `end - 1`까지에 대한 얕은 복사본을 새로운 배열 객체로 반환한다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.slice(2, 5)); // [3, 4, 5]\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 6. length - 배열의 길이\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.length); // 5\n```\n\n### 7. fill() - 특정 값으로 배열 채우기\n\n`arr.fill(value[, start[, end]])`\n\n- 배열의 `start` 인덱스부터 `end - 1` 인덱스까지 정적인 값 하나로 채웁니다.\n- `start`, `end` 값이 없을 경우 `value` 값으로 배열을 채운다.\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.fill(0)); // [0, 0, 0, 0, 0];\nconsole.log(arr.fill(1, 1, 3)); // [0, 1, 1, 0, 0];\nconsole.log(arr.fill(5, 2)); // [0, 1, 5, 5, 5];\n\nconsole.log(arr) // [0, 1, 5, 5, 5];\n```\n\n### 8. includes() - 배열에 요소 포함 여부 확인하기\n\n`arr.includes(valueToFind[, fromIndex])`\n\n- `fromIndex` : 이 배열에서 검색을 시작할 위치. 기본값은 `0`.\n\n```js\nlet names = ['Jessie', 'Justin', 'Leah'];\n\nconsole.log(names.includes('Jessie')); // true\nconsole.log(names.includes('Eddy')); // false\nconsole.log(names.includes('Jessie', 1)); // false\n```\n\n### 9. join() - 배열을 문자열로 결합하기\n\n`arr.join([separator = ',']);`\n\n- separator : 배열을 문자열로 결합할 때 이어 붙일 값 (기본값은 `,`)\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.join()); // 1,2,3,4,5\nconsole.log(arr.join('-')); // 1-2-3-4-5\nconsole.log(arr.join('')); // 12345\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 10. filter() - 조건을 만족하는 요소들로 새로운 배열 만들기\n\n`arr.filter(callback(element[, index[, array]])[, thisArg])`\n\n- `element` : 처리할 현재 요소\n- `index` : 처리할 현재 요소의 인덱스\n- `array` : filter를 호출한 배열\n- `thisArg` : callback을 사용할 때 this로 사용하는 값\n- 배열 내에서 원하는 요소들만 필터링할 수 있는 유용한 메서드다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet scores = [30, 40, 60, 75, 90];\nlet resultScores = [];\n\nresultScores = scores.filter((score) => {\n\treturn score > 70;\n});\n\nconsole.log(resultScores); // [75, 90]\nconsole.log(scores); // [30, 40, 60, 75, 90]\n```\n\n### 11. map() - 함수를 실행한 결과로 새로운 배열 만들기\n\n`arr.map(callback(element[, index[, array]]) [, thisArg])`\n\n- `element` : 처리할 현재 요소\n- `index` : 처리할 현재 요소의 인덱스\n- `array` : map을 호출한 배열\n- `thisArg` : callback을 사용할 때 this로 사용하는 값\n- map은 filter와 매우 유사하다. 차이점은 filter는 조건을 만족하는 요소를 필터링할 때 주로 쓰이지만 map은 요소가 아닌 새로운 값을 만들어서 return할 수 있다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\nlet resultArr = [];\n\nresultArr = arr.map((item) => {\n\treturn item ** 2;\n});\n\nconsole.log(resultArr); // [1, 4, 9, 16, 25]\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 12. sort() - 배열 정렬하기\n\n`arr.sort([compareFunction])`\n\n- `compareFunction` : 정렬 순서를 정의하는 함수. 생략하면 배열은 각 요소의 문자열 변환에 따라 각 문자의 유니 코드 코드 포인트 값에 따라 정렬된다.\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [1, 2, 100, 10, 222, 3];\n\n// 유니코드에 따라 정렬\narr.sort();\nconsole.log(arr); // [1, 10, 100, 2, 222, 3]\n\n// 오름차순 정렬\narr.sort((a, b) => {\n\treturn a - b;\n});\nconsole.log(arr); // [1, 2, 3, 10, 100, 222]\n\n// 내림차순 정렬\narr.sort((a, b) => {\n\treturn b - a;\n});\nconsole.log(arr); // [222, 100, 10, 3, 2, 1]\n```\n\n### 13. reverse() - 배열을 역순으로 정렬하기\n\n`arr.reverse()`\n\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [4, 2, 3, 5, 1];\n\narr.reverse();\nconsole.log(arr); // [1, 5, 3, 2, 4]\n```",
         "type": "MarkdownRemark",
-        "contentDigest": "0bef17b13795f9c589ac77069a1378da",
+        "contentDigest": "e6e27ff7754b70fbc7ecc4a9a87c53de",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
-        "date": "2020-05-21T20:05:26.000Z",
+        "title": "[JavaScript] 주요 메소드 정리 - Array",
+        "date": "2020-05-24T13:06:26.000Z",
         "category": "javascript"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/javascript.png)\n\n정규표현식(Regular Expression)은 문자열을 처리하는 방법 중의 하나로 특정한 조건의 문자를 '검색'하거나 '치환'하는 과정을 매우 간편하게 처리 할 수 있도록 하는 수단이다.\n\n정규표현식 사용 방법을 간단하게 알아보자.\n\n```js\nlet pattern1 = /a/;\n\nlet variableWord = 'a';\nlet pattern2 = new RegExp(variableWord);\n```\n\n- 위의 예제에서 1행과 같이 정규 표현식을 쓸 수도, 3~4행과 같이 쓸 수도 있다.\n- 변하지 않는 특정 문자열을 찾을 때는 1행과 같은 방식을 많이 사용하지만,  \n변할 수 있는 문자열을 찾을 때는 3~4행과 같은 방식을 사용할 수 있다.\n\n<br>\n아래의 코드를 보자.  \n\n`abcabaAbcabbbcAbc`라는 문자열 중에 `Abc`라는 모든 문자열을 `___`로 바꾸려고 한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nconsole.log(text.replace(/Abc/g, '___')); // abcaba___abbbc___\nconsole.log(text.replace(/pattern/g, '___')); // abcabaAbcabbbcAbc\n```\n\n- 4행에서는 `Abc`라는 모든 문자열을 `___`로 잘 치환된다.\n- 그러나 5행에서는 `pattern`이라는 변수를 사용하여 `Abc`라는 모든 문자열을 `___`로 치환하고 싶지만, `pattern`이 변수로 인식되지 않고 하나의 문자열 값으로 인식되기 때문에 원하는 결과를 얻을 수 없다.\n\n<br>\n변할 수 있는 문자열을 찾을 때는 정규 표현식 객체 생성자를 이용하여 패턴을 정의한다.\n\n```js\nlet pattern = \"Abc\";\nlet text = \"abcabaAbcabbbcAbc\";\n\nlet regexOne = new RegExp(pattern); // 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾음\nlet regexAll = new RegExp(pattern, \"g\"); // 모든 패턴을 찾음\nlet regexAllCase = new RegExp(pattern, \"gi\"); // 대소문자 구분 없이 모든 패턴을 찾음\n\nconsole.log(text.replace(regexOne, '___')); // abcaba___abbbcAbc\nconsole.log(text.replace(regexAll, '___')); // abcaba___abbbc___\nconsole.log(text.replace(regexAllCase, '___')); // ___aba___abbbc___\nconsole.log(text); // abcabaAbcabbbcAbc\n```\n- 8행 : 일치하는 패턴 중 최초 등장하는 패턴 한 번만 찾는다.\n- 9행 : 일치하는 모든 패턴을 찾는다.\n- 10행 : 대소문자 구분 없이 모든 패턴을 찾는다.\n- 11행 : text값 자체는 변경되지 않는다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript/variable-regex.md",
+      "rawMarkdownBody": "\n### 1. concat() - 배열 합치기\n\n`array.concat([value1[, value2[, ...[, valueN]]]])`\n\n- 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환한다.\n- 기존 배열이나 값을 변경시키지 않는다.\n\n```js\nlet arr1 = [1, 2, 3, 4];\nlet arr2 = [5, 6];\nlet arr3 = [7, 8];\n\nconsole.log(arr1.concat(arr2)); // [1, 2, 3, 4, 5, 6];\nconsole.log(arr1.concat(arr2, arr3)); // [1, 2, 3, 4, 5, 6, 7, 8];\nconsole.log(arr1); // [1, 2, 3, 4]\nconsole.log(arr2); // [5, 6]\nconsole.log(arr3); // [7, 8]\n```\n\n### 2. push, unshift - 배열에 항목 추가하기 \n\n- `push()` : 배열 끝에 항목 추가\n- `unshift()` : 배열 앞에 항목 추가\n- 반환 값 : 호출한 배열의 새로운 length 속성\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다'];\n\nconsole.log(arr.push('라')); // 4\nconsole.log(arr); // ['가', '나', '다', '라']\n\nconsole.log(arr.unshift('마')); // 5\nconsole.log(arr); // ['마', '가', '나', '다', '라']\n```\n\n### 3. pop, shift - 배열에서 항목 제거하기\n\n- `pop()` : 배열 끝에 항목 제거\n- `shift()` : 배열 앞에 항목 제거\n- 반환 값 : 제거한 항목\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다'];\n\nconsole.log(arr.pop()); // 다\nconsole.log(arr); // ['가', '나']\n\nconsole.log(arr.shift()); // 가\nconsole.log(arr); // ['가']\n```\n\n### 4. splice() - 배열 요소를 삭제 또는 교체하거나 추가하기\n\n`array.splice(start[, deleteCount[, item1[, item2[, ...]]]])`\n\n- `start` : 배열의 변경을 시작할 인덱스\n- `deleteCount` : 배열에서 삭제할 요소의 수\n- `item1, item2, ...` : 배열에 추가할 요소 (아무 요소도 지정하지 않으면 배열에 추가하지 않고 삭제만 한다)\n- 반환 값 : 제거한 요소를 담은 배열\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = ['가', '나', '다', '라'];\n\n// 삭제 후 추가\nconsole.log(arr.splice(2, 1, '마')); // ['다']\nconsole.log(arr); // ['가', '나', '마', '라']\n\n// 추가만\nconsole.log(arr.splice(1, 0, '바')); // []\nconsole.log(arr); // ['가', '바', '나', '마', '라']\n\n// 삭제만\nconsole.log(arr.splice(0, 2)); // ['가', '바']\nconsole.log(arr); // ['나', '마', '라']\n```\n\n### 5. slice() - 배열의 일부분으로 새로운 배열 만들기\n\n`arr.slice([begin[, end]])`\n\n- 배열의 `begin`부터 `end - 1`까지에 대한 얕은 복사본을 새로운 배열 객체로 반환한다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.slice(2, 5)); // [3, 4, 5]\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 6. length - 배열의 길이\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.length); // 5\n```\n\n### 7. fill() - 특정 값으로 배열 채우기\n\n`arr.fill(value[, start[, end]])`\n\n- 배열의 `start` 인덱스부터 `end - 1` 인덱스까지 정적인 값 하나로 채웁니다.\n- `start`, `end` 값이 없을 경우 `value` 값으로 배열을 채운다.\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.fill(0)); // [0, 0, 0, 0, 0];\nconsole.log(arr.fill(1, 1, 3)); // [0, 1, 1, 0, 0];\nconsole.log(arr.fill(5, 2)); // [0, 1, 5, 5, 5];\n\nconsole.log(arr) // [0, 1, 5, 5, 5];\n```\n\n### 8. includes() - 배열에 요소 포함 여부 확인하기\n\n`arr.includes(valueToFind[, fromIndex])`\n\n- `fromIndex` : 이 배열에서 검색을 시작할 위치. 기본값은 `0`.\n\n```js\nlet names = ['Jessie', 'Justin', 'Leah'];\n\nconsole.log(names.includes('Jessie')); // true\nconsole.log(names.includes('Eddy')); // false\nconsole.log(names.includes('Jessie', 1)); // false\n```\n\n### 9. join() - 배열을 문자열로 결합하기\n\n`arr.join([separator = ',']);`\n\n- separator : 배열을 문자열로 결합할 때 이어 붙일 값 (기본값은 `,`)\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\n\nconsole.log(arr.join()); // 1,2,3,4,5\nconsole.log(arr.join('-')); // 1-2-3-4-5\nconsole.log(arr.join('')); // 12345\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 10. filter() - 조건을 만족하는 요소들로 새로운 배열 만들기\n\n`arr.filter(callback(element[, index[, array]])[, thisArg])`\n\n- `element` : 처리할 현재 요소\n- `index` : 처리할 현재 요소의 인덱스\n- `array` : filter를 호출한 배열\n- `thisArg` : callback을 사용할 때 this로 사용하는 값\n- 배열 내에서 원하는 요소들만 필터링할 수 있는 유용한 메서드다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet scores = [30, 40, 60, 75, 90];\nlet resultScores = [];\n\nresultScores = scores.filter((score) => {\n\treturn score > 70;\n});\n\nconsole.log(resultScores); // [75, 90]\nconsole.log(scores); // [30, 40, 60, 75, 90]\n```\n\n### 11. map() - 함수를 실행한 결과로 새로운 배열 만들기\n\n`arr.map(callback(element[, index[, array]]) [, thisArg])`\n\n- `element` : 처리할 현재 요소\n- `index` : 처리할 현재 요소의 인덱스\n- `array` : map을 호출한 배열\n- `thisArg` : callback을 사용할 때 this로 사용하는 값\n- map은 filter와 매우 유사하다. 차이점은 filter는 조건을 만족하는 요소를 필터링할 때 주로 쓰이지만 map은 요소가 아닌 새로운 값을 만들어서 return할 수 있다.\n- 기존 배열을 변경시키지 않는다.\n\n```js\nlet arr = [1, 2, 3, 4, 5];\nlet resultArr = [];\n\nresultArr = arr.map((item) => {\n\treturn item ** 2;\n});\n\nconsole.log(resultArr); // [1, 4, 9, 16, 25]\nconsole.log(arr); // [1, 2, 3, 4, 5]\n```\n\n### 12. sort() - 배열 정렬하기\n\n`arr.sort([compareFunction])`\n\n- `compareFunction` : 정렬 순서를 정의하는 함수. 생략하면 배열은 각 요소의 문자열 변환에 따라 각 문자의 유니 코드 코드 포인트 값에 따라 정렬된다.\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [1, 2, 100, 10, 222, 3];\n\n// 유니코드에 따라 정렬\narr.sort();\nconsole.log(arr); // [1, 10, 100, 2, 222, 3]\n\n// 오름차순 정렬\narr.sort((a, b) => {\n\treturn a - b;\n});\nconsole.log(arr); // [1, 2, 3, 10, 100, 222]\n\n// 내림차순 정렬\narr.sort((a, b) => {\n\treturn b - a;\n});\nconsole.log(arr); // [222, 100, 10, 3, 2, 1]\n```\n\n### 13. reverse() - 배열을 역순으로 정렬하기\n\n`arr.reverse()`\n\n- 기존 배열을 변경시킨다.\n\n```js\nlet arr = [4, 2, 3, 5, 1];\n\narr.reverse();\nconsole.log(arr); // [1, 5, 3, 2, 4]\n```",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/JavaScript/array-methods.md",
       "fields": {
-        "slug": "/JavaScript/variable-regex/"
-      }
-    },
-    "d199547d-e548-525a-94d3-3566855d7739": {
-      "id": "d199547d-e548-525a-94d3-3566855d7739",
-      "children": [
-        "c914b543-dc96-5fd4-a0e0-1024d9b35706"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/etc./images/webstorm.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/webstorm.png",
-      "relativePath": "etc./images/webstorm.png",
-      "extension": "png",
-      "size": 39888,
-      "prettySize": "39.9 kB",
-      "modifiedTime": "2020-05-21T11:58:49.711Z",
-      "accessTime": "2020-05-21T11:58:50.837Z",
-      "changeTime": "2020-05-21T11:59:03.612Z",
-      "birthTime": "2020-05-21T11:58:49.695Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
-      "base": "webstorm.png",
-      "ext": ".png",
-      "name": "webstorm",
-      "relativeDirectory": "etc./images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10400262,
-      "blocks": 80,
-      "atimeMs": 1590062330837.241,
-      "mtimeMs": 1590062329711.4248,
-      "ctimeMs": 1590062343612.1785,
-      "birthtimeMs": 1590062329694.503,
-      "atime": "2020-05-21T11:58:50.837Z",
-      "mtime": "2020-05-21T11:58:49.711Z",
-      "ctime": "2020-05-21T11:59:03.612Z",
-      "birthtime": "2020-05-21T11:58:49.695Z"
-    },
-    "63ff32fd-1ab4-525c-83b5-0c87f5576733": {
-      "id": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
-      "children": [
-        "1b984cd2-783f-5a1a-8843-e07607bf5ec2"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/etc./images/markdown.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/markdown.png",
-      "relativePath": "etc./images/markdown.png",
-      "extension": "png",
-      "size": 35696,
-      "prettySize": "35.7 kB",
-      "modifiedTime": "2020-05-21T11:56:20.695Z",
-      "accessTime": "2020-05-21T11:56:21.743Z",
-      "changeTime": "2020-05-21T11:59:03.701Z",
-      "birthTime": "2020-05-21T11:56:20.677Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
-      "base": "markdown.png",
-      "ext": ".png",
-      "name": "markdown",
-      "relativeDirectory": "etc./images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10400014,
-      "blocks": 72,
-      "atimeMs": 1590062181742.8213,
-      "mtimeMs": 1590062180695.3582,
-      "ctimeMs": 1590062343701.3274,
-      "birthtimeMs": 1590062180676.9524,
-      "atime": "2020-05-21T11:56:21.743Z",
-      "mtime": "2020-05-21T11:56:20.695Z",
-      "ctime": "2020-05-21T11:59:03.701Z",
-      "birthtime": "2020-05-21T11:56:20.677Z"
-    },
-    "c914b543-dc96-5fd4-a0e0-1024d9b35706": {
-      "id": "c914b543-dc96-5fd4-a0e0-1024d9b35706",
-      "children": [],
-      "parent": "d199547d-e548-525a-94d3-3566855d7739",
-      "internal": {
-        "contentDigest": "bcc3713b4d8cffeb79717ced920b9632",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "1b984cd2-783f-5a1a-8843-e07607bf5ec2": {
-      "id": "1b984cd2-783f-5a1a-8843-e07607bf5ec2",
-      "children": [],
-      "parent": "63ff32fd-1ab4-525c-83b5-0c87f5576733",
-      "internal": {
-        "contentDigest": "f1ee45cc9cdfad39aeb8ea797f288099",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "df8d1a07-348d-5322-8d47-94b713fc84cf": {
-      "id": "df8d1a07-348d-5322-8d47-94b713fc84cf",
-      "children": [],
-      "parent": "b499b866-2ed1-5dae-88d6-cba786e3aefe",
-      "internal": {
-        "content": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "c1ec9365e0345eccf96e6729eac9b303",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[etc.] Notion is FREE for students & teachers",
-        "date": "2019-09-21T18:10:14.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/notion_main.png)\n\nNotion을 용량 제한 없이 이용하려면 Personal Plan 기준으로 월 $5의 비용이 발생한다.<br>\n그러나 이제 간단한 <b>학교 이메일 주소 인증</b>만으로 <b>Notion을 무료로 이용</b>할 수 있다.<br>\n> Notion에 대한 더 자세한 정보는 [Notion 공식 홈페이지](https://www.notion.so/)에서 확인할 수 있다.\n\n### Education Plan으로 Notion 무료 이용하기\n1. Notion App 열기 (PC에서만 가능)\n2. 노션 앱 왼쪽 상단의 Settings & Members 클릭\n3. My Account 메뉴 -  Personal Info 에서 학교 이메일 주소를 입력후 Change Email 버튼 클릭\n![](./images/notion_1.png)\n4. 학교 홈페이지로 접속하여 Notion에서 발송한 이메일로 학교 인증\n5. Upgrade 메뉴 (기존에 Plan을 이용하고 있다면 Plans 메뉴) - Personal 탭 - Get free education plan 클릭\n![](./images/Notionforstudentsupgrade.gif)\n\n### Reference\n\n- https://www.notion.so/students\n- https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./notion-for-students-&-teachers.md",
-      "fields": {
-        "slug": "/etc./notion-for-students-&-teachers/"
-      }
-    },
-    "aa07ca72-eced-5e9a-937b-56dca59119a9": {
-      "id": "aa07ca72-eced-5e9a-937b-56dca59119a9",
-      "children": [],
-      "parent": "e088b1df-52f0-512b-9329-87ac67a0ec0e",
-      "internal": {
-        "content": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n🍭    \n🎁\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "f51b6281a02bdac96c9d8b9e54db226a",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[etc.] 마크다운 문법(Markdown Syntax)",
-        "date": "2019-10-09T12:11:27.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/markdown.png)\n\n마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.\n\n### 1. 제목\n\n```text\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n```\n\n# This is a H1\n## This is a H2\n### This is a H3\n#### This is a H4\n##### This is a H5\n###### This is a H6\n\n```text\nThis is an H1\n=============\n\nThis is an H2\n-------------\n```\nThis is an H1\n=============\n\nThis is an H2\n-------------\n\n---\n\n### 2. 인용문\n\n```text\n> This is a blockqute\n```\n\n> This is a blockqute.\n\n### 3. 목록\n```text\n1. This is first list item\n2. This is second list item\n3. This is third list item\n```\n1. This is first list item\n2. This is second list item\n3. This is third list item\n\n```text\n* This is first list item\n* This is second list item\n* This is third list item\n```\n* This is first list item\n* This is second list item\n* This is third list item\n\n```text\n- This is first list item\n- This is second list item\n- This is third list item\n```\n- This is first list item\n- This is second list item\n- This is third list item\n\n```text\n+ This is first list item\n+ This is second list item\n+ This is third list item\n```\n+ This is first list item\n+ This is second list item\n+ This is third list item\n\n```text\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n```\n* This is first list item\n    * This is second list item\n        * This is third list item\n        * This is fourth list item\n\n```text\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n```\n\n* This is first list item\n    - This is second list item\n        + This is third list item\n        + This is fourth list item\n\n```text\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n```\n- [ ] 할 일-1\n- [ ] 할 일-2\n- [x] 할 일-3\n\n---\n\n### 4. 수평선\n\n\\*\\*\\*  \n\\* \\* \\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\-\\-\\-  \n\\- \\- \\-  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n\n***\n* * *\n**********\n---\n- - -\n----------\n\n### 5. 코드\n\n\\`backtick\\`\n\n`backtick`\n\n\\`\\`\\`js  \nvar let = a;  \nconsole.log(a);   \n\\`\\`\\`\n\n```js\nvar let = a;\nconsole.log(a); \n```\n\n---\n\n### 6. 강조\n\n```text\n*이탤릭체*, _이탤릭체_\n**볼드체**, __볼드체__\n***이텔릭&볼드체***, ___이텔릭&볼드체___\n~~취소~~\n```\n*이탤릭체*, _이탤릭체_  \n**볼드체**, __볼드체__  \n***이텔릭&볼드체***, ___이텔릭&볼드체___  \n~~취소선~~\n\n---\n\n### 7. 링크\n\n`title text`는 선택사항이다.\n\n```text\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")\nhttps://google.com\n```\n[Google](https://google.com)  \n[Google](https://google.com \"title text\")  \nhttps://google.com\n\n---\n\n### 8. 이미지\n\n`alt text`와 `title text`는 선택사항이다.\n\n```text\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n```\n\n![](./images/bunny.jpg)\n![alt text](./images/bunny.jpg \"title text\")\n\n---\n\n### 9. 이모지\n\n[여기](https://www.webfx.com/tools/emoji-cheat-sheet/)에서 이모지 리스트를 확인할 수 있다.\n\n\\:lollipop\\:  \n\\:gift\\:\n\n:lollipop:    \n:gift:\n\n---\n\n### 10. 이스케이프\n\n마크다운 문법을 무시하고 싶을 때는 앞에 `\\`를 붙이면 된다.\n\n```text\n*이탤릭체*\n\\*이탤릭체\\*\n```\n*이탤릭체*  \n\\*이탤릭체\\*\n\n---\n\n### 11. 줄바꿈\n\n스페이스 두 번 또는 `\\` 입력으로 개행할 수 있다.\n\n```js\n안녕하세요// 스페이스 입력 안 함\nJess2 입니다.  \n안녕하세요  // 스페이스 두 번 입력 함\nJess2 입니다.  \n안녕하세요\\ // '\\' 입력 함\nJess2 입니다.\n```\n안녕하세요\nJess2 입니다.  \n안녕하세요  \nJess2 입니다.  \n안녕하세요\\\nJess2 입니다.\n\n---\n\n### 12. 테이블\n\n`-`로 `thead`영역과 `tbody`영역을 을 나눌 수 있다.   \n`|`로 컬럼을 나눌 수 있다.  \n\n```text\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n```\n\n제목1 | 제목2\n-----|-----\n내용1 | 내용2\n내용3 | 내용4\n\n### Reference\n- https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./markdown-syntax.md",
-      "fields": {
-        "slug": "/etc./markdown-syntax/"
-      }
-    },
-    "0a340eb7-a197-5f5d-8feb-009d0dfbd710": {
-      "id": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
-      "children": [
-        "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/etc./images/2.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/2.png",
-      "relativePath": "etc./images/2.png",
-      "extension": "png",
-      "size": 75524,
-      "prettySize": "75.5 kB",
-      "modifiedTime": "2020-05-21T12:01:22.105Z",
-      "accessTime": "2020-05-21T12:01:24.549Z",
-      "changeTime": "2020-05-21T12:01:57.417Z",
-      "birthTime": "2020-05-21T12:01:20.975Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
-      "base": "2.png",
-      "ext": ".png",
-      "name": "2",
-      "relativeDirectory": "etc./images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10400716,
-      "blocks": 264,
-      "atimeMs": 1590062484549.2466,
-      "mtimeMs": 1590062482105.014,
-      "ctimeMs": 1590062517416.8442,
-      "birthtimeMs": 1590062480974.8914,
-      "atime": "2020-05-21T12:01:24.549Z",
-      "mtime": "2020-05-21T12:01:22.105Z",
-      "ctime": "2020-05-21T12:01:57.417Z",
-      "birthtime": "2020-05-21T12:01:20.975Z"
-    },
-    "eac20f71-3c96-583b-99e7-c76666568eb3": {
-      "id": "eac20f71-3c96-583b-99e7-c76666568eb3",
-      "children": [
-        "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/etc./images/1.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./images/1.png",
-      "relativePath": "etc./images/1.png",
-      "extension": "png",
-      "size": 60659,
-      "prettySize": "60.7 kB",
-      "modifiedTime": "2020-05-21T12:01:10.716Z",
-      "accessTime": "2020-05-21T12:01:16.153Z",
-      "changeTime": "2020-05-21T12:01:57.427Z",
-      "birthTime": "2020-05-21T12:01:10.297Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc./images",
-      "base": "1.png",
-      "ext": ".png",
-      "name": "1",
-      "relativeDirectory": "etc./images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10400701,
-      "blocks": 120,
-      "atimeMs": 1590062476153.4797,
-      "mtimeMs": 1590062470715.5327,
-      "ctimeMs": 1590062517426.9744,
-      "birthtimeMs": 1590062470297.141,
-      "atime": "2020-05-21T12:01:16.153Z",
-      "mtime": "2020-05-21T12:01:10.716Z",
-      "ctime": "2020-05-21T12:01:57.427Z",
-      "birthtime": "2020-05-21T12:01:10.297Z"
-    },
-    "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d": {
-      "id": "3c0b3893-d28c-52ad-a2f2-deefdeb51a7d",
-      "children": [],
-      "parent": "0a340eb7-a197-5f5d-8feb-009d0dfbd710",
-      "internal": {
-        "contentDigest": "0dd0aec98fee347cd3758757fbfd893f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e": {
-      "id": "b57e9bd1-2ac7-548e-9a3b-e3b4af7a967e",
-      "children": [],
-      "parent": "eac20f71-3c96-583b-99e7-c76666568eb3",
-      "internal": {
-        "contentDigest": "7fe1c17350abbf167fcb47701e1b6ac6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "440702f2-1784-5052-a666-f7d3abfc326b": {
-      "id": "440702f2-1784-5052-a666-f7d3abfc326b",
-      "children": [
-        "d313ae8b-99bd-5e19-b5f6-5a33421971f1"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "8d1a9659e6986f979d523aefb4658d04",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/web/browser-rendering.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/browser-rendering.md",
-      "relativePath": "web/browser-rendering.md",
-      "extension": "md",
-      "size": 8052,
-      "prettySize": "8.05 kB",
-      "modifiedTime": "2020-05-23T03:27:57.230Z",
-      "accessTime": "2020-05-23T03:09:44.766Z",
-      "changeTime": "2020-05-23T03:27:57.230Z",
-      "birthTime": "2020-05-23T02:43:56.699Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web",
-      "base": "browser-rendering.md",
-      "ext": ".md",
-      "name": "browser-rendering",
-      "relativeDirectory": "web",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10525743,
-      "blocks": 16,
-      "atimeMs": 1590203384765.525,
-      "mtimeMs": 1590204477229.718,
-      "ctimeMs": 1590204477229.718,
-      "birthtimeMs": 1590201836699.2544,
-      "atime": "2020-05-23T03:09:44.766Z",
-      "mtime": "2020-05-23T03:27:57.230Z",
-      "ctime": "2020-05-23T03:27:57.230Z",
-      "birthtime": "2020-05-23T02:43:56.699Z"
-    },
-    "SitePage /web/browser-rendering/": {
-      "jsonName": "web-browser-rendering-e8b",
-      "internalComponentName": "ComponentWebBrowserRendering",
-      "path": "/web/browser-rendering/",
-      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/web/browser-rendering/",
-        "previous": {
-          "fields": {
-            "slug": "/JavaScript/variable-regex/"
-          },
-          "frontmatter": {
-            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
-            "category": "javascript"
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
-      "id": "SitePage /web/browser-rendering/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b41fa72bb1bb399c68e1a5346c384248",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "1f2214ae-074a-5b5e-b30a-82b91094a08d": {
-      "id": "1f2214ae-074a-5b5e-b30a-82b91094a08d",
-      "children": [
-        "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "88fd9ddd882cbf67770fddb6ca8b20ba",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/web/images/browser.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser.png",
-      "relativePath": "web/images/browser.png",
-      "extension": "png",
-      "size": 237768,
-      "prettySize": "238 kB",
-      "modifiedTime": "2020-05-23T02:45:52.488Z",
-      "accessTime": "2020-05-23T02:46:00.044Z",
-      "changeTime": "2020-05-23T02:46:35.174Z",
-      "birthTime": "2020-05-23T02:45:51.926Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
-      "base": "browser.png",
-      "ext": ".png",
-      "name": "browser",
-      "relativeDirectory": "web/images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10525943,
-      "blocks": 472,
-      "atimeMs": 1590201960044.0525,
-      "mtimeMs": 1590201952488.147,
-      "ctimeMs": 1590201995174.0361,
-      "birthtimeMs": 1590201951926.1282,
-      "atime": "2020-05-23T02:46:00.044Z",
-      "mtime": "2020-05-23T02:45:52.488Z",
-      "ctime": "2020-05-23T02:46:35.174Z",
-      "birthtime": "2020-05-23T02:45:51.926Z"
-    },
-    "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463": {
-      "id": "3fe5e67c-33dc-5f3e-84b7-5c4fb2859463",
-      "children": [],
-      "parent": "1f2214ae-074a-5b5e-b30a-82b91094a08d",
-      "internal": {
-        "contentDigest": "88fd9ddd882cbf67770fddb6ca8b20ba",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "5081f353-2464-52c3-a192-23200f80607f": {
-      "id": "5081f353-2464-52c3-a192-23200f80607f",
-      "children": [
-        "50bd88d8-908f-595b-855a-f2148988bc37"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "d2d1cc118210528da72cc1e2ef152eec",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/web/images/browser2.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser2.png",
-      "relativePath": "web/images/browser2.png",
-      "extension": "png",
-      "size": 11863,
-      "prettySize": "11.9 kB",
-      "modifiedTime": "2020-05-23T02:46:02.626Z",
-      "accessTime": "2020-05-23T02:46:38.202Z",
-      "changeTime": "2020-05-23T02:47:00.332Z",
-      "birthTime": "2020-05-23T02:46:02.625Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
-      "base": "browser2.png",
-      "ext": ".png",
-      "name": "browser2",
-      "relativeDirectory": "web/images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10525958,
-      "blocks": 24,
-      "atimeMs": 1590201998201.7585,
-      "mtimeMs": 1590201962625.812,
-      "ctimeMs": 1590202020332.2974,
-      "birthtimeMs": 1590201962624.9722,
-      "atime": "2020-05-23T02:46:38.202Z",
-      "mtime": "2020-05-23T02:46:02.626Z",
-      "ctime": "2020-05-23T02:47:00.332Z",
-      "birthtime": "2020-05-23T02:46:02.625Z"
-    },
-    "50bd88d8-908f-595b-855a-f2148988bc37": {
-      "id": "50bd88d8-908f-595b-855a-f2148988bc37",
-      "children": [],
-      "parent": "5081f353-2464-52c3-a192-23200f80607f",
-      "internal": {
-        "contentDigest": "d2d1cc118210528da72cc1e2ef152eec",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "89a579ca-4a30-5d10-99f7-1df4482b5daf": {
-      "id": "89a579ca-4a30-5d10-99f7-1df4482b5daf",
-      "children": [
-        "c29204c3-f6a6-5c1f-8d92-9183b2f4db81"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "341548d8f4cf8fb4d707a6ce9b8627e8",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/web/images/browser3.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser3.png",
-      "relativePath": "web/images/browser3.png",
-      "extension": "png",
-      "size": 14581,
-      "prettySize": "14.6 kB",
-      "modifiedTime": "2020-05-23T02:46:10.590Z",
-      "accessTime": "2020-05-23T02:46:38.154Z",
-      "changeTime": "2020-05-23T02:47:08.103Z",
-      "birthTime": "2020-05-23T02:46:10.589Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
-      "base": "browser3.png",
-      "ext": ".png",
-      "name": "browser3",
-      "relativeDirectory": "web/images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10525968,
-      "blocks": 32,
-      "atimeMs": 1590201998154.1846,
-      "mtimeMs": 1590201970589.6616,
-      "ctimeMs": 1590202028103.1672,
-      "birthtimeMs": 1590201970589.2568,
-      "atime": "2020-05-23T02:46:38.154Z",
-      "mtime": "2020-05-23T02:46:10.590Z",
-      "ctime": "2020-05-23T02:47:08.103Z",
-      "birthtime": "2020-05-23T02:46:10.589Z"
-    },
-    "c29204c3-f6a6-5c1f-8d92-9183b2f4db81": {
-      "id": "c29204c3-f6a6-5c1f-8d92-9183b2f4db81",
-      "children": [],
-      "parent": "89a579ca-4a30-5d10-99f7-1df4482b5daf",
-      "internal": {
-        "contentDigest": "341548d8f4cf8fb4d707a6ce9b8627e8",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "12fe9530-a0b9-5118-9fc6-48e667dfaa5f": {
-      "id": "12fe9530-a0b9-5118-9fc6-48e667dfaa5f",
-      "children": [
-        "2d4e6663-3a6d-5972-b91b-19425b8d4f4a"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0c389301ba794f3ca7b491572d73971d",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/blog/web/images/browser4.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/images/browser4.png",
-      "relativePath": "web/images/browser4.png",
-      "extension": "png",
-      "size": 34944,
-      "prettySize": "34.9 kB",
-      "modifiedTime": "2020-05-23T02:46:15.969Z",
-      "accessTime": "2020-05-23T02:47:10.690Z",
-      "changeTime": "2020-05-23T02:47:13.237Z",
-      "birthTime": "2020-05-23T02:46:15.823Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/web/images",
-      "base": "browser4.png",
-      "ext": ".png",
-      "name": "browser4",
-      "relativeDirectory": "web/images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10525979,
-      "blocks": 72,
-      "atimeMs": 1590202030690.2275,
-      "mtimeMs": 1590201975969.4033,
-      "ctimeMs": 1590202033237.018,
-      "birthtimeMs": 1590201975823.1562,
-      "atime": "2020-05-23T02:47:10.690Z",
-      "mtime": "2020-05-23T02:46:15.969Z",
-      "ctime": "2020-05-23T02:47:13.237Z",
-      "birthtime": "2020-05-23T02:46:15.823Z"
-    },
-    "2d4e6663-3a6d-5972-b91b-19425b8d4f4a": {
-      "id": "2d4e6663-3a6d-5972-b91b-19425b8d4f4a",
-      "children": [],
-      "parent": "12fe9530-a0b9-5118-9fc6-48e667dfaa5f",
-      "internal": {
-        "contentDigest": "0c389301ba794f3ca7b491572d73971d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "d313ae8b-99bd-5e19-b5f6-5a33421971f1": {
-      "id": "d313ae8b-99bd-5e19-b5f6-5a33421971f1",
-      "children": [],
-      "parent": "440702f2-1784-5052-a666-f7d3abfc326b",
-      "internal": {
-        "content": "\n![](images/web.png)\n\n### 브라우저 주요 기능\n\n사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것이며 자원은 보통 HTML 문서지만 PDF나 이미지 또는 다른 형태일 수 있다.\n\n브라우저는 HTML과 CSS 명세에 따라 HTML 파일을 해석해서 표시하는데 이 명세는 웹 표준화 기구인 W3C에서 정한다.\n\n### 브라우저의 주요 구성 요소\n\n1. 사용자 인터페이스\n2. 브라우저 엔진 : 사용자 인터페이스와 렌더링 엔진 사이의 동작을 제어  \n3. **<u>렌더링 엔진 : 요청한 콘텐츠를 표시. 예를들어 HTML 을 요청하면 HTML과 CSS를 파싱하여 화면에 표시</u>**\n4. 통신 : HTTP 요청과 같은 네트워크 호출에 사용됨.\n5. UI 백엔드 : OS 사용자 인터페이스 체계를 사용.\n6. 자바스크립트 해석기 : 자바스크립트 코드를 해석하고 실행\n7. 자료 저장소\n\n### 렌더링 엔진\n\n렌더링 엔진의 역할은 요청 받은 내용을 브라우저 화면에 표시한다.\n\n렌더링 엔진은 HTML 및 XML 문서와 이미지를 표시할 수 있고 플러그인이나 브라우저 확장 기능을 이용해서  PDF와 같은 다른 유형도 표시할 수 있다.\n\n### 렌더링 엔진 종류 중 하나인 '웹킷' 동작 과정\n\n![](./images/browser.png)\n\n### 동작 과정\n\n렌더링 엔진은 통신으로부터 요청한 문서의 내용을 얻는 것으로 시작하는데 문서의 내용은 보통 8KB 단위로 전송된다.\n\n1. DOM 트리 구축을 위한 HTML 파싱\n2. 렌더 트리 구축\n3. 렌더 트리 배치\n4. 렌더 트리 그리기\n\n렌더링 엔진은 HTML 문서를 파싱하고 콘텐츠 트리 내부에서 태그를 DOM 노드로 변환한다.\n\n그 다음, 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다.\n\n스타일 정보와 HTML 표시 규칙은 **렌더 트리**를 생성한다.\n\n렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시한다.\n\n렌더 트리 생성이 끝나면 배치가 시작되는데 이것은 각 노드가 화면의 정확한 위치에 표시되는 것을 의미한다.\n\n그 다음은 UI 백엔드에서 렌더 트리의 각 노드를 가로지르며 형상을 만들어내는 그리기 과정이다.\n\n### 1. DOM(Document Object Model), CSSOM(CSS Object Model) 생성\n\n서버로부터 받은 HTML, CSS를 다운로드 받는다.\n\nHTML, CSS는 단순한 텍스트 파일이므로 연산과 관리가 유리하도록 Object Model로 만들게 된다.\n\nHTML, CSS 파일은 각각 DOM Tree와 CSSOM으로 만들어진다.\n\n#### DOM\n![](./images/browser2.png)\n\n#### CSSOM\n![](./images/browser3.png)\n\n### 2. Render Tree 생성\n\nDOM Tree와 CSSOM Tree가 만들어졌으면 그 다음으로는 이 둘을 이용하여 Render Tree를 생성한다.\n\n순수한 요소들의 구조와 텍스트만 존재하는 DOM Tree와는 달리 Render Tree에는 스타일 정보가 설정되어 있으며 실제 화면에 표시되는 노드들로만 구성된다.\n\n![](./images/browser4.png)\n\n`display: none` 속성이 설정된 노드는 화면에 어떠한 공간도 차지하지 않는다.\n\n따라서 Render Tree를 만드는 과정에서 제외된다.\n\n`visibility: invisible`은 `display:none`과 비슷하게 동작하지만, 공간은 차지하고 요소가 보이지 않게만 하기 때문에 Render Tree에 포함된다.\n\n### 3. Layout\n\nLayout 단계는 브라우저의 뷰포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산한다.\n\n즉, 생성된 Render Tree 노드들이 가지고 있는 스타일과 속성에 따라서 브라우저 화면의 어느 위치에 어느 크기로 출력될지 계산하는 단계.\n\nLayout 단계를 통해 %, vh, vw와 같이 상대적인 위치, 크기 속성은 실제 화면에 그려지는 pixel 단위로 변환된다.\n\n여기서 뷰포트란, 그래픽이 표시되는 브라우저의 영역, 크기를 말한다.\n\n뷰포트는 모바일의 경우 디스플레이의 크기, pc의 경우 브라우저 창의 크기에 따라 달라진다.\n\n그리고 화면에 그려지는 각 요소들의 크기와 위치는 %, vh, vw와 같이 상대적으로 계산하여 그려지는 경우가 많기 때문에 viewport 크기가 달라질 경우 매번 계산을 다시해야 한다.\n\n### 4. Paint\n\nLayout 계산이 완료되면 이제 요소들로 실제 화면을 그리게 된다.\n\n이전 단계에서 이미 요소들의 위치와 크기, 스타일 계산이 완료된 Render Tree를 이용해 실제 픽셀값을 채워넣는다.\n\n이 때 텍스트, 색, 이미지, 그림자 효과 등이 모두 처리되어 그려진다.\n\n이 때 처리해야 하는 스타일이 복잡할수록, Paint 단계에 소요되는 시간이 늘어나게 된다.\n\n예를 들면, 단순한 단색 표현보다 그라데이션이나 그림자 효과 등이 painting 소요시간이 오래걸린다.\n\n### 5. Reflow (Layout 다시 수행)\n\n위에서 언급된 렌더링 과정을 거친 뒤에 최종적으로 페이지가 그려진다고 해서 렌더링 과정이 다 끝난 것이 아니다.\n\n어떠한 액션이나 이벤트에 따라 html 요소의 크기나 위치 등 레이아웃 수치를 수정하면 그에 영향을 받는 자식 노드나 부모 노드들을 포함하여 layout 과정을 다시 수행한다.\n\n이렇게 되면 Render Tree와 각 요소들의 크기와 위치를 다시 계산하게 되는데 이 과정을 Reflow 라고 한다.\n\n```js\n// reflow 발생 예제\nfunction reflow() { \n\tdocument.getElementById('content').style.width = '600px'; \n}\n```\n\n- 페이지 초기 렌더링 (최초 Layout 과정)\n- 윈도우 리사이징 (Viewport 크기 변경)\n- 노드 추가 또는 제거\n- 요소의 위치, 크기 변경 (left, top, margin, padding, border, width, height 등)\n- 폰트 변경과 이미지 크기 변경 등\n\n### 6. Repaint (Paint 다시 수행)\n\nReflow만 수행되면 실제 화면에 반영되지 않는다.\n\n위에서 언급된 렌더링 과정과 같이 Render Tree를 다시 화면에 그려주는 과정이 필요하다.\n\n결국은 Paint 단계가 다시 수행되는 것이며 이를 Repaint라고 한다.\n\n하지만 무조건 Reflow가 일어나야 Repaint가 일어나는 것은 아니다.\n\nbackground-color, visibility와 같이 레이아웃에는 영향을 주지 않는 스타일 속성이 변경되었을 때는 Reflow(계산)를 수행할 필요가 없기 때문에 Repaint만 수행한다.\n\n### Reflow, Repaint 줄이기\n\n#### 1. 사용하지 않는 노드에는 `visibility: invisible` 보다 `display: none` 사용하기\n\n`visibility: invisible`은 레이아웃 공간을 차지하기 때문에 reflow 대상이 된다.\n\n하지만 `display: none`은 레이아웃 공간을 차지하지 않아 Render Tree에서 아예 제외되어 reflow 대상이 되지 않는다.\n\n따라서 사용하지 않는 노드에는 reflow 대상이 되지 않는 `display: none`을 사용하는 것이 좋다.\n\n#### 2. Reflow, Repaint가 발생하는 속성 사용 피하기\n\nReflow Repaint가 일어나지 않는 `transform`, `opacitiy`와 같은 속성도 있다.\n\n따라서 `left`, `right`, `width`, `height` 보다 `transform`을, `visibility/display` 보다 `opacitiy`를 사용하는 것이 성능 개선에 도움이 된다.\n\n### Virtual Dom\n\n일반적으로 dom에 접근하여 여러번의 속성 변화, 여러번의 스타일 변화를 수행하면 그에따라 여러번의 Reflow, Repaint가 발생한다. \n\n**하지만 Virtual DOM은 이렇게 변화가 일어나 Reflow, Repaint가 필요한 것들을 한번에 묶어서 dom에 전달한다.** \n\n따라서 처리되는 Reflow, Repaint의 규모가 커질 수는 있지만 한번만 연산을 수행하게 된다.\n\n이를 통해 여러번 Reflow, Repaint를 수행하며 연산이 반복적으로 일어나는 부분이 줄어들어 성능이 개선되는 것이다.",
-        "type": "MarkdownRemark",
-        "contentDigest": "15ecfd801267f2e7be881dd4aaea581b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[WEB] 브라우저 렌더링 원리 알아보기",
-        "date": "2020-05-23T11:06:37.000Z",
-        "category": "web"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](images/web.png)\n\n### 브라우저 주요 기능\n\n사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것이며 자원은 보통 HTML 문서지만 PDF나 이미지 또는 다른 형태일 수 있다.\n\n브라우저는 HTML과 CSS 명세에 따라 HTML 파일을 해석해서 표시하는데 이 명세는 웹 표준화 기구인 W3C에서 정한다.\n\n### 브라우저의 주요 구성 요소\n\n1. 사용자 인터페이스\n2. 브라우저 엔진 : 사용자 인터페이스와 렌더링 엔진 사이의 동작을 제어  \n3. **<u>렌더링 엔진 : 요청한 콘텐츠를 표시. 예를들어 HTML 을 요청하면 HTML과 CSS를 파싱하여 화면에 표시</u>**\n4. 통신 : HTTP 요청과 같은 네트워크 호출에 사용됨.\n5. UI 백엔드 : OS 사용자 인터페이스 체계를 사용.\n6. 자바스크립트 해석기 : 자바스크립트 코드를 해석하고 실행\n7. 자료 저장소\n\n### 렌더링 엔진\n\n렌더링 엔진의 역할은 요청 받은 내용을 브라우저 화면에 표시한다.\n\n렌더링 엔진은 HTML 및 XML 문서와 이미지를 표시할 수 있고 플러그인이나 브라우저 확장 기능을 이용해서  PDF와 같은 다른 유형도 표시할 수 있다.\n\n### 렌더링 엔진 종류 중 하나인 '웹킷' 동작 과정\n\n![](./images/browser.png)\n\n### 동작 과정\n\n렌더링 엔진은 통신으로부터 요청한 문서의 내용을 얻는 것으로 시작하는데 문서의 내용은 보통 8KB 단위로 전송된다.\n\n1. DOM 트리 구축을 위한 HTML 파싱\n2. 렌더 트리 구축\n3. 렌더 트리 배치\n4. 렌더 트리 그리기\n\n렌더링 엔진은 HTML 문서를 파싱하고 콘텐츠 트리 내부에서 태그를 DOM 노드로 변환한다.\n\n그 다음, 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다.\n\n스타일 정보와 HTML 표시 규칙은 **렌더 트리**를 생성한다.\n\n렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시한다.\n\n렌더 트리 생성이 끝나면 배치가 시작되는데 이것은 각 노드가 화면의 정확한 위치에 표시되는 것을 의미한다.\n\n그 다음은 UI 백엔드에서 렌더 트리의 각 노드를 가로지르며 형상을 만들어내는 그리기 과정이다.\n\n### 1. DOM(Document Object Model), CSSOM(CSS Object Model) 생성\n\n서버로부터 받은 HTML, CSS를 다운로드 받는다.\n\nHTML, CSS는 단순한 텍스트 파일이므로 연산과 관리가 유리하도록 Object Model로 만들게 된다.\n\nHTML, CSS 파일은 각각 DOM Tree와 CSSOM으로 만들어진다.\n\n#### DOM\n![](./images/browser2.png)\n\n#### CSSOM\n![](./images/browser3.png)\n\n### 2. Render Tree 생성\n\nDOM Tree와 CSSOM Tree가 만들어졌으면 그 다음으로는 이 둘을 이용하여 Render Tree를 생성한다.\n\n순수한 요소들의 구조와 텍스트만 존재하는 DOM Tree와는 달리 Render Tree에는 스타일 정보가 설정되어 있으며 실제 화면에 표시되는 노드들로만 구성된다.\n\n![](./images/browser4.png)\n\n`display: none` 속성이 설정된 노드는 화면에 어떠한 공간도 차지하지 않는다.\n\n따라서 Render Tree를 만드는 과정에서 제외된다.\n\n`visibility: invisible`은 `display:none`과 비슷하게 동작하지만, 공간은 차지하고 요소가 보이지 않게만 하기 때문에 Render Tree에 포함된다.\n\n### 3. Layout\n\nLayout 단계는 브라우저의 뷰포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산한다.\n\n즉, 생성된 Render Tree 노드들이 가지고 있는 스타일과 속성에 따라서 브라우저 화면의 어느 위치에 어느 크기로 출력될지 계산하는 단계.\n\nLayout 단계를 통해 %, vh, vw와 같이 상대적인 위치, 크기 속성은 실제 화면에 그려지는 pixel 단위로 변환된다.\n\n여기서 뷰포트란, 그래픽이 표시되는 브라우저의 영역, 크기를 말한다.\n\n뷰포트는 모바일의 경우 디스플레이의 크기, pc의 경우 브라우저 창의 크기에 따라 달라진다.\n\n그리고 화면에 그려지는 각 요소들의 크기와 위치는 %, vh, vw와 같이 상대적으로 계산하여 그려지는 경우가 많기 때문에 viewport 크기가 달라질 경우 매번 계산을 다시해야 한다.\n\n### 4. Paint\n\nLayout 계산이 완료되면 이제 요소들로 실제 화면을 그리게 된다.\n\n이전 단계에서 이미 요소들의 위치와 크기, 스타일 계산이 완료된 Render Tree를 이용해 실제 픽셀값을 채워넣는다.\n\n이 때 텍스트, 색, 이미지, 그림자 효과 등이 모두 처리되어 그려진다.\n\n이 때 처리해야 하는 스타일이 복잡할수록, Paint 단계에 소요되는 시간이 늘어나게 된다.\n\n예를 들면, 단순한 단색 표현보다 그라데이션이나 그림자 효과 등이 painting 소요시간이 오래걸린다.\n\n### 5. Reflow (Layout 다시 수행)\n\n위에서 언급된 렌더링 과정을 거친 뒤에 최종적으로 페이지가 그려진다고 해서 렌더링 과정이 다 끝난 것이 아니다.\n\n어떠한 액션이나 이벤트에 따라 html 요소의 크기나 위치 등 레이아웃 수치를 수정하면 그에 영향을 받는 자식 노드나 부모 노드들을 포함하여 layout 과정을 다시 수행한다.\n\n이렇게 되면 Render Tree와 각 요소들의 크기와 위치를 다시 계산하게 되는데 이 과정을 Reflow 라고 한다.\n\n```js\n// reflow 발생 예제\nfunction reflow() { \n\tdocument.getElementById('content').style.width = '600px'; \n}\n```\n\n- 페이지 초기 렌더링 (최초 Layout 과정)\n- 윈도우 리사이징 (Viewport 크기 변경)\n- 노드 추가 또는 제거\n- 요소의 위치, 크기 변경 (left, top, margin, padding, border, width, height 등)\n- 폰트 변경과 이미지 크기 변경 등\n\n### 6. Repaint (Paint 다시 수행)\n\nReflow만 수행되면 실제 화면에 반영되지 않는다.\n\n위에서 언급된 렌더링 과정과 같이 Render Tree를 다시 화면에 그려주는 과정이 필요하다.\n\n결국은 Paint 단계가 다시 수행되는 것이며 이를 Repaint라고 한다.\n\n하지만 무조건 Reflow가 일어나야 Repaint가 일어나는 것은 아니다.\n\nbackground-color, visibility와 같이 레이아웃에는 영향을 주지 않는 스타일 속성이 변경되었을 때는 Reflow(계산)를 수행할 필요가 없기 때문에 Repaint만 수행한다.\n\n### Reflow, Repaint 줄이기\n\n#### 1. 사용하지 않는 노드에는 `visibility: invisible` 보다 `display: none` 사용하기\n\n`visibility: invisible`은 레이아웃 공간을 차지하기 때문에 reflow 대상이 된다.\n\n하지만 `display: none`은 레이아웃 공간을 차지하지 않아 Render Tree에서 아예 제외되어 reflow 대상이 되지 않는다.\n\n따라서 사용하지 않는 노드에는 reflow 대상이 되지 않는 `display: none`을 사용하는 것이 좋다.\n\n#### 2. Reflow, Repaint가 발생하는 속성 사용 피하기\n\nReflow Repaint가 일어나지 않는 `transform`, `opacitiy`와 같은 속성도 있다.\n\n따라서 `left`, `right`, `width`, `height` 보다 `transform`을, `visibility/display` 보다 `opacitiy`를 사용하는 것이 성능 개선에 도움이 된다.\n\n### Virtual Dom\n\n일반적으로 dom에 접근하여 여러번의 속성 변화, 여러번의 스타일 변화를 수행하면 그에따라 여러번의 Reflow, Repaint가 발생한다. \n\n**하지만 Virtual DOM은 이렇게 변화가 일어나 Reflow, Repaint가 필요한 것들을 한번에 묶어서 dom에 전달한다.** \n\n따라서 처리되는 Reflow, Repaint의 규모가 커질 수는 있지만 한번만 연산을 수행하게 된다.\n\n이를 통해 여러번 Reflow, Repaint를 수행하며 연산이 반복적으로 일어나는 부분이 줄어들어 성능이 개선되는 것이다.",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/web/browser-rendering.md",
-      "fields": {
-        "slug": "/web/browser-rendering/"
-      }
-    },
-    "b181c37a-f881-5480-be27-e6119cc74a2b": {
-      "id": "b181c37a-f881-5480-be27-e6119cc74a2b",
-      "children": [
-        "2a3e0f96-c8f8-56c2-b287-c74afb4461c1"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "411c522f204106bedfee53b2a5c357f5",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/etc./webstorm-shortcut.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
-      "relativePath": "etc./webstorm-shortcut.md",
-      "extension": "md",
-      "size": 1211,
-      "prettySize": "1.21 kB",
-      "modifiedTime": "2020-05-23T03:28:37.506Z",
-      "accessTime": "2020-05-23T03:28:26.154Z",
-      "changeTime": "2020-05-23T03:28:37.506Z",
-      "birthTime": "2020-05-23T03:28:23.829Z",
-      "root": "/",
-      "dir": "/Users/jess2/projects/jess2xyz/content/blog/etc.",
-      "base": "webstorm-shortcut.md",
-      "ext": ".md",
-      "name": "webstorm-shortcut",
-      "relativeDirectory": "etc.",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10529468,
-      "blocks": 8,
-      "atimeMs": 1590204506153.711,
-      "mtimeMs": 1590204517505.955,
-      "ctimeMs": 1590204517505.955,
-      "birthtimeMs": 1590204503829.4348,
-      "atime": "2020-05-23T03:28:26.154Z",
-      "mtime": "2020-05-23T03:28:37.506Z",
-      "ctime": "2020-05-23T03:28:37.506Z",
-      "birthtime": "2020-05-23T03:28:23.829Z"
-    },
-    "SitePage /etc./webstorm-shortcut/": {
-      "jsonName": "etc-webstorm-shortcut-a08",
-      "internalComponentName": "ComponentEtcWebstormShortcut",
-      "path": "/etc./webstorm-shortcut/",
-      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/etc./webstorm-shortcut/",
-        "previous": {
-          "fields": {
-            "slug": "/web/storage/"
-          },
-          "frontmatter": {
-            "title": "[WEB] cookies, localStorage, sessionStorage 비교",
-            "category": "web"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/JavaScript/variable-regex/"
-          },
-          "frontmatter": {
-            "title": "[JavaScript] 자바스크립트 변수로 정규식 사용하기",
-            "category": "javascript"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
-      "id": "SitePage /etc./webstorm-shortcut/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f91a63ac2d9e29abad014ae354bf14b5",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "2a3e0f96-c8f8-56c2-b287-c74afb4461c1": {
-      "id": "2a3e0f96-c8f8-56c2-b287-c74afb4461c1",
-      "children": [],
-      "parent": "b181c37a-f881-5480-be27-e6119cc74a2b",
-      "internal": {
-        "content": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
-        "type": "MarkdownRemark",
-        "contentDigest": "5f8d6ec72375ebcce73c9c31b5b4f662",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "[etc.] WebStorm ShortCut 단축어 추가하기",
-        "date": "2020-05-21T20:05:18.000Z",
-        "category": "etc."
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](./images/webstorm.png)\n\n### 1. ShortCut 설정 창으로 이동하기\n![](./images/1.png)\n1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)\n2. 우측의 + 버튼 클릭 - Live Templates 클릭\n\n### 2. 단축어 설정하기\n![](./images/2.png)\n\n1. Abbreviation 입력창에 단축어 설정\n2. Description 입력창에 설명 추가\n3. Template text 입력창에 탬플릿 추가\n4. 하단의 Define 드롭다운을 눌러 탬플릿을 사용할 수 있도록 하려는 **파일 형식** 선택\n\n### 3. 실제 사용하기\n- 에디터에 단축어를 입력한 후 tab 키를 누르면 사용 가능하다.\n- default 설정은 tab으로 적용되어 있으며, Webstorm - Preferences - Editor - Live Templates 에서 변경 가능하다.\n\n### 4. Vue 추천 단축어\n```\n<template>\n  <div class=\"\">\n  </div>\n</template>\n\n<script>\n  export default {\n    name: '',\n    props: [],\n    data () {\n      return {}\n    },\n    computed: {},\n    mounted () {\n    },\n    watch: {},\n    methods: {},\n    components: {}\n  }\n</script>\n\n<style scoped lang=\"scss\">\n  @import '';\n</style>\n```",
-      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/etc./webstorm-shortcut.md",
-      "fields": {
-        "slug": "/etc./webstorm-shortcut/"
+        "slug": "/JavaScript/array-methods/"
       }
     }
   },
@@ -9028,8 +9141,6 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-head-index-jsx",
-        "sq--src-components-bio-index-jsx",
         "/404/",
         "/404.html",
         "/",
@@ -9064,7 +9175,10 @@
         "/seminar/2018-typescript-korea-meetup/",
         "/cs/quick-sort/",
         "/web/browser-rendering/",
-        "/etc./webstorm-shortcut/"
+        "/etc./webstorm-shortcut/",
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx",
+        "/JavaScript/array-methods/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
@@ -9195,6 +9309,9 @@
       ],
       "d313ae8b-99bd-5e19-b5f6-5a33421971f1": [
         "/web/browser-rendering/"
+      ],
+      "ecbeaecd-fcff-5f99-93a8-40fd7305f901": [
+        "/JavaScript/array-methods/"
       ]
     },
     "connections": {
@@ -9214,7 +9331,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "980/path---index-6a9-E0x10MtLTZBvPxPiHTP6hNC7Yn0",
+    "index": "582/path---index-6a9-1eMYw4kcttqXfiMMGZUCU7kw",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -9265,8 +9382,9 @@
     "web-storage-5f1": "96/path---web-storage-5-f-1-bf0-xpSJSw8481rJ3D2IMnelAxKwJ8A",
     "cs-quick-sort-8a5": "795/path---cs-quick-sort-8-a-5-1f1-YUN48eL7oM1mVK6VCstCH0bvGQ",
     "java-script-variable-regex-4a7": "388/path---java-script-variable-regex-4-a-7-012-rJsIRl6WmTsj6NBj8Xc9mRJns",
-    "etc-webstorm-shortcut-a08": "440/path---etc-webstorm-shortcut-a-08-72f-4Jm4UiwS4lOL8xvHaSGOup0XRN8",
-    "web-browser-rendering-e8b": "22/path---web-browser-rendering-e-8-b-155-CkFmB2d150YZv3tyCVlhZAbUzEM"
+    "etc-webstorm-shortcut-a08": "82/path---etc-webstorm-shortcut-a-08-72f-53GngcdwzQnYfLecA0F22EoaD8",
+    "web-browser-rendering-e8b": "596/path---web-browser-rendering-e-8-b-155-AfzFU7iG5dvxxmKNFvUQOcIazIE",
+    "java-script-array-methods-912": "563/path---java-script-array-methods-912-fbd-Z3RaJM2avKfvhGMtFBZ7WdraCmA"
   },
   "components": {
     "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js": {

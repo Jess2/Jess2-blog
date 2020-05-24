@@ -21,6 +21,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-array-methods-912",
+        "path": "/JavaScript/array-methods/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-bind-b6a",
         "path": "/JavaScript/bind/"
     },
