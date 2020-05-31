@@ -97,9 +97,9 @@ mounted 훅은 vue 객체를 DOM에 붙인 시점이다.
 
 ### 그러면 mounted 되기 전에 myInfo 데이터를 가져오면 되잖아?
 
-vue 객체를 DOM에 붙이기 전에, 즉 create 훅에서 `getMyInfo`를 하면 어떻게 될까?
+vue 객체를 DOM에 붙이기 전에, 즉 created 훅에서 `getMyInfo`를 하면 어떻게 될까?
 
-create 훅에서 `myInfo`를 가져오고 그 다음에 렌더링을 진행하면 에러가 발생할 일이 없지 않을까?  
+created 훅에서 `myInfo`를 가져오고 그 다음에 렌더링을 진행하면 에러가 발생할 일이 없지 않을까?  
 아래와 같이 말이다.
 
 ```js
