@@ -7746,7 +7746,15 @@
             "category": "web"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vue/data-undefined-error/"
+          },
+          "frontmatter": {
+            "title": "[Vue.js] TypeError: Cannot read property of undefined",
+            "category": "vue"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -7756,7 +7764,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "42641ed64b9c76f0174888252ec0bd8c",
+        "contentDigest": "fb56ce90fa63f3a5677360d444b9ac1f",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -9132,6 +9140,225 @@
       "fields": {
         "slug": "/JavaScript/array-methods/"
       }
+    },
+    "12b0fcf6-0e6c-56a7-a553-e94925241284": {
+      "id": "12b0fcf6-0e6c-56a7-a553-e94925241284",
+      "children": [
+        "06a50ee5-db3f-5cfa-945c-c44db7d78c62"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "351519bf9ba6814db74bf289ed5520cf",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue/data-undefined-error.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/vue/data-undefined-error.md",
+      "relativePath": "vue/data-undefined-error.md",
+      "extension": "md",
+      "size": 5011,
+      "prettySize": "5.01 kB",
+      "modifiedTime": "2020-05-31T04:04:16.654Z",
+      "accessTime": "2020-05-31T04:03:42.420Z",
+      "changeTime": "2020-05-31T04:04:16.654Z",
+      "birthTime": "2020-05-31T02:09:27.791Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/vue",
+      "base": "data-undefined-error.md",
+      "ext": ".md",
+      "name": "data-undefined-error",
+      "relativeDirectory": "vue",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10852344,
+      "blocks": 16,
+      "atimeMs": 1590897822420.2483,
+      "mtimeMs": 1590897856653.5618,
+      "ctimeMs": 1590897856653.5618,
+      "birthtimeMs": 1590890967790.96,
+      "atime": "2020-05-31T04:03:42.420Z",
+      "mtime": "2020-05-31T04:04:16.654Z",
+      "ctime": "2020-05-31T04:04:16.654Z",
+      "birthtime": "2020-05-31T02:09:27.791Z"
+    },
+    "SitePage /vue/data-undefined-error/": {
+      "jsonName": "vue-data-undefined-error-759",
+      "internalComponentName": "ComponentVueDataUndefinedError",
+      "path": "/vue/data-undefined-error/",
+      "component": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/vue/data-undefined-error/",
+        "previous": {
+          "fields": {
+            "slug": "/JavaScript/array-methods/"
+          },
+          "frontmatter": {
+            "title": "[JavaScript] 주요 메소드 정리 - Array",
+            "category": "javascript"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /vue/data-undefined-error/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a786092cebc7382eddc2620066877e32",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "fc4143f3-fc8e-5d8f-91a8-99c9debfb68a": {
+      "id": "fc4143f3-fc8e-5d8f-91a8-99c9debfb68a",
+      "children": [
+        "7fadd3dd-1a33-58e3-8fc5-51fdaf05a1c3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d0bd5cf8660f847ecc86bb1e131e5f5f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/vue/images/undefined-error.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/vue/images/undefined-error.png",
+      "relativePath": "vue/images/undefined-error.png",
+      "extension": "png",
+      "size": 70541,
+      "prettySize": "70.5 kB",
+      "modifiedTime": "2020-05-31T02:20:47.933Z",
+      "accessTime": "2020-05-31T02:21:03.956Z",
+      "changeTime": "2020-05-31T02:21:03.889Z",
+      "birthTime": "2020-05-31T02:20:47.933Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/vue/images",
+      "base": "undefined-error.png",
+      "ext": ".png",
+      "name": "undefined-error",
+      "relativeDirectory": "vue/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10853233,
+      "blocks": 144,
+      "atimeMs": 1590891663956.2344,
+      "mtimeMs": 1590891647933.0427,
+      "ctimeMs": 1590891663889.157,
+      "birthtimeMs": 1590891647932.889,
+      "atime": "2020-05-31T02:21:03.956Z",
+      "mtime": "2020-05-31T02:20:47.933Z",
+      "ctime": "2020-05-31T02:21:03.889Z",
+      "birthtime": "2020-05-31T02:20:47.933Z"
+    },
+    "7fadd3dd-1a33-58e3-8fc5-51fdaf05a1c3": {
+      "id": "7fadd3dd-1a33-58e3-8fc5-51fdaf05a1c3",
+      "children": [],
+      "parent": "fc4143f3-fc8e-5d8f-91a8-99c9debfb68a",
+      "internal": {
+        "contentDigest": "d0bd5cf8660f847ecc86bb1e131e5f5f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9e908005-e1e6-56d9-b6f3-8aa6b40417ae": {
+      "id": "9e908005-e1e6-56d9-b6f3-8aa6b40417ae",
+      "children": [
+        "826538d7-5a05-5469-acd9-8798c9f174b5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8d950144bef7e6c6506334720ac8ae2a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/blog/vue/images/undefined-result.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/projects/jess2xyz/content/blog/vue/images/undefined-result.png",
+      "relativePath": "vue/images/undefined-result.png",
+      "extension": "png",
+      "size": 13445,
+      "prettySize": "13.4 kB",
+      "modifiedTime": "2020-05-31T02:39:05.421Z",
+      "accessTime": "2020-05-31T02:39:10.848Z",
+      "changeTime": "2020-05-31T02:39:28.643Z",
+      "birthTime": "2020-05-31T02:39:05.421Z",
+      "root": "/",
+      "dir": "/Users/jess2/projects/jess2xyz/content/blog/vue/images",
+      "base": "undefined-result.png",
+      "ext": ".png",
+      "name": "undefined-result",
+      "relativeDirectory": "vue/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10854475,
+      "blocks": 32,
+      "atimeMs": 1590892750848.342,
+      "mtimeMs": 1590892745420.8203,
+      "ctimeMs": 1590892768643.4695,
+      "birthtimeMs": 1590892745420.6804,
+      "atime": "2020-05-31T02:39:10.848Z",
+      "mtime": "2020-05-31T02:39:05.421Z",
+      "ctime": "2020-05-31T02:39:28.643Z",
+      "birthtime": "2020-05-31T02:39:05.421Z"
+    },
+    "826538d7-5a05-5469-acd9-8798c9f174b5": {
+      "id": "826538d7-5a05-5469-acd9-8798c9f174b5",
+      "children": [],
+      "parent": "9e908005-e1e6-56d9-b6f3-8aa6b40417ae",
+      "internal": {
+        "contentDigest": "8d950144bef7e6c6506334720ac8ae2a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06a50ee5-db3f-5cfa-945c-c44db7d78c62": {
+      "id": "06a50ee5-db3f-5cfa-945c-c44db7d78c62",
+      "children": [],
+      "parent": "12b0fcf6-0e6c-56a7-a553-e94925241284",
+      "internal": {
+        "content": "\n![](images/vue.png)\n\n### ~~TypeError: Cannot read property of undefined~~\n\n분명히 데이터가 있는데 undefined 의 속성을 찾을 수 없다고 에러가 발생할 때가 있다.\n\n> 왜? 분명히 데이터가 있는데?! 왜 undefined 라는 거야?\n\n<br>\n아래의 예시를 보자.\n\n### Example\n\n나의 정보를 화면에 보여줄 것이며 나의 정보(`myInfo`)의 데이터 구조는 아래와 같다.\n```js\nmyInfo = {\n  name: \"\",\n  age: 0,\n  company: {\n    location: \"\"\n  }\n}\n```\n\n<br>\n\n이제 아래의 HTML 코드를 보자.  \n`myInfo.name`, `myInfo.age`, `myInfo.company.location` 정보를 출력하는 코드이다.\n\n```html\n<div id=\"app\">\n  <h2>My Info</h2>\n  <ul>\n    <li>Name: {{ myInfo.name }}</li>\n    <li>Age : {{ myInfo.age }}</li>\n    <li>Company Location : {{ myInfo.company.location }}</li>\n  </ul>\n</div>\n```\n\n<br>\n\n다음은 Vue.js 코드이다.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  mounted () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      this.myInfo = { \n        name: \"Jessie\",\n        age: 29, \n        company: {\n          location: \"Gangnam-gu\"\n        } \n      }\n    }\n  }\n})\n```\nmounted 되면 `getMyInfo()` 함수를 실행하여 `myInfo` 데이터에 값을 넣는다.\n\n바로 여기에서 문제가 된다.\n\nmounted 훅은 vue 객체를 DOM에 붙인 시점이다.  \n그런데 우리는 mounted 되면 `myInfo`에 `name`, `age`, `company` 속성을 추가하고 있다.\n\n다시 말해서 `myInfo`에 아직 `name`, `age`, `company` 데이터가 없는 상태에서 HTML 코드에서 해당 데이터를 읽으려고 하기 때문에 에러가 나는 것이다.\n사실 `myInfo.name`, `myInfo.age`, `myInfo.company`와 같은 데이터를 읽으려 할 때는 에러가 발생하지 않는다.  \n각각의 정보는 undefined 이지만 undefined 라고 에러가 발생하지는 않기 때문이다.\n\n하지만 `myInfo.company.location`처럼 **undefined의 속성에 접근**하려 할 때는 에러가 발생한다.  \n`myInfo.company`는 undefined 이고 그 undefined 의 `location` 값을 읽으려고 하니 에러가 발생하는 것이다.\n\n### 실행 결과\n실행 결과는 정상적으로 나오는 것처럼 보인다.  \n양방향 데이터 바인딩 이라서 `getMyInfo` 함수를 통해 `myInfo` 값을 변형시키면 그 값을 즉각 업데이트 하기 때문이다.\n\n![](images/undefined-result.png)\n\n### Error\n하지만 `myInfo`에 값이 들어가기 전에 아래와 같이 Error가 발생하는 것이다.\n\n![](images/undefined-error.png)\n\n### 그러면 mounted 되기 전에 myInfo 데이터를 가져오면 되잖아?\n\nvue 객체를 DOM에 붙이기 전에, 즉 create 훅에서 `getMyInfo`를 하면 어떻게 될까?\n\ncreate 훅에서 `myInfo`를 가져오고 그 다음에 렌더링을 진행하면 에러가 발생할 일이 없지 않을까?  \n아래와 같이 말이다.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  created () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      this.myInfo = { \n        name: \"Jessie\",\n        age: 29, \n        company: {\n          location: \"Gangnam-gu\"\n        } \n      }\n    }\n  }\n})\n```\n\n### 예상이 맞았다! 에러는 발생하지 않는다! 그러나 ...\n\n보통 우리는 서버에서 정보를 가져온다.  \nAJAX 호출은 비동기로 이뤄지며, 콜 스택에 바로 담기지 않고 일단 태스크 큐에 추가된다.  \n렌더링이 완료된 다음에 태스크 큐에 담겨져 있던 AJAX 호출이 실행되는 것이다.\n\n지금은 테스트 서버가 없기 때문에 AJAX 호출과 마찬가지로 비동기로 이루어지는 Timer 를 이용해서 어떻게 동작하는지 살펴보자.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  created () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      setTimeout(() => {\n        this.myInfo = { \n          name: \"Jessie\",\n           age: 29, \n           company: {\n            location: \"Gangnam-gu\"\n          } \n        }\n      }, 0);\n    }\n  }\n})\n```\n\n**\"TypeError: Cannot read property 'location' of undefined\" 에러가 발생한다.**\n\n### 해결 방법\n\n결국 문제가 되는 건 undefined의 속성에 접근할 수 없는 것이기 때문에 우리는 렌더링 전에 undefined 의 속성에 접근하려 하는 것을 막으면 된다.\n\n#### 1. data 정의할 때 처리하기 \n아래와 같이 data 정의 부분에 `myInfo: {}` 부분을 `myInfo: { company: {} }` 로 초기화하면, `myInfo.company`가 undefined 는 아니기 때문에 `myInfo.company.location`에서 에러가 발생하지 않는다.\n\n```js\ndata: {\n  myInfo: {\n    company: {}\n  },\n},\n```\n\n#### 2. v-if 로 조건문 걸기\n아래와 같이 html 부분에서 렌더링 조건문을 걸면 에러가 발생하지 않는다.\n```html\n<li v-if=\"myInfo.company\">\n  Company Location : {{ myInfo.company.location }}\n</li>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "8ac82283ce2077dc98f497001bdbd281",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[Vue.js] TypeError: Cannot read property of undefined",
+        "date": "2020-05-31T11:05:54.000Z",
+        "category": "vue"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/vue.png)\n\n### ~~TypeError: Cannot read property of undefined~~\n\n분명히 데이터가 있는데 undefined 의 속성을 찾을 수 없다고 에러가 발생할 때가 있다.\n\n> 왜? 분명히 데이터가 있는데?! 왜 undefined 라는 거야?\n\n<br>\n아래의 예시를 보자.\n\n### Example\n\n나의 정보를 화면에 보여줄 것이며 나의 정보(`myInfo`)의 데이터 구조는 아래와 같다.\n```js\nmyInfo = {\n  name: \"\",\n  age: 0,\n  company: {\n    location: \"\"\n  }\n}\n```\n\n<br>\n\n이제 아래의 HTML 코드를 보자.  \n`myInfo.name`, `myInfo.age`, `myInfo.company.location` 정보를 출력하는 코드이다.\n\n```html\n<div id=\"app\">\n  <h2>My Info</h2>\n  <ul>\n    <li>Name: {{ myInfo.name }}</li>\n    <li>Age : {{ myInfo.age }}</li>\n    <li>Company Location : {{ myInfo.company.location }}</li>\n  </ul>\n</div>\n```\n\n<br>\n\n다음은 Vue.js 코드이다.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  mounted () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      this.myInfo = { \n        name: \"Jessie\",\n        age: 29, \n        company: {\n          location: \"Gangnam-gu\"\n        } \n      }\n    }\n  }\n})\n```\nmounted 되면 `getMyInfo()` 함수를 실행하여 `myInfo` 데이터에 값을 넣는다.\n\n바로 여기에서 문제가 된다.\n\nmounted 훅은 vue 객체를 DOM에 붙인 시점이다.  \n그런데 우리는 mounted 되면 `myInfo`에 `name`, `age`, `company` 속성을 추가하고 있다.\n\n다시 말해서 `myInfo`에 아직 `name`, `age`, `company` 데이터가 없는 상태에서 HTML 코드에서 해당 데이터를 읽으려고 하기 때문에 에러가 나는 것이다.\n사실 `myInfo.name`, `myInfo.age`, `myInfo.company`와 같은 데이터를 읽으려 할 때는 에러가 발생하지 않는다.  \n각각의 정보는 undefined 이지만 undefined 라고 에러가 발생하지는 않기 때문이다.\n\n하지만 `myInfo.company.location`처럼 **undefined의 속성에 접근**하려 할 때는 에러가 발생한다.  \n`myInfo.company`는 undefined 이고 그 undefined 의 `location` 값을 읽으려고 하니 에러가 발생하는 것이다.\n\n### 실행 결과\n실행 결과는 정상적으로 나오는 것처럼 보인다.  \n양방향 데이터 바인딩 이라서 `getMyInfo` 함수를 통해 `myInfo` 값을 변형시키면 그 값을 즉각 업데이트 하기 때문이다.\n\n![](images/undefined-result.png)\n\n### Error\n하지만 `myInfo`에 값이 들어가기 전에 아래와 같이 Error가 발생하는 것이다.\n\n![](images/undefined-error.png)\n\n### 그러면 mounted 되기 전에 myInfo 데이터를 가져오면 되잖아?\n\nvue 객체를 DOM에 붙이기 전에, 즉 create 훅에서 `getMyInfo`를 하면 어떻게 될까?\n\ncreate 훅에서 `myInfo`를 가져오고 그 다음에 렌더링을 진행하면 에러가 발생할 일이 없지 않을까?  \n아래와 같이 말이다.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  created () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      this.myInfo = { \n        name: \"Jessie\",\n        age: 29, \n        company: {\n          location: \"Gangnam-gu\"\n        } \n      }\n    }\n  }\n})\n```\n\n### 예상이 맞았다! 에러는 발생하지 않는다! 그러나 ...\n\n보통 우리는 서버에서 정보를 가져온다.  \nAJAX 호출은 비동기로 이뤄지며, 콜 스택에 바로 담기지 않고 일단 태스크 큐에 추가된다.  \n렌더링이 완료된 다음에 태스크 큐에 담겨져 있던 AJAX 호출이 실행되는 것이다.\n\n지금은 테스트 서버가 없기 때문에 AJAX 호출과 마찬가지로 비동기로 이루어지는 Timer 를 이용해서 어떻게 동작하는지 살펴보자.\n\n```js\nnew Vue({\n  el: \"#app\",\n  data: {\n    myInfo: {},\n  },\n  created () {\n  \tthis.getMyInfo();\n  },\n  methods: {\n  \tgetMyInfo () {\n      setTimeout(() => {\n        this.myInfo = { \n          name: \"Jessie\",\n           age: 29, \n           company: {\n            location: \"Gangnam-gu\"\n          } \n        }\n      }, 0);\n    }\n  }\n})\n```\n\n**\"TypeError: Cannot read property 'location' of undefined\" 에러가 발생한다.**\n\n### 해결 방법\n\n결국 문제가 되는 건 undefined의 속성에 접근할 수 없는 것이기 때문에 우리는 렌더링 전에 undefined 의 속성에 접근하려 하는 것을 막으면 된다.\n\n#### 1. data 정의할 때 처리하기 \n아래와 같이 data 정의 부분에 `myInfo: {}` 부분을 `myInfo: { company: {} }` 로 초기화하면, `myInfo.company`가 undefined 는 아니기 때문에 `myInfo.company.location`에서 에러가 발생하지 않는다.\n\n```js\ndata: {\n  myInfo: {\n    company: {}\n  },\n},\n```\n\n#### 2. v-if 로 조건문 걸기\n아래와 같이 html 부분에서 렌더링 조건문을 걸면 에러가 발생하지 않는다.\n```html\n<li v-if=\"myInfo.company\">\n  Company Location : {{ myInfo.company.location }}\n</li>\n```",
+      "fileAbsolutePath": "/Users/jess2/projects/jess2xyz/content/blog/vue/data-undefined-error.md",
+      "fields": {
+        "slug": "/vue/data-undefined-error/"
+      }
     }
   },
   "status": {
@@ -9176,9 +9403,10 @@
         "/cs/quick-sort/",
         "/web/browser-rendering/",
         "/etc./webstorm-shortcut/",
+        "/JavaScript/array-methods/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx",
-        "/JavaScript/array-methods/"
+        "/vue/data-undefined-error/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
@@ -9312,6 +9540,9 @@
       ],
       "ecbeaecd-fcff-5f99-93a8-40fd7305f901": [
         "/JavaScript/array-methods/"
+      ],
+      "06a50ee5-db3f-5cfa-945c-c44db7d78c62": [
+        "/vue/data-undefined-error/"
       ]
     },
     "connections": {
@@ -9331,7 +9562,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "582/path---index-6a9-1eMYw4kcttqXfiMMGZUCU7kw",
+    "index": "649/path---index-6a9-GGwQz0T7WL7wHl5KpOtSsjXwZhU",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -9384,7 +9615,8 @@
     "java-script-variable-regex-4a7": "388/path---java-script-variable-regex-4-a-7-012-rJsIRl6WmTsj6NBj8Xc9mRJns",
     "etc-webstorm-shortcut-a08": "82/path---etc-webstorm-shortcut-a-08-72f-53GngcdwzQnYfLecA0F22EoaD8",
     "web-browser-rendering-e8b": "596/path---web-browser-rendering-e-8-b-155-AfzFU7iG5dvxxmKNFvUQOcIazIE",
-    "java-script-array-methods-912": "563/path---java-script-array-methods-912-fbd-Z3RaJM2avKfvhGMtFBZ7WdraCmA"
+    "java-script-array-methods-912": "556/path---java-script-array-methods-912-fbd-LjKpXPMStKnb5sLg0bp6a0Rso",
+    "vue-data-undefined-error-759": "684/path---vue-data-undefined-error-759-6cc-JYwQiU74qxEKcCrfqrdMjLxCVkQ"
   },
   "components": {
     "/Users/jess2/projects/jess2xyz/src/templates/blog-post.js": {

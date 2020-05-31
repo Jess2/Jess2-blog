@@ -156,6 +156,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "vue-data-undefined-error-759",
+        "path": "/vue/data-undefined-error/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "vue-refs-489",
         "path": "/vue/refs/"
     },
