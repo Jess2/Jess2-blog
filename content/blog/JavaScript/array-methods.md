@@ -4,6 +4,8 @@ date: 2020-05-24 13:05:86
 category: javascript
 ---
 
+![](images/javascript.png)
+
 ### 1. concat() - 배열 합치기
 
 `array.concat([value1[, value2[, ...[, valueN]]]])`
@@ -23,6 +25,8 @@ console.log(arr2); // [5, 6]
 console.log(arr3); // [7, 8]
 ```
 
+<br>
+
 ### 2. push, unshift - 배열에 항목 추가하기 
 
 - `push()` : 배열 끝에 항목 추가
@@ -40,6 +44,8 @@ console.log(arr.unshift('마')); // 5
 console.log(arr); // ['마', '가', '나', '다', '라']
 ```
 
+<br>
+
 ### 3. pop, shift - 배열에서 항목 제거하기
 
 - `pop()` : 배열 끝에 항목 제거
@@ -56,6 +62,8 @@ console.log(arr); // ['가', '나']
 console.log(arr.shift()); // 가
 console.log(arr); // ['가']
 ```
+
+<br>
 
 ### 4. splice() - 배열 요소를 삭제 또는 교체하거나 추가하기
 
@@ -83,6 +91,8 @@ console.log(arr.splice(0, 2)); // ['가', '바']
 console.log(arr); // ['나', '마', '라']
 ```
 
+<br>
+
 ### 5. slice() - 배열의 일부분으로 새로운 배열 만들기
 
 `arr.slice([begin[, end]])`
@@ -97,6 +107,8 @@ console.log(arr.slice(2, 5)); // [3, 4, 5]
 console.log(arr); // [1, 2, 3, 4, 5]
 ```
 
+<br>
+
 ### 6. length - 배열의 길이
 
 ```js
@@ -104,6 +116,8 @@ let arr = [1, 2, 3, 4, 5];
 
 console.log(arr.length); // 5
 ```
+
+<br>
 
 ### 7. fill() - 특정 값으로 배열 채우기
 
@@ -123,6 +137,8 @@ console.log(arr.fill(5, 2)); // [0, 1, 5, 5, 5];
 console.log(arr) // [0, 1, 5, 5, 5];
 ```
 
+<br>
+
 ### 8. includes() - 배열에 요소 포함 여부 확인하기
 
 `arr.includes(valueToFind[, fromIndex])`
@@ -136,6 +152,8 @@ console.log(names.includes('Jessie')); // true
 console.log(names.includes('Eddy')); // false
 console.log(names.includes('Jessie', 1)); // false
 ```
+
+<br>
 
 ### 9. join() - 배열을 문자열로 결합하기
 
@@ -152,6 +170,8 @@ console.log(arr.join('-')); // 1-2-3-4-5
 console.log(arr.join('')); // 12345
 console.log(arr); // [1, 2, 3, 4, 5]
 ```
+
+<br>
 
 ### 10. filter() - 조건을 만족하는 요소들로 새로운 배열 만들기
 
@@ -176,6 +196,8 @@ console.log(resultScores); // [75, 90]
 console.log(scores); // [30, 40, 60, 75, 90]
 ```
 
+<br>
+
 ### 11. map() - 함수를 실행한 결과로 새로운 배열 만들기
 
 `arr.map(callback(element[, index[, array]]) [, thisArg])`
@@ -198,6 +220,8 @@ resultArr = arr.map((item) => {
 console.log(resultArr); // [1, 4, 9, 16, 25]
 console.log(arr); // [1, 2, 3, 4, 5]
 ```
+
+<br>
 
 ### 12. sort() - 배열 정렬하기
 
@@ -225,6 +249,8 @@ arr.sort((a, b) => {
 });
 console.log(arr); // [222, 100, 10, 3, 2, 1]
 ```
+
+<br>
 
 ### 13. reverse() - 배열을 역순으로 정렬하기
 

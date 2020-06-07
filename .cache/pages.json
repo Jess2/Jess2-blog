@@ -81,6 +81,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "java-script-string-methods-728",
+        "path": "/JavaScript/string-methods/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "java-script-this-f77",
         "path": "/JavaScript/this/"
     },
