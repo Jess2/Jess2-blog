@@ -106,6 +106,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "css-border-spacing-023",
+        "path": "/css/border-spacing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "css-fade-in-out-17f",
         "path": "/css/fade-in-out/"
     },
