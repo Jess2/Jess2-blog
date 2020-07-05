@@ -9601,7 +9601,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "d93c8839f819d12702a6d7562b6184d3",
+        "contentDigest": "0650142bd86ee7ee85e87ff4acdec870",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/css/no-drag.md\"",
@@ -9611,11 +9611,11 @@
       "absolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
       "relativePath": "css/no-drag.md",
       "extension": "md",
-      "size": 1060,
-      "prettySize": "1.06 kB",
-      "modifiedTime": "2020-07-05T05:21:50.394Z",
-      "accessTime": "2020-07-05T05:21:25.239Z",
-      "changeTime": "2020-07-05T05:21:50.394Z",
+      "size": 1301,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2020-07-05T05:23:15.750Z",
+      "accessTime": "2020-07-05T05:23:03.335Z",
+      "changeTime": "2020-07-05T05:23:15.750Z",
       "birthTime": "2020-07-05T04:31:07.774Z",
       "root": "/",
       "dir": "/Users/jess2/Projects/jess2xyz/content/blog/css",
@@ -9632,13 +9632,13 @@
       "blksize": 4096,
       "ino": 11803378,
       "blocks": 8,
-      "atimeMs": 1593926485238.5398,
-      "mtimeMs": 1593926510394.09,
-      "ctimeMs": 1593926510394.09,
+      "atimeMs": 1593926583335.2505,
+      "mtimeMs": 1593926595749.9885,
+      "ctimeMs": 1593926595749.9885,
       "birthtimeMs": 1593923467773.548,
-      "atime": "2020-07-05T05:21:25.239Z",
-      "mtime": "2020-07-05T05:21:50.394Z",
-      "ctime": "2020-07-05T05:21:50.394Z",
+      "atime": "2020-07-05T05:23:03.335Z",
+      "mtime": "2020-07-05T05:23:15.750Z",
+      "ctime": "2020-07-05T05:23:15.750Z",
       "birthtime": "2020-07-05T04:31:07.774Z"
     },
     "SitePage /css/no-drag/": {
@@ -9792,9 +9792,9 @@
       "children": [],
       "parent": "4b220ded-3000-505d-b649-687a33109345",
       "internal": {
-        "content": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.",
+        "content": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
         "type": "MarkdownRemark",
-        "contentDigest": "720046fbba452fcbc40ff6ba8dd53e28",
+        "contentDigest": "069e9309508b86df346ac87f6a9d9280",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -9806,7 +9806,7 @@
         "category": "css"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.",
+      "rawMarkdownBody": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
       "fileAbsolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
       "fields": {
         "slug": "/css/no-drag/"
@@ -10065,7 +10065,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "840/path---index-6a9-53NiqfVNAscnVVyASp9CXp6n1U",
+    "index": "474/path---index-6a9-lU3LY7xetv4nzOssrVhILXv7zT0",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -10122,7 +10122,7 @@
     "vue-data-undefined-error-759": "655/path---vue-data-undefined-error-759-6cc-wxzQ9S07eU8UUvKMX7BIo5usjc",
     "java-script-string-methods-728": "535/path---java-script-string-methods-728-f3b-KPIokXCmHI4stbKKEh7kSavmFU",
     "css-border-spacing-023": "379/path---css-border-spacing-023-def-GN0v8Tvky2oXS068slPVNKlk",
-    "css-no-drag-840": "391/path---css-no-drag-840-bff-5aRTYe1MIhqNh4qUIYZIbpSkk",
+    "css-no-drag-840": "393/path---css-no-drag-840-bff-uvcPwz5u08WB2Q078vGGQQ",
     "css-customize-scroll-bar-1f3": "518/path---css-customize-scroll-bar-1-f-3-286-uymsnXuWih0MuEw5GYlGAudw"
   },
   "components": {
