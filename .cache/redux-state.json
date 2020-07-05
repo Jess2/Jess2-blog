@@ -9858,11 +9858,11 @@
         "/JavaScript/var-let-const/",
         "/etc./notion-for-students-&-teachers/",
         "/seminar/2018-typescript-korea-meetup/",
-        "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx",
         "/css/border-spacing/",
         "/css/no-drag/",
-        "/css/customize-scroll-bar/"
+        "/css/customize-scroll-bar/",
+        "sq--src-components-bio-index-jsx",
+        "sq--src-components-head-index-jsx"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
