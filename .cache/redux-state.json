@@ -8076,7 +8076,15 @@
             "category": "javascript"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/css/no-drag/"
+          },
+          "frontmatter": {
+            "title": "[CSS] 드래그 방지",
+            "category": "css"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -8086,7 +8094,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "856d7bd2f381f5b8acd808216b5599e0",
+        "contentDigest": "26be642facc859e98573438c9f1fd97a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -9585,6 +9593,111 @@
       "fields": {
         "slug": "/css/border-spacing/"
       }
+    },
+    "4b220ded-3000-505d-b649-687a33109345": {
+      "id": "4b220ded-3000-505d-b649-687a33109345",
+      "children": [
+        "eaa32ff1-200a-5b06-ac07-ade191c67ae3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0b97a55185a7d1c6655fa40b27c7d29d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/css/no-drag.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
+      "relativePath": "css/no-drag.md",
+      "extension": "md",
+      "size": 1092,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2020-07-05T04:40:22.095Z",
+      "accessTime": "2020-07-05T04:38:06.119Z",
+      "changeTime": "2020-07-05T04:40:22.095Z",
+      "birthTime": "2020-07-05T04:31:07.774Z",
+      "root": "/",
+      "dir": "/Users/jess2/Projects/jess2xyz/content/blog/css",
+      "base": "no-drag.md",
+      "ext": ".md",
+      "name": "no-drag",
+      "relativeDirectory": "css",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11803378,
+      "blocks": 8,
+      "atimeMs": 1593923886118.6926,
+      "mtimeMs": 1593924022094.7324,
+      "ctimeMs": 1593924022094.7324,
+      "birthtimeMs": 1593923467773.548,
+      "atime": "2020-07-05T04:38:06.119Z",
+      "mtime": "2020-07-05T04:40:22.095Z",
+      "ctime": "2020-07-05T04:40:22.095Z",
+      "birthtime": "2020-07-05T04:31:07.774Z"
+    },
+    "SitePage /css/no-drag/": {
+      "jsonName": "css-no-drag-840",
+      "internalComponentName": "ComponentCssNoDrag",
+      "path": "/css/no-drag/",
+      "component": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/css/no-drag/",
+        "previous": {
+          "fields": {
+            "slug": "/css/border-spacing/"
+          },
+          "frontmatter": {
+            "title": "[CSS] table tr 태그 간격 주기",
+            "category": "css"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /css/no-drag/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a231ebe4b231cd90196ed2cbb8b6e40c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "eaa32ff1-200a-5b06-ac07-ade191c67ae3": {
+      "id": "eaa32ff1-200a-5b06-ac07-ade191c67ae3",
+      "children": [],
+      "parent": "4b220ded-3000-505d-b649-687a33109345",
+      "internal": {
+        "content": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -ms-user-select: none;\n  -moz-user-select: -moz-none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  user-select:none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.",
+        "type": "MarkdownRemark",
+        "contentDigest": "16f39c955e56b5ff35234c81128259ea",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "[CSS] 드래그 방지",
+        "date": "2020-07-05T13:08:29.000Z",
+        "category": "css"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -ms-user-select: none;\n  -moz-user-select: -moz-none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  user-select:none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.",
+      "fileAbsolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
+      "fields": {
+        "slug": "/css/no-drag/"
+      }
     }
   },
   "status": {
@@ -9634,7 +9747,8 @@
         "/seminar/2018-typescript-korea-meetup/",
         "sq--src-components-bio-index-jsx",
         "sq--src-components-head-index-jsx",
-        "/css/border-spacing/"
+        "/css/border-spacing/",
+        "/css/no-drag/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
@@ -9812,6 +9926,9 @@
       ],
       "d09e6dc4-2978-5304-8085-d3cbf5698856": [
         "/css/border-spacing/"
+      ],
+      "eaa32ff1-200a-5b06-ac07-ade191c67ae3": [
+        "/css/no-drag/"
       ]
     },
     "connections": {
@@ -9831,7 +9948,7 @@
     "development-quick-start-b44": "255/path---development-quick-start-b-44-423-A03z6KqPlB8wIkPN5UJUf3LbaM0",
     "development-second-3ae": "449/path---development-second-3-ae-7d3-oUxlTwIvP1oS484C2nYbY9M4",
     "development-hello-077": "713/path---development-hello-077-63e-hbdoHfO3x8bcB5TE2CCTNdcFI8",
-    "index": "51/path---index-6a9-6LnCs1ARL7P5nvY13wUB8cU2DGg",
+    "index": "437/path---index-6a9-5e1HwSyfHFtMwObVfyjkwNCIrSg",
     "development-third-f7b": "472/path---development-third-f-7-b-314-sbXWwE0VrOSUKTGQbQjQduIgQ",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "java-script-onclick과-addeventlistener-비교-b6c": "471/path---java-script-onclick과-addeventlistener-비교-b-6-c-492-ZwvM9zfELGGeSLEoR0JbmwJ3iU",
@@ -9887,7 +10004,8 @@
     "java-script-array-methods-912": "932/path---java-script-array-methods-912-fbd-6XD9oubuhFA59ffXZwS048aeiw",
     "vue-data-undefined-error-759": "655/path---vue-data-undefined-error-759-6cc-wxzQ9S07eU8UUvKMX7BIo5usjc",
     "java-script-string-methods-728": "535/path---java-script-string-methods-728-f3b-KPIokXCmHI4stbKKEh7kSavmFU",
-    "css-border-spacing-023": "1/path---css-border-spacing-023-def-gkjtT9pIJo3xXDJVKRnhu6fJeU"
+    "css-border-spacing-023": "379/path---css-border-spacing-023-def-GN0v8Tvky2oXS068slPVNKlk",
+    "css-no-drag-840": "745/path---css-no-drag-840-bff-ssTvalRRVzZC88e6mhz8vzEuHU"
   },
   "components": {
     "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js": {
