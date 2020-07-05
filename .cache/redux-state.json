@@ -9594,94 +9594,6 @@
         "slug": "/css/border-spacing/"
       }
     },
-    "4b220ded-3000-505d-b649-687a33109345": {
-      "id": "4b220ded-3000-505d-b649-687a33109345",
-      "children": [
-        "eaa32ff1-200a-5b06-ac07-ade191c67ae3"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0650142bd86ee7ee85e87ff4acdec870",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/css/no-drag.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
-      "relativePath": "css/no-drag.md",
-      "extension": "md",
-      "size": 1301,
-      "prettySize": "1.3 kB",
-      "modifiedTime": "2020-07-05T05:23:15.750Z",
-      "accessTime": "2020-07-05T05:23:03.335Z",
-      "changeTime": "2020-07-05T05:23:15.750Z",
-      "birthTime": "2020-07-05T04:31:07.774Z",
-      "root": "/",
-      "dir": "/Users/jess2/Projects/jess2xyz/content/blog/css",
-      "base": "no-drag.md",
-      "ext": ".md",
-      "name": "no-drag",
-      "relativeDirectory": "css",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11803378,
-      "blocks": 8,
-      "atimeMs": 1593926583335.2505,
-      "mtimeMs": 1593926595749.9885,
-      "ctimeMs": 1593926595749.9885,
-      "birthtimeMs": 1593923467773.548,
-      "atime": "2020-07-05T05:23:03.335Z",
-      "mtime": "2020-07-05T05:23:15.750Z",
-      "ctime": "2020-07-05T05:23:15.750Z",
-      "birthtime": "2020-07-05T04:31:07.774Z"
-    },
-    "SitePage /css/no-drag/": {
-      "jsonName": "css-no-drag-840",
-      "internalComponentName": "ComponentCssNoDrag",
-      "path": "/css/no-drag/",
-      "component": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "/css/no-drag/",
-        "previous": {
-          "fields": {
-            "slug": "/css/border-spacing/"
-          },
-          "frontmatter": {
-            "title": "[CSS] table tr 태그 간격 주기",
-            "category": "css"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/css/customize-scroll-bar/"
-          },
-          "frontmatter": {
-            "title": "[CSS/SCSS] 스크롤바 디자인 변경하기",
-            "category": "css"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
-      "id": "SitePage /css/no-drag/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "243583f2b38f114a97cce831bb4f5d76",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "c9c940d1-c3e3-5158-8391-508a78006d48": {
       "id": "c9c940d1-c3e3-5158-8391-508a78006d48",
       "children": [
@@ -9787,14 +9699,102 @@
         "slug": "/css/customize-scroll-bar/"
       }
     },
+    "4b220ded-3000-505d-b649-687a33109345": {
+      "id": "4b220ded-3000-505d-b649-687a33109345",
+      "children": [
+        "eaa32ff1-200a-5b06-ac07-ade191c67ae3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cd3395c3be14a444828c5c755abf5ae4",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/css/no-drag.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
+      "relativePath": "css/no-drag.md",
+      "extension": "md",
+      "size": 1302,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2020-07-05T05:30:44.196Z",
+      "accessTime": "2020-07-05T05:30:43.114Z",
+      "changeTime": "2020-07-05T05:30:44.196Z",
+      "birthTime": "2020-07-05T05:30:31.903Z",
+      "root": "/",
+      "dir": "/Users/jess2/Projects/jess2xyz/content/blog/css",
+      "base": "no-drag.md",
+      "ext": ".md",
+      "name": "no-drag",
+      "relativeDirectory": "css",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11808836,
+      "blocks": 8,
+      "atimeMs": 1593927043113.8708,
+      "mtimeMs": 1593927044195.6829,
+      "ctimeMs": 1593927044195.6829,
+      "birthtimeMs": 1593927031902.556,
+      "atime": "2020-07-05T05:30:43.114Z",
+      "mtime": "2020-07-05T05:30:44.196Z",
+      "ctime": "2020-07-05T05:30:44.196Z",
+      "birthtime": "2020-07-05T05:30:31.903Z"
+    },
+    "SitePage /css/no-drag/": {
+      "jsonName": "css-no-drag-840",
+      "internalComponentName": "ComponentCssNoDrag",
+      "path": "/css/no-drag/",
+      "component": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/css/no-drag/",
+        "previous": {
+          "fields": {
+            "slug": "/css/border-spacing/"
+          },
+          "frontmatter": {
+            "title": "[CSS] table tr 태그 간격 주기",
+            "category": "css"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/css/customize-scroll-bar/"
+          },
+          "frontmatter": {
+            "title": "[CSS/SCSS] 스크롤바 디자인 변경하기",
+            "category": "css"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jess2/Projects/jess2xyz/src/templates/blog-post.js",
+      "id": "SitePage /css/no-drag/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "243583f2b38f114a97cce831bb4f5d76",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "eaa32ff1-200a-5b06-ac07-ade191c67ae3": {
       "id": "eaa32ff1-200a-5b06-ac07-ade191c67ae3",
       "children": [],
       "parent": "4b220ded-3000-505d-b649-687a33109345",
       "internal": {
-        "content": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
+        "content": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
         "type": "MarkdownRemark",
-        "contentDigest": "069e9309508b86df346ac87f6a9d9280",
+        "contentDigest": "fbee0cc2b03fb53d5f51159c2eef1b43",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -9806,7 +9806,7 @@
         "category": "css"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
+      "rawMarkdownBody": "\n![](images/css.png)\n\n### user-select: none;\n\n드래그를 방지하고 싶은 부분에 클래스를 주고 그 클래스에 Style 속성을 아래와 같이 준다.\n\n```html\n<div>\n  일반\n</div>\n<div class=\"no-drag\">\n  드래그 방지\n</div> \n```\n\n```css\n.no-drag {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```\n\n### 실행 결과 \n<iframe height=\"265\" style=\"width: 100%;\" scrolling=\"no\" title=\"[CSS] 드래그 방지\" src=\"https://codepen.io/je_ss2/embed/WNrMpMg?height=265&theme-id=dark&default-tab=result\" frameborder=\"no\" allowtransparency=\"true\" allowfullscreen=\"true\">\n  See the Pen <a href='https://codepen.io/je_ss2/pen/WNrMpMg'>[CSS] 드래그 방지</a> by SoyeonJung\n  (<a href='https://codepen.io/je_ss2'>@je_ss2</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\n위의 실행 결과에서 `일반` 부분은 드래그가 되지만 `드래그 방지` 부분은 드래그가 되지 않는다.\n\n만약 페이지 전체에 대해 드래그 방지를 하고 싶다면 아래와 같이 전체 선택자를 이용한다.\n\n```css\n* {\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n```",
       "fileAbsolutePath": "/Users/jess2/Projects/jess2xyz/content/blog/css/no-drag.md",
       "fields": {
         "slug": "/css/no-drag/"
@@ -9859,10 +9859,10 @@
         "/etc./notion-for-students-&-teachers/",
         "/seminar/2018-typescript-korea-meetup/",
         "/css/border-spacing/",
-        "/css/no-drag/",
         "/css/customize-scroll-bar/",
         "sq--src-components-bio-index-jsx",
-        "sq--src-components-head-index-jsx"
+        "sq--src-components-head-index-jsx",
+        "/css/no-drag/"
       ],
       "1144f9db-93af-57f3-9c9c-5625f2ece17b": [],
       "50a24883-ddb5-532f-96ba-6380848f9b5c": [],
