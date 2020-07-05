@@ -111,6 +111,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "css-customize-scroll-bar-1f3",
+        "path": "/css/customize-scroll-bar/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "css-fade-in-out-17f",
         "path": "/css/fade-in-out/"
     },
