@@ -1,5 +1,5 @@
 ---
-title: "[Vue.js] TypeError: Cannot read property of undefined"
+title: "[Vue.js] ❗️TypeError: Cannot read property of undefined"
 date: 2020-05-31 11:05:54
 category: vue
 ---

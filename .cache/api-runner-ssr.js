@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[],"trackingId":"UA-149032677-1"},
     },{
       plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jess2.xyz","short_name":"Jess2.xyz","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/jessieImg.png"},
+      options: {"plugins":[],"name":"Jess2.xyz","short_name":"Jess2.xyz","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/JESS2.jpg"},
     },{
       plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},

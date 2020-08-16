@@ -120,11 +120,6 @@
         "path": "/css/fade-in-out/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "css-no-drag-840",
-        "path": "/css/no-drag/"
-    },
-    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"

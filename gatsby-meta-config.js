@@ -10,8 +10,8 @@ module.exports = {
     facebook: `jesssss2`,
     medium: ``
   },
-  icon: `content/assets/jessieImg.png`, // Add your favicon
-  thumbnail: `content/assets/jessieImg.png`,
+  icon: `content/assets/JESS2.jpg`, // Add your favicon
+  thumbnail: `content/assets/JESS2.jpg`,
   keywords: [
     `blog`,
     `javascript`,
