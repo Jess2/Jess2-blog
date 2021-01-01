@@ -8,6 +8,7 @@
     "url": "https://github.com/jess2/blog/issues"
   },
   "dependencies": {
+    "babel-plugin-remove-graphql-queries": "^2.13.0",
     "gatsby": "^2.29.3",
     "gatsby-cli": "^2.16.2",
     "gatsby-image": "^2.8.0",
