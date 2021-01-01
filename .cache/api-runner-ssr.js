@@ -1,24 +1,27 @@
 var plugins = [{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
-      options: {"plugins":[]},
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
+      options: {"plugins":[],"offsetY":0,"className":"anchor"},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-149032677-1"},
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-149032677-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jess2.xyz","short_name":"Jess2.xyz","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/JESS2.jpg"},
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Jess2.xyz","short_name":"Jess2.xyz","start_url":"/","background_color":"#ffffff","theme_color":"#FFD500","display":"minimal-ui","icon":"content/assets/JESS2.jpg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"d8297a588227b4273faec29f84975cbb"},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/jess2/Projects/jess2xyz/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/jess2/projects/study/Jess2-blog/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
