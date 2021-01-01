@@ -4,15 +4,15 @@ date: 2020-05-21 20:05:18
 category: etc.
 ---
 
-![](./images/webstorm.png)
+![](images/webstorm.png)
 
 ### 1. ShortCut 설정 창으로 이동하기
-![](./images/1.png)
+![](images/1.png)
 1. Webstorm - Preferences - Editor - Live Templates - (JavaScript 선택)
 2. 우측의 + 버튼 클릭 - Live Templates 클릭
 
 ### 2. 단축어 설정하기
-![](./images/2.png)
+![](images/2.png)
 
 1. Abbreviation 입력창에 단축어 설정
 2. Description 입력창에 설명 추가

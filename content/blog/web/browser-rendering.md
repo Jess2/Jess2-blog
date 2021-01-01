@@ -30,7 +30,7 @@ category: web
 
 ### 렌더링 엔진 종류 중 하나인 '웹킷' 동작 과정
 
-![](./images/browser.png)
+![](images/browser.png)
 
 ### 동작 과정
 
@@ -62,10 +62,10 @@ HTML, CSS는 단순한 텍스트 파일이므로 연산과 관리가 유리하�
 HTML, CSS 파일은 각각 DOM Tree와 CSSOM으로 만들어진다.
 
 #### DOM
-![](./images/browser2.png)
+![](images/browser2.png)
 
 #### CSSOM
-![](./images/browser3.png)
+![](images/browser3.png)
 
 ### 2. Render Tree 생성
 
@@ -73,7 +73,7 @@ DOM Tree와 CSSOM Tree가 만들어졌으면 그 다음으로는 이 둘을 이�
 
 순수한 요소들의 구조와 텍스트만 존재하는 DOM Tree와는 달리 Render Tree에는 스타일 정보가 설정되어 있으며 실제 화면에 표시되는 노드들로만 구성된다.
 
-![](./images/browser4.png)
+![](images/browser4.png)
 
 `display: none` 속성이 설정된 노드는 화면에 어떠한 공간도 차지하지 않는다.
 

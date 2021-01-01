@@ -28,8 +28,8 @@ category: javascript
 ### 이벤트 버블링
 #### “엘리먼트에 이벤트가 발생하면 먼저 해당 엘리먼트의 핸들러를 실행시킨 후, 그의 부모 엘리먼트의 핸들러를 실행시키고, 또 그 위의 조상 엘리먼트들의 핸들러를 차례로 실행시킨다”
 
-![](./images/event-bubbling.png)
-![](./images/event-bubbling-2.png)
+![](images/event-bubbling.png)
+![](images/event-bubbling-2.png)
 
 마치 버블이 아래에서 위로 올라가는 것과 같아서 버블링이라고 한다. 아래의 예시를 보자.
 
@@ -68,7 +68,7 @@ category: javascript
 
 그렇다면 이번에는 이벤트 캡쳐링에 대해서 알아보자. 이벤트 캡쳐링도 이벤트 버블링과 비슷하다. 버블링이 아래에서 위로 올라가는 것이라면, **캡쳐링은 위에서 아래로 내려가는 것이다.**
 
-![](./images/event-capturing.png)
+![](images/event-capturing.png)
 
 `addEventListener`를 이용하여 버블링과 캡쳐링에 대해서 살펴보자.
 
