@@ -6,7 +6,7 @@ category: css
 
 ![](images/css.png)
 
-### BEM : Block__Element--Modifier
+## BEM : Block__Element--Modifier
 
 - **Block** : 독립적인 형태이자 기능의 단위
 - **Element** : 의존적인 형태, 자신이 속한 블럭 내에서만 의미를 가짐
@@ -14,7 +14,7 @@ category: css
 
 <br>
 
-#### 자신이 속한 블럭 내에서만 의미를 가지는 Element
+### 자신이 속한 블럭 내에서만 의미를 가지는 Element
 ```html
 <form class="search-form">
   <div class="search-form__content">
@@ -44,7 +44,7 @@ category: css
 
 <br>
 
-#### Key-Value 형태의 속성을 지정하는 Modifier
+### Key-Value 형태의 속성을 지정하는 Modifier
 ```html
 <div class="column">
   <strong class="title">일반 로그인</strong>
@@ -61,7 +61,7 @@ category: css
 
 <br>
 
-#### 다른 곳에서도 독립적으로 쓰일 수 있는 것은 Block 으로 지정
+### 다른 곳에서도 독립적으로 쓰일 수 있는 것은 Block 으로 지정
 ```html
 <div class="header__logo">
   <div class="logo">
