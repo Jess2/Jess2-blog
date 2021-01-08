@@ -67,7 +67,7 @@ $ npm start
 
 <br>
 
-#### 4-5. Safari 메뉴바의 Develop 메뉴 → 연결된 iPhone의 Safari 앱에서 접속하고 있는 주소 클릭 -> 개발자도구(Web Inspector)가 실행됨 
+#### 4-5. Safari 메뉴바의 Develop 메뉴 → 연결된 iPhone의 Safari 앱에서 접속하고 있는 주소 클릭 → 개발자도구(Web Inspector)가 실행됨 
 
 - 주의1: PC와 Mobile을 연결하지 않으면 Mobile이 목록에 표시되지 않는다.
 - 주의2: Mobile에서 Safari 브라우저로 접속한 사이트가 없으면 우측 목록에 표시되지 않는다. 
