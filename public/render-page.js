@@ -35690,6 +35690,9 @@ var HTML = /*#__PURE__*/function (_React$Component) {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
       name: "viewport",
       content: "width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+      property: "og:image",
+      content: "https://avatars0.githubusercontent.com/u/33195744?s=400&u=69d66df6cfb184e8e123adc063e7b132be5882df&v=4"
     }), this.props.headComponents), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", this.props.bodyAttributes, this.props.preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("noscript", null, "You need to enable JavaScript to run this app."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       key: "body",
       id: "___gatsby",
