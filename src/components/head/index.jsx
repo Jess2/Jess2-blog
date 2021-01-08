@@ -23,6 +23,10 @@ export function Head({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                name: `og:image`,
+                content: `https://avatars0.githubusercontent.com/u/33195744?s=400&amp;u=69d66df6cfb184e8e123adc063e7b132be5882df&amp;v=4`,
+              },
+              {
                 property: `og:title`,
                 content: title,
               },

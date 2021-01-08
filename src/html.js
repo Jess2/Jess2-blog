@@ -12,7 +12,6 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"
           />
-          <meta property="og:image" content="https://avatars0.githubusercontent.com/u/33195744?s=400&amp;u=69d66df6cfb184e8e123adc063e7b132be5882df&amp;v=4" />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
