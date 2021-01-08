@@ -1,1 +1,0 @@
-module.exports = require("/Users/jess2/projects/study/Jess2-blog/src/utils/typography")
