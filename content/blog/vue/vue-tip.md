@@ -279,9 +279,10 @@ export default new VueRouter({
     - 해시 모드에서는 URL 해시를 사용하여 전체 URL을 시뮬레이트하므로 URL이 변경될 때 페이지가 다시 로드 되지 않는다.
     - 해시 모드가 아닌 히스토리 모드에서 서버는 이 페이지가 새로운 페이지라는 것을 알지 못한다. 예를 들어, 로그인 링크를 클릭했을 때 url이 이동을 하더라도 서버 입장에서는 모른다.
     - 따라서 히스토리 모드에서는 우리의 앱이 적절한 서버 설정이 없는 단일 페이지 클라이언트 앱이기 때문에 사용자가 직접 [http://oursite.com/login](http://oursite.com/user/id) 에 접속하면 404 오류가 발생한다.
-    - 히스토리 모드에서 정상적으로 사용하기 위해서는 서버에 간단하게 포괄적인 대체 경로를 추가해야 한다. URL이 정적 에셋과 일치하지 않으면 앱이 있는 동일한 index.html페이지를 제공해야 한다.
-    - Reference
-        - [HTML5 히스토리 모드 | Vue Router](https://router.vuejs.org/kr/guide/essentials/history-mode.html)
+    - 그래서 기본적으로 해시 모드인 것이다.
+- 히스토리 모드에서 정상적으로 사용하기 위해서는 서버에 간단하게 포괄적인 대체 경로를 추가해야 한다. URL이 정적 에셋과 일치하지 않으면 앱이 있는 동일한 index.html페이지를 제공해야 한다.
+- Reference
+    - [HTML5 히스토리 모드 | Vue Router](https://router.vuejs.org/kr/guide/essentials/history-mode.html)
 
 <br>
 
