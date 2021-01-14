@@ -920,7 +920,7 @@ export default new VueRouter({
 <br>
 
 #### 8-5. Axios 인터셉터로 Token 설정
-> 인터셉터를 사용하는 것은 필수는 아니다. Store에서 Axios 인스턴스를 만들 때 Authorization에 token 값을 설정해줘도 된다.
+> 인터셉터를 사용하는 것은 필수는 아니다. api/index.js에서 Axios 인스턴스를 만들 때 Authorization에 token 값을 설정해줘도 된다.
 
 - 먼저 api/index.js 의 token 설정 부분을 제거한다.
     - src/api/index.js
