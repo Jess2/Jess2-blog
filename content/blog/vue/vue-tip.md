@@ -9,7 +9,7 @@ category: vue
 이 글은 장기효(캡틴판교)님의 [Vue.js 끝장내기 - 실무에 필요한 모든 것](https://www.inflearn.com/course/vue-js-%EB%81%9D%EB%82%B4%EA%B8%B0-%EC%BA%A1%ED%8B%B4%ED%8C%90%EA%B5%90/dashboard) 강좌를 듣고 공부하면서 필요한 부분을 정리한 글이다.
 
 
-## 0. Index
+# 0. Index
 1. [프로젝트 생성 및 환경 구성](#1-프로젝트-생성-및-환경-구성)
 2. [Router & 컴포넌트 설계](#2-router--컴포넌트-설계)
 3. [Axios 통신](#3-axios-통신)
@@ -25,9 +25,9 @@ category: vue
 13. [FE Testing](#13-fe-testing)
 
 
-## 1. 프로젝트 생성 및 환경 구성
+# 1. 프로젝트 생성 및 환경 구성
 
-#### 1-1. Vue CLI로 프로젝트 생성
+### 1-1. Vue CLI로 프로젝트 생성
 - vue-cli 설치 및 Vue SPA Application 생성
 
     ```bash
@@ -44,7 +44,7 @@ category: vue
 
 <br>
 
-#### 1-2. ESLint 설정
+### 1-2. ESLint 설정
 
 - ESLint 란?
     - JS 코드에서 발견된 문제 패턴을 식별하기위한 정적 코드 분석 도구이다.
@@ -67,7 +67,7 @@ category: vue
 
 <br>
 
-#### 1-3. Prettier 소개 및 적용
+### 1-3. Prettier 소개 및 적용
 - Prettier
     - 코드 정리 도구
     - 특정 사람의 기준으로 코드를 정리하는 것이 아니라 여러 사람이 하나의 기준을 만들어서 코드를 정리할 수 있도록 도와준다.
@@ -99,7 +99,7 @@ category: vue
 
 <br>
 
-#### 1-4. 파일을 절대 경로로 찾기 설정
+### 1-4. 파일을 절대 경로로 찾기 설정
 
 - 파일 위치의 레벨이 깊어질수록 파일을 거슬러 올라가는 코드가 붙게된다. '`../../../`'
 - webpack의 resolve 옵션인 '`@/`'로 접근할 수 있게 처리하자.
@@ -127,7 +127,7 @@ category: vue
 
 <br>
 
-#### 1-5. 뷰 스타일 가이드
+### 1-5. 뷰 스타일 가이드
 
 - [Style Guide - Vue.js](https://kr.vuejs.org/v2/style-guide/index.html)
     - 우선순위 A 규칙과 우선순위 B 규칙을 살펴보는 것을 추천한다.
@@ -135,9 +135,9 @@ category: vue
 <br>
 
 
-## 2. Router & 컴포넌트 설계
+# 2. Router & 컴포넌트 설계
 
-#### 2-1. Vue Router 설치 및 연결
+### 2-1. Vue Router 설치 및 연결
 - src/router/index.js
 
     ```js
@@ -165,7 +165,7 @@ category: vue
 
 <br>
 
-#### 2-2. 페이지 컴포넌트 연결
+### 2-2. 페이지 컴포넌트 연결
 - src/router/index.js
 
     ```js
@@ -190,7 +190,7 @@ category: vue
 
 <br>
 
-#### 2-3. 코드 스플리팅 소개 및 적용
+### 2-3. 코드 스플리팅 소개 및 적용
 - login페이지와 signup페이지 두 가지가 존재할 때 라우트 변경으로 현재 페이지가 변경되더라도 개발자 도구의 Network 탭에는 아무런 변화가 없다. SPA(Single Page Application)이기 때문.
 - 최초 사이트에 접속할 때 Network 탭을 보면 app.js 의 Response 를 보면 login페이지와 signup 페이지 정보가 webpack으로 빌드된 결과물로 존재한다.
 - 결론적으로 app.js 안에 모든 페이지의 정보가 들어가 있다는 것이다.
@@ -218,7 +218,7 @@ category: vue
     
 <br>
 
-#### 2-4. 초기 진입 페이지 설정
+### 2-4. 초기 진입 페이지 설정
 - 리다이렉트를 통해 초기 진입 페이지를 설정할 수 있다.
 - src/router/index.js
 
@@ -245,7 +245,7 @@ category: vue
 
 <br>
 
-#### 2-5. 없는 페이지를 접근할 때의 라우터 처리
+### 2-5. 없는 페이지를 접근할 때의 라우터 처리
 - 정의되어 있지 않은 모든 url에 대해서 반응하기 위한 정의
 
     ```js
@@ -262,7 +262,7 @@ category: vue
 
 <br>
 
-#### 2-6. history mode 설정 및 싱글 페이지 애플리케이션 배포할 때 주의 사항
+### 2-6. history mode 설정 및 싱글 페이지 애플리케이션 배포할 때 주의 사항
 
 ```js
 ...
@@ -286,9 +286,9 @@ export default new VueRouter({
 
 <br>
 
-## 3. Axios 통신
+# 3. Axios 통신
 
-#### 3-1. Axios 설정 및 API 폴더 구조화
+### 3-1. Axios 설정 및 API 폴더 구조화
 - Axios 설치
 
     ```bash
@@ -388,7 +388,7 @@ export default new VueRouter({
   
 <br>
 
-#### 3-2. API 설정 공통화
+### 3-2. API 설정 공통화
 - url 공통화 - src/api/index.js
 
     ```js
@@ -409,9 +409,9 @@ export default new VueRouter({
 
 <br>
 
-## 4. env 설정
+# 4. env 설정
 
-#### 4-1. env 파일과 설정 방법
+### 4-1. env 파일과 설정 방법
 - 프로젝트 루트 경로에 `.env` 파일을 생성한다.
 - .env 파일은 키 = 값 형태로 정의할 수 있는 환경 변수 파일이다.
 - .env
@@ -440,7 +440,7 @@ export default new VueRouter({
 
 <br>
 
-#### 4-2. Vue CLI의 env 파일 규칙과 실무 환경 구성 방법
+### 4-2. Vue CLI의 env 파일 규칙과 실무 환경 구성 방법
 - 개발 모드와 배포 모드를 구분하여 환경을 구성해야 한다.
 - `.env.development` 파일을 새로 생성한다. 이 파일은 개발 모드에서만 동작한다.
 - `.env` 파일은 우선순위가 낮다. 그래서 개발 모드에서는 `.env.development` 파일이 우선순위가 높아서 이 파일에 있는 환경 변수를 가져온다. 이 파일에 값이 없으면 `.env` 파일에 있는 값을 찾는다.
@@ -449,9 +449,9 @@ export default new VueRouter({
 
 <br>
 
-## 5. 네트워크 에러 처리
+# 5. 네트워크 에러 처리
 
-#### 5-1. 네트워크 에러 확인 방법과 에러 처리 코드 구현
+### 5-1. 네트워크 에러 확인 방법과 에러 처리 코드 구현
 - try-catch 문으로 네트워크 에러를 처리한다.
 - components/signupForm.vue
 
@@ -491,9 +491,9 @@ export default new VueRouter({
 
 <br>
 
-## 6. Validation
+# 6. Validation
 
-#### 6-1. Form Input 유효성(validation) 검사
+### 6-1. Form Input 유효성(validation) 검사
 - ID 입력창에 이메일 형식으로 입력하지 않았거나 입력창에 입력값이 없을 경우 회원가입 버튼 비활성화
     - 이메일 형식 validation을 확인하는 기능은 여러군데에서 사용할 수 있으니 src/utils 폴더 생성해서 validation.js 파일을 생성한다.
     - src/utils/validation.js
@@ -537,15 +537,15 @@ export default new VueRouter({
 
 <br>
 
-## 7. 상태 관리와 Store
+# 7. 상태 관리와 Store
 
-#### 7-1. Store
+### 7-1. Store
 - 컴포넌트끼리 데이터를 공유하고 싶을 때 props, event bus 를 이용할 수도 있지만 가장 효율적인 방법은 Store를 이용하는 방식이다. (Vuex)
 - 데이터를 Store에 담아놓으면 어떤 컴포넌트든 이 Store에 담긴 데이터를 꺼내서 사용할 수 있다.
 
 <br>
 
-#### 7-2. Vuex 설치 및 연결
+### 7-2. Vuex 설치 및 연결
 - 설치
     ```bash
     $ npm i vuex
@@ -557,7 +557,7 @@ export default new VueRouter({
 
 <br>
 
-#### 7-3. State, Mutations
+### 7-3. State, Mutations
 - src/store 폴더 생성
 - src/store/index.js 파일 생성
 
@@ -635,7 +635,7 @@ export default new VueRouter({
     
 <br>
 
-#### 7-4. Getters
+### 7-4. Getters
 - Getters : state의 값이 변경됐을 때 특정 상태를 계산할 수 있게 해준다.
 - Getters는 Vue의  computed와 비슷하다.
 - 로그인 유무 판별 : state username 값이 빈 문자열이 아니면 로그인 되어 있는 상태로 판별할 수 있다.
@@ -708,16 +708,16 @@ export default new VueRouter({
 
 <br>
 
-## 8. Token을 이용한 API 인증
+# 8. Token을 이용한 API 인증
 
-#### 8-1. Token
+### 8-1. Token
 - Token은 로그인 이후의 API에 대해서 필요한 인증값이다.
 - POST Login API 호출 시 서버로부터 Token 값을 받아올 수 있다.
 - Token은 사용자 인증이 완료 되었을 때만 발급된다.
 
 <br>
 
-#### 8-2. HTTP 헤더에 토큰 값 싣는 방법
+### 8-2. HTTP 헤더에 토큰 값 싣는 방법
 - src/api/index.js
 
     ```js
@@ -807,7 +807,7 @@ export default new VueRouter({
     
 <br>
 
-#### 8-3. Axios 인터셉터 사용하기
+### 8-3. Axios 인터셉터 사용하기
 - 현재 로직
     - src/api/index.js
 
@@ -860,7 +860,7 @@ export default new VueRouter({
 
 <br>
 
-#### 8-4. Axios 인터셉터 모듈화 및 연결
+### 8-4. Axios 인터셉터 모듈화 및 연결
 - src/api/common 폴더 생성
 - src/api/common/interceptors.js 파일 생성
 
@@ -919,7 +919,7 @@ export default new VueRouter({
     
 <br>
 
-#### 8-5. Axios 인터셉터로 Token 설정
+### 8-5. Axios 인터셉터로 Token 설정
 > 인터셉터를 사용하는 것은 필수는 아니다. api/index.js에서 Axios 인스턴스를 만들 때 Authorization에 token 값을 설정해줘도 된다.
 
 - 먼저 api/index.js 의 token 설정 부분을 제거한다.
@@ -984,16 +984,16 @@ export default new VueRouter({
 
 <br>
 
-## 9. 브라우저 저장소를 이용한 인증 값 관리
+# 9. 브라우저 저장소를 이용한 인증 값 관리
 
-#### 9-1. 화면 새로고침 했을 때의 문제점 분석
+### 9-1. 화면 새로고침 했을 때의 문제점 분석
 - Token을 자바스크립트 레벨(Vuex Store)에 저장하면 새로고침 했을 때 저장되어 있던 Token값이 사라진다.
 - 그래서 다른 HTTP 요청을 할 때 Token 값이 Store 에 존재하지 않기 때문에 Authorization 이 빈 문자열로 요청을 하게 되어 401 에러가 발생한다.
 - Cookies 를 이용하여 해결할 수 있다.
 
 <br>
 
-#### 9-2. Cookies를 이용하여 해결
+### 9-2. Cookies를 이용하여 해결
 - /src/utils/cookies.js 생성
 
     ```js
@@ -1089,7 +1089,7 @@ export default new VueRouter({
 
 <br>
 
-#### 9-3. Store Actions 속성을 이용해서 리팩토링
+### 9-3. Store Actions 속성을 이용해서 리팩토링
 - Actions 는 비동기 처리를 위한 것이다.
 - LoginForm.vue 컴포넌트에 로그인 이후 처리에 대한 비즈니스 로직이 너무 많이 포함되어 있다.
 - 컴포넌트단의 코드를 최대한 깔끔하게 하기 위해서 Vuex Store의 Actions 속성을 이용할 수 있다.
@@ -1148,7 +1148,7 @@ export default new VueRouter({
 
 <br>
 
-#### 9-4. 최종 로직
+### 9-4. 최종 로직
 - gif
     ![](images/data.gif)
 - png
@@ -1158,12 +1158,12 @@ export default new VueRouter({
 
 # 10. API 함수 모듈화
 
-#### 10-1. API 함수 모듈화의 필요성
+### 10-1. API 함수 모듈화의 필요성
 - api/index.js 하나의 파일에서 모든 api를 관리하는 것보다 관련 기능끼리 묶어서 모듈화하는 것이 좋다.
 
 <br>
 
-#### 10-2. 인스턴스 생성 함수 분할
+### 10-2. 인스턴스 생성 함수 분할
 - /api/index.js 기존 코드
 
     ```js
@@ -1238,7 +1238,7 @@ export default new VueRouter({
         
 <br>
 
-#### 10-3. 관련 API 기능별 파일 분할
+### 10-3. 관련 API 기능별 파일 분할
 - src/api/auth.js 파일 생성 - 로그인, 회원가입 등 계정과 관련된 API
 
     ```js
@@ -1298,9 +1298,9 @@ export default new VueRouter({
     - 인스턴스를 분리된 파일에서 사용할 수 있도록 export 해준다.
     - api/index.js 파일은 이제 setup 과 관련된 코드만 남게된다.
 
-## 11. Filters - 데이터 포맷팅
+# 11. Filters - 데이터 포맷팅
 
-#### 11-1. Vue Filters
+### 11-1. Vue Filters
 - `{{ message | capitalize }}` 필터 함수 이름을 우측에 넣어주면 데이터를 필터링한 결과를 화면에 보여준다.
 - Vue filters 정의
 
@@ -1322,7 +1322,7 @@ export default new VueRouter({
 
 <br>
 
-#### 11-2. Filters 적용
+### 11-2. Filters 적용
 - Date 형식 정의하는 Filter
 
     ```js
@@ -1344,7 +1344,7 @@ export default new VueRouter({
 
 <br>
 
-#### 11-3. 전역 Filters 소개 및 설정
+### 11-3. 전역 Filters 소개 및 설정
 - 필터를 여러 컴포넌트에 적용할 수 있는 형태로 재사용 가능하게 하는 방법
     - utils/filters.js 파일 생성
 
@@ -1376,9 +1376,9 @@ export default new VueRouter({
 
 <br>
 
-## 12. Router 심화
+# 12. Router 심화
 
-#### 12-1. Dynamic Route Matching
+### 12-1. Dynamic Route Matching
 - 라우터에 path를 정의할 때 id를 파라미터로 받아서 해당 페이지로 진입했을 때 id 로 접근할 수 있는 형태
 - router/index.js
 
@@ -1407,7 +1407,7 @@ export default new VueRouter({
 
 <br>
 
-#### 12-2. 라우터 네비게이션 가드
+### 12-2. 라우터 네비게이션 가드
 - 로그인하지 않은 사용자(페이지 접근 권한이 없는 사용자)가 브라우저 주소창에 특정 url 을 입력하여 접속을 하지 못하도록 막는 것.
 - router/index.js
 
@@ -1479,9 +1479,9 @@ export default new VueRouter({
 
 <br>
 
-## 13. FE Testing
+# 13. FE Testing
 
-#### 13-1. 테스트 코드의 필요성
+### 13-1. 테스트 코드의 필요성
 - ex) 로그인 기능
     - id 인풋박스에 이메일을 입력했을 때 이메일이 맞는지 확인하는 로직
     - id, pw가 맞는 경우에 로그인 처리가 된다. 다음 페이지로 이동
@@ -1490,7 +1490,7 @@ export default new VueRouter({
 
 <br>
 
-#### 13-2. Jest 소개
+### 13-2. Jest 소개
 - JS 테스팅 도구 사용량 통계
 
     [The State of JavaScript 2019: Testing](https://2019.stateofjs.com/testing/)
@@ -1501,7 +1501,7 @@ export default new VueRouter({
 
 <br>
 
-#### 13-3. 테스트 파일명과 설정
+### 13-3. 테스트 파일명과 설정
 - 파일명
     - `{파일명}.spec.js` 이나 `{파일명}.test.js` 으로 중간에 `spec` 이나 `test` 를 넣어줘야 한다.
 - jest.config.js 파일을 생성해서 테스트 대상을 지정할 수 있다.
@@ -1530,7 +1530,7 @@ export default new VueRouter({
 
 <br>
 
-#### 13-4. Jest API 소개 및 테스트 해보기
+### 13-4. Jest API 소개 및 테스트 해보기
 - Jest에서 제공하는 API
     - `describe` : 연관된 테스트 케이스를 그룹화하는 API
     - `test` : 하나의 테스트 케이스를 검증하는 API
@@ -1559,7 +1559,7 @@ export default new VueRouter({
 
 <br>
 
-#### 13-5. Vue 컴포넌트 테스트 방법
+### 13-5. Vue 컴포넌트 테스트 방법
 - ex) LoginForm.vue 컴포넌트 테스트
     - LoginForm.spec.js 파일 생성
 
@@ -1580,7 +1580,7 @@ export default new VueRouter({
 
 <br>
 
-#### 13-6. Vue Test Utils 라이브러리 소개
+### 13-6. Vue Test Utils 라이브러리 소개
 - Vue Test Utils : Vue.js 를 위한 유닛테스트 공식 라이브러리
 - Vue Test Utils 라이브러리를 사용하면 LoginForm.spec.js을 아래와 같이 수정할 수 있다.
 
@@ -1601,7 +1601,7 @@ export default new VueRouter({
     
 <br>
 
-#### 13-7. find()를 이용한 컴포넌트 HTML 요소 검색
+### 13-7. find()를 이용한 컴포넌트 HTML 요소 검색
 - LoginForm 컴포넌트에서 테스트해야 할 기능
     1. id 인풋박스에 이메일을 입력했을 때 이메일이 맞는지 확인하는 로직
     2. pw가 맞는 경우에 로그인 처리가 된다. 다음 페이지로 이동
@@ -1625,7 +1625,7 @@ export default new VueRouter({
     
 <br>
 
-#### 13-8. 테스트 코드 작성
+### 13-8. 테스트 코드 작성
 - LoginForm.spec.js
 
     ```js
