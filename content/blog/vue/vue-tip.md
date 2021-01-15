@@ -413,6 +413,8 @@ export default new VueRouter({
 
 ### 4-1. env 파일과 설정 방법
 - 프로젝트 루트 경로에 `.env` 파일을 생성한다.
+- 예전 Vue 버전 환경에서는 루트 경로가 아닌 `{root}/config/dev.env.js` 와 같이 생성해야 한다.
+In old Vue versions environment variables were defined in e.g. config/dev.env.js instead of the .env files in root
 - .env 파일은 키 = 값 형태로 정의할 수 있는 환경 변수 파일이다.
 - .env
 
@@ -428,7 +430,7 @@ export default new VueRouter({
     import axios from 'axios';
 
     const axiosService = axios.create({
-     baseURL: process.env.VUE_APP_API_URL,
+      baseURL: process.env.VUE_APP_API_URL,
     });
 
     function registerUser(userData) {
@@ -446,6 +448,18 @@ export default new VueRouter({
 - `.env` 파일은 우선순위가 낮다. 그래서 개발 모드에서는 `.env.development` 파일이 우선순위가 높아서 이 파일에 있는 환경 변수를 가져온다. 이 파일에 값이 없으면 `.env` 파일에 있는 값을 찾는다.
 - `.env` 파일은 `.env.development` 와 `.env.production` 파일에 없는 공통의 값을 지정하기 위해 사용한다.
 - `.env.production` 파일을 만들 수 있는데 이 파일은 배포 모드에서만 동작한다.
+- vue 예전 버전 : `/config/dev.env.js`, `/config/prod.env.js`
+    - Example - /config/dev.env.js
+        ```js
+          'use strict'
+          const merge = require('webpack-merge')
+          const prodEnv = require('./prod.env')
+          
+          module.exports = merge(prodEnv, {
+            NODE_ENV: '"development"',
+            VUE_APP_API_URL:'"http://localhost:3030/"',
+          })
+        ```
 
 <br>
 
@@ -725,9 +739,9 @@ export default new VueRouter({
 
     const axiosService = axios.create({
       baseURL: process.env.VUE_APP_API_URL,
-        headers: {
-            Authorization: 'token_test',
-        }
+      headers: {
+        Authorization: 'token_test',
+      }
     });
 
     function registerUser(userData) {
@@ -956,7 +970,7 @@ export default new VueRouter({
         export function setInterceptors(axiosService) {
             axiosService.interceptors.request.use(
                 function (config) {
-                    config.headers.Authorization = store.state.token;
+                  config.headers.Authorization = store.state.token;
                   return config;
                 },
                 function (error) {
@@ -1103,7 +1117,7 @@ export default new VueRouter({
     actions: {
         async LOGIN({ commit }, userData) {
             const { data } = await loginUser(userData); // api 호출
-        commit('setToken', data.token);
+            commit('setToken', data.token);
             commit('setUsername', data.user.username);
             saveAuthToCookie(data.token);
             saveUserToCookie(data.user.username);
@@ -1434,17 +1448,17 @@ export default new VueRouter({
         {
           path: '/main',
           component: () => import('@/views/MainPage.vue'),
-                meta: { auth: true },
+          meta: { auth: true },
         },
         {
           path: '/add',
           component: () => import('@/views/PostAddPage.vue'),
-                meta: { auth: true },
+          meta: { auth: true },
         },
         {
           path: '/post/:id',
           component: () => import('@/views/PostEditPage.vue'),
-                meta: { auth: true },
+          meta: { auth: true },
         },
         {
           path: '*',
@@ -1455,11 +1469,11 @@ export default new VueRouter({
 
     router.beforeEach((to, from, next) => {
       if (to.meta.auth && !store.getters.isLogin) {
-            console.log('인증이 필요합니다');
-            next('/login');
-            return;
-        }
-        next();
+        console.log('인증이 필요합니다');
+        next('/login');
+        return;
+      }
+      next();
     });
 
     export default router;
