@@ -129,7 +129,8 @@ new Vue({
 
 보통 우리는 서버에서 정보를 가져온다.  
 AJAX 호출은 비동기로 이뤄지며, 콜 스택에 바로 담기지 않고 일단 태스크 큐에 추가된다.  
-렌더링이 완료된 다음에 태스크 큐에 담겨져 있던 AJAX 호출이 실행되는 것이다.
+
+**렌더링이 완료된 다음에 태스크 큐에 담겨져 있던 AJAX 호출이 실행되는 것이다.**
 
 지금은 테스트 서버가 없기 때문에 AJAX 호출과 마찬가지로 비동기로 이루어지는 Timer 를 이용해서 어떻게 동작하는지 살펴보자.
 
@@ -158,7 +159,7 @@ new Vue({
 })
 ```
 
-**"TypeError: Cannot read property 'location' of undefined" 에러가 발생한다.**
+### 역시 "TypeError: Cannot read property 'location' of undefined" 에러가 발생한다.
 
 ### 해결 방법
 
