@@ -1530,7 +1530,7 @@ In old Vue versions environment variables were defined in e.g. config/dev.env.js
     ```
 
     - 위와 같이 테스트 대상을 별도로 지정하지 않으면 프로젝트 루트 디렉토리의 `tests` 폴더 안에 JS 테스트 파일을 작성해야 한다. 이러한 방식은 개인의 선호도가 있겠지만 테스트 파일은 테스트할 파일과 가장 근접하게 두는 것을 추천한다.
-    - `/components/__test__` 폴더를 생성해서 테스트 파일을 작성하는 것을 추천한다.
+    - `/components/__test__` 폴더를 생성해서 테스트 파일을 작성하는 방식이 있다.
 - eslint에 jest 문법을 이해할 수 있도록 설정
     - .eslintrc 파일에 아래와 같이 추가
 
