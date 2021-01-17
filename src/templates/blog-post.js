@@ -76,7 +76,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM ddd, yyyy")
+        date(formatString: "MMMM DD, yyyy")
       }
     }
   }
