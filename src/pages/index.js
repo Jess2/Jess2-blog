@@ -111,7 +111,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM dd, yyyy")
+            date(formatString: "MMMM ddd, yyyy")
             title
             category
           }
