@@ -1605,7 +1605,7 @@ In old Vue versions environment variables were defined in e.g. config/dev.env.js
     describe('LoginForm.vue', () => {
         test('컴포넌트가 마운팅되면 username이 존재하고 초기값으로 설정되어 있어야 한다.', () => {
             const wrapper = shallowMount(LoginForm);
-            expect(wrapper.vs.username).toBe('');
+            expect(wrapper.vm.username).toBe('');
         });
     });
     ```
