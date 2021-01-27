@@ -120,7 +120,7 @@ export default function App() {
     export default function Profile({ userId }) {
       const [user, setUser] = useState(null);
 
-      useEffect(() => {{
+      useEffect(() => {
         getUserApi(userId).then(data => setUser(data));
       }, [userId]);
 
