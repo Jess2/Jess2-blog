@@ -6,9 +6,6 @@ category: vue
 
 ![](images/vue.png)
 
-이 글은 장기효(캡틴판교)님의 [Vue.js 끝장내기 - 실무에 필요한 모든 것](https://www.inflearn.com/course/vue-js-%EB%81%9D%EB%82%B4%EA%B8%B0-%EC%BA%A1%ED%8B%B4%ED%8C%90%EA%B5%90/dashboard) 강좌를 듣고 공부하면서 필요한 부분을 정리한 글이다.
-
-
 # 0. Index
 1. [프로젝트 생성 및 환경 구성](#1-프로젝트-생성-및-환경-구성)
 2. [Router & 컴포넌트 설계](#2-router--컴포넌트-설계)
@@ -1744,3 +1741,12 @@ In old Vue versions environment variables were defined in e.g. config/dev.env.js
         });
     });
     ```
+
+<br>
+
+-------
+
+<br>
+
+### Reference
+- [Vue.js 끝장내기 - 실무에 필요한 모든 것](https://www.inflearn.com/course/vue-js-%EB%81%9D%EB%82%B4%EA%B8%B0-%EC%BA%A1%ED%8B%B4%ED%8C%90%EA%B5%90/dashboard)

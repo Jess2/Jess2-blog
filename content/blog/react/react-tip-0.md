@@ -1,14 +1,10 @@
 ---
-title: "[React] 실전 리액트 프로그래밍 내용 정리 1~4"
+title: "[React] 리액트 기초 개념 정리"
 date: 2021-01-28 21:01:27
 category: react
 ---
 
 ![](images/react.png)
-
-이 글은 이재승님의 [실전 리액트 프로그래밍](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/) 강좌를 듣고 공부하면서 필요한 부분을 정리한 글이다.
-
-기존에 작성한 포스트들([1](https://jess2.xyz/react/react-tip-1/), [2](https://jess2.xyz/react/react-tip-2/), [3](https://jess2.xyz/react/react-tip-3/), [4](https://jess2.xyz/react/react-tip-4/)) 을 하나의 포스트로 보기 위해 합쳤다.  
 
 # 0. Index
 1. [리액트란 무엇인가](#1-리액트란-무엇인가)
@@ -1504,3 +1500,13 @@ export default function App() {
 - 위 코드에서는 createContext를 이용해서 `ProfileDispatch`라는 Context를 만들었다.
 - App 컴포넌트에서 Provider를 이용해서 `value`로 useReducer의 `dispatch` 함수를 내려준다.
 - 그러면 필요한 컴포넌트에서 useContext를 이용해서 `dispatch` 함수를 사용할 수 있다.
+
+
+<br>
+
+-------
+
+<br>
+
+### Reference
+- [실전 리액트 프로그래밍](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/)
