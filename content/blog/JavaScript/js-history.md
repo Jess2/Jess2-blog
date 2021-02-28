@@ -2,7 +2,7 @@
 title: "[JavaScript] 자바스크립트의 역사와 현재 그리고 미래"
 date: 2021-02-28 20:02:82
 category: javascript
-------
+---
 
 ![](images/javascript.png)
 
@@ -83,4 +83,7 @@ category: javascript
 - C++로 만들어진 게임같은 것들도 웹 브라우저에서 쉽게 동작할 수 있게 만들 수 있다.
 - Graphic Tool 중에 하나인 Figma도 이 Web Assembly 를 이용해서 만들어졌다.
 
+<br>
 
+### Reference
+- [https://www.youtube.com/watch?v=wcsVjmHrUQg&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=1](https://www.youtube.com/watch?v=wcsVjmHrUQg&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=1)
