@@ -34,6 +34,8 @@ export default ({ data, pageContext, location }) => {
       <Head title={post.frontmatter.title} description={post.excerpt} />
       <PostTitle title={post.frontmatter.title} />
       <PostDate date={post.frontmatter.date} />
+      <PostContainer html={post.html} />
+      {/* <SocialShare title={post.frontmatter.title} author={author} /> */}
       <AdSense.Google
         client='ca-pub-1412302075585961'
         slot='7251122643'
@@ -41,8 +43,6 @@ export default ({ data, pageContext, location }) => {
         format='auto'
         responsive='true'
       />
-      <PostContainer html={post.html} />
-      {/* <SocialShare title={post.frontmatter.title} author={author} /> */}
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
