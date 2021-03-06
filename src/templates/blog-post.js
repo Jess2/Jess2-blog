@@ -14,6 +14,7 @@ import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 import { PostDate } from '../components/post-date'
+import AdSense from 'react-adsense';
 
 import '../styles/code.scss'
 
@@ -33,6 +34,13 @@ export default ({ data, pageContext, location }) => {
       <Head title={post.frontmatter.title} description={post.excerpt} />
       <PostTitle title={post.frontmatter.title} />
       <PostDate date={post.frontmatter.date} />
+      <AdSense.Google
+        client='ca-pub-1412302075585961'
+        slot='7251122643'
+        style={{ display: 'block' }}
+        format='auto'
+        responsive='true'
+      />
       <PostContainer html={post.html} />
       {/* <SocialShare title={post.frontmatter.title} author={author} /> */}
       {!!sponsor.buyMeACoffeeId && (
