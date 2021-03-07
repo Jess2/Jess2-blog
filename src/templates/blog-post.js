@@ -36,16 +36,16 @@ export default ({ data, pageContext, location }) => {
       <PostDate date={post.frontmatter.date} />
       <PostContainer html={post.html} />
       {/* <SocialShare title={post.frontmatter.title} author={author} /> */}
+      {!!sponsor.buyMeACoffeeId && (
+        <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
+      )}
       <AdSense.Google
         client='ca-pub-1412302075585961'
-        slot='7251122643'
+        slot='7336196207'
         style={{ display: 'block' }}
         format='auto'
         responsive='true'
       />
-      {!!sponsor.buyMeACoffeeId && (
-        <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
