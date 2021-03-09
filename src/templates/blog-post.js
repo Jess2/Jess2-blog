@@ -43,7 +43,8 @@ export default ({ data, pageContext, location }) => {
         client='ca-pub-1412302075585961'
         slot='7336196207'
         style={{ display: 'block' }}
-        format='auto'
+        format='fluid'
+        layoutKey='-gw-3+1f-3d+2z'
         responsive='true'
       />
       <Elements.Hr />
