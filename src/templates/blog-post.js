@@ -39,6 +39,7 @@ export default ({ data, pageContext, location }) => {
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
+      <br />
       <AdSense.Google
         client='ca-pub-1412302075585961'
         slot='7336196207'
