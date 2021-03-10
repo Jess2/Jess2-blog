@@ -42,7 +42,6 @@ category: web
 - 그 다음 계속 엔터를 입력면 아래와 같은 내용을 포함한 package.json 파일이 자동으로 생성된다.
 
     ```json
-    // package.json
     {
       "name": "프로젝트 이름",
       "version": "1.0.0",
@@ -237,7 +236,7 @@ category: web
 
     ```json
     "scripts": {
-    	// ...
+    	//...
     	"build": "webpack"
     }
     ```
@@ -410,7 +409,7 @@ module.exports = {
 
     ```jsx
     output: {
-      // ...
+      //...
       filename: '[name].[hash].bundle.js'
     },
     ```
@@ -557,7 +556,7 @@ module.exports = {
 
     ```json
     "scripts": {
-    	// ...
+    	//...
     	"dev": "webpack-dev-server",
     	"build": "webpack"
     }
