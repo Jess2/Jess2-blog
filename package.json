@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Jess2[SoyeonJung]<jess2.jsy@gmail.com>",
   "bugs": {
-    "url": "https://github.com/jess2/blog/issues"
+    "url": "https://github.com/jess2/Jess2-blog/issues"
   },
   "dependencies": {
     "babel-plugin-remove-graphql-queries": "^2.13.0",
@@ -66,7 +66,7 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.4.0"
   },
-  "homepage": "https://github.com/jess2/blog#readme",
+  "homepage": "https://github.com/jess2/Jess2-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -74,7 +74,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jess2/blog.git"
+    "url": "git+https://github.com/jess2/Jess2-blog.git"
   },
   "scripts": {
     "post": "node ./cli/create-new-post.js",
@@ -86,6 +86,6 @@
     "build": "gatsby build",
     "lh": "lighthousebot",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:jess2/blog.github.io.git'"
+    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:jess2/Jess2-blog.git'"
   }
 }
