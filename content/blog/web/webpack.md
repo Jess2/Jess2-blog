@@ -437,7 +437,7 @@ module.exports = {
     - `.css` 확장자를 가진 모든 파일을 대상으로 `style-loader`,`css-loader` 로더를 적용
 - 만약 `index.js` 에 `base.css` 라는 파일을 import한 상태에서 위의 설정처럼 필요한 로더를 정의하지 않고 빌드를 하면 어떻게 될까?
     - 에러 발생!
-    - 처음에 `index.js` 를 가지고 해석을 시작하는데 `index.js` 안에 있는 `base.css` 를 보고 이걸 웹팩 안으로 집어 넣으려고 할 때 fail 이 뜬다.
+    - 처음에 `index.js` 를 가지고 해석을 시작하는데 `index.js` 안에 있는 `base.css` 를 보고 이걸 빌드 결과물에 css 코드를 넣으려고 할 때 fail 이 뜬다.
     - 사실 원래 JS 파일 안에 CSS를 넣을 수 없다. 그래서 로더를 설정해야 한다는 에러가 발생하는 것.
 
         `ERROR in ./base.css
@@ -483,8 +483,8 @@ module.exports = {
     },
     ```
 
-    1. `css-loader`: css가 웹팩 안으로 들어갈 수 있게 해준다.
-    2. `style-loader`: 웹팩 안에 들어가 있는 스타일 코드를 `<head>` 태그 안에 인라인 스타일로 넣어 주는 역할을 한다.
+    1. `css-loader`: 빌드 결과물에 css 코드를 포함시켜준다.
+    2. `style-loader`: 스타일 코드를 `<head>` 태그 안에 인라인 스타일로 넣어 주는 역할을 한다.
 - scss도 아래와 같이 설정할 수 있다.
 
     ```jsx
@@ -497,8 +497,8 @@ module.exports = {
     ```
 
     1. `sass-loader`: sass 를 먼저 css 파일로 바꾸고
-    2. `css-loader`: css가 웹팩 안으로 들어가게 해주고
-    3. `style-loader`: 웹팩 안의 스타일 코드를 <head> 태그 안에 인라인으로 넣어준다
+    2. `css-loader`: 빌드 결과물에 css 코드를 포함시켜주고
+    3. `style-loader`: 빌드 결과물 내 스타일 코드를 <head> 태그 안에 인라인으로 넣어준다
 
 <br />
 
