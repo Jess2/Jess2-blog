@@ -39,7 +39,7 @@ category: web
     $ npm init -y
     ```
 
-- 그 다음 계속 엔터를 입력면 아래와 같은 내용을 포함한 package.json 파일이 자동으로 생성된다.
+- 그러면 아래와 같은 내용을 포함한 package.json 파일이 자동으로 생성된다.
 
     ```json
     {
