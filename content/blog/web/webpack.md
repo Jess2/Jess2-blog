@@ -284,7 +284,7 @@ category: web
 
 ### 4. 웹팩 소개 추천 영상
 
-- [https://www.youtube.com/watch?v=WQue1AN93YU](https://www.youtube.com/watch?v=WQue1AN93YU)
+- [Front End Center — Webpack from First Principles](https://www.youtube.com/watch?v=WQue1AN93YU)
 
 <br />
 
