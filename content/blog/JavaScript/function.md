@@ -1,5 +1,5 @@
 ---
-title: "[JavaScript] 함수와 콜 스택"
+title: "[JavaScript] 함수와 this"
 date: 2021-03-20 23:01:18
 category: javascript
 ---
