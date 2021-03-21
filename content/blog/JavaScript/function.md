@@ -223,3 +223,112 @@ const add = (a, b) => {
 
 - 함수를 간결하게 작성할 수 있다.
 - 기존 일반 함수와의 다른 점은 this와 arguments가 바인딩되지 않는다는 것이다. 따라서 화살표 함수에서 arguments가 필요하다면 나머지 매개변수를 이용하면 된다.
+
+<br />
+
+# 5. this
+
+- 자바스크립트에서는 함수 안에서 this를 사용할 수 있다.
+
+### 1. 화살표 함수 내에서의 this
+
+```js
+function Counter() {
+  this.value = 0;
+  this.add = amount => {
+    this.value += amount;
+  }
+}
+
+const counter = new Counter();
+console.log(counter.value); // 0
+counter.add(5);
+console.log(counter.value); // 5
+
+const add2 = counter.add;
+add2(5);
+console.log(counter.value); // 10
+```
+
+- new Counter()
+    - new 키워드를 이용하여 인스턴스를 생성한다.
+    - counter 객체가 생성되는 것.
+    - 이렇게 new 키워드를 이용하여 함수를 호출 하면, 함수 안에서 사용된 this는 counter 객체를 가리키게 된다.
+    - 따라서 counter 객체는 value와 add 라는 속성을 갖게 된다.
+- 화살표 함수에서 this는 이 화살표 함수가 생성될 당시의 this를 가리킨다. 즉, 함수 내의 this는 counter로 고정되는 정적의 값이다.
+
+<br />
+
+### 2. 일반 함수 내에서의 this
+
+```js
+function Counter() {
+  this.value = 0;
+  this.add = function(amount) {
+    this.value += amount;
+  }
+}
+
+const counter = new Counter();
+console.log(counter.value); // 0
+counter.add(5);
+console.log(counter.value); // 5
+
+const add2 = counter.add;
+add2(5);
+console.log(counter.value); // 5
+```
+
+- 화살표 함수 내에서의 this와 다르게 동작한다.
+- add 함수를 add2라는 새로운 변수에 할당하고 호출한 다음에 value를 찍어보면 10이 찍힐 것 같지만, 5가 찍힌다. add2(5) 함수가 호출될 때 함수 내에서 this가 가리키는게 counter가 아니기 때문이다.
+- 일반 함수의 this는 함수를 호출한 주체를 가리킨다.
+    - counter.add(5) 에서 함수를 호출한 주체는 counter이기 때문에 함수 내에서 this는 counter이다.
+    - add2(5) 에서 함수를 호출한 주체는 전역 객체이기 때문에 함수 내에서 this는 (브라우저 환경에서) window 가 된다.
+    - 호출될 당시의 상황에 따라서 this가 바뀌기 때문에 동적이다.
+
+<br />
+
+### 3. 객체에서 화살표 함수 사용했을 때의 this
+
+```js
+const counter = {
+  value: 0,
+  add: (amount) => {
+    this.value += amount;
+  }
+};
+
+console.log(counter.value); // 0
+counter.add(5);
+console.log(counter.value); // 0
+
+const add2 = counter.add;
+add2(5);
+console.log(counter.value); // 0
+```
+
+- 세 가지 모두 0이 출력된다.
+- 화살표 함수가 생성될 당시의 this는 해당 화살표 함수를 감싸고 있는 일반 함수가 없기 때문에 항상 전역 객체를 가리키게 된다. 따라서 this.value += amount; 가 아무리 실행이 되어도 counter.value의 값이 변하지 않는다.
+
+<br />
+
+### 4. 객체에서 일반 함수 사용했을 때의 this
+
+```js
+const counter = {
+  value: 0,
+  add: function(amount) {
+    this.value += amount;
+  }
+};
+
+console.log(counter.value); // 0
+counter.add(5);
+console.log(counter.value); // 5
+
+const add2 = counter.add;
+add2(5);
+console.log(counter.value); // 5
+```
+
+- 일반 함수를 사용했을 때 처럼 똑같이 0, 5, 5가 출력된다.
