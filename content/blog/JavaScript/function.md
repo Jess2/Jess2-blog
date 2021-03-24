@@ -288,31 +288,7 @@ console.log(counter.value); // 5
 
 <br />
 
-### 3. 객체에서 화살표 함수 사용했을 때의 this
-
-```js
-const counter = {
-  value: 0,
-  add: (amount) => {
-    this.value += amount;
-  }
-};
-
-console.log(counter.value); // 0
-counter.add(5);
-console.log(counter.value); // 0
-
-const add2 = counter.add;
-add2(5);
-console.log(counter.value); // 0
-```
-
-- 세 가지 모두 `0`이 출력된다.
-- 화살표 함수가 생성될 당시의 `this`는 해당 화살표 함수를 감싸고 있는 일반 함수가 없기 때문에 항상 전역 객체를 가리키게 된다. `따라서 this.value += amount;` 가 아무리 실행이 되어도 `counter.value`의 값이 변하지 않는다.
-
-<br />
-
-### 4. 객체에서 일반 함수 사용했을 때의 this
+### 3. 객체에서 일반 함수 사용했을 때의 this
 
 ```js
 const counter = {
@@ -333,7 +309,33 @@ console.log(counter.value); // 5
 
 - 일반 함수를 사용했을 때 처럼 똑같이 `0`, `5`, `5`가 출력된다.
     
-<br>
+<br />
+
+### 3. 객체에서 화살표 함수 사용했을 때의 this
+
+```js
+const counter = {
+  value: 0,
+  add: (amount) => {
+    this.value += amount;
+  }
+};
+
+console.log(counter.value); // 0
+counter.add(5);
+console.log(counter.value); // 0
+
+const add2 = counter.add;
+add2(5);
+console.log(counter.value); // 0
+```
+
+- 세 가지 모두 `0`이 출력된다.
+- 화살표 함수가 생성될 당시의 `this`는 항상 전역 객체를 가리키게 된다. (해당 화살표 함수를 감싸고 있는 일반 함수가 없기 때문에)   
+따라서 `this.value += amount;` 가 아무리 실행이 되어도 `counter.value`의 값이 변하지 않는다.
+
+<br />
+
 
 ### Reference
 - [https://www.inflearn.com/course/실전-자바스크립트](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
