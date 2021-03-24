@@ -10,7 +10,7 @@ category: javascript
 
 1. [Callback](#1-callback)
 2. [Promise](#2-promise)
-3. [async / await](#3-async--await)
+3. [async-await](#3-async-await)
 
 # 1. Callback
 
@@ -451,5 +451,153 @@ category: javascript
 
 <br />
 
-# 3. async / await
-> TBD
+# 3. async-await
+
+- async-await 는 비동기 프로그래밍을 동기 프로그래밍 방식으로 작성하는데 특화된 문법이다.
+- Promise의 `then` 메서드보다 가독성이 좋다.
+- Promise를 완전히 대체하는 것은 아니다. Promise는 비동기 상태를 값으로 다룰 수 있기 때문에 async-await 보다 큰 개념이다.
+- Promise는 객체로 존재하지만 async-await는 함수에 적용되는 개념이다.
+- Example
+
+    ```js
+    async function getData() {
+      return 123;
+    }
+
+    getData().then(data => console.log(data));
+    ```
+
+    - 함수를 정의할 때 왼쪽에 `async` 키워드를 이용해서 정의를 하면 이 함수는 async-await 함수가 된다.
+    - async-await 함수가 반환하는 값은 항상 Promise 객체이기 때문에 `then` 메서드를 사용할 수 있다.
+
+- Example2
+
+    ```js
+    async function getData() {
+      return Promise.resolve(123); // 성공 상태인 Promise 객체 반환
+    }
+
+    getData()
+      .then(data => console.log('성공', data))
+      .catch(data => console.log('실패', data))
+    ```
+
+    - async-await 함수에서 반환하는 값이 Promise 라면 그 상태와 데이터를 그대로 반환한다.
+    - `getData` 함수에서 성공 상태인 Promise 객체를 반환하고 있기 때문에 `성공 123` 이 출력된다.
+    
+<br />
+
+### 1. await 성공 상태
+
+```js
+function requestData(value) {
+  return new Promise(resolve =>
+    setTimeout(() => {
+      console.log('requestData:', value);
+      resolve(value);
+    }, 1000);
+  );
+}
+
+async function printData() {
+  const data1 = await requestData(10);
+  const data2 = await requestData(20);
+  console.log(data1, data2);
+}
+
+printData();
+
+/* 
+  requestData: 10
+  requestData: 20
+  10 20
+*/
+```
+
+- Promise 객체 왼쪽에 `await` 키워드를 입력하면 이 Promise 객체가 성공 상태나 실패 상태가 될 때까지 기다린다.
+- 만약 이 Promise 객체가 성공 상태가 되면 그 데이터를 왼쪽에 있는 변수에 저장한다.
+- 첫 번째 비동기 처리가 끝나면 그 아래에 있는 코드가 실행이 된다.
+- 두 번째 비동기 처리도 이와 마찬가지로 처리된다.
+- 이처럼 `await` 키워드로 비동기 처리를 기다리면서 동기 프로그래밍 방식으로 코드를 작성할 수 있다.    
+
+<br />
+
+### 2. await 실패 상태
+
+```js
+async function getData() {
+  console.log('getData 1');
+  await Promise.reject();
+  console.log('getData 2');
+  await Promise.resolve();
+  console.log('getData 3');
+}
+
+getData()
+  .then(() => console.log('성공'))
+  .catch(error => console.log('실패'))
+
+/*
+  getData 1
+  실패
+*/
+```
+
+- `await` 키워드 오른쪽에 있는 Promise 객체가 실패 상태가 되면 async-await 함수는 그 Promise의 상태와 데이터를 그대로 반환한다.
+- `getData` 실행 중 `await Promise.reject();` 를 만나서 `catch` 부분에 있는 `실패` 로그가 출력되고 `getData` 함수에서 이후의 코드는 실행하지 않는다.
+
+<br />
+
+### 3. Promise 와 async-await 같은 기능을 하는 코드 비교
+
+```js
+function getDataPromise() {
+  asyncFunc1()
+    .then(data => {
+      console.log(data);
+      return asyncFunc2();
+    })
+    .then(data => {
+      console.log(data);
+    });
+}
+
+async function getDataAsync() {
+  const data1 = await asyncFunc1();
+  console.log(data1);
+  const data2 = await asyncFunc2();
+  console.log(data2);
+}
+```
+
+- async-await는 Promise 처럼 `then` 메서드를 사용할 필요가 없기 때문에 좀 더 간결하다.
+- 비동기 함수 간의 의존성이 높아질수록 async-await와 Promise의 가독성 차이는 더 커진다.
+
+<br />
+
+### 4. 병렬로 비동기 처리하기
+
+```js
+async function getData() {
+  const [data1, data2] = await Promise.all([asyncFunc1(), asyncFunc2()]);
+}
+```
+
+<br />
+
+### 5. try-catch 예외 처리
+
+```js
+async function getData() {
+  try {
+    await doAsync(); // 비동기 함수 호출
+    return doSync(); // 동기 함수 호출
+  } catch (error) {
+    console.log(error);
+    return Promise.reject(error);
+  }
+}
+```
+
+- 위 코드에서 비동기 함수 호출과 동기 함수 호출이 모두 일어나고 있는데 이 두 함수에서 일어나는 모든 예외가 `catch` 문에서 처리된다.
+- 만약 `getData` 함수가 async-await 함수가 아니었다면 `doAsync` 함수에서 발생하는 예외는 `catch` 문에서 처리되지 않는다. `doAsync` 함수의 처리가 끝나는 시점을 알 수 없기 때문.
