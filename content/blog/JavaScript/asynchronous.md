@@ -601,3 +601,8 @@ async function getData() {
 
 - 위 코드에서 비동기 함수 호출과 동기 함수 호출이 모두 일어나고 있는데 이 두 함수에서 일어나는 모든 예외가 `catch` 문에서 처리된다.
 - 만약 `getData` 함수가 async-await 함수가 아니었다면 `doAsync` 함수에서 발생하는 예외는 `catch` 문에서 처리되지 않는다. `doAsync` 함수의 처리가 끝나는 시점을 알 수 없기 때문.
+    
+<br>
+
+### Reference
+- [https://www.inflearn.com/course/실전-자바스크립트](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%E
