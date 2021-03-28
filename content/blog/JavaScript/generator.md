@@ -85,7 +85,6 @@ const gen = f1();
 console.log(gen.next());
 console.log(gen.throw('some error'));
 console.log(gen.next());
-console.log(gen.next());
 
 /*
 f1-1
@@ -95,7 +94,6 @@ f1-catch some error
 f1-3
 { value: 40, done: false }
 f1-4
-{ value: undefined, done: true }
 */
 ```
 
