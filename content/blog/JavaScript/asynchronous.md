@@ -219,7 +219,7 @@ category: javascript
     - `requestData2` 함수도 Promise 객체를 반환한다.
     - 따라서 두 번째 `then`의 `data`는 `requestData2` 함수에서 반환한 값이다. 이 값을 받아서 필요한 처리를 하고 `data + 1`을 데이터로 하는 Promise 객체를 반환한다.
     - 세 번째 `then`의 `data`는 위에서 반환한 `data + 1` 의 값이 된다. 이 값을 받아서 필요한 처리를 하고 예외를 발생시키고 있다. 예외를 발생시키면 `then` 메서드는 `new Error('some error')` 를 데이터로 하는 Promise 객체를 반환하고 실패 상태가 된다.
-    - 실패 상태이기 때문에 then 메서드의 두 번째 매개변수로 들어가 있는 함수가 호출된다. 여기서는 아무런 값도 반환하고 있지 않기 때문에 `undefined`를 반환한다. 즉, `undefined`를 데이터로 하는 Promise 객체를 반환한다. 이 때의 상태는 성공 상태이다.
+    - 실패 상태이기 때문에 `then` 메서드의 두 번째 매개변수로 들어가 있는 함수가 호출된다. 여기서는 아무런 값도 반환하고 있지 않기 때문에 `undefined`를 반환한다. 즉, `undefined`를 데이터로 하는 Promise 객체를 반환한다. 이 때의 상태는 성공 상태이다.
     - 마지막 `then` 메서드에서 `data`는 `undefined`가 되고 이 `undefined`를 받아서 처리를 하게 된다.
         
 <br />
