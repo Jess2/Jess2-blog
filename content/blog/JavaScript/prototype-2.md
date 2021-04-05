@@ -151,5 +151,71 @@ for (const prop of Object.keys(programmer)) {
 
 <br>
 
+# 7. 생성자 함수와 this
+
+```js
+function Person(name) {
+  // this = {};
+  this.name = name;
+  // return this;
+}
+
+const p1 = new Person('jessie');
+console.log(p1.name); // jessie
+```
+
+- `new` 키워드를 사용해서 객체를 만들 때 사용하는 함수를 **생성자 함수**라고 부른다.
+- `new` 키워드를 사용해서 함수를 실행하면 자바스크립트 엔진은 내부적으로 `this`에 빈 객체를 할당해준다. 그리고 함수가 종료되기 전에 `this`를 반환해준다.
+- `p1`은 `Person` 함수에서 반환된 `this`이다.
+
+<br>
+
+### 8. 프로토타입 객체에 메서드 정의해서 메모리 효율적으로 사용하기
+
+```js
+function Person(name) {
+  this.name = name;
+  this._salary = 0;
+}
+
+Person.prototype = {
+  setSalary(salary) {
+    this._salary = Math.max(0, Math.min(1000, salary));
+  },
+  getSalary() {
+    return this._salary;
+  },
+}
+
+const p1 = new Person('jessie');
+
+p1.setSalary(2000);
+console.log(p1.getSalary); // 2000
+
+const p2 = new Person('lia');
+console.log(p1.getSalary === p2.getSalary); // true
+```
+
+- 생성자 함수 내에서 메서드를 정의하면, 해당 생성자 함수를 이용해서 객체를 만들 때마다 메서드가 생성된다. → 메모리 측면에서 비효율적이다.
+- 프로토타입 객체를 이용해서 함수를 정의하면 메서드를 한 번만 만들어서 재사용하게 된다.
+- 위의 코드에서는 `p1`과 `p2`의 `getSalary`, `setSalary` 메서드가 동일하다.
+
+<br>
+
+### 9. constructor
+
+```js
+function Person(name) {
+  this.name = name;
+}
+
+console.log(Person.prototype.constructor === Person); // true
+```
+
+- 함수의 프로토타입 객체에는 `constructor`라는 속성이 있다.
+- `constructor`는 해당 함수를 가리킨다.
+
+<br>
+
 ### Reference
 - [https://www.inflearn.com/course/실전-자바스크립트](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
