@@ -170,7 +170,7 @@ console.log(p1.name); // jessie
 
 <br>
 
-### 8. 프로토타입 객체에 메서드 정의해서 메모리 효율적으로 사용하기
+# 8. 프로토타입 객체에 메서드 정의해서 메모리 효율적으로 사용하기
 
 ```js
 function Person(name) {
@@ -202,7 +202,7 @@ console.log(p1.getSalary === p2.getSalary); // true
 
 <br>
 
-### 9. constructor
+# 9. constructor
 
 ```js
 function Person(name) {
