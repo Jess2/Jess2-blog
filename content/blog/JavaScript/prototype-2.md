@@ -4,6 +4,8 @@ date: 2021-03-29 22:03:98
 category: javascript
 ---
 
+![](images/javascript.png)
+
 > 자바스크립트의 모든 Object는 프로토타입이라는 속성을 가지고 있다.
 
 <br />
