@@ -217,7 +217,7 @@ export default function index() {
 
 # Reference
 
-- 서버사이드 렌더링 (개발자라면 상식으로 알고 있어야 하는 개념 정리 ⭐️ - [https://www.youtube.com/watch?v=iZ9csAfU5Os](https://www.youtube.com/watch?v=iZ9csAfU5Os)
-- SPA 등장 배경과 CSR(Client Side Rendering) - [https://www.youtube.com/watch?v=C6uELkDh-60](https://www.youtube.com/watch?v=C6uELkDh-60)
-- next.js로 살펴보는 SSR(Server Side Rendering) - [https://www.youtube.com/watch?v=6Ti_A3vMJvk](https://www.youtube.com/watch?v=6Ti_A3vMJvk)
-- NextJS 로 Static Site 만들기 - [https://pks2974.medium.com/nextjs-로-static-site-만들기-f9ab83f29e7](https://pks2974.medium.com/nextjs-%EB%A1%9C-static-site-%EB%A7%8C%EB%93%A4%EA%B8%B0-f9ab83f29e7)
+- [서버사이드 렌더링 (개발자라면 상식으로 알고 있어야 하는 개념 정리)](https://www.youtube.com/watch?v=iZ9csAfU5Os)
+- [SPA 등장 배경과 CSR(Client Side Rendering)](https://www.youtube.com/watch?v=C6uELkDh-60)
+- [next.js로 살펴보는 SSR(Server Side Rendering)](https://www.youtube.com/watch?v=6Ti_A3vMJvk)
+- [NextJS 로 Static Site 만들기](https://pks2974.medium.com/nextjs-%EB%A1%9C-static-site-%EB%A7%8C%EB%93%A4%EA%B8%B0-f9ab83f29e7)
