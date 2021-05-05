@@ -75,8 +75,7 @@ CSR 방식으로 만들어진 사이트 url에 접근을 하면 서버로부터 
 
 리액트는 build를 할 때 프로젝트 내의 모든 리액트 코드를 하나의 자바스크립트 파일로 만들어 준다. (babel로 transpiling, webpack으로 bundling)
 
-정리
-
+##### 정리
 1. Server는 body 태그 안에 비어있는 div 태그 하나만 존재한 html을 응답해버린다. 
 2. Client에서 bundle.js를 읽고 DOM을 그린다.
 3. 사이트 내에서 라우팅 처리된 url로 이동을 하더라도 서버로부터 새로운 html을 받지 않는다.
