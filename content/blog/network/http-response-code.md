@@ -4,6 +4,8 @@ date: 2021-05-14 23:05:54
 category: network
 ---
 
+![](images/network.png)
+
 # HTTP 응답 상태 코드 5가지 종류
 
 - 100번대 : 정보를 제공하는 응답
