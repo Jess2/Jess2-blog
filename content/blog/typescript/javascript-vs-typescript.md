@@ -67,3 +67,9 @@ const friendsLength = jessie.friendList.length; // 속성명 잘못 입력
 - 정적 타입 언어
     - 어떤 객체 뒤에 `.`을 입력하면 IDE가 해당 객체의 타입을 알고 있기 때문에 해당 객체의 속성들의 이름을 나열해준다. ⇒ 개발 시 생산성 향상
     - 자동으로 어떤 속성들이 있는지 보여주기 때문에 편리하다.
+    
+    
+<br />
+
+### Reference
+- [타입스크립트 시작하기](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/dashboard)
