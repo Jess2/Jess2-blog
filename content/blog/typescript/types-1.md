@@ -6,7 +6,7 @@ category: typescript
 
 ![](images/typescript.png)
 
-# 0. Index
+### 0. Index
 1. [기본 타입, 튜플 타입](#1-기본-타입-튜플-타입)
 2. [null, undefined, 유니온 타입](#2-null-undefined-유니온-타입)
 3. [숫자와 문자열의 리터럴도 타입으로 지정할 수 있다](#3-숫자와-문자열의-리터럴도-타입으로-지정할-수-있다)
@@ -163,3 +163,8 @@ width = '100px';
 ```
 
 - `type` 키워드를 이용해서 타입에 별칭을 줄 수 있다.
+
+<br />
+
+### Reference
+- [타입스크립트 시작하기](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/dashboard)

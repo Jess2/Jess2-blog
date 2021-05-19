@@ -6,7 +6,15 @@ category: typescript
 
 ![](images/typescript.png)
 
-### JavaScript vs TypeScript
+### 0. Index
+1. [JavaScript vs TypeScript](#javascript-vs-typescript)
+2. [동적 타입 언어 vs 정적 타입 언어](#2-동적-타입-언어-vs-정적-타입-언어)
+3. [TypeScript](#3-typescript)
+4. [정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 1](#4-정적-타입-언어가-동적-타입-언어보다-생산성이-높은-이유-1)
+5. [정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 2](#5-정적-타입-언어가-동적-타입-언어보다-생산성이-높은-이유-2)
+
+
+### 1. JavaScript vs TypeScript
 
 - JavaScript
     - 동적 타입 언어 (JavaScript, Python, PHP)
@@ -18,7 +26,7 @@ category: typescript
 
 <br />
 
-### 동적 타입 언어 vs 정적 타입 언어
+### 2. 동적 타입 언어 vs 정적 타입 언어
 
 - 동적 타입 언어
     - 진입 장벽이 낮다
@@ -31,7 +39,7 @@ category: typescript
 
 <br />
 
-### TypeScript
+### 3. TypeScript
 
 - Microsoft에서 개발 (꾸준히 업데이트 중)
 - JavaScript에 새로운 표준이 나오거나 거의 표준이 확실시 되는 기능은 TypeScript에도 빠르게 추가된다.
@@ -39,7 +47,7 @@ category: typescript
 
 <br />
 
-### 정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 1
+### 4. 정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 1
 
 ```jsx
 const jessie = { friends : ['lia', 'jin'] };
@@ -59,7 +67,7 @@ const friendsLength = jessie.friendList.length; // 속성명 잘못 입력
 
 <br />
 
-### 정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 2
+### 5. 정적 타입 언어가 동적 타입 언어보다 생산성이 높은 이유 2
 
 - 동적 타입 언어
     - 어떤 객체 뒤에 `.`을 입력해도 해당 객체의 타입을 모르기 때문에 별다른 정보가 보이지 않는다.
