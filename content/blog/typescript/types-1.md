@@ -16,6 +16,8 @@ category: typescript
 7. [Union 타입과 Intersection 타입](#7-union-타입과-intersection-타입)
 8. [타입에 별칭 주기](#8-타입에-별칭-주기)
 
+<br />
+
 ### 1. 기본 타입, 튜플 타입
 
 ```tsx
