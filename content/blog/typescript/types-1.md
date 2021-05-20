@@ -12,7 +12,7 @@ category: typescript
 3. [숫자와 문자열의 리터럴도 타입으로 지정할 수 있다](#3-숫자와-문자열의-리터럴도-타입으로-지정할-수-있다)
 4. [any 타입](#4-any-타입)
 5. [함수의 반환 타입 : void, never](#5-함수의-반환-타입--void-never)
-6. []()
+6. [함수의 Parameters](#6-함수의-parameters)
 7. [객체의 타입 : object](#7-객체의-타입--object)
 8. [Union 타입과 Intersection 타입](#8-union-타입과-intersection-타입)
 9. [타입에 별칭 주기](#9-타입에-별칭-주기)
