@@ -106,23 +106,30 @@ value = () => {}; // OK
 
 ```tsx
 function f1(): void {
-	console.log('hello world');
+  console.log('hello world');
 }
 
 function f2(): never {
-	throw new Error('some error');
+  throw new Error('some error');
 }
 
 function f3(): never {
-	while (true) {
-		// ...
+  while (true) {
+    // ...
   }
+}
+function f4(): string {
+  return 'jessie';
+}
+function f5(): number {
+  return 100;
 }
 ```
 
 - 함수의 반환 타입으로 `void`와 `never`를 사용할 수 있다.
 - `void` : 아무 값도 반환하지 않고 종료되는 함수의 반환 타입
 - `never` : 항상 예외가 발생해서 비정상적으로 종료되거나 무한루프 때문에 종료되지 않는 함수의 반환 타입 (보통 `never`타입은 사용하는 경우가 거의 없다.)
+- 이 외에는 함수의 반환 타입을 적어주면 된다. (만약 함수가 문자열을 반환한다면 함수의 반환 타입은 string, 함수가 숫자를 반환한다면 함수의 반환 타입은 number.)
 
 <br />
 
