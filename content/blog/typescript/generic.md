@@ -122,3 +122,8 @@ swapProperty(p1, p2, 'job'); // 컴파일 에러 발생
 - `swapProperty` 함수에서 두 개의 제네릭 변수를 사용했는데, `T extends Person` 는 Person에 할당 가능한 타입으로 정의한 것이고 `K extends keyof Person` 는 `keyof Person`에 할당 가능한 타입으로 정의한 것이다.
 - `keyof` : 인터페이스의 모든 속성 이름을 나열한 것
 - 위 코드에서 `keyof Person` 이란 `"name" | "age"` 타입을 뜻한다.
+
+<br />
+
+### Reference
+- [타입스크립트 시작하기](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/dashboard)
