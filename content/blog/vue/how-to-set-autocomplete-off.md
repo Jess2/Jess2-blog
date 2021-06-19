@@ -33,3 +33,8 @@ category: vue
   <input type="text" :readonly="!isFocused" @focus="isFocused = true" @blur="isFocused = false" />
 </template>
 ```
+
+크롬 브라우저는 입력 가능 상태의 입력창에 자동 완성 입력 기능을 주기 때문에  
+처음에는 기본적으로 `readonly true`로 설정하면 해당 `input`은 입력 불가능 상태라서 브라우저에서 자동으로 입력하지 못한다.
+
+*이 기능은 크롬 브라우저에서만 확인 했기 때문에 다른 브라우저에서는 별도로 확인을 해봐야 한다.
