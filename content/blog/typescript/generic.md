@@ -76,7 +76,7 @@ identity([]); // 컴파일 에러 발생
 
 - `extends`를 함께 사용하면 타입의 종류를 제한할 수 있다.
 - 참고로, `A extends B` : `A`가 `B`에 할당 가능해야 한다는 뜻이다.
-즉, `T extends number | string` : `T`가 `number`나 string에 할당 가능해야 한다는 뜻.
+즉, `T extends number | string` : `T`가 number나 string에 할당 가능해야 한다는 뜻.
 - 위의 코드에서는 number와 string 타입만 지정할 수 있도록 제한했기 때문에 `identity([]);` 에서는 컴파일 에러가 발생한다.
 
 <br />
