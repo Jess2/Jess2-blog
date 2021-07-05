@@ -458,6 +458,459 @@ IP 주소를 통해서 인터넷에서 클라이언트 컴퓨터와 서버 컴�
 
 # 5. HTTP 메서드 활용
 
+### 5-1. 클라이언트에서 서버로 데이터 전송
+
+- Client → Server 데이터 전달 방식
+    - Query Parameter
+        - GET
+        - 주로 정렬 필터(검색어)
+    - Message Body
+        - POST, PUT, PATCH
+        - 회원 가입, 상품 주문, 리소스 등록, 리소스 변경
+
+- Client → Server 데이터 전송하는 4가지 상황
+    - 정적 데이터 조회
+        - 이미지, 정적 텍스트 문서
+        - 조회는 GET 사용
+        - 정적 데이터는 일반적으로 Query Parameter 없이 리소스 경로로 단순하게 조회
+        - ex) `GET /static/star.jpg`
+    - 동적 데이터 조회
+        - 주로 검색, 게시판 목록에서 정렬 필터(검색어)
+        - 조회는 GET 사용
+        - Query Parameter 사용해서 데이터를 전달
+        - 조회 조건을 줄여주는 필터, 조회 결과를 정렬하는 정렬 조건에 주로 사용
+        - 서버에서 Query Parameter 기반으로 정렬 필터해서 결과를 동적으로 생성
+        - ex) `GET /search?q=hello&hl=ko`
+    - HTML Form을 통한 데이터 전송
+        - 회원 가입, 상품 주문, 데이터 변경
+        - HTML Form 전송은 GET, POST만 지원
+        - ex)
+
+            ```html
+            <form action="/save" method="post">
+            	<input type="text" name="username" />
+            	<input type="text" name="age" />
+            	<button type="submit">전송</button>
+            </form>
+            ```
+
+            - form submit 버튼을 누르면 웹 브라우저가 아래와 같은 http 메세지를 생성해준다.
+
+                ```
+                POST /save HTTP/1.1
+                Host: localhost:8080
+                Content-Type: application/x-www-form-urlencoded
+
+                username=kim&age=20
+                ```
+
+    - HTTP API를 통한 데이터 전송
+        - 회원 가입, 상품 주문, 데이터 변경
+        - 서버 to 서버
+            - 백엔드 시스템 통신
+        - 앱 클라이언트
+            - 아이폰/안드로이드
+        - 웹 클라이언트
+            - HTML에서 Form 전송 대신 JavaScript를 통한 통신에 사용(AJAX)
+            - React, Vue.js와 같은 웹 클라이언트와 API 통신
+        - POST, PUT, PATCH : 메세지 바디를 통한 데이터 전송
+        - GET: 조회, 쿼리 파라미터로 데이터 전달
+        - Content-Type: application/json을 주로 사용 (사실상 표준)
+        
+<br />
+
+### 5-2. HTTP API 설계 예시
+
+- HTTP API 컬렉션
+    - POST 기반 등록
+    - ex) 회원 관리 API 제공
+        - 회원 목록 `/members` → GET
+        - 회원 등록 `/members` → POST
+        - 회원 조회 `/members/{id}` → GET
+        - 회원 수정 `/members/{id}` → PATCH, PUT, POST
+            - PUT은 기존 리소스를 지우고 덮어버리는 개념
+            - PATCH는 기존 리소스의 일부분을 수정하는 개념
+            - 따라서 이 경우에는 PATCH를 사용하는 것이 제일 좋다.
+            - Client에서 해당 리소스를 완전히 다 덮어버려도 문제가 없는 경우에는 PUT을 사용해도 되는데 이런 상황은 거의 없다. 왜냐하면 이 경우, Client에서 회원의 모든 정보를 보내야 하기 때문이다.
+            - 게시판의 게시글을 수정하는 경우와 같이 리소스를 완전히 다 덮어버리는 경우에는 PUT을 사용한다.
+            - PUT, PATCH 중에 뭘 사용해야할 지 애매할 때는 POST를 사용한다.
+        - 회원 삭제 `/members/{id}` → DELETE
+
+- HTTP API - 스토어
+    - PUT 기반 등록
+    - 거의 사용 X
+    - ex) 정적 컨텐츠 관리, 원격 파일 관리
+
+- HTML FORM 사용
+    - 웹 페이지 회원 관리
+    - 컨트롤 URI
+        - GET, POST만 지원하므로 제약이 있음
+        - 이런 제약을 해결하기 위해 동사로 된 리소스 경로 사용
+        - POST `/new`, `/edit`, `/delete` 와 같은 방식이 컨트롤 URI
+        - 컨트롤 URI는 HTTP 메서드로 해결하기 애매한 경우 사용 (HTTP API 포함)
+        
+<br />
+
+### 5-3. 참고하면 좋은 URI 설계 개념
+
+- 문서(document)
+    - 단일 개념(파일 하나, 객체 인스턴스, 데이터베이스 row)
+    - ex) `/members/100`, `/files/star.jpg`
+
+- 컬렉션(collection)
+    - 서버가 관리하는 리소스 디렉터리
+    - 서버가 리소스의 URI를 생성하고 관리
+    - ex) `/members`
+
+- 스토어(store)
+    - 클라이언트가 관리하는 자원 저장소
+    - 클라이언트가 리소스의 URI를 알고 관리
+    - ex) `files`
+
+- 컨트롤러(controller), 컨트롤 URI
+    - 문서, 컬렉션, 스토어로 해결하기 어려운 추가 프로세스 실행
+    - 동사를 직접 사용
+    - ex) `/members/{id}/delete`
+        
+<br />
+
+# 6. HTTP 상태코드
+
+### 6-1. HTTP 상태코드 소개
+
+- 상태코드란
+    - 클라이언트가 보낸 요청의 처리 상태를 응답에서 알려주는 기능
+
+- 상태코드 종류
+    - **1xx (Informational)** : 요청이 수신되어 처리 중, 거의 사용하지 않음
+    - **2xx (Successful)** : 요청 정상 처리
+    - **3xx (Redirection)** : 요청을 완료하려면 추가 행동이 필요
+    - **4xx (Client Error)** : 클라이언트 오류, 잘못된 문법 등으로 서버가 요청을 수행할 수 없음
+    - **5xx (Server Error)** : 서버 오류, 서버가 정상 요청을 처리하지 못함
+        
+<br />
+
+### 6-2. 2xx - 성공
+
+> 요청 정상 처리
+
+- 200 OK
+    - 클라이언트의 요청을 성공적으로 처리한 대표적인 경우
+
+- 201 Created
+    - 클라이언트의 요청으로 인해 서버 쪽에 리소스가 정상적으로 생성된 경우
+    - 주로 POST 요청 완료시 201 Created 상태 코드를 준다.
+    - 생성된 리소스는 응답의 `Location` 헤더 필드로 식별
+
+- 202 Accepted
+    - 요청이 접수되었으나 처리가 완료되지 않음
+    - 배치 처리 같은 곳에서 사용
+    - ex) 요청 접수 후 1시간 뒤에 배치 프로세스가 요청을 처리함
+
+- 204 No Content
+    - 서버가 요청을 성공적으로 수행했지만, 응답 페이로드 본문에 보낼 데이터가 없음
+    - ex) 웹 문서 편집기에서 save 버튼
+    - save 버튼의 결과로 아무 내용이 없어도 된다
+    - save 버튼을 눌러도 같은 화면을 유지해야 한다
+    - 결과 내용이 없어도 204 메시지만으로 성공을 인식할 수 있다
+    - 서버가 요청 수행을 잘 했는지만 받고싶고 응답으로 받아서 뭔가 처리할 필요가 없을 때 사용한다.
+        
+<br />
+
+### 6-3. 3xx - 리다이렉션
+
+> 요청을 완료하기 위해 유저 에이전트(웹 브라우저)의 추가 조치 필요
+
+- 리다이렉션의 이해
+    - 웹 브라우저는 3xx 응답의 결과에 `Location` 헤더가 있으면, `Location` 위치로 자동 이동(리다이렉트)
+    - example
+        1. 웹 브라우저에 URL : `/event` 접근
+        2. Client → Server `GET /event` 요청
+        3. Server → Client `301 Moved Permanently Location: /new-event` 응답
+        4. 웹 브라우저에서 자동으로 `/new-event`로 리다이렉트
+        5. Client → Server `GET /new-event` 요청
+        6. Server → Client `200 OK` 응답
+
+- 리다이렉션의 종류
+    - 영구 리다이렉션 - 특정 리소스의 URI가 영구적으로 이동됨
+        - ex) /event → /new-event
+        - ex) /members → /users
+    - 일시 리다이렉션 - 일시적인 변경
+        - 주문 완료 후 주문 내역 화면으로 이동
+        - PRG: Post/Redirect/Get
+    - 특수 리다이렉션
+        - 결과 대신 캐시를 사용
+
+- 301 Moved Permanently
+    - 영구 리다이렉션
+    - 원래의 URL을 사용 X
+    - 검색 엔진 등에서도 변경 인지
+    - 리다이렉트시 요청 메서드가 GET 으로 변하고, 본문이 제거될 수 있음
+
+- 302 Found
+    - 일시적 리다이렉션
+    - 검색 엔진 등에서 URL을 변경하면 안됨
+    - 리다이렉트시 요청 메서드가 대부분 GET으로 변하고, 본문이 제거될 수 있음 (일부는 다르게 동작)
+    - 303, 307을 권장하지만 현실적으로 이미 많은 애플리케이션 라이브러리들이 302를 기본값으로 사용하고 있음
+    - 자동 리다이렉션시에 GET으로 변해도 되면 그냥 302를 사용해도 큰 문제 없음
+
+- 303 See Other
+    - 일시적 리다이렉션
+    - 검색 엔진 등에서 URL을 변경하면 안됨
+    - 302와 기능은 같음, 리다이렉트시 요청 메서드가 GET으로 변경
+
+- 304 Not Modified
+    - 캐시를 목적으로 많이 사용된다
+    - 클라이언트에게 리소스가 수정되지 않았음을 알려준다.
+    - 클라이언트는 로컬 PC에 저장된 캐시를 재사용한다. (캐시로 리다이렉트)
+    - 304 응답은 메세지 바디 포함 X (로컬 캐시를 사용해야 하므로)
+    - 조건부 GET, HEAD 요청시 사용
+
+- 307 Temporary Redirect
+    - 일시적 리다이렉션
+    - 검색 엔진 등에서 URL을 변경하면 안됨
+    - 302와 기능은 같음, 리다이렉트 요청 메서드와 본문 유지 (요청 메서드를 변경하면 안된다)
+
+- 308 Permanent Redirect
+    - 영구 리다이렉션
+    - 원래의 URL을 사용 X
+    - 검색 엔진 등에서도 변경 인지
+    - 301과 기능은 같은데 리다이렉트시 요청 메서드와 본문 유지함 (처음에 POST를 보내면 리다이렉트도 POST)
+    - 308은 거의 사용 X, 보통 301을 사용한다.
+        
+<br />
+
+### 6-4. 4xx - 클라이언트 오류
+
+- 클라이언트의 요청에 잘못된 문법 등으로 서버가 요청을 수행할 수 없음
+- 오류의 원인이 클라이언트에 있음
+- 클라이언트가 이미 잘못된 요청, 잘못된 데이터를 보내고 있기 때문에 똑같이 재시도하면 실패함.
+
+- 400 Bad Request
+    - 클라이언트가 잘못된 요청을 해서 서버가 요청을 처리할 수 없음
+    - 요청 구문, 메세지 등등 오류
+    - 클라이언트는 요청 내용을 다시 검토하고 보내야함
+    - ex) 요청 파라미터가 잘못되거나 API 스펙이 맞지 않을 때
+
+- 401 Unauthorized
+    - 클라이언트가 해당 리소스에 대한 인증이 필요함
+    - 인증(Authentication) 되지 않음
+    - 401 오류 발생시 응답에 `WWW-Authenticate` 헤더와 함께 인증 방법을 설명
+    - 참고
+        - 인증(Authentication) : 본인이 누구인지 확인, (로그인)
+        - 인가(Authorization) : 권한 부여 (ADMIN 권한 처럼 특정 리소스에 접근할 수 있는 권한, 인증이 있어야 인가가 있음)
+
+- 403 Forbidden
+    - 서버가 요청을 이해했지만 승인을 거부함
+    - 주로 인증 자격 증명은 있지만, 접근 권한이 불충분한 경우
+    - ex) ADMIN 등급이 아닌 사용자가 로그인은 했지만, ADMIN 등급의 리소스에 접근하는 경우
+
+- 404 Not Found
+    - 요청 리소스가 서버에 없음
+    - 또는 클라이언트가 권한이 부족한 리소스에 접근할 때 해당 리소스를 숨기고 싶을 때
+        
+<br />
+
+### 6-5. 5xx - 서버 오류
+
+- 서버 문제로 오류 발생
+- 서버에 문제가 있는 것이기 때문에 클라이언트에서 요청 재시도 하면 성공할 수 있음 (복구가 되거나 등등)
+- 웬만하면 5xx 에러는 서버에서 만들면 안된다. 서버에 문제가 터졌을 때만 만들어야 한다. 예를 들어, 고객의 잔고가 부족한 경우 5xx 에러로 내면 안된다. 5xx 에러는 비즈니스 로직 상 예외 케이스에서 내면 안되고 **진짜 서버에 무슨 문제가 있을 때** 내야 한다.
+
+- 500 Internal Server Error
+    - 서버 문제로 오류 발생
+    - 애매하면 500 에러
+
+- 503 Service Unavailable
+    - 서비스 이용 불가
+    - 서버가 일시적인 과부하 또는 예정된 작업으로 잠시 요청을 처리할 수 없음
+    - `Retry-After` 헤더 필드로 얼마 뒤에 복구되는 지 보낼 수 있음
+        
+<br />
+
+# 7. HTTP 헤더1 - 일반 헤더
+
+### 7-1. HTTP 헤더 개요
+
+- HTTP 헤더 용도
+    - HTTP 전송에 필요한 모든 부가 정보
+    - ex) 메세지 바디의 내용, 메세지 바디의 크기, 압축, 인증, 요청 클라이언트, 서버 정보, 캐시 관리 정보 ....
+    - 필요시 임의의 헤더 추가 가능 (`helloworld: hihi`)
+
+- HTTP BODY
+    - 메세지 본문(message body)을 통해 표현 데이터 전달
+    - 메세지 본문 = 페이로드(payload)
+    - '**표현'**은 요청이나 응답에서 전달할 실제 데이터
+    - **표현 헤더는 표현 데이터**를 해석할 수 있는 정보 제공 - 데이터 유형(html, json), 데이터 길이, 압축 정보 등등
+        
+<br />
+
+### 7-2. 표현
+
+- 표현 헤더는 요청, 응답 둘 다 사용
+
+- `Content-Type`
+    - 표현 데이터의 형식(타입)
+    - 미디어 타입, 문자 인코딩
+    - example
+        - text/html; charset=utf-8
+        - application/json
+        - image/png
+
+- `Content-Encoding`
+    - 표현 데이터의 압축 방식
+    - 표현 데이터를 압축하기 위해 사용
+    - 데이터를 전달하는 곳에서 압축 후 인코딩 헤더 추가
+    - 데이터를 읽는 쪽에서 인코딩 헤더의 정보로 압축 해제
+    - example
+        - gzip
+        - deflate
+        - identity
+
+- `Content-Language`
+    - 표현 데이터의 자연 언어
+    - example
+        - ko
+        - en
+        - en-US
+
+- `Content-Length`
+    - 표현 데이터의 길이
+    - 바이트 단위
+    - Transfer-Encoding(전송 코딩)을 사용하면 Content-Length를 사용하면 안됨
+        
+<br />
+
+### 7-3. 콘텐츠 협상
+
+- 클라이언트가 선호하는 표현 요청 (선호하는 걸 지정해줄테니, 서버에서 줄 수 있으면 주세요)
+- 협상 헤더는 요청 시에만 사용 (응답에는 사용 X)
+
+- `Accept` : 클라이언트가 선호하는 미디어 타입 전달
+- `Accept-Charset` : 클라이언트가 선호하는 문자 인코딩
+- `Accept-Encoding` : 클라이언트가 선호하는 압축 인코딩
+- `Accept-Language` : 클라이언트가 선호하는 자연 언어
+
+- 협상과 우선순위1
+    - Quality Values(q)값 사용
+    - 0~1 범위 (생략하면 1)
+    - 클 수록 높은 우선순위를 가짐
+    - ex) `Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7`
+        1. `ko-KR;q=1` (q 생략 가능)
+        2. `ko;q=0.9`
+        3. `en-US;q=0.8`
+        4. `en;q=0.7`
+
+- 협상과 우선순위2
+    - 구체적인 것이 높은 우선순위를 가짐
+    - ex) `Accept: text/*, text/plain, text/plain;format=flowed, */*`
+        1. `text/plain;format=flowed`
+        2. `text/plain`
+        3. `text/*`
+        4. `*/*`
+        
+<br />
+
+### 7-4. 전송 방식
+
+- 단순 전송
+    - 메세지 바디에 대한 `Content-Length`를 알고 있을 때 사용 가능
+    - 한 번에 요청하고 한 번에 받는 것
+
+- 압축 전송
+    - 압축한 데이터를 전송하는 경우
+    - `Content-Encoding` 을 추가해줘야 한다.
+
+- 분할 전송
+    - `Transfer-Encoding` 을 추가해줘야 한다.
+    - 용량이 큰 경우 한 번에 쭉 보내면 시간이 오래 걸릴 수 있어서 이런 경우에 분할 전송을 한다
+    - `Content-Length`를 넣으면 안된다.
+
+- 범위 전송
+    - 어떤 데이터를 받다가 중간에 끊겨서 다시 요청하는 경우, 처음부터 다시 요청하는 것이 아니라 특정 범위를 지정해서 요청하고 응답 받을 수 있다.
+        
+<br />
+
+### 7-5. 일반 정보
+
+- `Form`
+    - 유저 에이전트의 이메일 정보
+    - 일반적으로 잘 사용되지는 않음
+    - 검색엔진 같은 곳에서 주로 사용
+    - 요청에서 사용
+
+- `Referer`
+    - 이전 웹 페이지 주소
+    - 많이 사용됨
+    - `A` → `B`로 이동하는 경우, `B`를 요청할 때 `Referer: A`를 포함해서 요청함
+    - `Referer`를 사용해서 **유입 경로 분석** 가능
+    - 요청에서 사용
+
+- `User-Agent`
+    - ex) `user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 *KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36`
+    - 유저 에이전트(클라이언트) 애플리케이션 정보(웹 브라우저 정보, 등등)
+    - 통계 정보
+    - 어떤 종류의 브라우저에서 장애가 발생하는지 파악 가능
+    - 요청에서 사용
+
+- `Server`
+    - 요청을 처리하는 ORIGIN 서버의 소프트웨어 정보
+    - ex) `Server: Apache/2.2.22 (Debian)`
+    - 응답에서 사용
+
+- `Date`
+    - 메세지가 생성된 날짜
+    - ex) `Date: Tue, 15 Nov 1994 08:12:41 GMT`
+    - 응답에서 사용
+        
+<br />
+
+### 7-6. 특별한 정보
+
+- `Host`
+    - 요청한 호스트 정보(Domain)
+    - 요청에서 사용
+    - 필수값
+    - 하나의 서버가 여러 도메인을 처리해야 할 때
+    - 하나의 IP 주소에 여러 도메인이 적용되어 있을 때
+    - ex)
+
+        ```
+        GET /search?q=hello&hl=ko HTTP/1.1
+        Host: www.google.com
+        ```
+
+- `Location`
+    - 페이지 리다이렉션
+    - 웹 브라우저는 `3xx` 응답 결과에 `Location` 헤더가 있으면 `Location` 위치로 자동 이동(리다이렉트)
+    - `201 (Created)`: `Location` 값은 요청에 의해 생성된 리소스 URI
+    - `3xx (Redirection)`: `Location` 값은 요청을 자동으로 리디렉션 하기 위한 대상 리소스를 가리킴
+
+- `Allow`
+    - 허용 가능한 HTTP 메서드
+    - `405 (Method Not Allowed)`에서 응답에 포함해야 함
+    - ex) POST로 요청했는데 POST는 지원하지 않고 GET, HEAD, PUT만 지원할 경우 `Allow: GET, HEAD, PUT` 와 같이 응답 헤더에 포함된다.
+
+- `Retry-After`
+    - 유저 에이전트가 다음 요청을 하기까지 기다려야 하는 시간
+    - `503 (Service Unavailable)`: 서비스가 언제까지 불능인지 알려줄 수 있음
+    - ex) `Retry-After: Fri, 31 Dec 1999 23:59:59 GMT` (날짜 표기)
+    - ex) `Retry-After: 120` (초 단위 표기)
+        
+<br />
+
+### 7-7. 인증
+
+- `Authorization` : 클라이언트 인증 정보를 서버에 전달
+- `WWW-Authenticate`
+    - 리소스 접근 시 필요한 인증 방법 정의
+    - 401 Unauthorized 응답과 함께 사용
+    - ex) `WWW-Authenticate: Newauth realm="apps", type=1, title="Login to \"apps\"", Basic realm="simple"`
+        
+<br />
+
+### 7-8. 쿠키
+
 - TBD
         
 <br />
