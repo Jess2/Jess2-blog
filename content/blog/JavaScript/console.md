@@ -68,7 +68,7 @@ category: javascript
     console.assert(2 === 3, 'not same!'); // Assertion failed: not same!
     console.assert(2 === 2, 'same!'); // 출력 X
     ```
-                
+
 <br />
 
 ## console.table
