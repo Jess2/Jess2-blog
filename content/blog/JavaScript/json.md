@@ -65,10 +65,10 @@ category: javascript
 
     ```jsx
     const dog = {
-    	name: 'dooboo',
-    	color: 'white',
-    	size: null,
-    	birthDate: new Date(),
+      name: 'dooboo',
+      color: 'white',
+      size: null,
+      birthDate: new Date(),
       symbol: Symbol('id'),
     	run: () => {
     		console.log(`run~~~!`);
@@ -122,9 +122,9 @@ const dog = {
   size: null,
   birthDate: new Date(),
   symbol: Symbol('id'),
-	run: () => {
-		console.log(`run~~~!`);
-	},
+    run: () => {
+      console.log(`run~~~!`);
+    },
 };
 
 const json = JSON.stringify(dog);
@@ -132,7 +132,7 @@ const dog2 = JSON.parse(json);
 
 console.log(dog);
 console.log(json);
-console.log(obj);
+console.log(dog2);
 ```
 
 - 실행 결과
