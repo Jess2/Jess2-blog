@@ -432,7 +432,7 @@ category: javascript
 
 ### 8. Promise.race
 
-- 여러 Promise 중에서 가장 빨리 성공 상태가 된 Promise를 반환하는 함수이다.
+- 여러 Promise 중에서 가장 빨리 settled(fulfilled or rejected) 상태가 된 Promise를 반환하는 함수이다.
 - Example
 
     ```js
@@ -445,7 +445,7 @@ category: javascript
     ```
 
     - 매개변수로 배열을 입력한다.
-    - 여러 Promise 객체 중 하나라도 성공 상태가 되면 그 Promise 와 같은 데이터 상태를 가진 Promise 객체를 반환한다.
+    - 여러 Promise 객체 중 하나라도 settled 상태가 되면 그 Promise 와 같은 데이터 상태를 가진 Promise 객체를 반환한다.
     - 위의 코드에서 두 번째 Promise 객체는 3초 후에 실패 상태가 되는 Promise 객체로, `requestData` 함수 실행이 3초 안에 끝나지 않으면 Promise.race 함수가 반환하는 Promise 객체는 실패 상태가 되는 것이다.
     - 반대로 `requestData` 비동기 처리가 3초 안에 끝난다면 성공 상태의 Promise 객체를 반환할 것이다.
 
