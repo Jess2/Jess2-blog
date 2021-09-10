@@ -28,7 +28,7 @@ var b = null; // null 이라는 빈 값을 할당했다.
 console.log(b); // 출력결과 > null
 console.log(typeof b); // 출력결과 > object
 ```
-위의 코를 보면 `b`라는 변수를 선언한 후 `null`이라는 값을 할당했기 때문에 변수 `b`를 출력하면 `null`이 출력되고 `null`값은 **객체**로 취급되기 때문에 변수 `b`의 type을 출력하면 `object`가 출력된다.
+위의 코드를 보면 `b`라는 변수를 선언한 후 `null`이라는 값을 할당했기 때문에 변수 `b`를 출력하면 `null`이 출력되고 `null`값은 **객체**로 취급되기 때문에 변수 `b`의 type을 출력하면 `object`가 출력된다.
 
 ### null == undefined의 결과는 true
 
