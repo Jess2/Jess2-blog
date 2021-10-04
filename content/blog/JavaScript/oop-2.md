@@ -112,7 +112,6 @@ factory나 constructor function을 이용하여 해결할 수 있다. 아래의 
 <br />
 
 #### 2-2. Constructors
-
 ```js
 // Constructor Function
 function Circle(radius, x, y) {
@@ -137,6 +136,14 @@ console.log(myCircle.radius); // 1
 - new 키워드를 사용하면 Constructor Function이 자동으로 `return this`를 하게 된다.
 - 따라서 Properties와 Methods가 추가된 이 객체가 반환되고 반환된 객체를 `myCircle`에 할당하고 있기 때문에 `myCircle.radius` 을 출력하면 정상적으로 `1`이 출력된다.
 - 만약 new 키워드를 사용하지 않고 `const badCircle = Circle(2, 2, 2);`와 같이 작성했다면 함수 내 `this`는 `badCircle`가 아닌 `Window`(브라우저 기준)가 된다.
+- constructor 속성
+    ```js
+    console.log(myCircle.constructor); // f Circle(...) {...}
+    console.log(Circle.constructor); // f Object() {...}
+    ``` 
+    - 모든 Object 는 constructor 속성에 접근할 수 있다. 위의 코드에서 `myCircle.constructor`는 `Circle` 함수를 가리킨다.
+    - 그리고 `Circle.constructor`는 자바스크립트에 내장된 함수인 `Object` 함수이다.
+
 
 <br />
 
