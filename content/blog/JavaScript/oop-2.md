@@ -144,10 +144,37 @@ console.log(myCircle.radius); // 1
     - 모든 Object 는 constructor 속성에 접근할 수 있다. 위의 코드에서 `myCircle.constructor`는 `Circle` 함수를 가리킨다.
     - 그리고 `Circle.constructor`는 자바스크립트에 내장된 함수인 `Object` 함수이다.
 
+<br />
+
+### 2-3. Functions are Objects
+```js
+function Circle(radius, x, y) {
+  this.radius = radius;
+  this.location = {
+    x,
+    y
+  }
+  this.draw = function() {
+    console.log('draw');
+  }
+}
+
+const myCircle = new Circle(1, 1, 1);
+```
+
+- 위의 `Circle` 함수는 사실 하나의 Object다.
+- `Circle.` 을 입력하면 접근할 수 있는 멤버(methods, properties)들이 자동 추천 목록으로 뜬다.
+(ex. apply, arguments, bind, call, caller, length, name, prototype, toString, ...)
+    ![](images/oop-2.png)
+- JavaScript의 모든 객체는 Constructor 속성이 있고 이 Constructor는 해당 객체를 생성할 때 사용되는 함수를 가리킨다.
+- 함수는 객체라고 했기 때문에 위의 `Circle` 함수도 하나의 객체이므로 Constructor 속성을 가지고, 이 Constructor는 이 `Circle`을 생성할 때 사용된 함수를 가리킨다.  
+따라서 `Circle.constructor` 을 출력해보면 `ƒ Function() { [native code] }` (자바스크립트에 내장된 Constructor인 function)가 출력된다.
+- `function Circle() {...}` 와 같이 함수를 선언할 때, 자바스크립트 엔진은 function constructor을 이용해서 객체를 생성하게 된다.
 
 <br />
 
 ## 3. Primitives and Reference Types
+
 
 <br />
 
