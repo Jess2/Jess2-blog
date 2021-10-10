@@ -175,10 +175,102 @@ const myCircle = new Circle(1, 1, 1);
 
 ## 3. Primitives and Reference Types
 
+### 3-1. 두 가지의 타입 종류
+- JavaScript에는 두 가지 타입 종류가 존재한다.
+    1. Value Types (Primitives)
+        - Number
+        - String
+        - Boolean
+        - Symbol
+        - undefined (ES6)
+        - null (ES6)
+    2. Reference Types
+        - Object
+        - Function
+        - Array
+
+<br />
+
+### 3-2. Primitives와 Objects의 동작 방식 비교 
+- Primitives와 Objects는 동작하는 방식이 다른데, JavaScript의 Prototypes를 이해하기 위해서는 반드시 꼭 알아야 한다.
+
+<br />
+
+- Primitives
+    ```js
+    let x = 10;
+    let y = x;
+    
+    x = 20;
+    
+    console.log(x); // 20
+    console.log(y); // 10
+    ```
+    - 위의 코드에서 `x`와 `y`는 완전히 독립된 두 개의 변수이다.
+    - 처음 `x`에 10을 할당하고 그 이후에 `y`에 `x`를 할당한 후 `x`에 20으로 재할당하면 `x`는 20으로 변경되지만 `y`는 `x`의 변경과는 상관없이 여전히 10이다. 
+    - 값을 변수에 할당할 때 해당 메모리 변수 내부에 해당 값이 저장된다.
+
+<br />
+
+- Objects
+    ```js
+    let x = { value: 10 };
+    let y = x;
+    
+    x.value = 20;
+    
+    console.log(x.value); // 20
+    console.log(y.value); // 20
+    ```
+    - `x.value`와 `y.value`는 모두 20이다.
+    - 객체를 변수에 할당할 때 해당 객체는 해당 변수에 저장되지 않는다. 객체는 메모리의 다른 곳에 저장되고 해당 메모리 위치의 주소는 해당 메모리 변수 내부에 저장된다.
+    - `let y = x;` 와 같이 `y`에 `x`를 할당하게 되면 참조 할당이 일어난다. 즉, 객체 자체가 복사되어 새로운 메모리에 할당되는 것이 아니라 해당 객체가 저장되어 있는 메모리의 주소값이 복사되는 것이다. 
+    - 따라서 `x`와 `y`는 동일한 객체를 가리키게 되고 `x.value`의 값을 변경하면 `y.value`의 값도 변경되는 것이다.
+        ![](images/oop-2-1.jpg)
+
+<br />
+
+- 결론
+    - Primitives are copied by their value
+    - Objects are copied by their reference
+  
+<br />
+  
+- Primitives are copied by their value - Example
+    ```js
+    let number = 10;
+    
+    function increase(number) { 
+      number++;
+    }
+    
+    increase(number);
+    console.log(number); // 10;
+    ```
+    - `increase` 함수를 호출할 때 함수에서 받은 `number`라는 매개변수는 코드 1행의 `number`와는 완전히 별개의 변수이다.
+    - 따라서 함수 내부에서 `number`의 값을 증가시키더라도 1행의 `number`와는 상관이 없기 때문에 코드 마지막 행에서 `number`값을 출력하면 10이 출력된다. 
+    
+<br />
+    
+- Objects are copied by their reference - Example
+    ```js
+    let obj = { value: 10 };
+    
+    function increase(obj) { 
+      obj.value++;
+    }
+    
+    increase(obj);
+    console.log(obj.value); // 11;
+    ```
+    - `increase` 함수를 호출할 때 함수에서 받은 `obj`라는 매개변수는 코드 1행의 `obj`와는 별개의 변수이지만 같은 객체 `{ value: 10 }`을 가리킨다. (객체는 참조 복사가 되기 때문.)
+    - 따라서 함수 내부에서 `obj.value`의 값을 증가시키면 1행의 `obj`도 같은 객체를 가리키고 있기 때문에 코드 마지막 행에서 `obj.value`를 출력하면 11이 출력된다. 
 
 <br />
 
 ## 4. Working with Properties
+
+- TBD
 
 <br />
 
