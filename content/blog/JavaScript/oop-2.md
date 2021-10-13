@@ -270,6 +270,42 @@ const myCircle = new Circle(1, 1, 1);
 
 ## 4. Working with Properties
 
+### 4-1. Adding or Removing Properties
+
+```js
+function Circle(radius) {
+  this.radius = radius;
+  this.draw = function() {
+    console.log('draw');
+  }
+}
+
+const circle = new Circle(10); // circle object 생성
+
+circle.location = { x: 1 }; // location 속성 추가
+console.log(circle); // { radius: 10, location: { x: 1 }, draw: f }
+
+circle['name'] = 'c1';
+console.log(circle); // { radius: 10, location: { x: 1 }, name: 'c1', draw: f }
+
+delete circle['location'];
+delete circle.name;
+```
+- 자바스크립트의 객체는 동적(dynamic)이다.
+- 객체를 생성한 후에 해당 객체에 속성을 추가할 수 있고 또 속성을 삭제할 수 있다.
+- 모든 속성을 미리 정의하지 않아도 필요에 따라 객체가 만들어진 이후에 속성을 추가할 수 있다는 장점이 있다.
+- 객체의 속성은 `.`이나 `[]` 으로 접근/추가할 수 있다.
+- Dot Notation(`.`)은 Brackets Notation(`[]`)보다 표기법이 심플하다.
+- Bracket(`[]`)은 동적인 속성명으로 접근할 때 유용하다. ex) `circle[propertyName]`
+- 또한 Bracket(`[]`)은 유효한 식별자가 아닌 속성 이름을 사용할 때 유용하다. 
+    - `circle.center-location`과 같은 접근은 불가능하다.
+    - `circle['center-location']`과 같은 접근은 가능하다.
+- 객체의 속성을 제거할 때는 `delete` Operator 를 사용하면 된다. 
+
+<br />
+
+### 4-2. Enumerating Properties
+
 - TBD
 
 <br />
