@@ -6,10 +6,10 @@ category: javascript
 
 ![](images/javascript.png)
 
-# 0. Table of Contents
+## 0. Table of Contents
 
-1. **[What is OOP *(Current Page)*](/JavaScript/oop-1/)** 
-2. Objects *(TBD)*
+1. **[What is OOP](/JavaScript/oop-1/)** ***👉 Current Page*** 
+2. [Objects](/JavaScript/oop-2/)
 3. Prototypes *(TBD)*
 4. Prototypical Inheritance *(TBD)*
 5. ES6 Classes *(TBD)*
@@ -17,7 +17,7 @@ category: javascript
 
 <br />
 
-# 1. What is OOP?
+## 1. What is OOP?
 
 - OOP(객체 지향 프로그래밍)란, 함수보다는 **객체를 중심**으로 하는 프로그래밍 스타일, 프로그래밍 패러다임이다.
 - OOP는 새로운 것이 아니라, 70년대부터 존재했던 스타일이다.
@@ -44,7 +44,7 @@ category: javascript
 
 <br />
 
-# 2. OOP의 4가지 핵심 개념
+## 2. OOP의 4가지 핵심 개념
 
 1. 캡슐화 (Encapsulation)
 2. 추상화 (Abstraction)
@@ -146,6 +146,6 @@ category: javascript
     
 <br />
 
-# Reference
+## Reference
 
 - [Udemy - Object-oriented Programming in JavaScript](https://www.udemy.com/course/javascript-object-oriented-programming/)
