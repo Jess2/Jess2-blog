@@ -54,7 +54,7 @@ circle.draw(); // 출력 결과 : draw
 
 ## 2. Factories and Constructors
 
-#### 2-1. Factories
+### 2-1. Factories
 - Bad Example
     ```js
     const circle1 = {
@@ -111,7 +111,7 @@ factory나 constructor function을 이용하여 해결할 수 있다. 아래의 
     
 <br />
 
-#### 2-2. Constructors
+### 2-2. Constructors
 ```js
 // Constructor Function
 function Circle(radius, x, y) {
