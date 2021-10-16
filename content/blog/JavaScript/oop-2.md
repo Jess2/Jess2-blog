@@ -235,7 +235,7 @@ const myCircle = new Circle(1, 1, 1);
     - Objects are copied by their reference
   
 <br />
-  
+
 - Primitives are copied by their value - Example
     ```js
     let number = 10;
@@ -249,7 +249,7 @@ const myCircle = new Circle(1, 1, 1);
     ```
     - `increase` 함수를 호출할 때 함수에서 받은 `number`라는 매개변수는 코드 1행의 `number`와는 완전히 별개의 변수이다.
     - 따라서 함수 내부에서 `number`의 값을 증가시키더라도 1행의 `number`와는 상관이 없기 때문에 코드 마지막 행에서 `number`값을 출력하면 10이 출력된다. 
-    
+
 <br />
     
 - Objects are copied by their reference - Example
