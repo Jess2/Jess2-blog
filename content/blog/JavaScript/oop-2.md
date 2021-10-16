@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] OOP - 2. Objects"
-date: 2021-09-23 20:09:17
+date: 2021-10-16 20:09:17
 category: javascript
 ---
 
@@ -305,20 +305,210 @@ delete circle.name;
 <br />
 
 ### 4-2. Enumerating Properties
+1. for in loop
+    ```js
+    function Circle(radius) {
+      this.radius = radius;
+      this.draw = function() {
+        console.log('draw');
+      }
+    }
+    
+    const circle = new Circle(10);
+    
+    for (let key in circle) {
+      console.log('key is ' + key);
+      console.log('value is ' + circle[key]);
+    }
+    ```
+    - 객체의 속성을 반복하거나 열거해야할 때 for in loop를 사용할 수 있다.
+    - 객체 내 속성의 key 들을 반복문으로 돌면서 가져온다.
+    - 객체 내 속성의 value에 접근하고 싶을 때는 `circle[key]`와 같이 접근하면 된다.
 
-- TBD
+2. Object.keys()
+    ```js
+    const keys = Object.keys(circle);
+    console.log(keys); // ["radius", "draw"]
+    ```
+    - Object.keys()는 객체 내 모든 key값들을 배열로 반환해준다.
+
+3. in operator
+    ```js
+    if ('radius' in circle) {
+      console.log('Circle has a radius')
+    }
+    ```
+    - in operator를 이용하여 객체가 특정 key를 가지고 있는지 확인할 수 있다.  
 
 <br />
 
 ## 5. Private Properties
 
+### 5-1. Abstraction
+
+```js
+function Circle(radius) {
+  this.radius = radius;
+  
+  this.defaultLocation = {
+    x: 0,
+    y: 0,
+  };
+
+  this.computeOptimumLocation = function() {
+    // ...
+  }
+
+  this.draw = function() {
+    this.computeOptimumLocation();
+    console.log('draw');
+  }
+}
+
+const circle = new Circle(10);
+circle.defalutLocation = false; // Bad
+circle.computeOptimumLocation(); // Bad
+```
+- object type인 `circle.defaultLocation`에 뜬금없이 `false`를 할당한다거나,   
+`draw` 메소드 안에서만 호출 되기를 바라는 `computeOptimumLocation` 메소드를 직접적으로 호출하면 객체를 나쁜 상태로 만들 수 있다.
+- 이 때 우리가 알아야 하는 개념이 Abstraction(추상화)라는 객체 지향 프로그래밍의 핵심 개념이다.
+- 추상화란, 세부사항을 숨기고 필수사항만 보이게 하는 것이다. (Hide the details, Show the essentials)
+- 추상화를 쉽게 설명하면 DVD Player처럼 내부는 복잡한 로직을 갖고 있지만 외부에 보여지는 것은 간단한 몇 개의 버튼 뿐이다.
+- 추상화를 통해서 위의 `Circle` 함수에서 `radius`와 `draw`만 외부에서 접근 가능하도록 하고 `defaultLocation`과 `computeOptimumLocation`은 외부에서 접근 불가능하도록 해보자. 
+
+<br />
+
+### 5-2. Private Properties
+
+```js
+function Circle(radius) {
+  this.radius = radius;
+  
+  let defaultLocation = {
+    x: 0,
+    y: 0,
+  };
+
+  let computeOptimumLocation = function() {
+    // ...
+  }
+
+  this.draw = function() {
+    computeOptimumLocation();
+    console.log('draw');
+  }
+}
+
+const circle = new Circle(10);
+```
+- 함수 내에 local 변수를 두면 이 변수는 객체의 properties가 되지 않는다.
+- 함수 내의 로컬 변수는 함수 밖으로 빠져나가는 순간 스코프를 벗어나게 되고 이 함수 외부에서는 해당 변수에 접근할 수 없게 된다.
+- 따라서 `this.defaultLocation` 대신 `let defaultLocation`과 같이 로컬 변수로 정의하면 함수 외부로부터 숨길 수 있다.
+- 우리는 `defaultLocation`과 `computeOptimumLocation`을 외부에서 직접 접근이 불가능하도록 만들고 싶기 때문에 로컬 변수로 변경했고  
+`draw` 메소드 내에서 호출하고 있었던 `this.computeOptimumLocation()` 대신 `computeOptimumLocation()` 으로 변경했다.
+- `draw` 메소드 내에서 `computeOptimumLocation`을 호출하면 `Circle` 외부에서 `draw` 메소드를 호출할 때 `computeOptimumLocation`이 정상적으로 실행되는데,  
+이는 자바스크립트의 클로저(Closure) 개념 때문에 가능하다.
+
 <br />
 
 ## 6. Getters and Setters
+> 위에서는 함수 외부에서 접근하지 못하도록 하는 방법으로 로컬 변수를 두었는데  
+어떻게 하면 함수 외부에서 수정은 못하도록 하고 읽기만 가능하도록 할 수 있을까?
+
+### 6-1. 방법 1 - 로컬 변수를 조회하는 메소드를 생성한다
+
+```js
+function Circle(radius) {
+  this.radius = radius;
+  
+  let defaultLocation = {
+    x: 0,
+    y: 0,
+  };
+
+  this.getDefaultLocation = function() {
+    return defaultLocation;
+  }
+
+  this.draw = function() {
+    console.log('draw');
+  }
+}
+
+const circle = new Circle(10);
+console.log(circle.getDefaultLocation()); // { x: 0, y: 0 }
+```  
+- `defaultLocation`이라는 변수는 `Circle` 함수 외부에서 직접적으로 접근은 불가능하지만   
+`getDefaultLocation`이라는 함수를 통해서 (클로저 개념을 이용해) `defaultLocation` 변수를 조회할 수 있다. (수정은 불가능)
 
 <br />
 
-## 7. Exercise - Stop Watch
+### 6-2. 방법 2 - defineProperty의 Getters
+```js
+function Circle(radius) {
+  this.radius = radius;
+  
+  let defaultLocation = {
+    x: 0,
+    y: 0,
+  };
+
+  this.draw = function() {
+    console.log('draw');
+  }
+
+  Object.defineProperty(this, 'defaultLocation', {
+    get: function() {
+      return defaultLocation;
+    }
+  });
+}
+
+const circle = new Circle(10);
+console.log(circle.defaultLocation); // { x: 0, y: 0 }
+```
+- defineProperty를 이용해서 속성을 정의할 수 있다.
+- defineProperty의 첫 번째 argument로 **property을 추가하고 싶은 대상 객체**를 넣어준다. (this)
+- defineProperty의 두 번째 argument로 property 이름을 넣어준다.
+- defineProperty의 세 번째 argument로는 객체를 넣어준다. 이 객체에 `get` 이라는 이름의 key를 지정해주고 value로는 함수를 넣어준다.  
+위 코드의 마지막 줄에서 `circle.defaultLocation`과 같이 접근하면 이 `get` 함수가 호출되는 것이다. 
+- `circle` 객체를 출력 해보면 아래와 같이 새로운 property인 `defaultLocation`이 추가된 것을 볼 수 있다. 이것은 read-only 속성이다. 만약에 이 속성을 변경하고 싶다면 setters를 사용해야 한다.
+    ![](images/oop-2-2.png)
+
+<br />
+
+### 6-3. 값을 수정할 때는 Setters를 이용할 수 있다 
+
+```js
+function Circle(radius) {
+  this.radius = radius;
+  
+  let defaultLocation = {
+    x: 0,
+    y: 0,
+  };
+
+  this.draw = function() {
+    console.log('draw');
+  }
+
+  Object.defineProperty(this, 'defaultLocation', {
+    get: function() {
+      return defaultLocation;
+    },
+    set: function(value) {
+      if (!value.x || !value.y) {
+        throw new Error('Invalid location.');
+      }
+      defaultLocation = value;
+    }
+  });
+}
+
+const circle = new Circle(10);
+circle.defaultLocation = { x: 10, y: 20};
+console.log(circle.defaultLocation); // { x: 10, y: 20 }
+```
 
 <br />
 
