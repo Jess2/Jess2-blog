@@ -251,8 +251,9 @@ const myCircle = new Circle(1, 1, 1);
     - 따라서 함수 내부에서 `number`의 값을 증가시키더라도 1행의 `number`와는 상관이 없기 때문에 코드 마지막 행에서 `number`값을 출력하면 10이 출력된다. 
 
 <br />
-    
+
 - Objects are copied by their reference - Example
+
     ```js
     let obj = { value: 10 };
     
@@ -263,8 +264,9 @@ const myCircle = new Circle(1, 1, 1);
     increase(obj);
     console.log(obj.value); // 11;
     ```
+
     - `increase` 함수를 호출할 때 함수에서 받은 `obj`라는 매개변수는 코드 1행의 `obj`와는 별개의 변수이지만 같은 객체 `{ value: 10 }`을 가리킨다. (객체는 참조 복사가 되기 때문.)
-    - 따라서 함수 내부에서 `obj.value`의 값을 증가시키면 1행의 `obj`도 같은 객체를 가리키고 있기 때문에 코드 마지막 행에서 `obj.value`를 출력하면 11이 출력된다. 
+    - 따라서 함수 내부에서 `obj.value`의 값을 증가시키면 1행의 `obj`도 같은 객체를 가리키고 있기 때문에 코드 마지막 행에서 `obj.value`를 출력하면 11이 출력된다.
 
 <br />
 
