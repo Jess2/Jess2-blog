@@ -49,31 +49,43 @@ category: javascript
 
 ## 2. Prototypes and Prototypical Inheritance
 
-
+- TBD
 
 <br />
 
 ## 3. Multi-level Inheritance
 
+- TBD
+
 <br />
 
 ## 4. Property Descriptors
+
+- TBD
 
 <br />
 
 ## 5. Constructor Prototypes
 
+- TBD
+
 <br />
 
 ## 6. Prototype vs. Instance Members
+
+- TBD
 
 <br />
 
 ## 7. Iterating Instance and Prototype Members
 
+- TBD
+
 <br />
 
 ## 8. Avoid Extending the Built-in Objects
+
+- TBD
 
 <br />
 
