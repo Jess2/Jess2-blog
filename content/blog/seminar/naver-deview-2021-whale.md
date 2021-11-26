@@ -39,28 +39,28 @@ category: seminar
 "default_locale": "ko",
 "version": "1.0.1",
 "icon": {
-	"16": "icons/icon16.png",
-	"48": "icons/icon48.png",
-	"128": "icons/icon128.png"
+  "16": "icons/icon16.png",
+  "48": "icons/icon48.png",
+  "128": "icons/icon128.png"
 },
 "content_scripts": [
-	{
-		"matches": [
-			"http://*/*",
-			"https://*/*"
-		],
-		"js": [ "js/content-script.js" ],
-		"css": [ "css/content-style.css" ],
-		"run_at": "document_start"
-	}
+  {
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "js": [ "js/content-script.js" ],
+    "css": [ "css/content-style.css" ],
+    "run_at": "document_start"
+  }
 ],
 "background": {
-	"scripts": [
-		"js/background.js"
-	]
+  "scripts": [
+    "js/background.js"
+  ]
 },
 "permissions": [
-	"<all_urls>"
+  "<all_urls>"
 ],
 "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 ```
@@ -86,8 +86,8 @@ category: seminar
     
     ```json
     "matches": [
-        "http://www.instagram.com/*",
-        "https://www.instagram.com/*"
+      "http://www.instagram.com/*",
+      "https://www.instagram.com/*"
     ],
     ```
 
@@ -95,7 +95,7 @@ category: seminar
     
     ```css
     .HP0qD {
-    	display: none !important;
+      display: none !important;
     }
     ```
     
@@ -135,13 +135,13 @@ category: seminar
         
         ```json
         "sidebar_action": {
-        	"default_page": "index.html",
-        	"default_icon": {
-        		"48": "icons/icon48.png",
-        		"192": "icons/icon192.png"
-        	},
-        	"default_title": "__MSG_APP_NAME__",
-        	"use_navigation_bar": true
+          "default_page": "index.html",
+          "default_icon": {
+            "48": "icons/icon48.png",
+            "192": "icons/icon192.png"
+          },
+          "default_title": "__MSG_APP_NAME__",
+          "use_navigation_bar": true
         }
         ```
         
