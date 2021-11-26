@@ -49,6 +49,8 @@ category: javascript
 
 ## 2. Prototypes and Prototypical Inheritance
 
+
+
 <br />
 
 ## 3. Multi-level Inheritance
