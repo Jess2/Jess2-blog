@@ -10,7 +10,7 @@ category: javascript
 
 1. **[What is OOP](/JavaScript/oop-1/)** ***👉 Current Page*** 
 2. [Objects](/JavaScript/oop-2/)
-3. Prototypes *(TBD)*
+3. [Prototypes](/JavaScript/oop-3/)
 4. Prototypical Inheritance *(TBD)*
 5. ES6 Classes *(TBD)*
 6. ES6 Modules *(TBD)*
@@ -143,7 +143,7 @@ category: javascript
 
     - 각 객체에 render 메서드를 구현할 수 있고 render 메서드는 참조하는 객체의 유형에 따라 다르게 작동한다.
     - 따라서 객체 유형에 따라 다른 각각의 render 함수를 호출하지 않아도 된다.
-    
+
 <br />
 
 ## Reference

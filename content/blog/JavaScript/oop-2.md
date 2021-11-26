@@ -9,8 +9,8 @@ category: javascript
 ## 0. Table of Contents
 
 1. [What is OOP](/JavaScript/oop-1/) 
-1. **[Objects](/JavaScript/oop-2/)** ***👉 Current Page***
-3. Prototypes *(TBD)*
+2. **[Objects](/JavaScript/oop-2/)** ***👉 Current Page***
+3. [Prototypes](/JavaScript/oop-3/)
 4. Prototypical Inheritance *(TBD)*
 5. ES6 Classes *(TBD)*
 6. ES6 Modules *(TBD)*
