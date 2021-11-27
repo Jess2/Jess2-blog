@@ -49,7 +49,6 @@ category: javascript
 
 ## 2. Prototypes and Prototypical Inheritance
 
-<<<<<<< HEAD
 ### 2-1. 프로토타입?
 
 - example
