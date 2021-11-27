@@ -49,7 +49,33 @@ category: javascript
 
 ## 2. Prototypes and Prototypical Inheritance
 
-- TBD
+<<<<<<< HEAD
+### 2-1. 프로토타입?
+
+- example
+    - circle 객체, shape 객체가 있다고 가정한다.
+    - 모든 공통 메소드를 shape 객체에 추가한다. ex) `computeOptimumLocation()`
+    - circle 객체를 shape 객체에 연결한다. → shape 객체를 circle 객체의 프로토타입으로 여긴다.
+- prototype은 본질적으로 다른 객체의 **부모**이다.
+- 자바스크립트의 모든 객체(싱글 객체를 제외하고)는 프로토타입을 가진다.
+
+### 2-2. Prototypical Inheritance
+
+- example
+    - `let x = {};` 를 선언,할당한 후 `x` 를 찍어보면 `__proto__` 속성을 갖고 있는 것을 확인할 수 있다.
+    - `__proto__` 는 여러 properties와 methods를 가지고 있다. ex) `constructor`, `toString`
+    - `x.__proto__.toString()` 으로 접근할 수 있지만, `x.toString()` 으로 바로 접근할 수 있다.
+    - 모든 객체는 `constructor` 속성에 접근할 수 있게 된다. 이 `constructor`속성은 해당 객체를 생성하는 데 사용된 함수를 참조한다.
+    - 우리는 `x` 객체를 메모리에 갖고있고 `x` 객체는 또 다른 객체를 향한 링크를 갖고 있다. 이를 프로토타입이라 한다.
+    
+- `x`는 빈 객체인데 어떻게 `x.toString()` 과 같이 접근할 수 있을까?
+    - 자바스트립트 엔진이 처음에는 `x`의 property와 method를 찾는다.
+    - 찾지 못하면, 해당 객체인 `x`의 프로토타입에서 찾는다.
+    - 프로토타입에서도 계속 찾지 못하면 프로토톼입의 프로토타입에서 찾는다. 최상위 루트 객체까지 올라가며 찾는다.
+    - 이것이 Prototypical Inheritance 이다.
+    
+- 자바스크립트에서는 객체의 속성 또는 메서드에 접근하려 할 때, 프로토타입 체인을 이용해서 해당 속성 또는 메서드를 찾는다.
+- 프로토타입은 평범한 하나의 객체일 뿐이다.
 
 <br />
 
