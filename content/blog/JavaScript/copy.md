@@ -21,7 +21,7 @@ console.log(p1); // { name: "jessie", age: 30 }
 console.log(p2); // { name: "jessie", age: 30 }
 ```
 
-- `developer2`에 `developer1`을 할당할 때, 주소값이 할당되는 것이기 때문에 한 객체의 값을 수정하면 다른 객체의 값 또한 동일하게 변한다.
+- `p2`에 `p1`을 할당할 때, 주소값이 할당되는 것이기 때문에 한 객체의 값을 수정하면 다른 객체의 값 또한 동일하게 변한다.
 
 <br />
 
@@ -41,7 +41,7 @@ const target = {
 	position: 'Frontend',
 };
 
-const developer2 = Object.assign(target, p1);
+const p2 = Object.assign(target, p1);
 
 console.log(p1); // { name: "jessie", age: 20 }
 console.log(target); // { position: "Frontend", name: "jessie", age: 20 }
