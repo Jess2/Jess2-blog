@@ -75,40 +75,44 @@ category: javascript
     
 - 자바스크립트에서는 객체의 속성 또는 메서드에 접근하려 할 때, 프로토타입 체인을 이용해서 해당 속성 또는 메서드를 찾는다.
 - 프로토타입은 평범한 하나의 객체일 뿐이다.
+- 자바스크립트에서의 상속은 "연결"이다
+    ```js
+    let person = { name: 'Jessie' };
+    
+    console.log(person.toString()); // [object Object]
+    
+    for (let key in person) {
+      console.log(key); // name
+    }
+    
+    console.log(Object.keys(person)); // ["name"]
+    ```
+    - `person` 에는 속성으로 `name`만 가지고 있지만, `__proto__` 를 통해 `toString()` 메서드를 사용할 수 있다.
+    - 그러나 for-in 문으로 `person`이 가진 key를 출력해보면 `name` 만 출력된다. 여기서는 `person`이 직접적으로 가지고 있는 속성만 출력되기 때문이다.
+    - `console.log(Object.keys(person));` 도 이와 마찬가지로 직접적으로 가지고 있는 속성만 출력되어 ["name"] 이 출력된다.
+    - 자바스크립트의서의 상속 개념은 부모의 것을 그대로 상속으로 받아와서 가져오는 것이 아니라 "연결"의 개념이다
 
 <br />
 
-## 3. Multi-level Inheritance
+## 3. Constructor Prototypes
 
 - TBD
 
 <br />
 
-## 4. Property Descriptors
+## 4. Prototype vs. Instance Members
 
 - TBD
 
 <br />
 
-## 5. Constructor Prototypes
+## 5. Iterating Instance and Prototype Members
 
 - TBD
 
 <br />
 
-## 6. Prototype vs. Instance Members
-
-- TBD
-
-<br />
-
-## 7. Iterating Instance and Prototype Members
-
-- TBD
-
-<br />
-
-## 8. Avoid Extending the Built-in Objects
+## 6. Avoid Extending the Built-in Objects
 
 - TBD
 
