@@ -10,15 +10,18 @@ category: javascript
 
 ```jsx
 const p1 = {
-	name: 'jessie',
-	age: 20,
+  age: 20,
+  name: {
+    first: 'Jessie',
+    last: 'Jung'
+  }
 };
 
-const p2 = p1;
+const p2 = p1; // 참조 할당
 p1.age = 30;
 
-console.log(p1); // { name: "jessie", age: 30 }
-console.log(p2); // { name: "jessie", age: 30 }
+console.log(p1.age); // 30
+console.log(p2.age); // 30
 ```
 
 - `p2`에 `p1`을 할당할 때, 주소값이 할당되는 것이기 때문에 한 객체의 값을 수정하면 다른 객체의 값 또한 동일하게 변한다.
@@ -33,25 +36,24 @@ console.log(p2); // { name: "jessie", age: 30 }
 
 ```jsx
 const p1 = {
-	name: 'jessie',
-	age: 20,
+  age: 20,
+  name: {
+    first: 'Jessie',
+    last: 'Jung'
+  }
 };
 
 const target = {
-	position: 'Frontend',
+  position: 'Frontend',
 };
 
 const p2 = Object.assign(target, p1);
 
-console.log(p1); // { name: "jessie", age: 20 }
-console.log(target); // { position: "Frontend", name: "jessie", age: 20 }
-console.log(p2); // { position: "Frontend", name: "jessie", age: 20 }
-
 p2.age = 30
 
-console.log(p1); // { name: "jessie", age: 20 }
-console.log(target); // { position: "Frontend", name: "jessie", age: 30 }
-console.log(p2); // { position: "Frontend", name: "jessie", age: 30 }
+console.log(p1.age); // 20
+console.log(target.age); // 30
+console.log(p2.age); // 30
 ```
 
 - `p2`의 `age`를 변경하더라도 `p1`의 `age`가 변경되지 않는다.
@@ -60,11 +62,11 @@ console.log(p2); // { position: "Frontend", name: "jessie", age: 30 }
 
 ```jsx
 const p1 = {
-	age: 20,
-	name: {
-		first: 'Jessie',
-		last: 'Jung'
-	}
+  age: 20,
+  name: {
+    first: 'Jessie',
+    last: 'Jung'
+  }
 };
 
 const p2 = Object.assign({}, p1);
@@ -72,8 +74,8 @@ const p2 = Object.assign({}, p1);
 p1.age = 30;
 p1.name.first = 'Justin';
 
-console.log(p1); // { age: 30, name: { first: "Justin", last: "Jung" } };
-console.log(p2); // { age: 20, name: { first: "Justin", last: "Jung" } };
+console.log(p1.name.first); // Justin
+console.log(p2.name.first); // Justin
 ```
 
 - **얕은 복사의 문제점 :** 복사하려는 객체의 내부에 존재하는 객체는 완전한 복사가 이루어지지 않는다.
@@ -85,20 +87,20 @@ console.log(p2); // { age: 20, name: { first: "Justin", last: "Jung" } };
 
 ```jsx
 const p1 = {
-	age: 20,
-	name: {
-		first: 'Jessie',
-		last: 'Jung'
-	}
+  age: 20,
+  name: {
+    first: 'Jessie',
+    last: 'Jung'
+  }
 };
 
 const p2 = { ...p1 };
 
 p1.age = 30;
-p1.name.first = 'justin';
+p1.name.first = 'Justin';
 
-console.log(p1); // { age: 30, name: { first: "Justin", last: "Jung" } };
-console.log(p2); // { age: 20, name: { first: "Justin", last: "Jung" } };
+console.log(p2.age); // 20
+console.log(p2.name.first); // Justin
 ```
 
 - `Object.assign()` 과 동일하게 얕은 복사의 문제점을 가지고 있다.
