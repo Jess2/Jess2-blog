@@ -6,10 +6,10 @@ category: javascript
 
 ![](images/javascript.png)
 
-참조 할당, 얕은 복사, 깊은 복사에 관해...
+참조 할당, 얕은 복사, 깊은 복사에 관해... 
 
 ### 원래 알고 있던 내용
-
+- [기존에 정리했던 포스팅](https://jess2.xyz/JavaScript/copy/)
 - 참조 할당
     - 주소값을 복사하는 것
 - 얕은 복사 (Shallow Copy)
