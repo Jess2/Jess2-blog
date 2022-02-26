@@ -183,3 +183,20 @@ data: {
   Company Location : {{ myInfo.company.location }}
 </li>
 ```
+
+#### 3. Optional Chaining 사용하기 (ECMAScript2020에 도입됨)
+[Optional Chaining](https://jess2.xyz/JavaScript/ecmascript-2020/#1-optional-chaining-code-classlanguage-textcode)을 이용해서도 해결할 수 있다.   
+
+예를 들어 `data.prop`에 접근한다고 했을 때, 존재하지 않은 값(`data`)의 속성(`prop`)에 접근하려 하면 에러가 발생하는데   
+
+`data?.prop`와 같이 Optional Chaining을 사용하면 왼쪽 연산자 값(`data`)이 `null`이나 `undefined`일 경우 실행을 멈추고 `undefined`를 return 하기 때문에 존재하지 않을 수 있는 값에 대한 예외 처리에 이용할 수 있다.
+
+`myInfo.company.location` 의 예제에서도 아래와 같이 Optional chaining을 이용해 작성하면 `TypeError: Cannot read property 'location' of undefined` 에러를 막을 수 있다.
+
+```html
+<li>
+  Company Location : {{ myInfo?.company?.location }}
+</li>
+```
+- `myInfo`가 `null`이거나 `undefined`이면 `myInfo.company` 에 접근하지 않고 `undefined`를 return함.
+- `myInfo.company`가 `null`이거나 `undefined`이면 `myInfo.company.location` 에 접근하지 않고 `undefined`를 return함.
