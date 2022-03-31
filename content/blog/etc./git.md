@@ -131,3 +131,51 @@ category: etc.
         - `.js` 확장자지만 무시하지 않을 파일 `ex) !not_ignore_this.js`
         - 특정 폴더 **바로 하위**에 있는 걸 무시 `ex) logs/test.js` , `ex) logs/*.js`
         - 특정 폴더 **하위**에 있는 걸 무시 `ex) logs/**/test.js`
+
+# 2. 시간 여행하기
+
+### 2-1. `git add` : Git이 관리하도록 하기
+
+- 프로젝트 내 새로운 파일을 만들고 `git status` 명령어를 입력하면 `untracked files` 즉, Git이 추적하지 않는 파일이라는 문구가 출력된다.
+
+  ![](images/git-1.png)
+
+- 하나의 특정 파일을 Git이 관리하도록 (추적하도록) 하기 위한 명령어
+
+    ```bash
+    git add test.js
+    ```
+
+- `.gitignore`에 명시된 파일을 제외한 모든 파일을 Git이 관리하도록 하는 명령어
+
+    ```bash
+    git add .
+    ```
+
+- 이렇게 `git add` 명령어로 Git이 관리하도록 설정해주고 `git status` 를 입력하면 `Changes to be committed` (커밋할 준비가 되었다는 뜻)이라는 문구가 출력된다.
+
+  ![](images/git-2.png)
+
+
+### 2-2. `git commit` : 변화의 이력(버전)을 기록하기
+
+- 커밋이란, Git에서 관리하는 새로운 이력(버전)을 만든다는 것이다.
+- 커밋 메세지 작성하기
+
+    ```bash
+    git commit -m "first commit"
+    ```
+
+  ![](images/git-3.png)
+
+- 커밋을 하면 소스트리에서도 확인할 수 있고 `git log` 명령어로도 커밋 내역을 확인할 수 있다.
+
+  ![](images/git-4.png)
+
+- 파일의 내용을 수정한 후, 커밋을 하면 새로운 이력(버전)이 생성된 것을 확인할 수 있다.
+
+    ```bash
+    git commit -m "edit test.js"
+    ```
+
+  ![](images/git-5.png)
