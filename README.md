@@ -1,5 +1,5 @@
 # Jess2-blog
-🏠Jess2's Development Blog
+🏠Jess2's IT Blog
 
 [https://jess2.xyz](https://jess2.xyz)
 

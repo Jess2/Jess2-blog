@@ -68,7 +68,7 @@ category: javascript
     console.assert(2 === 3, 'not same!'); // Assertion failed: not same!
     console.assert(2 === 2, 'same!'); // 출력 X
     ```
-                
+
 <br />
 
 ## console.table
@@ -133,7 +133,7 @@ category: javascript
 
     ![](images/trace.png)
         
-    - `f3` 이라는 함수는 `f2`에서 호출되었고, `f2` 함수는 `f1`에서 호출되었는지 확인이 된다.
+    - `f3` 이라는 함수는 `f2`에서 호출되었고, `f2` 함수는 `f1`에서 호출되었다는 것이 확인 된다.
                 
 <br />
 
